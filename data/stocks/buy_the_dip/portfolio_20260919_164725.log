@@ -1,0 +1,93 @@
+2026-09-19 16:47:25  INFO     Combos: dip 4/5%, 4sess, waits [30, 60, 120, 180, 240, 300], ±1.5%, TP5/SL4, timeout 2 calendar days
+2026-09-19 16:47:25  INFO     Entry/exit mode: baseline
+2026-09-19 16:47:25  INFO     Fees 0.60% RT. Symbols 13: INTC, MU, MRVL, AMD, SNDK, HPE, DELL, ARM, IBM, TXN, QCOM, AVGO, ORCL
+2026-09-19 16:47:25  INFO     INTC: cache hit INTC_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 16:47:25  INFO     [1/13] INTC: 4,680 bars from INTC_5m_1782394200000_1789761300000.json
+2026-09-19 16:47:25  INFO     MU: cache hit MU_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 16:47:25  INFO     [2/13] MU: 4,680 bars from MU_5m_1782394200000_1789761300000.json
+2026-09-19 16:47:25  INFO     MRVL: cache hit MRVL_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 16:47:25  INFO     [3/13] MRVL: 4,680 bars from MRVL_5m_1782394200000_1789761300000.json
+2026-09-19 16:47:25  INFO     AMD: cache hit AMD_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 16:47:25  INFO     [4/13] AMD: 4,680 bars from AMD_5m_1782394200000_1789761300000.json
+2026-09-19 16:47:25  INFO     SNDK: cache hit SNDK_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 16:47:25  INFO     [5/13] SNDK: 4,680 bars from SNDK_5m_1782394200000_1789761300000.json
+2026-09-19 16:47:25  INFO     HPE: cache hit HPE_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 16:47:25  INFO     [6/13] HPE: 4,680 bars from HPE_5m_1782394200000_1789761300000.json
+2026-09-19 16:47:25  INFO     DELL: cache hit DELL_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 16:47:25  INFO     [7/13] DELL: 4,680 bars from DELL_5m_1782394200000_1789761300000.json
+2026-09-19 16:47:25  INFO     ARM: cache hit ARM_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 16:47:25  INFO     [8/13] ARM: 4,680 bars from ARM_5m_1782394200000_1789761300000.json
+2026-09-19 16:47:25  INFO     IBM: cache hit IBM_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 16:47:25  INFO     [9/13] IBM: 4,680 bars from IBM_5m_1782394200000_1789761300000.json
+2026-09-19 16:47:25  INFO     TXN: cache hit TXN_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 16:47:25  INFO     [10/13] TXN: 4,680 bars from TXN_5m_1782394200000_1789761300000.json
+2026-09-19 16:47:25  INFO     QCOM: cache hit QCOM_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 16:47:25  INFO     [11/13] QCOM: 4,680 bars from QCOM_5m_1782394200000_1789761300000.json
+2026-09-19 16:47:25  INFO     AVGO: cache hit AVGO_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 16:47:25  INFO     [12/13] AVGO: 4,680 bars from AVGO_5m_1782394200000_1789761300000.json
+2026-09-19 16:47:25  INFO     ORCL: cache hit ORCL_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 16:47:25  INFO     [13/13] ORCL: 4,680 bars from ORCL_5m_1782394200000_1789761300000.json
+2026-09-19 16:47:25  INFO     Per-stock levers dumped to /workspace/udit/Jev-Trading/data/stocks/buy_the_dip/perstock_best_levers.json
+2026-09-19 16:47:25  INFO     
+2026-09-19 16:47:25  INFO     === Per-stock Mode allin [baseline]: $1000 start, max 1 open ===
+2026-09-19 16:47:25  INFO       AMD → d5_w120
+2026-09-19 16:47:25  INFO       ARM → d5_w120
+2026-09-19 16:47:25  INFO       AVGO → d4_w60
+2026-09-19 16:47:25  INFO       DELL → d5_w60
+2026-09-19 16:47:25  INFO       HPE → d5_w30
+2026-09-19 16:47:25  INFO       IBM → d4_w240
+2026-09-19 16:47:25  INFO       INTC → d5_w300
+2026-09-19 16:47:25  INFO       MRVL → d5_w180
+2026-09-19 16:47:25  INFO       MU → d5_w30
+2026-09-19 16:47:25  INFO       ORCL → d4_w30
+2026-09-19 16:47:25  INFO       QCOM → d5_w30
+2026-09-19 16:47:25  INFO       SNDK → d4_w180
+2026-09-19 16:47:25  INFO       TXN → d5_w60
+2026-09-19 16:47:25  INFO     perstock_best  cand=1943 skip_busy=1894 skip_cash=  0 n= 49 W/L/T=16/17/16  $1000 → $883.52  net=$-116.48  (-11.6%)
+2026-09-19 16:47:25  INFO     Wrote /workspace/udit/Jev-Trading/data/stocks/buy_the_dip/portfolio_allin_1000_perstock_best_d4d5_4sess_2day.csv
+2026-09-19 16:47:25  INFO     Wrote /workspace/udit/Jev-Trading/data/stocks/buy_the_dip/portfolio_allin_1000_perstock_best_d4d5_4sess_2day_trades.csv
+2026-09-19 16:47:25  INFO     PnL by symbol (allin):
+2026-09-19 16:47:25  INFO       MU    d5_w30     n= 10 pnl=$+72.54
+2026-09-19 16:47:25  INFO       QCOM  d5_w30     n=  2 pnl=$+39.37
+2026-09-19 16:47:25  INFO       SNDK  d4_w180    n=  1 pnl=$+36.91
+2026-09-19 16:47:25  INFO       HPE   d5_w30     n=  7 pnl=$+32.02
+2026-09-19 16:47:25  INFO       AMD   d5_w120    n=  2 pnl=$-9.12
+2026-09-19 16:47:25  INFO       ARM   d5_w120    n=  8 pnl=$-16.33
+2026-09-19 16:47:25  INFO       TXN   d5_w60     n=  1 pnl=$-16.65
+2026-09-19 16:47:25  INFO       AVGO  d4_w60     n=  5 pnl=$-25.79
+2026-09-19 16:47:25  INFO       DELL  d5_w60     n=  4 pnl=$-44.08
+2026-09-19 16:47:25  INFO       IBM   d4_w240    n=  1 pnl=$-44.24
+2026-09-19 16:47:25  INFO       ORCL  d4_w30     n=  8 pnl=$-141.11
+2026-09-19 16:47:25  INFO     
+2026-09-19 16:47:25  INFO     === Per-stock Mode 3slot [baseline]: $1500 start, max 3 open ===
+2026-09-19 16:47:25  INFO       AMD → d5_w120
+2026-09-19 16:47:25  INFO       ARM → d5_w120
+2026-09-19 16:47:25  INFO       AVGO → d4_w60
+2026-09-19 16:47:25  INFO       DELL → d5_w60
+2026-09-19 16:47:25  INFO       HPE → d5_w30
+2026-09-19 16:47:25  INFO       IBM → d4_w240
+2026-09-19 16:47:25  INFO       INTC → d5_w300
+2026-09-19 16:47:25  INFO       MRVL → d5_w180
+2026-09-19 16:47:25  INFO       MU → d5_w30
+2026-09-19 16:47:25  INFO       ORCL → d4_w30
+2026-09-19 16:47:25  INFO       QCOM → d5_w30
+2026-09-19 16:47:25  INFO       SNDK → d4_w180
+2026-09-19 16:47:25  INFO       TXN → d5_w60
+2026-09-19 16:47:26  INFO     perstock_best  cand=1943 skip_busy=1812 skip_cash=  0 n=131 W/L/T=42/44/45  $1500 → $1365.25  net=$-134.75  (-9.0%)
+2026-09-19 16:47:26  INFO     Wrote /workspace/udit/Jev-Trading/data/stocks/buy_the_dip/portfolio_3slot_1500_perstock_best_d4d5_4sess_2day.csv
+2026-09-19 16:47:26  INFO     Wrote /workspace/udit/Jev-Trading/data/stocks/buy_the_dip/portfolio_3slot_1500_perstock_best_d4d5_4sess_2day_trades.csv
+2026-09-19 16:47:26  INFO     PnL by symbol (3slot):
+2026-09-19 16:47:26  INFO       SNDK  d4_w180    n=  7 pnl=$+68.07
+2026-09-19 16:47:26  INFO       ARM   d5_w120    n= 10 pnl=$+57.03
+2026-09-19 16:47:26  INFO       MU    d5_w30     n= 23 pnl=$+56.35
+2026-09-19 16:47:26  INFO       AVGO  d4_w60     n= 15 pnl=$+48.07
+2026-09-19 16:47:26  INFO       TXN   d5_w60     n=  3 pnl=$+6.37
+2026-09-19 16:47:26  INFO       IBM   d4_w240    n=  5 pnl=$-14.91
+2026-09-19 16:47:26  INFO       HPE   d5_w30     n= 21 pnl=$-21.52
+2026-09-19 16:47:26  INFO       INTC  d5_w300    n=  1 pnl=$-22.13
+2026-09-19 16:47:26  INFO       AMD   d5_w120    n=  7 pnl=$-30.38
+2026-09-19 16:47:26  INFO       MRVL  d5_w180    n=  2 pnl=$-42.47
+2026-09-19 16:47:26  INFO       DELL  d5_w60     n=  4 pnl=$-44.99
+2026-09-19 16:47:26  INFO       QCOM  d5_w30     n= 14 pnl=$-81.27
+2026-09-19 16:47:26  INFO       ORCL  d4_w30     n= 19 pnl=$-112.97
+2026-09-19 16:47:26  INFO     Finished per-stock in 0.7s

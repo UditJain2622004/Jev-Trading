@@ -1,0 +1,90 @@
+2026-09-19 16:31:52  INFO     Combos: dip 4/5%, 4sess, waits [30, 60, 120, 180, 240, 300], ±1.5%, TP5/SL4, timeout 2 calendar days
+2026-09-19 16:31:52  INFO     Entry/exit mode: confirm_trail
+2026-09-19 16:31:52  INFO     Fees 0.60% RT. Symbols 13: INTC, MU, MRVL, AMD, SNDK, HPE, DELL, ARM, IBM, TXN, QCOM, AVGO, ORCL
+2026-09-19 16:31:52  INFO     INTC: cache hit INTC_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 16:31:52  INFO     [1/13] INTC: 4,680 bars from INTC_5m_1782394200000_1789761300000.json
+2026-09-19 16:31:52  INFO     MU: cache hit MU_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 16:31:52  INFO     [2/13] MU: 4,680 bars from MU_5m_1782394200000_1789761300000.json
+2026-09-19 16:31:52  INFO     MRVL: cache hit MRVL_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 16:31:52  INFO     [3/13] MRVL: 4,680 bars from MRVL_5m_1782394200000_1789761300000.json
+2026-09-19 16:31:52  INFO     AMD: cache hit AMD_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 16:31:52  INFO     [4/13] AMD: 4,680 bars from AMD_5m_1782394200000_1789761300000.json
+2026-09-19 16:31:52  INFO     SNDK: cache hit SNDK_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 16:31:52  INFO     [5/13] SNDK: 4,680 bars from SNDK_5m_1782394200000_1789761300000.json
+2026-09-19 16:31:52  INFO     HPE: cache hit HPE_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 16:31:52  INFO     [6/13] HPE: 4,680 bars from HPE_5m_1782394200000_1789761300000.json
+2026-09-19 16:31:52  INFO     DELL: cache hit DELL_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 16:31:52  INFO     [7/13] DELL: 4,680 bars from DELL_5m_1782394200000_1789761300000.json
+2026-09-19 16:31:52  INFO     ARM: cache hit ARM_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 16:31:52  INFO     [8/13] ARM: 4,680 bars from ARM_5m_1782394200000_1789761300000.json
+2026-09-19 16:31:52  INFO     IBM: cache hit IBM_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 16:31:52  INFO     [9/13] IBM: 4,680 bars from IBM_5m_1782394200000_1789761300000.json
+2026-09-19 16:31:52  INFO     TXN: cache hit TXN_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 16:31:52  INFO     [10/13] TXN: 4,680 bars from TXN_5m_1782394200000_1789761300000.json
+2026-09-19 16:31:52  INFO     QCOM: cache hit QCOM_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 16:31:52  INFO     [11/13] QCOM: 4,680 bars from QCOM_5m_1782394200000_1789761300000.json
+2026-09-19 16:31:52  INFO     AVGO: cache hit AVGO_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 16:31:52  INFO     [12/13] AVGO: 4,680 bars from AVGO_5m_1782394200000_1789761300000.json
+2026-09-19 16:31:53  INFO     ORCL: cache hit ORCL_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 16:31:53  INFO     [13/13] ORCL: 4,680 bars from ORCL_5m_1782394200000_1789761300000.json
+2026-09-19 16:31:53  INFO     
+2026-09-19 16:31:53  INFO     === Mode allin [confirm_trail]: $1000 start, max 1 open, size=cash/(slots_left) ===
+2026-09-19 16:31:53  INFO     d4_w30      cand=2032 skip_busy=1978 skip_cash=  0 n= 54 W/L/T=15/24/15  $1000 → $672.02  net=$-327.98  (-32.8%)
+2026-09-19 16:31:53  INFO     d4_w60      cand=2005 skip_busy=1957 skip_cash=  0 n= 48 W/L/T=13/20/15  $1000 → $752.89  net=$-247.11  (-24.7%)
+2026-09-19 16:31:54  INFO     d4_w120     cand=1841 skip_busy=1791 skip_cash=  0 n= 50 W/L/T=15/22/13  $1000 → $760.40  net=$-239.60  (-24.0%)
+2026-09-19 16:31:54  INFO     d4_w180     cand=1734 skip_busy=1685 skip_cash=  0 n= 49 W/L/T=14/22/13  $1000 → $668.94  net=$-331.06  (-33.1%)
+2026-09-19 16:31:54  INFO     d4_w240     cand=1727 skip_busy=1678 skip_cash=  0 n= 49 W/L/T=14/24/11  $1000 → $684.52  net=$-315.48  (-31.5%)
+2026-09-19 16:31:55  INFO     d4_w300     cand=1686 skip_busy=1638 skip_cash=  0 n= 48 W/L/T=13/23/12  $1000 → $683.49  net=$-316.51  (-31.7%)
+2026-09-19 16:31:55  INFO     d5_w30      cand=1809 skip_busy=1755 skip_cash=  0 n= 54 W/L/T=15/24/15  $1000 → $589.62  net=$-410.38  (-41.0%)
+2026-09-19 16:31:55  INFO     d5_w60      cand=1787 skip_busy=1739 skip_cash=  0 n= 48 W/L/T=13/21/14  $1000 → $683.69  net=$-316.31  (-31.6%)
+2026-09-19 16:31:56  INFO     d5_w120     cand=1615 skip_busy=1566 skip_cash=  0 n= 49 W/L/T=16/22/11  $1000 → $710.55  net=$-289.45  (-28.9%)
+2026-09-19 16:31:56  INFO     d5_w180     cand=1564 skip_busy=1510 skip_cash=  0 n= 54 W/L/T=17/26/11  $1000 → $663.88  net=$-336.12  (-33.6%)
+2026-09-19 16:31:56  INFO     d5_w240     cand=1543 skip_busy=1492 skip_cash=  0 n= 51 W/L/T=19/23/ 9  $1000 → $888.02  net=$-111.98  (-11.2%)
+2026-09-19 16:31:57  INFO     d5_w300     cand=1504 skip_busy=1451 skip_cash=  0 n= 53 W/L/T=19/25/ 9  $1000 → $773.64  net=$-226.36  (-22.6%)
+2026-09-19 16:31:57  INFO     === Ranked by end equity (allin) ===
+2026-09-19 16:31:57  INFO       combo          n  skip    W    L    T       end$       net$     ret%
+2026-09-19 16:31:57  INFO       d5_w240       51  1492   19   23    9     888.02    -111.98   -11.2%
+2026-09-19 16:31:57  INFO       d5_w300       53  1451   19   25    9     773.64    -226.36   -22.6%
+2026-09-19 16:31:57  INFO       d4_w120       50  1791   15   22   13     760.40    -239.60   -24.0%
+2026-09-19 16:31:57  INFO       d4_w60        48  1957   13   20   15     752.89    -247.11   -24.7%
+2026-09-19 16:31:57  INFO       d5_w120       49  1566   16   22   11     710.55    -289.45   -28.9%
+2026-09-19 16:31:57  INFO       d4_w240       49  1678   14   24   11     684.52    -315.48   -31.5%
+2026-09-19 16:31:57  INFO       d5_w60        48  1739   13   21   14     683.69    -316.31   -31.6%
+2026-09-19 16:31:57  INFO       d4_w300       48  1638   13   23   12     683.49    -316.51   -31.7%
+2026-09-19 16:31:57  INFO       d4_w30        54  1978   15   24   15     672.02    -327.98   -32.8%
+2026-09-19 16:31:57  INFO       d4_w180       49  1685   14   22   13     668.94    -331.06   -33.1%
+2026-09-19 16:31:57  INFO       d5_w180       54  1510   17   26   11     663.88    -336.12   -33.6%
+2026-09-19 16:31:57  INFO       d5_w30        54  1755   15   24   15     589.62    -410.38   -41.0%
+2026-09-19 16:31:57  INFO     Wrote /workspace/udit/Jev-Trading/data/stocks/buy_the_dip/portfolio_allin_1000_confirm_trail_d4d5_4sess_2day.csv
+2026-09-19 16:31:57  INFO     Wrote /workspace/udit/Jev-Trading/data/stocks/buy_the_dip/portfolio_allin_1000_confirm_trail_d4d5_4sess_2day_trades.csv
+2026-09-19 16:31:57  INFO     
+2026-09-19 16:31:57  INFO     === Mode 3slot [confirm_trail]: $1500 start, max 3 open, size=cash/(slots_left) ===
+2026-09-19 16:31:57  INFO     d4_w30      cand=2032 skip_busy=1880 skip_cash=  0 n=152 W/L/T=45/59/48  $1500 → $1236.77  net=$-263.23  (-17.5%)
+2026-09-19 16:31:57  INFO     d4_w60      cand=2005 skip_busy=1847 skip_cash=  0 n=158 W/L/T=51/63/44  $1500 → $1317.50  net=$-182.50  (-12.2%)
+2026-09-19 16:31:58  INFO     d4_w120     cand=1841 skip_busy=1692 skip_cash=  0 n=149 W/L/T=48/59/42  $1500 → $1230.90  net=$-269.10  (-17.9%)
+2026-09-19 16:31:58  INFO     d4_w180     cand=1734 skip_busy=1582 skip_cash=  0 n=152 W/L/T=52/61/39  $1500 → $1276.62  net=$-223.38  (-14.9%)
+2026-09-19 16:31:59  INFO     d4_w240     cand=1727 skip_busy=1573 skip_cash=  0 n=154 W/L/T=52/61/41  $1500 → $1254.61  net=$-245.39  (-16.4%)
+2026-09-19 16:31:59  INFO     d4_w300     cand=1686 skip_busy=1533 skip_cash=  0 n=153 W/L/T=51/61/41  $1500 → $1256.37  net=$-243.63  (-16.2%)
+2026-09-19 16:31:59  INFO     d5_w30      cand=1809 skip_busy=1652 skip_cash=  0 n=157 W/L/T=56/62/39  $1500 → $1423.87  net=$-76.13  (-5.1%)
+2026-09-19 16:32:00  INFO     d5_w60      cand=1787 skip_busy=1633 skip_cash=  0 n=154 W/L/T=50/66/38  $1500 → $1158.66  net=$-341.34  (-22.8%)
+2026-09-19 16:32:00  INFO     d5_w120     cand=1615 skip_busy=1467 skip_cash=  0 n=148 W/L/T=50/63/35  $1500 → $1164.32  net=$-335.68  (-22.4%)
+2026-09-19 16:32:00  INFO     d5_w180     cand=1564 skip_busy=1414 skip_cash=  0 n=150 W/L/T=48/66/36  $1500 → $1120.81  net=$-379.19  (-25.3%)
+2026-09-19 16:32:01  INFO     d5_w240     cand=1543 skip_busy=1393 skip_cash=  0 n=150 W/L/T=52/62/36  $1500 → $1239.77  net=$-260.23  (-17.3%)
+2026-09-19 16:32:01  INFO     d5_w300     cand=1504 skip_busy=1351 skip_cash=  0 n=153 W/L/T=52/67/34  $1500 → $1136.55  net=$-363.45  (-24.2%)
+2026-09-19 16:32:01  INFO     === Ranked by end equity (3slot) ===
+2026-09-19 16:32:01  INFO       combo          n  skip    W    L    T       end$       net$     ret%
+2026-09-19 16:32:01  INFO       d5_w30       157  1652   56   62   39    1423.87     -76.13    -5.1%
+2026-09-19 16:32:01  INFO       d4_w60       158  1847   51   63   44    1317.50    -182.50   -12.2%
+2026-09-19 16:32:01  INFO       d4_w180      152  1582   52   61   39    1276.62    -223.38   -14.9%
+2026-09-19 16:32:01  INFO       d4_w300      153  1533   51   61   41    1256.37    -243.63   -16.2%
+2026-09-19 16:32:01  INFO       d4_w240      154  1573   52   61   41    1254.61    -245.39   -16.4%
+2026-09-19 16:32:01  INFO       d5_w240      150  1393   52   62   36    1239.77    -260.23   -17.3%
+2026-09-19 16:32:01  INFO       d4_w30       152  1880   45   59   48    1236.77    -263.23   -17.5%
+2026-09-19 16:32:01  INFO       d4_w120      149  1692   48   59   42    1230.90    -269.10   -17.9%
+2026-09-19 16:32:01  INFO       d5_w120      148  1467   50   63   35    1164.32    -335.68   -22.4%
+2026-09-19 16:32:01  INFO       d5_w60       154  1633   50   66   38    1158.66    -341.34   -22.8%
+2026-09-19 16:32:01  INFO       d5_w300      153  1351   52   67   34    1136.55    -363.45   -24.2%
+2026-09-19 16:32:01  INFO       d5_w180      150  1414   48   66   36    1120.81    -379.19   -25.3%
+2026-09-19 16:32:01  INFO     Wrote /workspace/udit/Jev-Trading/data/stocks/buy_the_dip/portfolio_3slot_1500_confirm_trail_d4d5_4sess_2day.csv
+2026-09-19 16:32:01  INFO     Wrote /workspace/udit/Jev-Trading/data/stocks/buy_the_dip/portfolio_3slot_1500_confirm_trail_d4d5_4sess_2day_trades.csv
+2026-09-19 16:32:01  INFO     Finished in 8.6s

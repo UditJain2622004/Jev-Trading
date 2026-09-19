@@ -1,0 +1,14 @@
+2026-09-19 15:12:29  INFO     Log (this run) /workspace/udit/Jev-Trading/data/grid/grid_20260919_151229.log
+2026-09-19 15:12:29  INFO     Log (latest)   /workspace/udit/Jev-Trading/data/grid/scan.log
+2026-09-19 15:12:29  INFO     Geometric long grid. Paper only. $1000 notional, 0.20% round-trip fee.
+2026-09-19 15:12:29  INFO     Window 7 days  1789225920000 to 1789830720000
+2026-09-19 15:12:29  INFO     Coins 1: SOLUSDT
+2026-09-19 15:12:29  INFO     Combos 6
+2026-09-19 15:12:29  INFO       grid_0.5pct_8lvl           step 0.50% × 8 levels
+2026-09-19 15:12:29  INFO       grid_0.8pct_8lvl           step 0.80% × 8 levels
+2026-09-19 15:12:29  INFO       grid_1.0pct_10lvl          step 1.00% × 10 levels
+2026-09-19 15:12:29  INFO       grid_1.5pct_8lvl           step 1.50% × 8 levels
+2026-09-19 15:12:29  INFO       grid_1.0pct_10lvl_stop8    step 1.00% × 10 levels, stop 8%
+2026-09-19 15:12:29  INFO       grid_0.8pct_12lvl          step 0.80% × 12 levels
+2026-09-19 15:12:29  INFO     ----------  [1/1] SOLUSDT  ----------
+2026-09-19 15:12:29  INFO     SOLUSDT: downloading 1m prices from Binance (this is the slow part)

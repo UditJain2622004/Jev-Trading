@@ -1,0 +1,287 @@
+2026-09-19 15:44:59  INFO     Combo sweep: dip 4/5%, 4 sessions lookback, waits [30, 60, 120, 180, 240, 300], ±1.5%, TP5/SL4, timeout 2 calendar days
+2026-09-19 15:44:59  INFO     $1000 clip. 0.30% buy + 0.30% sell.
+2026-09-19 15:44:59  INFO     Symbols 13: INTC, MU, MRVL, AMD, SNDK, HPE, DELL, ARM, IBM, TXN, QCOM, AVGO, ORCL
+2026-09-19 15:44:59  INFO     Combos 12
+2026-09-19 15:44:59  INFO       d4_w30     dip 4% / 4sess  wait ±1.5% after 30m  TP 5 SL 4  timeout 2d wall
+2026-09-19 15:44:59  INFO       d4_w60     dip 4% / 4sess  wait ±1.5% after 60m  TP 5 SL 4  timeout 2d wall
+2026-09-19 15:44:59  INFO       d4_w120    dip 4% / 4sess  wait ±1.5% after 120m  TP 5 SL 4  timeout 2d wall
+2026-09-19 15:44:59  INFO       d4_w180    dip 4% / 4sess  wait ±1.5% after 180m  TP 5 SL 4  timeout 2d wall
+2026-09-19 15:44:59  INFO       d4_w240    dip 4% / 4sess  wait ±1.5% after 240m  TP 5 SL 4  timeout 2d wall
+2026-09-19 15:44:59  INFO       d4_w300    dip 4% / 4sess  wait ±1.5% after 300m  TP 5 SL 4  timeout 2d wall
+2026-09-19 15:44:59  INFO       d5_w30     dip 5% / 4sess  wait ±1.5% after 30m  TP 5 SL 4  timeout 2d wall
+2026-09-19 15:44:59  INFO       d5_w60     dip 5% / 4sess  wait ±1.5% after 60m  TP 5 SL 4  timeout 2d wall
+2026-09-19 15:44:59  INFO       d5_w120    dip 5% / 4sess  wait ±1.5% after 120m  TP 5 SL 4  timeout 2d wall
+2026-09-19 15:44:59  INFO       d5_w180    dip 5% / 4sess  wait ±1.5% after 180m  TP 5 SL 4  timeout 2d wall
+2026-09-19 15:44:59  INFO       d5_w240    dip 5% / 4sess  wait ±1.5% after 240m  TP 5 SL 4  timeout 2d wall
+2026-09-19 15:44:59  INFO       d5_w300    dip 5% / 4sess  wait ±1.5% after 300m  TP 5 SL 4  timeout 2d wall
+2026-09-19 15:44:59  INFO     ----------  [1/13] INTC  ----------
+2026-09-19 15:44:59  INFO     INTC: cache hit INTC_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 15:44:59  INFO     INTC: 4,680 5-minute bars from INTC_5m_1782394200000_1789761300000.json
+2026-09-19 15:44:59  INFO     INTC  d4_w30  dip 4.0% / 4.0sess  wait 1.5%/30m  TP/SL 5.0/4.0  cand=386 n=40 W/L/T=13/18/9  res=41.9  be=51.1  net=$-236.57
+2026-09-19 15:44:59  INFO     INTC  d4_w60  dip 4.0% / 4.0sess  wait 1.5%/60m  TP/SL 5.0/4.0  cand=200 n=36 W/L/T=9/17/10  res=34.6  be=51.1  net=$-382.20
+2026-09-19 15:44:59  INFO     INTC  d4_w120  dip 4.0% / 4.0sess  wait 1.5%/120m  TP/SL 5.0/4.0  cand=102 n=35 W/L/T=9/17/9  res=34.6  be=51.1  net=$-427.38
+2026-09-19 15:44:59  INFO     INTC  d4_w180  dip 4.0% / 4.0sess  wait 1.5%/180m  TP/SL 5.0/4.0  cand=66 n=35 W/L/T=10/20/5  res=33.3  be=51.1  net=$-465.28
+2026-09-19 15:44:59  INFO     INTC  d4_w240  dip 4.0% / 4.0sess  wait 1.5%/240m  TP/SL 5.0/4.0  cand=44 n=31 W/L/T=8/16/7  res=33.3  be=51.1  net=$-390.31
+2026-09-19 15:44:59  INFO     INTC  d4_w300  dip 4.0% / 4.0sess  wait 1.5%/300m  TP/SL 5.0/4.0  cand=35 n=25 W/L/T=7/14/4  res=33.3  be=51.1  net=$-343.65
+2026-09-19 15:44:59  INFO     INTC  d5_w30  dip 5.0% / 4.0sess  wait 1.5%/30m  TP/SL 5.0/4.0  cand=341 n=37 W/L/T=12/18/7  res=40.0  be=51.1  net=$-293.82
+2026-09-19 15:44:59  INFO     INTC  d5_w60  dip 5.0% / 4.0sess  wait 1.5%/60m  TP/SL 5.0/4.0  cand=179 n=33 W/L/T=8/16/9  res=33.3  be=51.1  net=$-387.35
+2026-09-19 15:44:59  INFO     INTC  d5_w120  dip 5.0% / 4.0sess  wait 1.5%/120m  TP/SL 5.0/4.0  cand=89 n=31 W/L/T=8/17/6  res=32.0  be=51.1  net=$-423.30
+2026-09-19 15:44:59  INFO     INTC  d5_w180  dip 5.0% / 4.0sess  wait 1.5%/180m  TP/SL 5.0/4.0  cand=56 n=30 W/L/T=10/17/3  res=37.0  be=51.1  net=$-314.95
+2026-09-19 15:44:59  INFO     INTC  d5_w240  dip 5.0% / 4.0sess  wait 1.5%/240m  TP/SL 5.0/4.0  cand=38 n=26 W/L/T=7/14/5  res=33.3  be=51.1  net=$-289.93
+2026-09-19 15:44:59  INFO     INTC  d5_w300  dip 5.0% / 4.0sess  wait 1.5%/300m  TP/SL 5.0/4.0  cand=31 n=23 W/L/T=7/12/4  res=36.8  be=51.1  net=$-221.21
+2026-09-19 15:44:59  INFO     ----------  [2/13] MU  ----------
+2026-09-19 15:44:59  INFO     MU: cache hit MU_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 15:44:59  INFO     MU: 4,680 5-minute bars from MU_5m_1782394200000_1789761300000.json
+2026-09-19 15:44:59  INFO     MU  d4_w30  dip 4.0% / 4.0sess  wait 1.5%/30m  TP/SL 5.0/4.0  cand=385 n=41 W/L/T=15/17/9  res=46.9  be=51.1  net=$-77.62
+2026-09-19 15:44:59  INFO     MU  d4_w60  dip 4.0% / 4.0sess  wait 1.5%/60m  TP/SL 5.0/4.0  cand=204 n=41 W/L/T=13/21/7  res=38.2  be=51.1  net=$-326.05
+2026-09-19 15:44:59  INFO     MU  d4_w120  dip 4.0% / 4.0sess  wait 1.5%/120m  TP/SL 5.0/4.0  cand=100 n=34 W/L/T=10/15/9  res=40.0  be=51.1  net=$-233.25
+2026-09-19 15:44:59  INFO     MU  d4_w180  dip 4.0% / 4.0sess  wait 1.5%/180m  TP/SL 5.0/4.0  cand=69 n=31 W/L/T=9/15/7  res=37.5  be=51.1  net=$-278.64
+2026-09-19 15:44:59  INFO     MU  d4_w240  dip 4.0% / 4.0sess  wait 1.5%/240m  TP/SL 5.0/4.0  cand=45 n=30 W/L/T=8/15/7  res=34.8  be=51.1  net=$-244.55
+2026-09-19 15:44:59  INFO     MU  d4_w300  dip 4.0% / 4.0sess  wait 1.5%/300m  TP/SL 5.0/4.0  cand=40 n=28 W/L/T=6/15/7  res=28.6  be=51.1  net=$-381.34
+2026-09-19 15:44:59  INFO     MU  d5_w30  dip 5.0% / 4.0sess  wait 1.5%/30m  TP/SL 5.0/4.0  cand=359 n=37 W/L/T=14/15/8  res=48.3  be=51.1  net=$-28.97
+2026-09-19 15:44:59  INFO     MU  d5_w60  dip 5.0% / 4.0sess  wait 1.5%/60m  TP/SL 5.0/4.0  cand=190 n=38 W/L/T=12/19/7  res=38.7  be=51.1  net=$-278.05
+2026-09-19 15:44:59  INFO     MU  d5_w120  dip 5.0% / 4.0sess  wait 1.5%/120m  TP/SL 5.0/4.0  cand=92 n=31 W/L/T=9/14/8  res=39.1  be=51.1  net=$-228.53
+2026-09-19 15:44:59  INFO     MU  d5_w180  dip 5.0% / 4.0sess  wait 1.5%/180m  TP/SL 5.0/4.0  cand=64 n=28 W/L/T=8/14/6  res=36.4  be=51.1  net=$-269.72
+2026-09-19 15:44:59  INFO     MU  d5_w240  dip 5.0% / 4.0sess  wait 1.5%/240m  TP/SL 5.0/4.0  cand=43 n=27 W/L/T=7/13/7  res=35.0  be=51.1  net=$-191.56
+2026-09-19 15:44:59  INFO     MU  d5_w300  dip 5.0% / 4.0sess  wait 1.5%/300m  TP/SL 5.0/4.0  cand=38 n=26 W/L/T=6/14/6  res=30.0  be=51.1  net=$-328.00
+2026-09-19 15:44:59  INFO     ----------  [3/13] MRVL  ----------
+2026-09-19 15:44:59  INFO     MRVL: cache hit MRVL_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 15:44:59  INFO     MRVL: 4,680 5-minute bars from MRVL_5m_1782394200000_1789761300000.json
+2026-09-19 15:44:59  INFO     MRVL  d4_w30  dip 4.0% / 4.0sess  wait 1.5%/30m  TP/SL 5.0/4.0  cand=374 n=51 W/L/T=20/25/6  res=44.4  be=51.1  net=$-192.20
+2026-09-19 15:44:59  INFO     MRVL  d4_w60  dip 4.0% / 4.0sess  wait 1.5%/60m  TP/SL 5.0/4.0  cand=188 n=44 W/L/T=16/20/8  res=44.4  be=51.1  net=$-118.72
+2026-09-19 15:44:59  INFO     MRVL  d4_w120  dip 4.0% / 4.0sess  wait 1.5%/120m  TP/SL 5.0/4.0  cand=96 n=38 W/L/T=17/15/6  res=53.1  be=51.1  net=$73.47
+2026-09-19 15:44:59  INFO     MRVL  d4_w180  dip 4.0% / 4.0sess  wait 1.5%/180m  TP/SL 5.0/4.0  cand=62 n=35 W/L/T=18/12/5  res=60.0  be=51.1  net=$238.45
+2026-09-19 15:44:59  INFO     MRVL  d4_w240  dip 4.0% / 4.0sess  wait 1.5%/240m  TP/SL 5.0/4.0  cand=44 n=34 W/L/T=12/14/8  res=46.2  be=51.1  net=$-111.92
+2026-09-19 15:44:59  INFO     MRVL  d4_w300  dip 4.0% / 4.0sess  wait 1.5%/300m  TP/SL 5.0/4.0  cand=37 n=27 W/L/T=10/10/7  res=50.0  be=51.1  net=$21.87
+2026-09-19 15:44:59  INFO     MRVL  d5_w30  dip 5.0% / 4.0sess  wait 1.5%/30m  TP/SL 5.0/4.0  cand=319 n=43 W/L/T=19/20/4  res=48.7  be=51.1  net=$-11.47
+2026-09-19 15:44:59  INFO     MRVL  d5_w60  dip 5.0% / 4.0sess  wait 1.5%/60m  TP/SL 5.0/4.0  cand=162 n=38 W/L/T=15/17/6  res=46.9  be=51.1  net=$-25.24
+2026-09-19 15:44:59  INFO     MRVL  d5_w120  dip 5.0% / 4.0sess  wait 1.5%/120m  TP/SL 5.0/4.0  cand=84 n=32 W/L/T=17/11/4  res=60.7  be=51.1  net=$245.66
+2026-09-19 15:44:59  INFO     MRVL  d5_w180  dip 5.0% / 4.0sess  wait 1.5%/180m  TP/SL 5.0/4.0  cand=56 n=31 W/L/T=18/10/3  res=64.3  be=51.1  net=$327.98
+2026-09-19 15:44:59  INFO     MRVL  d5_w240  dip 5.0% / 4.0sess  wait 1.5%/240m  TP/SL 5.0/4.0  cand=38 n=29 W/L/T=12/11/6  res=52.2  be=51.1  net=$27.63
+2026-09-19 15:45:00  INFO     MRVL  d5_w300  dip 5.0% / 4.0sess  wait 1.5%/300m  TP/SL 5.0/4.0  cand=33 n=26 W/L/T=11/10/5  res=52.4  be=51.1  net=$74.69
+2026-09-19 15:45:00  INFO     ----------  [4/13] AMD  ----------
+2026-09-19 15:45:00  INFO     AMD: cache hit AMD_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 15:45:00  INFO     AMD: 4,680 5-minute bars from AMD_5m_1782394200000_1789761300000.json
+2026-09-19 15:45:00  INFO     AMD  d4_w30  dip 4.0% / 4.0sess  wait 1.5%/30m  TP/SL 5.0/4.0  cand=354 n=31 W/L/T=9/11/11  res=45.0  be=51.1  net=$-231.43
+2026-09-19 15:45:00  INFO     AMD  d4_w60  dip 4.0% / 4.0sess  wait 1.5%/60m  TP/SL 5.0/4.0  cand=187 n=32 W/L/T=11/10/11  res=52.4  be=51.1  net=$-99.70
+2026-09-19 15:45:00  INFO     AMD  d4_w120  dip 4.0% / 4.0sess  wait 1.5%/120m  TP/SL 5.0/4.0  cand=96 n=27 W/L/T=11/8/8  res=57.9  be=51.1  net=$1.88
+2026-09-19 15:45:00  INFO     AMD  d4_w180  dip 4.0% / 4.0sess  wait 1.5%/180m  TP/SL 5.0/4.0  cand=63 n=28 W/L/T=11/9/8  res=55.0  be=51.1  net=$-52.80
+2026-09-19 15:45:00  INFO     AMD  d4_w240  dip 4.0% / 4.0sess  wait 1.5%/240m  TP/SL 5.0/4.0  cand=43 n=26 W/L/T=8/8/10  res=50.0  be=51.1  net=$-105.99
+2026-09-19 15:45:00  INFO     AMD  d4_w300  dip 4.0% / 4.0sess  wait 1.5%/300m  TP/SL 5.0/4.0  cand=35 n=25 W/L/T=9/8/8  res=52.9  be=51.1  net=$-74.79
+2026-09-19 15:45:00  INFO     AMD  d5_w30  dip 5.0% / 4.0sess  wait 1.5%/30m  TP/SL 5.0/4.0  cand=284 n=28 W/L/T=9/9/10  res=50.0  be=51.1  net=$-129.74
+2026-09-19 15:45:00  INFO     AMD  d5_w60  dip 5.0% / 4.0sess  wait 1.5%/60m  TP/SL 5.0/4.0  cand=153 n=29 W/L/T=10/9/10  res=52.6  be=51.1  net=$-90.82
+2026-09-19 15:45:00  INFO     AMD  d5_w120  dip 5.0% / 4.0sess  wait 1.5%/120m  TP/SL 5.0/4.0  cand=77 n=25 W/L/T=11/7/7  res=61.1  be=51.1  net=$62.60
+2026-09-19 15:45:00  INFO     AMD  d5_w180  dip 5.0% / 4.0sess  wait 1.5%/180m  TP/SL 5.0/4.0  cand=52 n=25 W/L/T=10/7/8  res=58.8  be=51.1  net=$-5.77
+2026-09-19 15:45:00  INFO     AMD  d5_w240  dip 5.0% / 4.0sess  wait 1.5%/240m  TP/SL 5.0/4.0  cand=35 n=25 W/L/T=9/8/8  res=52.9  be=51.1  net=$-54.39
+2026-09-19 15:45:00  INFO     AMD  d5_w300  dip 5.0% / 4.0sess  wait 1.5%/300m  TP/SL 5.0/4.0  cand=30 n=22 W/L/T=9/7/6  res=56.2  be=51.1  net=$18.86
+2026-09-19 15:45:00  INFO     ----------  [5/13] SNDK  ----------
+2026-09-19 15:45:00  INFO     SNDK: cache hit SNDK_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 15:45:00  INFO     SNDK: 4,680 5-minute bars from SNDK_5m_1782394200000_1789761300000.json
+2026-09-19 15:45:00  INFO     SNDK  d4_w30  dip 4.0% / 4.0sess  wait 1.5%/30m  TP/SL 5.0/4.0  cand=379 n=58 W/L/T=25/27/6  res=48.1  be=51.1  net=$-162.70
+2026-09-19 15:45:00  INFO     SNDK  d4_w60  dip 4.0% / 4.0sess  wait 1.5%/60m  TP/SL 5.0/4.0  cand=199 n=51 W/L/T=19/25/7  res=43.2  be=51.1  net=$-320.17
+2026-09-19 15:45:00  INFO     SNDK  d4_w120  dip 4.0% / 4.0sess  wait 1.5%/120m  TP/SL 5.0/4.0  cand=101 n=45 W/L/T=18/22/5  res=45.0  be=51.1  net=$-251.50
+2026-09-19 15:45:00  INFO     SNDK  d4_w180  dip 4.0% / 4.0sess  wait 1.5%/180m  TP/SL 5.0/4.0  cand=67 n=35 W/L/T=17/12/6  res=58.6  be=51.1  net=$178.33
+2026-09-19 15:45:00  INFO     SNDK  d4_w240  dip 4.0% / 4.0sess  wait 1.5%/240m  TP/SL 5.0/4.0  cand=43 n=30 W/L/T=14/13/3  res=51.9  be=51.1  net=$15.17
+2026-09-19 15:45:00  INFO     SNDK  d4_w300  dip 4.0% / 4.0sess  wait 1.5%/300m  TP/SL 5.0/4.0  cand=39 n=28 W/L/T=13/11/4  res=54.2  be=51.1  net=$63.87
+2026-09-19 15:45:00  INFO     SNDK  d5_w30  dip 5.0% / 4.0sess  wait 1.5%/30m  TP/SL 5.0/4.0  cand=363 n=56 W/L/T=23/27/6  res=46.0  be=51.1  net=$-250.70
+2026-09-19 15:45:00  INFO     SNDK  d5_w60  dip 5.0% / 4.0sess  wait 1.5%/60m  TP/SL 5.0/4.0  cand=191 n=49 W/L/T=17/25/7  res=40.5  be=51.1  net=$-408.17
+2026-09-19 15:45:00  INFO     SNDK  d5_w120  dip 5.0% / 4.0sess  wait 1.5%/120m  TP/SL 5.0/4.0  cand=96 n=43 W/L/T=16/22/5  res=42.1  be=51.1  net=$-339.50
+2026-09-19 15:45:00  INFO     SNDK  d5_w180  dip 5.0% / 4.0sess  wait 1.5%/180m  TP/SL 5.0/4.0  cand=64 n=34 W/L/T=16/12/6  res=57.1  be=51.1  net=$134.33
+2026-09-19 15:45:00  INFO     SNDK  d5_w240  dip 5.0% / 4.0sess  wait 1.5%/240m  TP/SL 5.0/4.0  cand=42 n=29 W/L/T=13/13/3  res=50.0  be=51.1  net=$-28.83
+2026-09-19 15:45:00  INFO     SNDK  d5_w300  dip 5.0% / 4.0sess  wait 1.5%/300m  TP/SL 5.0/4.0  cand=37 n=27 W/L/T=12/11/4  res=52.2  be=51.1  net=$19.87
+2026-09-19 15:45:00  INFO     ----------  [6/13] HPE  ----------
+2026-09-19 15:45:00  INFO     HPE: cache hit HPE_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 15:45:00  INFO     HPE: 4,680 5-minute bars from HPE_5m_1782394200000_1789761300000.json
+2026-09-19 15:45:00  INFO     HPE  d4_w30  dip 4.0% / 4.0sess  wait 1.5%/30m  TP/SL 5.0/4.0  cand=319 n=34 W/L/T=12/10/12  res=54.5  be=51.1  net=$47.01
+2026-09-19 15:45:00  INFO     HPE  d4_w60  dip 4.0% / 4.0sess  wait 1.5%/60m  TP/SL 5.0/4.0  cand=163 n=28 W/L/T=8/9/11  res=47.1  be=51.1  net=$-4.28
+2026-09-19 15:45:00  INFO     HPE  d4_w120  dip 4.0% / 4.0sess  wait 1.5%/120m  TP/SL 5.0/4.0  cand=80 n=26 W/L/T=9/8/9  res=52.9  be=51.1  net=$29.22
+2026-09-19 15:45:01  INFO     HPE  d4_w180  dip 4.0% / 4.0sess  wait 1.5%/180m  TP/SL 5.0/4.0  cand=58 n=26 W/L/T=7/8/11  res=46.7  be=51.1  net=$-78.48
+2026-09-19 15:45:01  INFO     HPE  d4_w240  dip 4.0% / 4.0sess  wait 1.5%/240m  TP/SL 5.0/4.0  cand=42 n=27 W/L/T=11/8/8  res=57.9  be=51.1  net=$103.80
+2026-09-19 15:45:01  INFO     HPE  d4_w300  dip 4.0% / 4.0sess  wait 1.5%/300m  TP/SL 5.0/4.0  cand=35 n=24 W/L/T=9/8/7  res=52.9  be=51.1  net=$14.00
+2026-09-19 15:45:01  INFO     HPE  d5_w30  dip 5.0% / 4.0sess  wait 1.5%/30m  TP/SL 5.0/4.0  cand=282 n=30 W/L/T=12/9/9  res=57.1  be=51.1  net=$109.69
+2026-09-19 15:45:01  INFO     HPE  d5_w60  dip 5.0% / 4.0sess  wait 1.5%/60m  TP/SL 5.0/4.0  cand=145 n=26 W/L/T=9/8/9  res=52.9  be=51.1  net=$85.59
+2026-09-19 15:45:01  INFO     HPE  d5_w120  dip 5.0% / 4.0sess  wait 1.5%/120m  TP/SL 5.0/4.0  cand=70 n=23 W/L/T=7/7/9  res=50.0  be=51.1  net=$-19.02
+2026-09-19 15:45:01  INFO     HPE  d5_w180  dip 5.0% / 4.0sess  wait 1.5%/180m  TP/SL 5.0/4.0  cand=50 n=25 W/L/T=7/8/10  res=46.7  be=51.1  net=$-93.29
+2026-09-19 15:45:01  INFO     HPE  d5_w240  dip 5.0% / 4.0sess  wait 1.5%/240m  TP/SL 5.0/4.0  cand=36 n=23 W/L/T=10/7/6  res=58.8  be=51.1  net=$97.40
+2026-09-19 15:45:01  INFO     HPE  d5_w300  dip 5.0% / 4.0sess  wait 1.5%/300m  TP/SL 5.0/4.0  cand=31 n=20 W/L/T=8/7/5  res=53.3  be=51.1  net=$3.27
+2026-09-19 15:45:01  INFO     ----------  [7/13] DELL  ----------
+2026-09-19 15:45:01  INFO     DELL: cache hit DELL_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 15:45:01  INFO     DELL: 4,680 5-minute bars from DELL_5m_1782394200000_1789761300000.json
+2026-09-19 15:45:01  INFO     DELL  d4_w30  dip 4.0% / 4.0sess  wait 1.5%/30m  TP/SL 5.0/4.0  cand=283 n=40 W/L/T=17/14/9  res=54.8  be=51.1  net=$103.65
+2026-09-19 15:45:01  INFO     DELL  d4_w60  dip 4.0% / 4.0sess  wait 1.5%/60m  TP/SL 5.0/4.0  cand=147 n=35 W/L/T=15/11/9  res=57.7  be=51.1  net=$151.85
+2026-09-19 15:45:01  INFO     DELL  d4_w120  dip 4.0% / 4.0sess  wait 1.5%/120m  TP/SL 5.0/4.0  cand=74 n=31 W/L/T=13/10/8  res=56.5  be=51.1  net=$56.26
+2026-09-19 15:45:01  INFO     DELL  d4_w180  dip 4.0% / 4.0sess  wait 1.5%/180m  TP/SL 5.0/4.0  cand=50 n=26 W/L/T=12/9/5  res=57.1  be=51.1  net=$107.50
+2026-09-19 15:45:01  INFO     DELL  d4_w240  dip 4.0% / 4.0sess  wait 1.5%/240m  TP/SL 5.0/4.0  cand=34 n=25 W/L/T=13/7/5  res=65.0  be=51.1  net=$189.15
+2026-09-19 15:45:01  INFO     DELL  d4_w300  dip 4.0% / 4.0sess  wait 1.5%/300m  TP/SL 5.0/4.0  cand=30 n=25 W/L/T=11/9/5  res=55.0  be=51.1  net=$77.40
+2026-09-19 15:45:01  INFO     DELL  d5_w30  dip 5.0% / 4.0sess  wait 1.5%/30m  TP/SL 5.0/4.0  cand=243 n=33 W/L/T=14/13/6  res=51.9  be=51.1  net=$52.36
+2026-09-19 15:45:01  INFO     DELL  d5_w60  dip 5.0% / 4.0sess  wait 1.5%/60m  TP/SL 5.0/4.0  cand=126 n=30 W/L/T=15/10/5  res=60.0  be=51.1  net=$243.76
+2026-09-19 15:45:01  INFO     DELL  d5_w120  dip 5.0% / 4.0sess  wait 1.5%/120m  TP/SL 5.0/4.0  cand=64 n=26 W/L/T=13/8/5  res=61.9  be=51.1  net=$211.87
+2026-09-19 15:45:01  INFO     DELL  d5_w180  dip 5.0% / 4.0sess  wait 1.5%/180m  TP/SL 5.0/4.0  cand=46 n=25 W/L/T=13/8/4  res=61.9  be=51.1  net=$227.54
+2026-09-19 15:45:01  INFO     DELL  d5_w240  dip 5.0% / 4.0sess  wait 1.5%/240m  TP/SL 5.0/4.0  cand=32 n=23 W/L/T=13/7/3  res=65.0  be=51.1  net=$217.76
+2026-09-19 15:45:01  INFO     DELL  d5_w300  dip 5.0% / 4.0sess  wait 1.5%/300m  TP/SL 5.0/4.0  cand=28 n=23 W/L/T=11/9/3  res=55.0  be=51.1  net=$93.90
+2026-09-19 15:45:01  INFO     ----------  [8/13] ARM  ----------
+2026-09-19 15:45:01  INFO     ARM: cache hit ARM_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 15:45:01  INFO     ARM: 4,680 5-minute bars from ARM_5m_1782394200000_1789761300000.json
+2026-09-19 15:45:01  INFO     ARM  d4_w30  dip 4.0% / 4.0sess  wait 1.5%/30m  TP/SL 5.0/4.0  cand=429 n=47 W/L/T=17/22/8  res=43.6  be=51.1  net=$-399.83
+2026-09-19 15:45:01  INFO     ARM  d4_w60  dip 4.0% / 4.0sess  wait 1.5%/60m  TP/SL 5.0/4.0  cand=224 n=43 W/L/T=13/21/9  res=38.2  be=51.1  net=$-478.76
+2026-09-19 15:45:01  INFO     ARM  d4_w120  dip 4.0% / 4.0sess  wait 1.5%/120m  TP/SL 5.0/4.0  cand=112 n=38 W/L/T=14/16/8  res=46.7  be=51.1  net=$-167.85
+2026-09-19 15:45:01  INFO     ARM  d4_w180  dip 4.0% / 4.0sess  wait 1.5%/180m  TP/SL 5.0/4.0  cand=75 n=38 W/L/T=10/19/9  res=34.5  be=51.1  net=$-483.09
+2026-09-19 15:45:01  INFO     ARM  d4_w240  dip 4.0% / 4.0sess  wait 1.5%/240m  TP/SL 5.0/4.0  cand=49 n=33 W/L/T=8/17/8  res=32.0  be=51.1  net=$-407.98
+2026-09-19 15:45:01  INFO     ARM  d4_w300  dip 4.0% / 4.0sess  wait 1.5%/300m  TP/SL 5.0/4.0  cand=43 n=30 W/L/T=6/17/7  res=26.1  be=51.1  net=$-493.03
+2026-09-19 15:45:01  INFO     ARM  d5_w30  dip 5.0% / 4.0sess  wait 1.5%/30m  TP/SL 5.0/4.0  cand=402 n=44 W/L/T=17/19/8  res=47.2  be=51.1  net=$-253.46
+2026-09-19 15:45:01  INFO     ARM  d5_w60  dip 5.0% / 4.0sess  wait 1.5%/60m  TP/SL 5.0/4.0  cand=211 n=43 W/L/T=13/21/9  res=38.2  be=51.1  net=$-467.24
+2026-09-19 15:45:01  INFO     ARM  d5_w120  dip 5.0% / 4.0sess  wait 1.5%/120m  TP/SL 5.0/4.0  cand=107 n=38 W/L/T=14/16/8  res=46.7  be=51.1  net=$-155.72
+2026-09-19 15:45:02  INFO     ARM  d5_w180  dip 5.0% / 4.0sess  wait 1.5%/180m  TP/SL 5.0/4.0  cand=71 n=38 W/L/T=10/19/9  res=34.5  be=51.1  net=$-464.09
+2026-09-19 15:45:02  INFO     ARM  d5_w240  dip 5.0% / 4.0sess  wait 1.5%/240m  TP/SL 5.0/4.0  cand=48 n=33 W/L/T=8/17/8  res=32.0  be=51.1  net=$-387.37
+2026-09-19 15:45:02  INFO     ARM  d5_w300  dip 5.0% / 4.0sess  wait 1.5%/300m  TP/SL 5.0/4.0  cand=42 n=30 W/L/T=6/17/7  res=26.1  be=51.1  net=$-469.65
+2026-09-19 15:45:02  INFO     ----------  [9/13] IBM  ----------
+2026-09-19 15:45:02  INFO     IBM: cache hit IBM_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 15:45:02  INFO     IBM: 4,680 5-minute bars from IBM_5m_1782394200000_1789761300000.json
+2026-09-19 15:45:02  INFO     IBM  d4_w30  dip 4.0% / 4.0sess  wait 1.5%/30m  TP/SL 5.0/4.0  cand=191 n=16 W/L/T=2/5/9  res=28.6  be=51.1  net=$-159.71
+2026-09-19 15:45:02  INFO     IBM  d4_w60  dip 4.0% / 4.0sess  wait 1.5%/60m  TP/SL 5.0/4.0  cand=104 n=15 W/L/T=2/5/8  res=28.6  be=51.1  net=$-116.61
+2026-09-19 15:45:02  INFO     IBM  d4_w120  dip 4.0% / 4.0sess  wait 1.5%/120m  TP/SL 5.0/4.0  cand=53 n=14 W/L/T=1/4/9  res=20.0  be=51.1  net=$-111.10
+2026-09-19 15:45:02  INFO     IBM  d4_w180  dip 4.0% / 4.0sess  wait 1.5%/180m  TP/SL 5.0/4.0  cand=38 n=13 W/L/T=1/3/9  res=25.0  be=51.1  net=$-91.90
+2026-09-19 15:45:02  INFO     IBM  d4_w240  dip 4.0% / 4.0sess  wait 1.5%/240m  TP/SL 5.0/4.0  cand=26 n=12 W/L/T=1/2/9  res=33.3  be=51.1  net=$-41.84
+2026-09-19 15:45:02  INFO     IBM  d4_w300  dip 4.0% / 4.0sess  wait 1.5%/300m  TP/SL 5.0/4.0  cand=21 n=13 W/L/T=1/4/8  res=20.0  be=51.1  net=$-117.13
+2026-09-19 15:45:02  INFO     IBM  d5_w30  dip 5.0% / 4.0sess  wait 1.5%/30m  TP/SL 5.0/4.0  cand=132 n=14 W/L/T=2/5/7  res=28.6  be=51.1  net=$-150.15
+2026-09-19 15:45:02  INFO     IBM  d5_w60  dip 5.0% / 4.0sess  wait 1.5%/60m  TP/SL 5.0/4.0  cand=72 n=13 W/L/T=3/5/5  res=37.5  be=51.1  net=$-94.32
+2026-09-19 15:45:02  INFO     IBM  d5_w120  dip 5.0% / 4.0sess  wait 1.5%/120m  TP/SL 5.0/4.0  cand=39 n=12 W/L/T=1/3/8  res=25.0  be=51.1  net=$-98.29
+2026-09-19 15:45:02  INFO     IBM  d5_w180  dip 5.0% / 4.0sess  wait 1.5%/180m  TP/SL 5.0/4.0  cand=27 n=11 W/L/T=0/3/8  res=0.0  be=51.1  net=$-111.06
+2026-09-19 15:45:02  INFO     IBM  d5_w240  dip 5.0% / 4.0sess  wait 1.5%/240m  TP/SL 5.0/4.0  cand=20 n=10 W/L/T=1/2/7  res=33.3  be=51.1  net=$-77.36
+2026-09-19 15:45:02  INFO     IBM  d5_w300  dip 5.0% / 4.0sess  wait 1.5%/300m  TP/SL 5.0/4.0  cand=15 n=10 W/L/T=1/3/6  res=25.0  be=51.1  net=$-127.04
+2026-09-19 15:45:02  INFO     ----------  [10/13] TXN  ----------
+2026-09-19 15:45:02  INFO     TXN: cache hit TXN_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 15:45:02  INFO     TXN: 4,680 5-minute bars from TXN_5m_1782394200000_1789761300000.json
+2026-09-19 15:45:02  INFO     TXN  d4_w30  dip 4.0% / 4.0sess  wait 1.5%/30m  TP/SL 5.0/4.0  cand=277 n=22 W/L/T=2/3/17  res=40.0  be=51.1  net=$-88.82
+2026-09-19 15:45:02  INFO     TXN  d4_w60  dip 4.0% / 4.0sess  wait 1.5%/60m  TP/SL 5.0/4.0  cand=147 n=20 W/L/T=3/1/16  res=75.0  be=51.1  net=$33.43
+2026-09-19 15:45:02  INFO     TXN  d4_w120  dip 4.0% / 4.0sess  wait 1.5%/120m  TP/SL 5.0/4.0  cand=80 n=19 W/L/T=3/1/15  res=75.0  be=51.1  net=$64.34
+2026-09-19 15:45:02  INFO     TXN  d4_w180  dip 4.0% / 4.0sess  wait 1.5%/180m  TP/SL 5.0/4.0  cand=55 n=18 W/L/T=2/1/15  res=66.7  be=51.1  net=$-0.94
+2026-09-19 15:45:02  INFO     TXN  d4_w240  dip 4.0% / 4.0sess  wait 1.5%/240m  TP/SL 5.0/4.0  cand=42 n=19 W/L/T=2/2/15  res=50.0  be=51.1  net=$-17.48
+2026-09-19 15:45:02  INFO     TXN  d4_w300  dip 4.0% / 4.0sess  wait 1.5%/300m  TP/SL 5.0/4.0  cand=34 n=19 W/L/T=2/2/15  res=50.0  be=51.1  net=$-98.97
+2026-09-19 15:45:02  INFO     TXN  d5_w30  dip 5.0% / 4.0sess  wait 1.5%/30m  TP/SL 5.0/4.0  cand=208 n=17 W/L/T=3/1/13  res=75.0  be=51.1  net=$41.07
+2026-09-19 15:45:02  INFO     TXN  d5_w60  dip 5.0% / 4.0sess  wait 1.5%/60m  TP/SL 5.0/4.0  cand=114 n=17 W/L/T=3/1/13  res=75.0  be=51.1  net=$80.02
+2026-09-19 15:45:02  INFO     TXN  d5_w120  dip 5.0% / 4.0sess  wait 1.5%/120m  TP/SL 5.0/4.0  cand=62 n=16 W/L/T=3/1/12  res=75.0  be=51.1  net=$36.24
+2026-09-19 15:45:02  INFO     TXN  d5_w180  dip 5.0% / 4.0sess  wait 1.5%/180m  TP/SL 5.0/4.0  cand=43 n=15 W/L/T=2/0/13  res=100.0  be=51.1  net=$71.54
+2026-09-19 15:45:02  INFO     TXN  d5_w240  dip 5.0% / 4.0sess  wait 1.5%/240m  TP/SL 5.0/4.0  cand=32 n=15 W/L/T=2/1/12  res=66.7  be=51.1  net=$20.06
+2026-09-19 15:45:02  INFO     TXN  d5_w300  dip 5.0% / 4.0sess  wait 1.5%/300m  TP/SL 5.0/4.0  cand=26 n=15 W/L/T=2/1/12  res=66.7  be=51.1  net=$24.52
+2026-09-19 15:45:02  INFO     ----------  [11/13] QCOM  ----------
+2026-09-19 15:45:02  INFO     QCOM: cache hit QCOM_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 15:45:02  INFO     QCOM: 4,680 5-minute bars from QCOM_5m_1782394200000_1789761300000.json
+2026-09-19 15:45:02  INFO     QCOM  d4_w30  dip 4.0% / 4.0sess  wait 1.5%/30m  TP/SL 5.0/4.0  cand=256 n=23 W/L/T=4/7/12  res=36.4  be=51.1  net=$-125.72
+2026-09-19 15:45:02  INFO     QCOM  d4_w60  dip 4.0% / 4.0sess  wait 1.5%/60m  TP/SL 5.0/4.0  cand=139 n=23 W/L/T=5/7/11  res=41.7  be=51.1  net=$-127.43
+2026-09-19 15:45:02  INFO     QCOM  d4_w120  dip 4.0% / 4.0sess  wait 1.5%/120m  TP/SL 5.0/4.0  cand=72 n=21 W/L/T=5/8/8  res=38.5  be=51.1  net=$-148.62
+2026-09-19 15:45:03  INFO     QCOM  d4_w180  dip 4.0% / 4.0sess  wait 1.5%/180m  TP/SL 5.0/4.0  cand=51 n=23 W/L/T=5/9/9  res=35.7  be=51.1  net=$-178.43
+2026-09-19 15:45:03  INFO     QCOM  d4_w240  dip 4.0% / 4.0sess  wait 1.5%/240m  TP/SL 5.0/4.0  cand=37 n=19 W/L/T=4/6/9  res=40.0  be=51.1  net=$-68.52
+2026-09-19 15:45:03  INFO     QCOM  d4_w300  dip 4.0% / 4.0sess  wait 1.5%/300m  TP/SL 5.0/4.0  cand=31 n=18 W/L/T=3/6/9  res=33.3  be=51.1  net=$-140.35
+2026-09-19 15:45:03  INFO     QCOM  d5_w30  dip 5.0% / 4.0sess  wait 1.5%/30m  TP/SL 5.0/4.0  cand=199 n=18 W/L/T=5/6/7  res=45.5  be=51.1  net=$-11.25
+2026-09-19 15:45:03  INFO     QCOM  d5_w60  dip 5.0% / 4.0sess  wait 1.5%/60m  TP/SL 5.0/4.0  cand=108 n=18 W/L/T=5/6/7  res=45.5  be=51.1  net=$-55.66
+2026-09-19 15:45:03  INFO     QCOM  d5_w120  dip 5.0% / 4.0sess  wait 1.5%/120m  TP/SL 5.0/4.0  cand=59 n=17 W/L/T=4/7/6  res=36.4  be=51.1  net=$-95.01
+2026-09-19 15:45:03  INFO     QCOM  d5_w180  dip 5.0% / 4.0sess  wait 1.5%/180m  TP/SL 5.0/4.0  cand=38 n=17 W/L/T=4/6/7  res=40.0  be=51.1  net=$-84.20
+2026-09-19 15:45:03  INFO     QCOM  d5_w240  dip 5.0% / 4.0sess  wait 1.5%/240m  TP/SL 5.0/4.0  cand=29 n=16 W/L/T=3/6/7  res=33.3  be=51.1  net=$-116.13
+2026-09-19 15:45:03  INFO     QCOM  d5_w300  dip 5.0% / 4.0sess  wait 1.5%/300m  TP/SL 5.0/4.0  cand=24 n=16 W/L/T=3/6/7  res=33.3  be=51.1  net=$-131.38
+2026-09-19 15:45:03  INFO     ----------  [12/13] AVGO  ----------
+2026-09-19 15:45:03  INFO     AVGO: cache hit AVGO_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 15:45:03  INFO     AVGO: 4,680 5-minute bars from AVGO_5m_1782394200000_1789761300000.json
+2026-09-19 15:45:03  INFO     AVGO  d4_w30  dip 4.0% / 4.0sess  wait 1.5%/30m  TP/SL 5.0/4.0  cand=280 n=23 W/L/T=7/5/11  res=58.3  be=51.1  net=$46.53
+2026-09-19 15:45:03  INFO     AVGO  d4_w60  dip 4.0% / 4.0sess  wait 1.5%/60m  TP/SL 5.0/4.0  cand=150 n=23 W/L/T=6/4/13  res=60.0  be=51.1  net=$99.30
+2026-09-19 15:45:03  INFO     AVGO  d4_w120  dip 4.0% / 4.0sess  wait 1.5%/120m  TP/SL 5.0/4.0  cand=81 n=22 W/L/T=7/5/10  res=58.3  be=51.1  net=$21.16
+2026-09-19 15:45:03  INFO     AVGO  d4_w180  dip 4.0% / 4.0sess  wait 1.5%/180m  TP/SL 5.0/4.0  cand=55 n=22 W/L/T=5/5/12  res=50.0  be=51.1  net=$1.35
+2026-09-19 15:45:03  INFO     AVGO  d4_w240  dip 4.0% / 4.0sess  wait 1.5%/240m  TP/SL 5.0/4.0  cand=40 n=19 W/L/T=2/4/13  res=33.3  be=51.1  net=$-42.63
+2026-09-19 15:45:03  INFO     AVGO  d4_w300  dip 4.0% / 4.0sess  wait 1.5%/300m  TP/SL 5.0/4.0  cand=33 n=19 W/L/T=2/4/13  res=33.3  be=51.1  net=$-60.11
+2026-09-19 15:45:03  INFO     AVGO  d5_w30  dip 5.0% / 4.0sess  wait 1.5%/30m  TP/SL 5.0/4.0  cand=203 n=21 W/L/T=7/4/10  res=63.6  be=51.1  net=$79.44
+2026-09-19 15:45:03  INFO     AVGO  d5_w60  dip 5.0% / 4.0sess  wait 1.5%/60m  TP/SL 5.0/4.0  cand=113 n=21 W/L/T=6/4/11  res=60.0  be=51.1  net=$80.91
+2026-09-19 15:45:03  INFO     AVGO  d5_w120  dip 5.0% / 4.0sess  wait 1.5%/120m  TP/SL 5.0/4.0  cand=63 n=19 W/L/T=5/5/9  res=50.0  be=51.1  net=$-47.35
+2026-09-19 15:45:03  INFO     AVGO  d5_w180  dip 5.0% / 4.0sess  wait 1.5%/180m  TP/SL 5.0/4.0  cand=42 n=18 W/L/T=3/4/11  res=42.9  be=51.1  net=$-32.35
+2026-09-19 15:45:03  INFO     AVGO  d5_w240  dip 5.0% / 4.0sess  wait 1.5%/240m  TP/SL 5.0/4.0  cand=31 n=17 W/L/T=3/3/11  res=50.0  be=51.1  net=$38.81
+2026-09-19 15:45:03  INFO     AVGO  d5_w300  dip 5.0% / 4.0sess  wait 1.5%/300m  TP/SL 5.0/4.0  cand=24 n=16 W/L/T=2/3/11  res=40.0  be=51.1  net=$-14.96
+2026-09-19 15:45:03  INFO     ----------  [13/13] ORCL  ----------
+2026-09-19 15:45:03  INFO     ORCL: cache hit ORCL_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 15:45:03  INFO     ORCL: 4,680 5-minute bars from ORCL_5m_1782394200000_1789761300000.json
+2026-09-19 15:45:03  INFO     ORCL  d4_w30  dip 4.0% / 4.0sess  wait 1.5%/30m  TP/SL 5.0/4.0  cand=349 n=29 W/L/T=9/8/12  res=52.9  be=51.1  net=$8.44
+2026-09-19 15:45:03  INFO     ORCL  d4_w60  dip 4.0% / 4.0sess  wait 1.5%/60m  TP/SL 5.0/4.0  cand=184 n=29 W/L/T=10/10/9  res=50.0  be=51.1  net=$-110.17
+2026-09-19 15:45:03  INFO     ORCL  d4_w120  dip 4.0% / 4.0sess  wait 1.5%/120m  TP/SL 5.0/4.0  cand=96 n=27 W/L/T=7/10/10  res=41.2  be=51.1  net=$-216.84
+2026-09-19 15:45:04  INFO     ORCL  d4_w180  dip 4.0% / 4.0sess  wait 1.5%/180m  TP/SL 5.0/4.0  cand=64 n=30 W/L/T=8/11/11  res=42.1  be=51.1  net=$-319.62
+2026-09-19 15:45:04  INFO     ORCL  d4_w240  dip 4.0% / 4.0sess  wait 1.5%/240m  TP/SL 5.0/4.0  cand=45 n=22 W/L/T=6/7/9  res=46.2  be=51.1  net=$-155.59
+2026-09-19 15:45:04  INFO     ORCL  d4_w300  dip 4.0% / 4.0sess  wait 1.5%/300m  TP/SL 5.0/4.0  cand=34 n=20 W/L/T=4/6/10  res=40.0  be=51.1  net=$-150.26
+2026-09-19 15:45:04  INFO     ORCL  d5_w30  dip 5.0% / 4.0sess  wait 1.5%/30m  TP/SL 5.0/4.0  cand=308 n=26 W/L/T=8/8/10  res=50.0  be=51.1  net=$-29.39
+2026-09-19 15:45:04  INFO     ORCL  d5_w60  dip 5.0% / 4.0sess  wait 1.5%/60m  TP/SL 5.0/4.0  cand=166 n=27 W/L/T=9/10/8  res=47.4  be=51.1  net=$-132.41
+2026-09-19 15:45:04  INFO     ORCL  d5_w120  dip 5.0% / 4.0sess  wait 1.5%/120m  TP/SL 5.0/4.0  cand=85 n=22 W/L/T=6/8/8  res=42.9  be=51.1  net=$-153.21
+2026-09-19 15:45:04  INFO     ORCL  d5_w180  dip 5.0% / 4.0sess  wait 1.5%/180m  TP/SL 5.0/4.0  cand=55 n=25 W/L/T=7/9/9  res=43.8  be=51.1  net=$-269.03
+2026-09-19 15:45:04  INFO     ORCL  d5_w240  dip 5.0% / 4.0sess  wait 1.5%/240m  TP/SL 5.0/4.0  cand=40 n=19 W/L/T=5/7/7  res=41.7  be=51.1  net=$-189.84
+2026-09-19 15:45:04  INFO     ORCL  d5_w300  dip 5.0% / 4.0sess  wait 1.5%/300m  TP/SL 5.0/4.0  cand=31 n=19 W/L/T=4/6/9  res=40.0  be=51.1  net=$-168.54
+2026-09-19 15:45:04  INFO     
+2026-09-19 15:45:04  INFO     Rows 156  n>=5 156  net>0 51  at/above breakeven 55
+2026-09-19 15:45:04  INFO     
+2026-09-19 15:45:04  INFO     Best 15 by net (any trade count)
+2026-09-19 15:45:04  INFO       stock  combo             dip        wait      exit    n     W/L/T   res%    be%      net$
+2026-09-19 15:45:04  INFO       MRVL   d5_w180    5%/4d 1.5%/180m 5/4   31   18/10/3   64.3   51.1    327.98
+2026-09-19 15:45:04  INFO       MRVL   d5_w120    5%/4d 1.5%/120m 5/4   32   17/11/4   60.7   51.1    245.66
+2026-09-19 15:45:04  INFO       DELL   d5_w60     5%/4d 1.5%/60m 5/4   30   15/10/5   60.0   51.1    243.76
+2026-09-19 15:45:04  INFO       MRVL   d4_w180    4%/4d 1.5%/180m 5/4   35   18/12/5   60.0   51.1    238.45
+2026-09-19 15:45:04  INFO       DELL   d5_w180    5%/4d 1.5%/180m 5/4   25    13/8/4   61.9   51.1    227.54
+2026-09-19 15:45:04  INFO       DELL   d5_w240    5%/4d 1.5%/240m 5/4   23    13/7/3   65.0   51.1    217.76
+2026-09-19 15:45:04  INFO       DELL   d5_w120    5%/4d 1.5%/120m 5/4   26    13/8/5   61.9   51.1    211.87
+2026-09-19 15:45:04  INFO       DELL   d4_w240    4%/4d 1.5%/240m 5/4   25    13/7/5   65.0   51.1    189.15
+2026-09-19 15:45:04  INFO       SNDK   d4_w180    4%/4d 1.5%/180m 5/4   35   17/12/6   58.6   51.1    178.33
+2026-09-19 15:45:04  INFO       DELL   d4_w60     4%/4d 1.5%/60m 5/4   35   15/11/9   57.7   51.1    151.85
+2026-09-19 15:45:04  INFO       SNDK   d5_w180    5%/4d 1.5%/180m 5/4   34   16/12/6   57.1   51.1    134.33
+2026-09-19 15:45:04  INFO       HPE    d5_w30     5%/4d 1.5%/30m 5/4   30    12/9/9   57.1   51.1    109.69
+2026-09-19 15:45:04  INFO       DELL   d4_w180    4%/4d 1.5%/180m 5/4   26    12/9/5   57.1   51.1    107.50
+2026-09-19 15:45:04  INFO       HPE    d4_w240    4%/4d 1.5%/240m 5/4   27    11/8/8   57.9   51.1    103.80
+2026-09-19 15:45:04  INFO       DELL   d4_w30     4%/4d 1.5%/30m 5/4   40   17/14/9   54.8   51.1    103.65
+2026-09-19 15:45:04  INFO     
+2026-09-19 15:45:04  INFO     Best among n>=5
+2026-09-19 15:45:04  INFO       stock  combo             dip        wait      exit    n     W/L/T   res%    be%      net$
+2026-09-19 15:45:04  INFO       MRVL   d5_w180    5%/4d 1.5%/180m 5/4   31   18/10/3   64.3   51.1    327.98
+2026-09-19 15:45:04  INFO       MRVL   d5_w120    5%/4d 1.5%/120m 5/4   32   17/11/4   60.7   51.1    245.66
+2026-09-19 15:45:04  INFO       DELL   d5_w60     5%/4d 1.5%/60m 5/4   30   15/10/5   60.0   51.1    243.76
+2026-09-19 15:45:04  INFO       MRVL   d4_w180    4%/4d 1.5%/180m 5/4   35   18/12/5   60.0   51.1    238.45
+2026-09-19 15:45:04  INFO       DELL   d5_w180    5%/4d 1.5%/180m 5/4   25    13/8/4   61.9   51.1    227.54
+2026-09-19 15:45:04  INFO       DELL   d5_w240    5%/4d 1.5%/240m 5/4   23    13/7/3   65.0   51.1    217.76
+2026-09-19 15:45:04  INFO       DELL   d5_w120    5%/4d 1.5%/120m 5/4   26    13/8/5   61.9   51.1    211.87
+2026-09-19 15:45:04  INFO       DELL   d4_w240    4%/4d 1.5%/240m 5/4   25    13/7/5   65.0   51.1    189.15
+2026-09-19 15:45:04  INFO       SNDK   d4_w180    4%/4d 1.5%/180m 5/4   35   17/12/6   58.6   51.1    178.33
+2026-09-19 15:45:04  INFO       DELL   d4_w60     4%/4d 1.5%/60m 5/4   35   15/11/9   57.7   51.1    151.85
+2026-09-19 15:45:04  INFO       SNDK   d5_w180    5%/4d 1.5%/180m 5/4   34   16/12/6   57.1   51.1    134.33
+2026-09-19 15:45:04  INFO       HPE    d5_w30     5%/4d 1.5%/30m 5/4   30    12/9/9   57.1   51.1    109.69
+2026-09-19 15:45:04  INFO     
+2026-09-19 15:45:04  INFO     Worst 8 by net
+2026-09-19 15:45:04  INFO       stock  combo             dip        wait      exit    n     W/L/T   res%    be%      net$
+2026-09-19 15:45:04  INFO       ARM    d4_w300    4%/4d 1.5%/300m 5/4   30    6/17/7   26.1   51.1   -493.03
+2026-09-19 15:45:04  INFO       ARM    d4_w180    4%/4d 1.5%/180m 5/4   38   10/19/9   34.5   51.1   -483.09
+2026-09-19 15:45:04  INFO       ARM    d4_w60     4%/4d 1.5%/60m 5/4   43   13/21/9   38.2   51.1   -478.76
+2026-09-19 15:45:04  INFO       ARM    d5_w300    5%/4d 1.5%/300m 5/4   30    6/17/7   26.1   51.1   -469.65
+2026-09-19 15:45:04  INFO       ARM    d5_w60     5%/4d 1.5%/60m 5/4   43   13/21/9   38.2   51.1   -467.24
+2026-09-19 15:45:04  INFO       INTC   d4_w180    4%/4d 1.5%/180m 5/4   35   10/20/5   33.3   51.1   -465.28
+2026-09-19 15:45:04  INFO       ARM    d5_w180    5%/4d 1.5%/180m 5/4   38   10/19/9   34.5   51.1   -464.09
+2026-09-19 15:45:04  INFO       INTC   d4_w120    4%/4d 1.5%/120m 5/4   35    9/17/9   34.6   51.1   -427.38
+2026-09-19 15:45:04  INFO     Best AMD: d5_w120  n=25  net=$62.60  res=61.1%
+2026-09-19 15:45:04  INFO     Best ARM: d5_w120  n=38  net=$-155.72  res=46.7%
+2026-09-19 15:45:04  INFO     Best AVGO: d4_w60  n=23  net=$99.30  res=60.0%
+2026-09-19 15:45:04  INFO     Best DELL: d5_w60  n=30  net=$243.76  res=60.0%
+2026-09-19 15:45:04  INFO     Best HPE: d5_w30  n=30  net=$109.69  res=57.1%
+2026-09-19 15:45:04  INFO     Best IBM: d4_w240  n=12  net=$-41.84  res=33.3%
+2026-09-19 15:45:04  INFO     Best INTC: d5_w300  n=23  net=$-221.21  res=36.8%
+2026-09-19 15:45:04  INFO     Best MRVL: d5_w180  n=31  net=$327.98  res=64.3%
+2026-09-19 15:45:04  INFO     Best MU: d5_w30  n=37  net=$-28.97  res=48.3%
+2026-09-19 15:45:04  INFO     Best ORCL: d4_w30  n=29  net=$8.44  res=52.9%
+2026-09-19 15:45:04  INFO     Best QCOM: d5_w30  n=18  net=$-11.25  res=45.5%
+2026-09-19 15:45:04  INFO     Best SNDK: d4_w180  n=35  net=$178.33  res=58.6%
+2026-09-19 15:45:04  INFO     Best TXN: d5_w60  n=17  net=$80.02  res=75.0%
+2026-09-19 15:45:04  INFO     
+2026-09-19 15:45:04  INFO     === Aggregate by combo (all symbols) ===
+2026-09-19 15:45:04  INFO       combo        rows trades        W        L        T       net$  avg_net
+2026-09-19 15:45:04  INFO       d5_w30         13    404      145      154      105    -876.40   -67.42
+2026-09-19 15:45:04  INFO       d5_w180        13    322      108      117       97    -883.04   -67.93
+2026-09-19 15:45:04  INFO       d5_w240        13    292       93      109       90    -933.74   -71.83
+2026-09-19 15:45:04  INFO       d5_w120        13    335      114      126       95   -1003.56   -77.20
+2026-09-19 15:45:04  INFO       d5_w300        13    273       82      106       85   -1225.65   -94.28
+2026-09-19 15:45:04  INFO       d4_w240        13    327       97      119      111   -1278.69   -98.36
+2026-09-19 15:45:04  INFO       d4_w120        13    377      124      139      114   -1310.19  -100.78
+2026-09-19 15:45:04  INFO       d4_w180        13    360      115      133      112   -1423.54  -109.50
+2026-09-19 15:45:04  INFO       d5_w60         13    382      125      151      106   -1448.96  -111.46
+2026-09-19 15:45:04  INFO       d4_w30         13    455      152      172      131   -1468.97  -113.00
+2026-09-19 15:45:04  INFO       d4_w300        13    301       83      114      104   -1682.50  -129.42
+2026-09-19 15:45:04  INFO       d4_w60         13    420      130      161      129   -1799.51  -138.42
+2026-09-19 15:45:04  INFO     Wrote /workspace/udit/Jev-Trading/data/stocks/buy_the_dip/combo_d4d5_4sess_2day.csv
+2026-09-19 15:45:04  INFO     Finished in 5.2s

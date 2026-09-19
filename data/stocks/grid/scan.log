@@ -1,0 +1,183 @@
+2026-09-19 15:33:46  INFO     US stocks geometric long grid. $1000 clip. 0.30% buy + 0.30% sell.
+2026-09-19 15:33:46  INFO     Bars 60d 5m  cache /workspace/udit/Jev-Trading/data/stocks/klines
+2026-09-19 15:33:46  INFO     Symbols 13: INTC, MU, MRVL, AMD, SNDK, HPE, DELL, ARM, IBM, TXN, QCOM, AVGO, ORCL
+2026-09-19 15:33:46  INFO     Combos 6
+2026-09-19 15:33:46  INFO       grid_0.8pct_8lvl             step 0.80% x8 levels
+2026-09-19 15:33:46  INFO       grid_1.0pct_8lvl             step 1.00% x8 levels
+2026-09-19 15:33:46  INFO       grid_1.5pct_8lvl             step 1.50% x8 levels
+2026-09-19 15:33:46  INFO       grid_2.0pct_6lvl             step 2.00% x6 levels
+2026-09-19 15:33:46  INFO       grid_1.0pct_10lvl            step 1.00% x10 levels
+2026-09-19 15:33:46  INFO       grid_1.5pct_10lvl_stop10     step 1.50% x10 levels, stop 10%
+2026-09-19 15:33:46  INFO     ----------  [1/13] INTC  ----------
+2026-09-19 15:33:46  INFO     INTC: cache hit INTC_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 15:33:46  INFO     INTC: 4,680 5-minute bars from INTC_5m_1782394200000_1789761300000.json
+2026-09-19 15:33:46  INFO     INTC  grid_0.8pct_8lvl  step 0.80% x8  buys=34 sells=26 rt=26  fees=$22.58  real=$26.00  unrl=$-199.52  net=$-196.10  maxLots=8
+2026-09-19 15:33:46  INFO     INTC  grid_1.0pct_8lvl  step 1.00% x8  buys=41 sells=33 rt=33  fees=$27.87  real=$41.25  unrl=$-192.14  net=$-178.77  maxLots=8
+2026-09-19 15:33:46  INFO     INTC  grid_1.5pct_8lvl  step 1.50% x8  buys=40 sells=32 rt=32  fees=$27.18  real=$60.00  unrl=$-173.25  net=$-140.43  maxLots=8
+2026-09-19 15:33:46  INFO     INTC  grid_2.0pct_6lvl  step 2.00% x6  buys=22 sells=16 rt=16  fees=$19.16  real=$53.33  unrl=$-171.02  net=$-136.84  maxLots=6
+2026-09-19 15:33:46  INFO     INTC  grid_1.0pct_10lvl  step 1.00% x10  buys=67 sells=57 rt=57  fees=$37.37  real=$57.00  unrl=$-183.86  net=$-164.23  maxLots=10
+2026-09-19 15:33:46  INFO     INTC  grid_1.5pct_10lvl_stop10  step 1.50% x10 stop=10%  buys=47 sells=47 rt=37  fees=$27.89  real=$-102.89  unrl=$0.00  net=$-130.78  maxLots=10  STOPPED
+2026-09-19 15:33:46  INFO     ----------  [2/13] MU  ----------
+2026-09-19 15:33:46  INFO     MU: cache hit MU_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 15:33:46  INFO     MU: 4,680 5-minute bars from MU_5m_1782394200000_1789761300000.json
+2026-09-19 15:33:46  INFO     MU  grid_0.8pct_8lvl  step 0.80% x8  buys=45 sells=37 rt=37  fees=$30.86  real=$37.00  unrl=$-160.48  net=$-154.34  maxLots=8
+2026-09-19 15:33:46  INFO     MU  grid_1.0pct_8lvl  step 1.00% x8  buys=47 sells=39 rt=39  fees=$32.40  real=$48.75  unrl=$-152.74  net=$-136.39  maxLots=8
+2026-09-19 15:33:46  INFO     MU  grid_1.5pct_8lvl  step 1.50% x8  buys=36 sells=28 rt=28  fees=$24.16  real=$52.50  unrl=$-132.93  net=$-104.58  maxLots=8
+2026-09-19 15:33:46  INFO     MU  grid_2.0pct_6lvl  step 2.00% x6  buys=20 sells=14 rt=14  fees=$17.14  real=$46.67  unrl=$-130.59  net=$-101.06  maxLots=6
+2026-09-19 15:33:46  INFO     MU  grid_1.0pct_10lvl  step 1.00% x10  buys=68 sells=58 rt=58  fees=$37.97  real=$58.00  unrl=$-144.05  net=$-124.03  maxLots=10
+2026-09-19 15:33:46  INFO     MU  grid_1.5pct_10lvl_stop10  step 1.50% x10 stop=10%  buys=42 sells=42 rt=32  fees=$24.88  real=$-106.82  unrl=$0.00  net=$-131.70  maxLots=10  STOPPED
+2026-09-19 15:33:46  INFO     ----------  [3/13] MRVL  ----------
+2026-09-19 15:33:46  INFO     MRVL: cache hit MRVL_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 15:33:46  INFO     MRVL: 4,680 5-minute bars from MRVL_5m_1782394200000_1789761300000.json
+2026-09-19 15:33:46  INFO     MRVL  grid_0.8pct_8lvl  step 0.80% x8  buys=79 sells=71 rt=71  fees=$56.46  real=$71.00  unrl=$-117.94  net=$-103.40  maxLots=8
+2026-09-19 15:33:46  INFO     MRVL  grid_1.0pct_8lvl  step 1.00% x8  buys=69 sells=61 rt=61  fees=$48.98  real=$76.25  unrl=$-109.81  net=$-82.54  maxLots=8
+2026-09-19 15:33:46  INFO     MRVL  grid_1.5pct_8lvl  step 1.50% x8  buys=42 sells=34 rt=34  fees=$28.69  real=$63.75  unrl=$-88.99  net=$-53.93  maxLots=8
+2026-09-19 15:33:46  INFO     MRVL  grid_2.0pct_6lvl  step 2.00% x6  buys=25 sells=19 rt=19  fees=$22.19  real=$63.33  unrl=$-86.53  net=$-45.39  maxLots=6
+2026-09-19 15:33:46  INFO     MRVL  grid_1.0pct_10lvl  step 1.00% x10  buys=75 sells=65 rt=65  fees=$42.19  real=$65.00  unrl=$-100.68  net=$-77.87  maxLots=10
+2026-09-19 15:33:46  INFO     MRVL  grid_1.5pct_10lvl_stop10  step 1.50% x10 stop=10%  buys=48 sells=48 rt=38  fees=$28.49  real=$-104.99  unrl=$0.00  net=$-133.48  maxLots=10  STOPPED
+2026-09-19 15:33:46  INFO     ----------  [4/13] AMD  ----------
+2026-09-19 15:33:46  INFO     AMD: cache hit AMD_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 15:33:46  INFO     AMD: 4,680 5-minute bars from AMD_5m_1782394200000_1789761300000.json
+2026-09-19 15:33:46  INFO     AMD  grid_0.8pct_8lvl  step 0.80% x8  buys=221 sells=221 rt=221  fees=$166.41  real=$221.00  unrl=$0.00  net=$54.59  maxLots=8
+2026-09-19 15:33:46  INFO     AMD  grid_1.0pct_8lvl  step 1.00% x8  buys=188 sells=188 rt=188  fees=$141.70  real=$235.00  unrl=$0.00  net=$93.30  maxLots=8
+2026-09-19 15:33:46  INFO     AMD  grid_1.5pct_8lvl  step 1.50% x8  buys=127 sells=127 rt=127  fees=$95.96  real=$238.12  unrl=$0.00  net=$142.16  maxLots=8
+2026-09-19 15:33:46  INFO     AMD  grid_2.0pct_6lvl  step 2.00% x6  buys=67 sells=67 rt=67  fees=$67.67  real=$223.33  unrl=$0.00  net=$155.66  maxLots=6
+2026-09-19 15:33:46  INFO     AMD  grid_1.0pct_10lvl  step 1.00% x10  buys=211 sells=211 rt=211  fees=$127.23  real=$211.00  unrl=$0.00  net=$83.77  maxLots=10
+2026-09-19 15:33:46  INFO     AMD  grid_1.5pct_10lvl_stop10  step 1.50% x10 stop=10%  buys=146 sells=146 rt=146  fees=$88.26  real=$219.00  unrl=$0.00  net=$130.74  maxLots=10
+2026-09-19 15:33:46  INFO     ----------  [5/13] SNDK  ----------
+2026-09-19 15:33:46  INFO     SNDK: cache hit SNDK_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 15:33:46  INFO     SNDK: 4,680 5-minute bars from SNDK_5m_1782394200000_1789761300000.json
+2026-09-19 15:33:46  INFO     SNDK  grid_0.8pct_8lvl  step 0.80% x8  buys=84 sells=76 rt=76  fees=$60.23  real=$76.00  unrl=$-182.02  net=$-166.24  maxLots=8
+2026-09-19 15:33:46  INFO     SNDK  grid_1.0pct_8lvl  step 1.00% x8  buys=67 sells=59 rt=59  fees=$47.47  real=$73.75  unrl=$-174.47  net=$-148.20  maxLots=8
+2026-09-19 15:33:46  INFO     SNDK  grid_1.5pct_8lvl  step 1.50% x8  buys=48 sells=40 rt=40  fees=$33.22  real=$75.00  unrl=$-155.17  net=$-113.39  maxLots=8
+2026-09-19 15:33:46  INFO     SNDK  grid_2.0pct_6lvl  step 2.00% x6  buys=26 sells=20 rt=20  fees=$23.20  real=$66.67  unrl=$-152.89  net=$-109.42  maxLots=6
+2026-09-19 15:33:46  INFO     SNDK  grid_1.0pct_10lvl  step 1.00% x10  buys=78 sells=68 rt=68  fees=$44.00  real=$68.00  unrl=$-166.01  net=$-142.01  maxLots=10
+2026-09-19 15:33:46  INFO     SNDK  grid_1.5pct_10lvl_stop10  step 1.50% x10 stop=10%  buys=55 sells=55 rt=45  fees=$32.75  real=$-84.84  unrl=$0.00  net=$-117.58  maxLots=10  STOPPED
+2026-09-19 15:33:46  INFO     ----------  [6/13] HPE  ----------
+2026-09-19 15:33:46  INFO     HPE: cache hit HPE_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 15:33:46  INFO     HPE: 4,680 5-minute bars from HPE_5m_1782394200000_1789761300000.json
+2026-09-19 15:33:46  INFO     HPE  grid_0.8pct_8lvl  step 0.80% x8  buys=122 sells=122 rt=122  fees=$91.87  real=$122.00  unrl=$0.00  net=$30.13  maxLots=8
+2026-09-19 15:33:46  INFO     HPE  grid_1.0pct_8lvl  step 1.00% x8  buys=114 sells=114 rt=114  fees=$85.93  real=$142.50  unrl=$0.00  net=$56.57  maxLots=8
+2026-09-19 15:33:46  INFO     HPE  grid_1.5pct_8lvl  step 1.50% x8  buys=49 sells=49 rt=49  fees=$37.03  real=$91.87  unrl=$0.00  net=$54.85  maxLots=8
+2026-09-19 15:33:46  INFO     HPE  grid_2.0pct_6lvl  step 2.00% x6  buys=27 sells=27 rt=27  fees=$27.27  real=$90.00  unrl=$0.00  net=$62.73  maxLots=6
+2026-09-19 15:33:46  INFO     HPE  grid_1.0pct_10lvl  step 1.00% x10  buys=121 sells=121 rt=121  fees=$72.96  real=$121.00  unrl=$0.00  net=$48.04  maxLots=10
+2026-09-19 15:33:46  INFO     HPE  grid_1.5pct_10lvl_stop10  step 1.50% x10 stop=10%  buys=50 sells=50 rt=50  fees=$30.23  real=$75.00  unrl=$0.00  net=$44.77  maxLots=9
+2026-09-19 15:33:46  INFO     ----------  [7/13] DELL  ----------
+2026-09-19 15:33:46  INFO     DELL: cache hit DELL_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 15:33:46  INFO     DELL: 4,680 5-minute bars from DELL_5m_1782394200000_1789761300000.json
+2026-09-19 15:33:46  INFO     DELL  grid_0.8pct_8lvl  step 0.80% x8  buys=133 sells=133 rt=133  fees=$100.15  real=$133.00  unrl=$0.00  net=$32.85  maxLots=8
+2026-09-19 15:33:46  INFO     DELL  grid_1.0pct_8lvl  step 1.00% x8  buys=95 sells=95 rt=95  fees=$71.61  real=$118.75  unrl=$0.00  net=$47.14  maxLots=8
+2026-09-19 15:33:46  INFO     DELL  grid_1.5pct_8lvl  step 1.50% x8  buys=38 sells=38 rt=38  fees=$28.71  real=$71.25  unrl=$0.00  net=$42.54  maxLots=6
+2026-09-19 15:33:46  INFO     DELL  grid_2.0pct_6lvl  step 2.00% x6  buys=24 sells=24 rt=24  fees=$24.24  real=$80.00  unrl=$0.00  net=$55.76  maxLots=4
+2026-09-19 15:33:46  INFO     DELL  grid_1.0pct_10lvl  step 1.00% x10  buys=99 sells=99 rt=99  fees=$59.70  real=$99.00  unrl=$0.00  net=$39.30  maxLots=10
+2026-09-19 15:33:46  INFO     DELL  grid_1.5pct_10lvl_stop10  step 1.50% x10 stop=10%  buys=38 sells=38 rt=38  fees=$22.97  real=$57.00  unrl=$0.00  net=$34.03  maxLots=6
+2026-09-19 15:33:46  INFO     ----------  [8/13] ARM  ----------
+2026-09-19 15:33:46  INFO     ARM: cache hit ARM_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 15:33:46  INFO     ARM: 4,680 5-minute bars from ARM_5m_1782394200000_1789761300000.json
+2026-09-19 15:33:46  INFO     ARM  grid_0.8pct_8lvl  step 0.80% x8  buys=57 sells=49 rt=49  fees=$39.90  real=$49.00  unrl=$-223.63  net=$-214.53  maxLots=8
+2026-09-19 15:33:46  INFO     ARM  grid_1.0pct_8lvl  step 1.00% x8  buys=50 sells=42 rt=42  fees=$34.66  real=$52.50  unrl=$-216.47  net=$-198.63  maxLots=8
+2026-09-19 15:33:46  INFO     ARM  grid_1.5pct_8lvl  step 1.50% x8  buys=42 sells=34 rt=34  fees=$28.69  real=$63.75  unrl=$-198.15  net=$-163.09  maxLots=8
+2026-09-19 15:33:46  INFO     ARM  grid_2.0pct_6lvl  step 2.00% x6  buys=23 sells=17 rt=17  fees=$20.17  real=$56.67  unrl=$-195.99  net=$-159.49  maxLots=6
+2026-09-19 15:33:46  INFO     ARM  grid_1.0pct_10lvl  step 1.00% x10  buys=77 sells=67 rt=67  fees=$43.40  real=$67.00  unrl=$-208.44  net=$-184.84  maxLots=10
+2026-09-19 15:33:46  INFO     ARM  grid_1.5pct_10lvl_stop10  step 1.50% x10 stop=10%  buys=53 sells=53 rt=43  fees=$31.51  real=$-98.13  unrl=$0.00  net=$-129.63  maxLots=10  STOPPED
+2026-09-19 15:33:46  INFO     ----------  [9/13] IBM  ----------
+2026-09-19 15:33:46  INFO     IBM: cache hit IBM_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 15:33:46  INFO     IBM: 4,680 5-minute bars from IBM_5m_1782394200000_1789761300000.json
+2026-09-19 15:33:46  INFO     IBM  grid_0.8pct_8lvl  step 0.80% x8  buys=20 sells=12 rt=12  fees=$12.04  real=$12.00  unrl=$-94.19  net=$-94.23  maxLots=8
+2026-09-19 15:33:46  INFO     IBM  grid_1.0pct_8lvl  step 1.00% x8  buys=19 sells=11 rt=11  fees=$11.29  real=$13.75  unrl=$-85.84  net=$-83.38  maxLots=8
+2026-09-19 15:33:46  INFO     IBM  grid_1.5pct_8lvl  step 1.50% x8  buys=36 sells=28 rt=28  fees=$24.16  real=$52.50  unrl=$-64.46  net=$-36.11  maxLots=8
+2026-09-19 15:33:46  INFO     IBM  grid_2.0pct_6lvl  step 2.00% x6  buys=22 sells=16 rt=16  fees=$19.16  real=$53.33  unrl=$-61.93  net=$-27.76  maxLots=6
+2026-09-19 15:33:46  INFO     IBM  grid_1.0pct_10lvl  step 1.00% x10  buys=37 sells=27 rt=27  fees=$19.28  real=$27.00  unrl=$-76.46  net=$-68.75  maxLots=10
+2026-09-19 15:33:46  INFO     IBM  grid_1.5pct_10lvl_stop10  step 1.50% x10 stop=10%  buys=14 sells=14 rt=4  fees=$7.93  real=$-155.56  unrl=$0.00  net=$-163.49  maxLots=10  STOPPED
+2026-09-19 15:33:46  INFO     ----------  [10/13] TXN  ----------
+2026-09-19 15:33:46  INFO     TXN: cache hit TXN_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 15:33:46  INFO     TXN: 4,680 5-minute bars from TXN_5m_1782394200000_1789761300000.json
+2026-09-19 15:33:46  INFO     TXN  grid_0.8pct_8lvl  step 0.80% x8  buys=67 sells=59 rt=59  fees=$47.43  real=$59.00  unrl=$-126.07  net=$-114.50  maxLots=8
+2026-09-19 15:33:46  INFO     TXN  grid_1.0pct_8lvl  step 1.00% x8  buys=62 sells=54 rt=54  fees=$43.70  real=$67.50  unrl=$-118.01  net=$-94.21  maxLots=8
+2026-09-19 15:33:46  INFO     TXN  grid_1.5pct_8lvl  step 1.50% x8  buys=57 sells=49 rt=49  fees=$40.03  real=$91.87  unrl=$-97.38  net=$-45.53  maxLots=8
+2026-09-19 15:33:46  INFO     TXN  grid_2.0pct_6lvl  step 2.00% x6  buys=32 sells=26 rt=26  fees=$29.26  real=$86.67  unrl=$-94.95  net=$-37.54  maxLots=6
+2026-09-19 15:33:46  INFO     TXN  grid_1.0pct_10lvl  step 1.00% x10  buys=82 sells=72 rt=72  fees=$46.42  real=$72.00  unrl=$-108.97  net=$-83.38  maxLots=10
+2026-09-19 15:33:46  INFO     TXN  grid_1.5pct_10lvl_stop10  step 1.50% x10 stop=10%  buys=72 sells=62 rt=62  fees=$40.48  real=$93.00  unrl=$-83.32  net=$-30.80  maxLots=10
+2026-09-19 15:33:46  INFO     ----------  [11/13] QCOM  ----------
+2026-09-19 15:33:46  INFO     QCOM: cache hit QCOM_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 15:33:46  INFO     QCOM: 4,680 5-minute bars from QCOM_5m_1782394200000_1789761300000.json
+2026-09-19 15:33:46  INFO     QCOM  grid_0.8pct_8lvl  step 0.80% x8  buys=45 sells=37 rt=37  fees=$30.86  real=$37.00  unrl=$-148.05  net=$-141.91  maxLots=8
+2026-09-19 15:33:46  INFO     QCOM  grid_1.0pct_8lvl  step 1.00% x8  buys=31 sells=23 rt=23  fees=$20.34  real=$28.75  unrl=$-140.19  net=$-131.78  maxLots=8
+2026-09-19 15:33:46  INFO     QCOM  grid_1.5pct_8lvl  step 1.50% x8  buys=19 sells=11 rt=11  fees=$11.31  real=$20.62  unrl=$-120.08  net=$-110.77  maxLots=8
+2026-09-19 15:33:46  INFO     QCOM  grid_2.0pct_6lvl  step 2.00% x6  buys=12 sells=6 rt=6  fees=$9.06  real=$20.00  unrl=$-117.71  net=$-106.77  maxLots=6
+2026-09-19 15:33:46  INFO     QCOM  grid_1.0pct_10lvl  step 1.00% x10  buys=34 sells=24 rt=24  fees=$17.47  real=$24.00  unrl=$-131.37  net=$-124.85  maxLots=10
+2026-09-19 15:33:46  INFO     QCOM  grid_1.5pct_10lvl_stop10  step 1.50% x10 stop=10%  buys=33 sells=33 rt=23  fees=$19.41  real=$-130.87  unrl=$0.00  net=$-150.27  maxLots=10  STOPPED
+2026-09-19 15:33:46  INFO     ----------  [12/13] AVGO  ----------
+2026-09-19 15:33:46  INFO     AVGO: cache hit AVGO_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 15:33:46  INFO     AVGO: 4,680 5-minute bars from AVGO_5m_1782394200000_1789761300000.json
+2026-09-19 15:33:46  INFO     AVGO  grid_0.8pct_8lvl  step 0.80% x8  buys=156 sells=148 rt=148  fees=$114.44  real=$148.00  unrl=$-41.14  net=$-7.58  maxLots=8
+2026-09-19 15:33:46  INFO     AVGO  grid_1.0pct_8lvl  step 1.00% x8  buys=119 sells=111 rt=111  fees=$86.67  real=$138.75  unrl=$-32.30  net=$19.79  maxLots=8
+2026-09-19 15:33:46  INFO     AVGO  grid_1.5pct_8lvl  step 1.50% x8  buys=55 sells=50 rt=50  fees=$39.66  real=$93.75  unrl=$-20.14  net=$33.96  maxLots=8
+2026-09-19 15:33:46  INFO     AVGO  grid_2.0pct_6lvl  step 2.00% x6  buys=32 sells=28 rt=28  fees=$30.28  real=$93.33  unrl=$-18.12  net=$44.93  maxLots=6
+2026-09-19 15:33:47  INFO     AVGO  grid_1.0pct_10lvl  step 1.00% x10  buys=125 sells=117 rt=117  fees=$72.95  real=$117.00  unrl=$-25.84  net=$18.21  maxLots=10
+2026-09-19 15:33:47  INFO     AVGO  grid_1.5pct_10lvl_stop10  step 1.50% x10 stop=10%  buys=56 sells=51 rt=51  fees=$32.33  real=$76.50  unrl=$-16.11  net=$28.06  maxLots=9
+2026-09-19 15:33:47  INFO     ----------  [13/13] ORCL  ----------
+2026-09-19 15:33:47  INFO     ORCL: cache hit ORCL_5m_1782394200000_1789761300000.json (4,680 bars)
+2026-09-19 15:33:47  INFO     ORCL: 4,680 5-minute bars from ORCL_5m_1782394200000_1789761300000.json
+2026-09-19 15:33:47  INFO     ORCL  grid_0.8pct_8lvl  step 0.80% x8  buys=144 sells=137 rt=137  fees=$105.79  real=$137.00  unrl=$-22.94  net=$8.27  maxLots=8
+2026-09-19 15:33:47  INFO     ORCL  grid_1.0pct_8lvl  step 1.00% x8  buys=133 sells=128 rt=128  fees=$98.35  real=$160.00  unrl=$-17.61  net=$44.04  maxLots=8
+2026-09-19 15:33:47  INFO     ORCL  grid_1.5pct_8lvl  step 1.50% x8  buys=88 sells=84 rt=84  fees=$64.97  real=$157.50  unrl=$-10.34  net=$82.18  maxLots=8
+2026-09-19 15:33:47  INFO     ORCL  grid_2.0pct_6lvl  step 2.00% x6  buys=46 sells=43 rt=43  fees=$44.93  real=$143.33  unrl=$-9.06  net=$89.34  maxLots=6
+2026-09-19 15:33:47  INFO     ORCL  grid_1.0pct_10lvl  step 1.00% x10  buys=180 sells=175 rt=175  fees=$107.02  real=$175.00  unrl=$-14.09  net=$53.89  maxLots=10
+2026-09-19 15:33:47  INFO     ORCL  grid_1.5pct_10lvl_stop10  step 1.50% x10 stop=10%  buys=32 sells=32 rt=22  fees=$18.83  real=$-124.52  unrl=$0.00  net=$-143.34  maxLots=10  STOPPED
+2026-09-19 15:33:47  INFO     
+2026-09-19 15:33:47  INFO     Rows 78  with at least 5 round-trips 77  net>0 among those 28
+2026-09-19 15:33:47  INFO     
+2026-09-19 15:33:47  INFO     Best 12 by net_usd
+2026-09-19 15:33:47  INFO       stock  combo                          step lvl    rt    fees$     real$     unrl$      net$
+2026-09-19 15:33:47  INFO       AMD    grid_2.0pct_6lvl               2.00   6    67    67.67    223.33      0.00    155.66
+2026-09-19 15:33:47  INFO       AMD    grid_1.5pct_8lvl               1.50   8   127    95.96    238.12      0.00    142.16
+2026-09-19 15:33:47  INFO       AMD    grid_1.5pct_10lvl_stop10       1.50  10   146    88.26    219.00      0.00    130.74
+2026-09-19 15:33:47  INFO       AMD    grid_1.0pct_8lvl               1.00   8   188   141.70    235.00      0.00     93.30
+2026-09-19 15:33:47  INFO       ORCL   grid_2.0pct_6lvl               2.00   6    43    44.93    143.33     -9.06     89.34
+2026-09-19 15:33:47  INFO       AMD    grid_1.0pct_10lvl              1.00  10   211   127.23    211.00      0.00     83.77
+2026-09-19 15:33:47  INFO       ORCL   grid_1.5pct_8lvl               1.50   8    84    64.97    157.50    -10.34     82.18
+2026-09-19 15:33:47  INFO       HPE    grid_2.0pct_6lvl               2.00   6    27    27.27     90.00      0.00     62.73
+2026-09-19 15:33:47  INFO       HPE    grid_1.0pct_8lvl               1.00   8   114    85.93    142.50      0.00     56.57
+2026-09-19 15:33:47  INFO       DELL   grid_2.0pct_6lvl               2.00   6    24    24.24     80.00      0.00     55.76
+2026-09-19 15:33:47  INFO       HPE    grid_1.5pct_8lvl               1.50   8    49    37.03     91.87      0.00     54.85
+2026-09-19 15:33:47  INFO       AMD    grid_0.8pct_8lvl               0.80   8   221   166.41    221.00      0.00     54.59
+2026-09-19 15:33:47  INFO     
+2026-09-19 15:33:47  INFO     Best among rt>=5
+2026-09-19 15:33:47  INFO       stock  combo                          step lvl    rt    fees$     real$     unrl$      net$
+2026-09-19 15:33:47  INFO       AMD    grid_2.0pct_6lvl               2.00   6    67    67.67    223.33      0.00    155.66
+2026-09-19 15:33:47  INFO       AMD    grid_1.5pct_8lvl               1.50   8   127    95.96    238.12      0.00    142.16
+2026-09-19 15:33:47  INFO       AMD    grid_1.5pct_10lvl_stop10       1.50  10   146    88.26    219.00      0.00    130.74
+2026-09-19 15:33:47  INFO       AMD    grid_1.0pct_8lvl               1.00   8   188   141.70    235.00      0.00     93.30
+2026-09-19 15:33:47  INFO       ORCL   grid_2.0pct_6lvl               2.00   6    43    44.93    143.33     -9.06     89.34
+2026-09-19 15:33:47  INFO       AMD    grid_1.0pct_10lvl              1.00  10   211   127.23    211.00      0.00     83.77
+2026-09-19 15:33:47  INFO       ORCL   grid_1.5pct_8lvl               1.50   8    84    64.97    157.50    -10.34     82.18
+2026-09-19 15:33:47  INFO       HPE    grid_2.0pct_6lvl               2.00   6    27    27.27     90.00      0.00     62.73
+2026-09-19 15:33:47  INFO       HPE    grid_1.0pct_8lvl               1.00   8   114    85.93    142.50      0.00     56.57
+2026-09-19 15:33:47  INFO       DELL   grid_2.0pct_6lvl               2.00   6    24    24.24     80.00      0.00     55.76
+2026-09-19 15:33:47  INFO     
+2026-09-19 15:33:47  INFO     Worst 8 by net_usd
+2026-09-19 15:33:47  INFO       stock  combo                          step lvl    rt    fees$     real$     unrl$      net$
+2026-09-19 15:33:47  INFO       ARM    grid_0.8pct_8lvl               0.80   8    49    39.90     49.00   -223.63   -214.53
+2026-09-19 15:33:47  INFO       ARM    grid_1.0pct_8lvl               1.00   8    42    34.66     52.50   -216.47   -198.63
+2026-09-19 15:33:47  INFO       INTC   grid_0.8pct_8lvl               0.80   8    26    22.58     26.00   -199.52   -196.10
+2026-09-19 15:33:47  INFO       ARM    grid_1.0pct_10lvl              1.00  10    67    43.40     67.00   -208.44   -184.84
+2026-09-19 15:33:47  INFO       INTC   grid_1.0pct_8lvl               1.00   8    33    27.87     41.25   -192.14   -178.77
+2026-09-19 15:33:47  INFO       SNDK   grid_0.8pct_8lvl               0.80   8    76    60.23     76.00   -182.02   -166.24
+2026-09-19 15:33:47  INFO       INTC   grid_1.0pct_10lvl              1.00  10    57    37.37     57.00   -183.86   -164.23
+2026-09-19 15:33:47  INFO       IBM    grid_1.5pct_10lvl_stop10       1.50  10     4     7.93   -155.56      0.00   -163.49
+2026-09-19 15:33:47  INFO     Best AMD: grid_2.0pct_6lvl  rt=67  net=$155.66
+2026-09-19 15:33:47  INFO     Best ARM: grid_1.5pct_10lvl_stop10  rt=43  net=$-129.63  STOPPED
+2026-09-19 15:33:47  INFO     Best AVGO: grid_2.0pct_6lvl  rt=28  net=$44.93
+2026-09-19 15:33:47  INFO     Best DELL: grid_2.0pct_6lvl  rt=24  net=$55.76
+2026-09-19 15:33:47  INFO     Best HPE: grid_2.0pct_6lvl  rt=27  net=$62.73
+2026-09-19 15:33:47  INFO     Best IBM: grid_2.0pct_6lvl  rt=16  net=$-27.76
+2026-09-19 15:33:47  INFO     Best INTC: grid_1.5pct_10lvl_stop10  rt=37  net=$-130.78  STOPPED
+2026-09-19 15:33:47  INFO     Best MRVL: grid_2.0pct_6lvl  rt=19  net=$-45.39
+2026-09-19 15:33:47  INFO     Best MU: grid_2.0pct_6lvl  rt=14  net=$-101.06
+2026-09-19 15:33:47  INFO     Best ORCL: grid_2.0pct_6lvl  rt=43  net=$89.34
+2026-09-19 15:33:47  INFO     Best QCOM: grid_2.0pct_6lvl  rt=6  net=$-106.77
+2026-09-19 15:33:47  INFO     Best SNDK: grid_2.0pct_6lvl  rt=20  net=$-109.42
+2026-09-19 15:33:47  INFO     Best TXN: grid_1.5pct_10lvl_stop10  rt=62  net=$-30.80
+2026-09-19 15:33:47  INFO     Wrote /workspace/udit/Jev-Trading/data/stocks/grid/results.csv
+2026-09-19 15:33:47  INFO     Finished in 0.7s
