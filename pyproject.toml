@@ -1,0 +1,24 @@
+[project]
+name = "jev-trading"
+version = "0.1.0"
+description = "Paper trading and Binance helpers for a live-like crypto strategy sandbox."
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.27",
+]
+
+[project.optional-dependencies]
+streams = ["websockets>=14"]
+dev = ["pytest>=8"]
+jev = ["typesafe-sdk>=0.6"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
