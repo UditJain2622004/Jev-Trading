@@ -11,6 +11,7 @@ dependencies = [
 streams = ["websockets>=14"]
 dev = ["pytest>=8"]
 jev = ["typesafe-sdk>=0.6"]
+stocks = ["yfinance>=0.2", "pandas>=2"]
 
 [build-system]
 requires = ["setuptools>=68"]
@@ -21,4 +22,4 @@ where = ["src"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-pythonpath = ["src"]
+pythonpath = ["src", "."]

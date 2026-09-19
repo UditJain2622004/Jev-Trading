@@ -29,12 +29,13 @@ def test_is_dip_from_window_high():
     assert not is_dip(klines, 14, dip_pct=4.0, dip_minutes=15)
 
 
-def test_stable_range_and_falling_knife():
+def test_stable_only_cares_about_the_last_close():
     dip = [_bar(0, "100", "100", "98", "98")]
-    flat = [_bar(i, "98.0", "98.1", "97.9", "98.0") for i in range(1, 11)]
-    assert is_stable(dip + flat, 0, stable_range_pct=0.30, stable_minutes=10)
-    falling = [_bar(i, "98", "98", str(98 - i * 0.2), str(98 - i * 0.2)) for i in range(1, 11)]
-    assert not is_stable(dip + falling, 0, stable_range_pct=0.30, stable_minutes=10)
+    wander = [_bar(i, "98", "100", "96", "96.5") for i in range(1, 10)]
+    wander.append(_bar(10, "98.0", "98.3", "97.8", "98.2"))
+    assert is_stable(dip + wander, 0, stable_range_pct=1.0, stable_minutes=10)
+    falling = [_bar(i, "98", "98", "96", "96") for i in range(1, 11)]
+    assert not is_stable(dip + falling, 0, stable_range_pct=1.0, stable_minutes=10)
 
 
 def test_dip_then_base_then_take_profit():

@@ -1,15 +1,12 @@
-"""Buy-the-dip scan. No Jev.
+"""Buy-the-dip on US stock 5-minute bars.
 
-A dip means: in the last `dip_minutes`, price dropped at least `dip_pct`
-from the high of that stretch to the close, and the high was earlier in
-the stretch (it actually fell).
+Fee is 0.3% on the buy and 0.3% on the sell (0.60% round trip), including
+timeouts. One $1000 long at a time. Regular-hours bars only.
 
-Then we wait `stable_minutes`. Price may swing around during that wait.
-We only care about the last close: it must still be within `stable_range_pct`
-of the dip close. If it is, buy that close.
-
-Exit with the combo's take-profit / stop. Same-bar TP+SL counts as a stop.
-One $1000 long at a time. 0.20% round-trip fee, including timeouts.
+A dip is: in the last N minutes of trading, price dropped at least X% from
+the high of that stretch to the close, and the high was earlier in the stretch.
+Then we wait. Price may swing. The last close of the wait must still be within
+the stable range of the dip close. Then we buy.
 """
 
 from __future__ import annotations
@@ -19,14 +16,12 @@ import logging
 from dataclasses import asdict, dataclass
 from typing import Sequence
 
-from jev_trading.binance.setup_scan import breakeven_win_rate_pct
-from jev_trading.binance.tp_sl_scan import COIN_GROUPS, ROUND_TRIP_FEE
-from jev_trading.binance.types import Kline
+from stocks.bars import BAR_MINUTES, Bar
 
-log = logging.getLogger("buy_the_dip")
+log = logging.getLogger("stocks")
 
-DEFAULT_SYMBOLS = ("SOLUSDT", "ETHUSDT", "ARBUSDT", "NEARUSDT", "WIFUSDT")
-TIMEOUT_MINUTES = 24 * 60
+ROUND_TRIP_FEE = 0.006  # 0.3% buy + 0.3% sell
+SESSION_MINUTES = 390  # 6.5 hours of regular trading
 
 
 @dataclass(frozen=True, slots=True)
@@ -38,29 +33,28 @@ class DipLevers:
     stable_minutes: int
     take_profit_pct: float
     stop_loss_pct: float
-    timeout_minutes: int = TIMEOUT_MINUTES
+    timeout_minutes: int
 
 
-# Ten SOL-sized combinations from the last-month chart: 4–8% dumps over
-# 6–24 hours, then a wait, then 3–5% targets. No 1–2% clip sizes.
+# Ten semiconductor-sized combinations. Windows are trading minutes, not
+# wall-clock (a session is 390 minutes). Targets are large vs 0.60% fees.
 DEFAULT_COMBOS: tuple[DipLevers, ...] = (
-    DipLevers("sol_4pct_6h", dip_pct=4.0, dip_minutes=6 * 60, stable_range_pct=1.0, stable_minutes=45, take_profit_pct=3.0, stop_loss_pct=2.0),
-    DipLevers("sol_4pct_12h", dip_pct=4.0, dip_minutes=12 * 60, stable_range_pct=1.2, stable_minutes=60, take_profit_pct=3.5, stop_loss_pct=2.0),
-    DipLevers("sol_5pct_6h", dip_pct=5.0, dip_minutes=6 * 60, stable_range_pct=1.5, stable_minutes=30, take_profit_pct=4.0, stop_loss_pct=2.0),
-    DipLevers("sol_5pct_8h", dip_pct=5.0, dip_minutes=8 * 60, stable_range_pct=1.2, stable_minutes=45, take_profit_pct=4.0, stop_loss_pct=2.0),
-    DipLevers("sol_5pct_12h", dip_pct=5.0, dip_minutes=12 * 60, stable_range_pct=1.5, stable_minutes=60, take_profit_pct=4.0, stop_loss_pct=2.5),
-    DipLevers("sol_6pct_12h", dip_pct=6.0, dip_minutes=12 * 60, stable_range_pct=1.5, stable_minutes=60, take_profit_pct=4.0, stop_loss_pct=2.5),
-    DipLevers("sol_6pct_24h", dip_pct=6.0, dip_minutes=24 * 60, stable_range_pct=2.0, stable_minutes=90, take_profit_pct=5.0, stop_loss_pct=2.5),
-    DipLevers("sol_7pct_12h", dip_pct=7.0, dip_minutes=12 * 60, stable_range_pct=1.5, stable_minutes=60, take_profit_pct=5.0, stop_loss_pct=2.5),
-    DipLevers("sol_7pct_24h", dip_pct=7.0, dip_minutes=24 * 60, stable_range_pct=2.0, stable_minutes=120, take_profit_pct=5.0, stop_loss_pct=3.0),
-    DipLevers("sol_8pct_24h", dip_pct=8.0, dip_minutes=24 * 60, stable_range_pct=2.0, stable_minutes=90, take_profit_pct=5.0, stop_loss_pct=3.0),
+    DipLevers("dip4_1d", dip_pct=4.0, dip_minutes=SESSION_MINUTES, stable_range_pct=1.2, stable_minutes=30, take_profit_pct=5.0, stop_loss_pct=3.0, timeout_minutes=2 * SESSION_MINUTES),
+    DipLevers("dip5_1d", dip_pct=5.0, dip_minutes=SESSION_MINUTES, stable_range_pct=1.5, stable_minutes=30, take_profit_pct=6.0, stop_loss_pct=3.0, timeout_minutes=2 * SESSION_MINUTES),
+    DipLevers("dip5_2d", dip_pct=5.0, dip_minutes=2 * SESSION_MINUTES, stable_range_pct=1.5, stable_minutes=45, take_profit_pct=6.0, stop_loss_pct=3.5, timeout_minutes=3 * SESSION_MINUTES),
+    DipLevers("dip6_1d", dip_pct=6.0, dip_minutes=SESSION_MINUTES, stable_range_pct=1.5, stable_minutes=30, take_profit_pct=6.0, stop_loss_pct=3.0, timeout_minutes=2 * SESSION_MINUTES),
+    DipLevers("dip6_2d", dip_pct=6.0, dip_minutes=2 * SESSION_MINUTES, stable_range_pct=2.0, stable_minutes=60, take_profit_pct=7.0, stop_loss_pct=3.5, timeout_minutes=3 * SESSION_MINUTES),
+    DipLevers("dip7_2d", dip_pct=7.0, dip_minutes=2 * SESSION_MINUTES, stable_range_pct=2.0, stable_minutes=45, take_profit_pct=7.0, stop_loss_pct=4.0, timeout_minutes=3 * SESSION_MINUTES),
+    DipLevers("dip8_2d", dip_pct=8.0, dip_minutes=2 * SESSION_MINUTES, stable_range_pct=2.0, stable_minutes=60, take_profit_pct=8.0, stop_loss_pct=4.0, timeout_minutes=3 * SESSION_MINUTES),
+    DipLevers("dip8_3d", dip_pct=8.0, dip_minutes=3 * SESSION_MINUTES, stable_range_pct=2.5, stable_minutes=90, take_profit_pct=8.0, stop_loss_pct=4.0, timeout_minutes=4 * SESSION_MINUTES),
+    DipLevers("dip4_2d", dip_pct=4.0, dip_minutes=2 * SESSION_MINUTES, stable_range_pct=1.2, stable_minutes=45, take_profit_pct=5.0, stop_loss_pct=3.0, timeout_minutes=3 * SESSION_MINUTES),
+    DipLevers("dip10_3d", dip_pct=10.0, dip_minutes=3 * SESSION_MINUTES, stable_range_pct=2.5, stable_minutes=60, take_profit_pct=10.0, stop_loss_pct=5.0, timeout_minutes=5 * SESSION_MINUTES),
 )
 
 
 @dataclass(frozen=True, slots=True)
 class DipResult:
     symbol: str
-    group: str
     combo: str
     dip_pct: float
     dip_minutes: int
@@ -88,85 +82,91 @@ class DipResult:
     best_trade_usd: float
 
 
-def is_dip(klines: Sequence[Kline], i: int, *, dip_pct: float, dip_minutes: int) -> bool:
-    start = i - dip_minutes + 1
+def minutes_to_bars(minutes: int) -> int:
+    return max(1, minutes // BAR_MINUTES)
+
+
+def breakeven_win_rate_pct(take_profit_pct: float, stop_loss_pct: float, fee_rate: float = ROUND_TRIP_FEE) -> float:
+    win = take_profit_pct / 100.0 - fee_rate
+    loss = stop_loss_pct / 100.0 + fee_rate
+    if win + loss <= 0:
+        return 100.0
+    return 100.0 * loss / (win + loss)
+
+
+def is_dip(bars: Sequence[Bar], i: int, *, dip_pct: float, dip_bars: int) -> bool:
+    start = i - dip_bars + 1
     if start < 0:
         return False
-    close = float(klines[i].close)
+    close = bars[i].close
     if close <= 0:
         return False
-    high = max(float(klines[j].high) for j in range(start, i + 1))
+    high = max(bars[j].high for j in range(start, i + 1))
     if (high / close - 1.0) * 100.0 < dip_pct:
         return False
-    high_cutoff = start + max(1, int(dip_minutes * 0.8))
+    high_cutoff = start + max(1, int(dip_bars * 0.8))
     high_at = start
     for j in range(start, i + 1):
-        if abs(float(klines[j].high) - high) < 1e-12:
+        if abs(bars[j].high - high) < 1e-12:
             high_at = j
             break
     return high_at < high_cutoff
 
 
 def is_stable(
-    klines: Sequence[Kline],
+    bars: Sequence[Bar],
     dip_index: int,
     *,
     stable_range_pct: float,
-    stable_minutes: int,
+    stable_bars: int,
 ) -> bool:
-    """Price may swing during the wait. Only the last close has to stay near the dip."""
-    end = dip_index + stable_minutes
-    if end >= len(klines) or stable_minutes < 1:
+    end = dip_index + stable_bars
+    if end >= len(bars) or stable_bars < 1:
         return False
-    ref = float(klines[dip_index].close)
+    ref = bars[dip_index].close
     if ref <= 0:
         return False
-    last = float(klines[end].close)
+    last = bars[end].close
     return abs(last / ref - 1.0) * 100.0 <= stable_range_pct
 
 
-def find_entries(klines: Sequence[Kline], levers: DipLevers) -> tuple[list[int], int]:
-    """Return (entry indexes, dip-then-stable candidate count). One open trade at a time."""
+def find_entries(bars: Sequence[Bar], levers: DipLevers) -> tuple[list[int], int]:
+    dip_bars = minutes_to_bars(levers.dip_minutes)
+    stable_bars = minutes_to_bars(levers.stable_minutes)
     entries: list[int] = []
     candidates = 0
-    i = levers.dip_minutes - 1
-    last_bar = len(klines) - 1
-    while i < last_bar - levers.stable_minutes:
-        if not is_dip(klines, i, dip_pct=levers.dip_pct, dip_minutes=levers.dip_minutes):
+    i = dip_bars - 1
+    last_bar = len(bars) - 1
+    while i < last_bar - stable_bars:
+        if not is_dip(bars, i, dip_pct=levers.dip_pct, dip_bars=dip_bars):
             i += 1
             continue
-        if not is_stable(
-            klines,
-            i,
-            stable_range_pct=levers.stable_range_pct,
-            stable_minutes=levers.stable_minutes,
-        ):
+        if not is_stable(bars, i, stable_range_pct=levers.stable_range_pct, stable_bars=stable_bars):
             i += 1
             continue
         candidates += 1
-        entries.append(i + levers.stable_minutes)
-        i += levers.stable_minutes + 1
+        entries.append(i + stable_bars)
+        i += stable_bars + 1
     return entries, candidates
 
 
 def _exit_trade(
-    klines: Sequence[Kline],
+    bars: Sequence[Bar],
     entry_index: int,
     levers: DipLevers,
     *,
     notional: float,
     fee_rate: float,
 ) -> tuple[str, float, int, bool]:
-    entry = float(klines[entry_index].close)
+    entry = bars[entry_index].close
     tp = entry * (1.0 + levers.take_profit_pct / 100.0)
     sl = entry * (1.0 - levers.stop_loss_pct / 100.0)
-    end_j = min(len(klines) - 1, entry_index + levers.timeout_minutes)
+    timeout_bars = minutes_to_bars(levers.timeout_minutes)
+    end_j = min(len(bars) - 1, entry_index + timeout_bars)
     j = entry_index + 1
     while j <= end_j:
-        high = float(klines[j].high)
-        low = float(klines[j].low)
-        hit_tp = high >= tp
-        hit_sl = low <= sl
+        hit_tp = bars[j].high >= tp
+        hit_sl = bars[j].low <= sl
         hold = j - entry_index
         if hit_tp and hit_sl:
             return "loss", (-levers.stop_loss_pct / 100.0 - fee_rate) * notional, hold, True
@@ -175,27 +175,27 @@ def _exit_trade(
         if hit_tp:
             return "win", (levers.take_profit_pct / 100.0 - fee_rate) * notional, hold, False
         j += 1
-    move = (float(klines[end_j].close) / entry) - 1.0
+    move = (bars[end_j].close / entry) - 1.0
     return "timeout", (move - fee_rate) * notional, end_j - entry_index, False
 
 
 def simulate(
-    klines: Sequence[Kline],
+    bars: Sequence[Bar],
     levers: DipLevers,
     *,
     notional: float = 1000.0,
     fee_rate: float = ROUND_TRIP_FEE,
 ) -> dict[str, float | int | None]:
-    raw_entries, candidates = find_entries(klines, levers)
+    raw_entries, candidates = find_entries(bars, levers)
     wins = losses = timeouts = both_hit = 0
     pnls: list[float] = []
     holds: list[int] = []
     last_exit = -1
     for entry_index in raw_entries:
-        if entry_index <= last_exit or entry_index >= len(klines) - 1:
+        if entry_index <= last_exit or entry_index >= len(bars) - 1:
             continue
         outcome, pnl, hold, both = _exit_trade(
-            klines, entry_index, levers, notional=notional, fee_rate=fee_rate
+            bars, entry_index, levers, notional=notional, fee_rate=fee_rate
         )
         if outcome == "win":
             wins += 1
@@ -228,7 +228,7 @@ def simulate(
         "edge_vs_be_pp": (resolved_wr - be) if resolved_wr is not None else None,
         "net_usd": sum(pnls) if pnls else 0.0,
         "fees_usd": trades * fee_rate * notional,
-        "avg_hold_minutes": (sum(holds) / trades) if trades else 0.0,
+        "avg_hold_minutes": (sum(holds) * BAR_MINUTES / trades) if trades else 0.0,
         "avg_win_usd": (sum(win_pnls) / len(win_pnls)) if win_pnls else 0.0,
         "avg_loss_usd": (sum(loss_pnls) / len(loss_pnls)) if loss_pnls else 0.0,
         "worst_trade_usd": min(pnls) if pnls else 0.0,
@@ -238,19 +238,17 @@ def simulate(
 
 def scan_symbol(
     symbol: str,
-    klines: Sequence[Kline],
+    bars: Sequence[Bar],
     combos: Sequence[DipLevers] = DEFAULT_COMBOS,
     *,
     notional: float = 1000.0,
     fee_rate: float = ROUND_TRIP_FEE,
 ) -> list[DipResult]:
-    group = COIN_GROUPS.get(symbol, "other")
     rows: list[DipResult] = []
     for levers in combos:
-        stats = simulate(klines, levers, notional=notional, fee_rate=fee_rate)
+        stats = simulate(bars, levers, notional=notional, fee_rate=fee_rate)
         row = DipResult(
             symbol=symbol,
-            group=group,
             combo=levers.name,
             dip_pct=levers.dip_pct,
             dip_minutes=levers.dip_minutes,
@@ -263,12 +261,12 @@ def scan_symbol(
         )
         rows.append(row)
         log.info(
-            "%s  %s  dip %.1f%%/%sh  wait %.1f%%/%sm  TP/SL %.1f/%.1f  "
+            "%s  %s  dip %.1f%% / %.1fsess  wait %.1f%%/%sm  TP/SL %.1f/%.1f  "
             "cand=%s n=%s W/L/T=%s/%s/%s  res=%s  be=%.1f  net=$%.2f",
             symbol,
             levers.name,
             levers.dip_pct,
-            levers.dip_minutes / 60.0,
+            levers.dip_minutes / SESSION_MINUTES,
             levers.stable_range_pct,
             levers.stable_minutes,
             levers.take_profit_pct,
@@ -307,7 +305,7 @@ def print_summary(rows: Sequence[DipResult]) -> None:
         if r.resolved_win_rate_pct is not None and r.resolved_win_rate_pct >= r.breakeven_win_rate_pct
     ]
     log.info("")
-    log.info("Rows %s  with at least 5 trades %s  net>0 %s  at/above breakeven %s", len(rows), len(live), len(green), len(be))
+    log.info("Rows %s  n>=5 %s  net>0 %s  at/above breakeven %s", len(rows), len(live), len(green), len(be))
 
     def table(title: str, picked: Sequence[DipResult]) -> None:
         log.info("")
@@ -317,11 +315,11 @@ def print_summary(rows: Sequence[DipResult]) -> None:
             return
         log.info(
             "  %s %s %s %s %s %s %s %s %s %s",
-            f"{'coin':10}",
-            f"{'combo':14}",
+            f"{'stock':6}",
+            f"{'combo':10}",
             f"{'dip':>10}",
-            f"{'stable':>12}",
-            f"{'exit':>11}",
+            f"{'wait':>11}",
+            f"{'exit':>9}",
             f"{'n':>4}",
             f"{'W/L/T':>9}",
             f"{'res%':>6}",
@@ -331,11 +329,11 @@ def print_summary(rows: Sequence[DipResult]) -> None:
         for row in picked:
             log.info(
                 "  %s %s %s %s %s %4d %9s %6s %6.1f %9.2f",
-                f"{row.symbol:10}",
-                f"{row.combo:14}",
-                f"{row.dip_pct:.1f}%/{row.dip_minutes // 60}h",
-                f"{row.stable_range_pct:.2f}%/{row.stable_minutes}m",
-                f"{row.take_profit_pct:.1f}/{row.stop_loss_pct:.1f}",
+                f"{row.symbol:6}",
+                f"{row.combo:10}",
+                f"{row.dip_pct:.0f}%/{row.dip_minutes // SESSION_MINUTES}d",
+                f"{row.stable_range_pct:.1f}%/{row.stable_minutes}m",
+                f"{row.take_profit_pct:.0f}/{row.stop_loss_pct:.0f}",
                 row.trades,
                 f"{row.wins}/{row.losses}/{row.timeouts}",
                 f"{row.resolved_win_rate_pct:.1f}" if row.resolved_win_rate_pct is not None else "n/a",
@@ -343,8 +341,8 @@ def print_summary(rows: Sequence[DipResult]) -> None:
                 row.net_usd,
             )
 
-    table("Best 12 by net (any trade count)", sorted(rows, key=lambda r: r.net_usd, reverse=True)[:12])
-    table("Best among n>=5", sorted(live, key=lambda r: r.net_usd, reverse=True)[:10])
+    table("Best 15 by net (any trade count)", sorted(rows, key=lambda r: r.net_usd, reverse=True)[:15])
+    table("Best among n>=5", sorted(live, key=lambda r: r.net_usd, reverse=True)[:12])
     table("Worst 8 by net", sorted(rows, key=lambda r: r.net_usd)[:8])
     for symbol in sorted({r.symbol for r in rows}):
         coin = [r for r in rows if r.symbol == symbol]

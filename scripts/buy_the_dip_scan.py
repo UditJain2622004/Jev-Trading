@@ -1,7 +1,7 @@
 """Download one month of 1-minute bars and scan buy-the-dip lever sets.
 
-Five coins. Ten locked combinations of: dip size, dip window, stable range,
-stable window, take-profit / stop. Timeout is 8 hours on every combo.
+Five coins. Ten SOL-sized combinations: 4–8% dips over 6–24 hours,
+wait until the last close is still near the dip, then 3–5% targets.
 
     python -u scripts/buy_the_dip_scan.py
 """
@@ -25,9 +25,26 @@ from jev_trading.binance.buy_the_dip import (
     write_csv,
 )
 from jev_trading.binance.market import MarketClient
+from jev_trading.binance.setup_scan import load_cached_klines
 from jev_trading.binance.tp_sl_scan import load_klines, utc_ms_days_ago
 
 log = logging.getLogger("buy_the_dip")
+
+
+def nearest_cache(cache_dir: Path, symbol: str, days: int) -> Path | None:
+    want_ms = days * 24 * 60 * 60 * 1000
+    best: Path | None = None
+    best_diff: int | None = None
+    for path in cache_dir.glob(f"{symbol}_1m_*.json"):
+        start_ms = int(path.stem.split("_")[-2])
+        end_ms = int(path.stem.split("_")[-1])
+        diff = abs((end_ms - start_ms) - want_ms)
+        if best is None or diff < best_diff:
+            best = path
+            best_diff = diff
+    if best is None or best_diff is None or best_diff > 6 * 60 * 60 * 1000:
+        return None
+    return best
 
 
 def parse_args() -> argparse.Namespace:
@@ -83,10 +100,10 @@ def main() -> None:
     log.info("Combos %s", len(DEFAULT_COMBOS))
     for levers in DEFAULT_COMBOS:
         log.info(
-            "  %-14s dip %.2f%% in %sm, stable <=%.2f%% for %sm, TP %.2f SL %.2f, timeout %sh",
+            "  %-14s dip %.1f%% in %.0fh, end within %.1f%% after %sm, TP %.1f SL %.1f, timeout %sh",
             levers.name,
             levers.dip_pct,
-            levers.dip_minutes,
+            levers.dip_minutes / 60.0,
             levers.stable_range_pct,
             levers.stable_minutes,
             levers.take_profit_pct,
@@ -100,7 +117,12 @@ def main() -> None:
     started = time.perf_counter()
     for n, symbol in enumerate(symbols, start=1):
         log.info("----------  [%s/%s] %s  ----------", n, len(symbols), symbol)
-        klines = load_klines(market, symbol, "1m", start_ms, end_ms, cache_dir)
+        cached = nearest_cache(cache_dir, symbol, args.days)
+        if cached is not None:
+            log.info("%s: reusing %s", symbol, cached.name)
+            klines = load_cached_klines(cached, symbol)
+        else:
+            klines = load_klines(market, symbol, "1m", start_ms, end_ms, cache_dir)
         log.info("%s: %s 1-minute bars", symbol, f"{len(klines):,}")
         rows.extend(scan_symbol(symbol, klines, DEFAULT_COMBOS, notional=args.notional))
 
