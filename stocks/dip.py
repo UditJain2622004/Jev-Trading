@@ -34,6 +34,11 @@ class DipLevers:
     take_profit_pct: float
     stop_loss_pct: float
     timeout_minutes: int
+    # Confirm-entry / trail-exit knobs (defaults keep old combo builders working)
+    bounce_bars: int = 3
+    bounce_pct: float = 0.5
+    arm_max_adverse_pct: float = 2.0
+    trail_pct: float = 0.75
 
 
 # Ten semiconductor-sized combinations. Windows are trading minutes, not
@@ -148,6 +153,134 @@ def find_entries(bars: Sequence[Bar], levers: DipLevers) -> tuple[list[int], int
         entries.append(i + stable_bars)
         i += stable_bars + 1
     return entries, candidates
+
+
+def find_entries_confirm(bars: Sequence[Bar], levers: DipLevers) -> tuple[list[int], int]:
+    """Arm on dip, buy only on bounce confirmation (higher lows + bounce from arm low).
+
+    After arming at dip bar i:
+    - Monitor for up to stable_minutes (wait window).
+    - Kill arm if low dumps past arm_low * (1 - arm_max_adverse_pct/100).
+    - Enter when last bounce_bars lows are strictly ascending AND close is
+      up >= bounce_pct from the arm low (lowest low at arm time).
+    - Does not use is_stable.
+    """
+    dip_bars = minutes_to_bars(levers.dip_minutes)
+    wait_bars = minutes_to_bars(levers.stable_minutes)
+    k = max(1, levers.bounce_bars)
+    bounce_frac = levers.bounce_pct / 100.0
+    adverse_frac = levers.arm_max_adverse_pct / 100.0
+    entries: list[int] = []
+    candidates = 0
+    i = dip_bars - 1
+    last_bar = len(bars) - 1
+    while i <= last_bar:
+        if not is_dip(bars, i, dip_pct=levers.dip_pct, dip_bars=dip_bars):
+            i += 1
+            continue
+        candidates += 1
+        arm_low = bars[i].low
+        if arm_low <= 0:
+            i += 1
+            continue
+        adverse_floor = arm_low * (1.0 - adverse_frac)
+        bounce_target = arm_low * (1.0 + bounce_frac)
+        window_end = min(last_bar, i + wait_bars)
+        entered = False
+        kill_at: int | None = None
+        j = i + 1
+        while j <= window_end:
+            # Kill if dumping past max adverse from arm low
+            if bars[j].low <= adverse_floor:
+                kill_at = j
+                break
+            # Need K bars of history ending at j (inclusive), starting at/after arm
+            if j - k + 1 >= i:
+                lows = [bars[j - k + 1 + t].low for t in range(k)]
+                higher_lows = all(lows[t] > lows[t - 1] for t in range(1, k))
+                if higher_lows and bars[j].close >= bounce_target:
+                    entries.append(j)
+                    entered = True
+                    # Skip past entry (same idea as baseline post-wait advance)
+                    i = j + 1
+                    break
+            j += 1
+        if not entered:
+            # Skip rest of this dip episode so we don't re-arm the same dump
+            if kill_at is not None:
+                i = kill_at + 1
+            else:
+                i = window_end + 1
+    return entries, candidates
+
+
+def _exit_trade_trail(
+    bars: Sequence[Bar],
+    entry_index: int,
+    levers: DipLevers,
+    *,
+    notional: float,
+    fee_rate: float,
+    timeout_calendar_ms: int | None = None,
+) -> tuple[str, float, int, bool, float, int]:
+    """Soft TP + trailing exit; hard SL immediate; optional calendar timeout.
+
+    Returns (outcome, pnl, hold_bars, both_hit, ret, exit_time_ms).
+    Once high touches the TP zone, sell_floor = high_water * (1 - trail_pct/100);
+    exit when low breaks that floor (fill at floor). Hard SL still immediate.
+    PnL uses actual exit price for trail/timeout; fixed SL% for stop.
+    """
+    entry = bars[entry_index].close
+    tp = entry * (1.0 + levers.take_profit_pct / 100.0)
+    sl = entry * (1.0 - levers.stop_loss_pct / 100.0)
+    trail_frac = levers.trail_pct / 100.0
+    if timeout_calendar_ms is not None:
+        deadline: int | None = bars[entry_index].open_time + timeout_calendar_ms
+        end_j = len(bars) - 1
+    else:
+        deadline = None
+        timeout_bars = minutes_to_bars(levers.timeout_minutes)
+        end_j = min(len(bars) - 1, entry_index + timeout_bars)
+
+    j = entry_index + 1
+    tp_touched = False
+    high_water = entry
+    while j <= end_j:
+        bar = bars[j]
+        hold = j - entry_index
+        if bar.high > high_water:
+            high_water = bar.high
+        if bar.high >= tp:
+            tp_touched = True
+
+        # Hard SL always wins (including same bar as trail)
+        if bar.low <= sl:
+            ret = -levers.stop_loss_pct / 100.0 - fee_rate
+            return "loss", ret * notional, hold, False, ret, bar.open_time
+
+        if tp_touched:
+            sell_floor = high_water * (1.0 - trail_frac)
+            if bar.low <= sell_floor:
+                move = sell_floor / entry - 1.0
+                ret = move - fee_rate
+                return "win", ret * notional, hold, False, ret, bar.open_time
+
+        if deadline is not None and bar.open_time >= deadline:
+            move = bar.close / entry - 1.0
+            ret = move - fee_rate
+            return "timeout", ret * notional, hold, False, ret, bar.open_time
+
+        if deadline is None and j >= end_j:
+            move = bar.close / entry - 1.0
+            ret = move - fee_rate
+            return "timeout", ret * notional, hold, False, ret, bar.open_time
+
+        j += 1
+
+    hold = end_j - entry_index
+    move = bars[end_j].close / entry - 1.0
+    ret = move - fee_rate
+    return "timeout", ret * notional, hold, False, ret, bars[end_j].open_time
 
 
 def _exit_trade(

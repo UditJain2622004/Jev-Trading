@@ -1,0 +1,132 @@
+{
+  "AMD": {
+    "combo": "d5_w120",
+    "dip_pct": 5.0,
+    "dip_minutes": 1560,
+    "stable_range_pct": 1.5,
+    "stable_minutes": 120,
+    "take_profit_pct": 5.0,
+    "stop_loss_pct": 4.0,
+    "timeout_minutes": 2880
+  },
+  "ARM": {
+    "combo": "d5_w120",
+    "dip_pct": 5.0,
+    "dip_minutes": 1560,
+    "stable_range_pct": 1.5,
+    "stable_minutes": 120,
+    "take_profit_pct": 5.0,
+    "stop_loss_pct": 4.0,
+    "timeout_minutes": 2880
+  },
+  "AVGO": {
+    "combo": "d4_w60",
+    "dip_pct": 4.0,
+    "dip_minutes": 1560,
+    "stable_range_pct": 1.5,
+    "stable_minutes": 60,
+    "take_profit_pct": 5.0,
+    "stop_loss_pct": 4.0,
+    "timeout_minutes": 2880
+  },
+  "DELL": {
+    "combo": "d5_w60",
+    "dip_pct": 5.0,
+    "dip_minutes": 1560,
+    "stable_range_pct": 1.5,
+    "stable_minutes": 60,
+    "take_profit_pct": 5.0,
+    "stop_loss_pct": 4.0,
+    "timeout_minutes": 2880
+  },
+  "HPE": {
+    "combo": "d5_w30",
+    "dip_pct": 5.0,
+    "dip_minutes": 1560,
+    "stable_range_pct": 1.5,
+    "stable_minutes": 30,
+    "take_profit_pct": 5.0,
+    "stop_loss_pct": 4.0,
+    "timeout_minutes": 2880
+  },
+  "IBM": {
+    "combo": "d4_w240",
+    "dip_pct": 4.0,
+    "dip_minutes": 1560,
+    "stable_range_pct": 1.5,
+    "stable_minutes": 240,
+    "take_profit_pct": 5.0,
+    "stop_loss_pct": 4.0,
+    "timeout_minutes": 2880
+  },
+  "INTC": {
+    "combo": "d5_w300",
+    "dip_pct": 5.0,
+    "dip_minutes": 1560,
+    "stable_range_pct": 1.5,
+    "stable_minutes": 300,
+    "take_profit_pct": 5.0,
+    "stop_loss_pct": 4.0,
+    "timeout_minutes": 2880
+  },
+  "MRVL": {
+    "combo": "d5_w180",
+    "dip_pct": 5.0,
+    "dip_minutes": 1560,
+    "stable_range_pct": 1.5,
+    "stable_minutes": 180,
+    "take_profit_pct": 5.0,
+    "stop_loss_pct": 4.0,
+    "timeout_minutes": 2880
+  },
+  "MU": {
+    "combo": "d5_w30",
+    "dip_pct": 5.0,
+    "dip_minutes": 1560,
+    "stable_range_pct": 1.5,
+    "stable_minutes": 30,
+    "take_profit_pct": 5.0,
+    "stop_loss_pct": 4.0,
+    "timeout_minutes": 2880
+  },
+  "ORCL": {
+    "combo": "d4_w30",
+    "dip_pct": 4.0,
+    "dip_minutes": 1560,
+    "stable_range_pct": 1.5,
+    "stable_minutes": 30,
+    "take_profit_pct": 5.0,
+    "stop_loss_pct": 4.0,
+    "timeout_minutes": 2880
+  },
+  "QCOM": {
+    "combo": "d5_w30",
+    "dip_pct": 5.0,
+    "dip_minutes": 1560,
+    "stable_range_pct": 1.5,
+    "stable_minutes": 30,
+    "take_profit_pct": 5.0,
+    "stop_loss_pct": 4.0,
+    "timeout_minutes": 2880
+  },
+  "SNDK": {
+    "combo": "d4_w180",
+    "dip_pct": 4.0,
+    "dip_minutes": 1560,
+    "stable_range_pct": 1.5,
+    "stable_minutes": 180,
+    "take_profit_pct": 5.0,
+    "stop_loss_pct": 4.0,
+    "timeout_minutes": 2880
+  },
+  "TXN": {
+    "combo": "d5_w60",
+    "dip_pct": 5.0,
+    "dip_minutes": 1560,
+    "stable_range_pct": 1.5,
+    "stable_minutes": 60,
+    "take_profit_pct": 5.0,
+    "stop_loss_pct": 4.0,
+    "timeout_minutes": 2880
+  }
+}

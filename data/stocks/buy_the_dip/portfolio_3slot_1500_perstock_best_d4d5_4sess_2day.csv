@@ -1,0 +1,2 @@
+mode,max_positions,combo,candidates,skipped_busy,skipped_cash,trades,wins,losses,timeouts,start_equity,end_equity,net_usd,return_pct,max_equity,min_equity,worst_trade_ret_pct,best_trade_ret_pct
+3slot,3,perstock_best,1943,1812,0,131,42,44,45,1500.0,1365.247615124637,-134.75238487536308,-8.983492325024201,1477.0,399.9166815591825,-4.6,4.4

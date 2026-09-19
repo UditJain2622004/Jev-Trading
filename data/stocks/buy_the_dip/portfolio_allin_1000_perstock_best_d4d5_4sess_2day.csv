@@ -1,0 +1,2 @@
+mode,max_positions,combo,candidates,skipped_busy,skipped_cash,trades,wins,losses,timeouts,start_equity,end_equity,net_usd,return_pct,max_equity,min_equity,worst_trade_ret_pct,best_trade_ret_pct
+allin,1,perstock_best,1943,1894,0,49,16,17,16,1000.0,883.5157090147233,-116.48429098527674,-11.648429098527679,986.449925246401,750.1939200930323,-4.6,4.4
