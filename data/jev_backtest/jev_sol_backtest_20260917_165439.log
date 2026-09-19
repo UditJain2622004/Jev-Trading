@@ -1,0 +1,33 @@
+2026-09-17 16:54:39  INFO     Log (this run) D:\jev-trading\data\jev_backtest\jev_sol_backtest_20260917_165439.log
+2026-09-17 16:54:39  INFO     Log (latest)   D:\jev-trading\data\jev_backtest\jev_sol_backtest.log
+2026-09-17 16:54:39  INFO     Last scan totals had no per-trade rows, so replaying cached 1-minute bars
+2026-09-17 16:54:39  INFO     SOL cache SOLUSDT_1m_1789038480000_1789643280000.json
+2026-09-17 16:54:39  INFO     BTC cache BTCUSDT_1m_1789038480000_1789643280000.json
+2026-09-17 16:54:40  INFO     Replaying SOL +0.5% / -0.35% on 10,081 minutes
+2026-09-17 16:54:40  INFO     All sequential trades  n=341  wins=101  losses=166  timeouts=74  net=$-712.10
+2026-09-17 16:54:40  INFO     Example wins=10  example losses=10
+2026-09-17 16:54:40  INFO     Examples (not scored)  n=20  wins=10  losses=10  timeouts=0  net=$-25.00
+2026-09-17 16:54:40  INFO     Test window brute force  n=308  wins=91  losses=146  timeouts=71  net=$-625.91
+2026-09-17 16:54:40  INFO     example win 01  entry=1789045140000  hold=2m  pnl=$3.00
+2026-09-17 16:54:40  INFO     example win 02  entry=1789046040000  hold=23m  pnl=$3.00
+2026-09-17 16:54:40  INFO     example win 03  entry=1789047480000  hold=22m  pnl=$3.00
+2026-09-17 16:54:40  INFO     example win 04  entry=1789049280000  hold=16m  pnl=$3.00
+2026-09-17 16:54:40  INFO     example win 05  entry=1789057140000  hold=27m  pnl=$3.00
+2026-09-17 16:54:40  INFO     example win 06  entry=1789058820000  hold=45m  pnl=$3.00
+2026-09-17 16:54:40  INFO     example win 07  entry=1789063860000  hold=43m  pnl=$3.00
+2026-09-17 16:54:40  INFO     example win 08  entry=1789082160000  hold=54m  pnl=$3.00
+2026-09-17 16:54:40  INFO     example win 09  entry=1789085940000  hold=44m  pnl=$3.00
+2026-09-17 16:54:40  INFO     example win 10  entry=1789090440000  hold=21m  pnl=$3.00
+2026-09-17 16:54:40  INFO     example loss 01  entry=1789042080000  hold=22m  pnl=$-5.50
+2026-09-17 16:54:40  INFO     example loss 02  entry=1789043460000  hold=3m  pnl=$-5.50
+2026-09-17 16:54:40  INFO     example loss 03  entry=1789043700000  hold=3m  pnl=$-5.50
+2026-09-17 16:54:40  INFO     example loss 04  entry=1789043940000  hold=7m  pnl=$-5.50
+2026-09-17 16:54:40  INFO     example loss 05  entry=1789044420000  hold=9m  pnl=$-5.50
+2026-09-17 16:54:40  INFO     example loss 06  entry=1789045020000  hold=1m  pnl=$-5.50
+2026-09-17 16:54:40  INFO     example loss 07  entry=1789045320000  hold=11m  pnl=$-5.50
+2026-09-17 16:54:40  INFO     example loss 08  entry=1789048860000  hold=6m  pnl=$-5.50
+2026-09-17 16:54:40  INFO     example loss 09  entry=1789050300000  hold=37m  pnl=$-5.50
+2026-09-17 16:54:40  INFO     example loss 10  entry=1789052580000  hold=44m  pnl=$-5.50
+2026-09-17 16:54:40  INFO     Wrote example snapshots to D:\jev-trading\data\jev_backtest\examples.json
+2026-09-17 16:54:40  INFO     Wrote D:\jev-trading\data\jev_backtest\examples.csv and D:\jev-trading\data\jev_backtest\test_trades.csv
+2026-09-17 16:54:40  INFO     Dry run: not calling Jev. Test trades waiting: 308

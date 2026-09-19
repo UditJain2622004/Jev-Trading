@@ -1,0 +1,726 @@
+{
+  "wins": [
+    {
+      "role": "win_example",
+      "entry_ms": 1789045140000,
+      "exit_ms": 1789045260000,
+      "outcome": "win",
+      "pnl_usd": 3.0,
+      "hold_minutes": 2,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "win",
+        "hold_minutes": 2,
+        "sol_moves_pct": {
+          "1m": 0.071,
+          "5m": -0.081,
+          "15m": -1.149,
+          "1h": -2.049
+        },
+        "sol_last_hour": {
+          "high": 101.49,
+          "low": 98.5,
+          "range_pct": 3.036,
+          "room_to_hour_high_pct": 2.577
+        },
+        "volume": {
+          "last_1m": 494553.81,
+          "typical_1h_1m": 248266.04,
+          "vs_typical": 1.99,
+          "taker_buy_share": 0.612
+        },
+        "btc_moves_pct": {
+          "5m": 0.049,
+          "15m": -0.304,
+          "1h": -1.214
+        }
+      }
+    },
+    {
+      "role": "win_example",
+      "entry_ms": 1789046040000,
+      "exit_ms": 1789047420000,
+      "outcome": "win",
+      "pnl_usd": 3.0,
+      "hold_minutes": 23,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "win",
+        "hold_minutes": 23,
+        "sol_moves_pct": {
+          "1m": 0.111,
+          "5m": -0.252,
+          "15m": 0.162,
+          "1h": -1.939
+        },
+        "sol_last_hour": {
+          "high": 101.49,
+          "low": 98.5,
+          "range_pct": 3.036,
+          "room_to_hour_high_pct": 2.412
+        },
+        "volume": {
+          "last_1m": 832640.59,
+          "typical_1h_1m": 404956.05,
+          "vs_typical": 2.06,
+          "taker_buy_share": 0.534
+        },
+        "btc_moves_pct": {
+          "5m": -0.178,
+          "15m": -0.079,
+          "1h": -1.27
+        }
+      }
+    },
+    {
+      "role": "win_example",
+      "entry_ms": 1789047480000,
+      "exit_ms": 1789048800000,
+      "outcome": "win",
+      "pnl_usd": 3.0,
+      "hold_minutes": 22,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "win",
+        "hold_minutes": 22,
+        "sol_moves_pct": {
+          "1m": -0.111,
+          "5m": 0.081,
+          "15m": -0.08,
+          "1h": -0.321
+        },
+        "sol_last_hour": {
+          "high": 100.37,
+          "low": 98.5,
+          "range_pct": 1.898,
+          "room_to_hour_high_pct": 0.945
+        },
+        "volume": {
+          "last_1m": 121760.14,
+          "typical_1h_1m": 388837.99,
+          "vs_typical": 0.31,
+          "taker_buy_share": 0.717
+        },
+        "btc_moves_pct": {
+          "5m": 0.151,
+          "15m": 0.078,
+          "1h": -0.108
+        }
+      }
+    },
+    {
+      "role": "win_example",
+      "entry_ms": 1789049280000,
+      "exit_ms": 1789050240000,
+      "outcome": "win",
+      "pnl_usd": 3.0,
+      "hold_minutes": 16,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "win",
+        "hold_minutes": 16,
+        "sol_moves_pct": {
+          "1m": 0.0,
+          "5m": -0.42,
+          "15m": -0.241,
+          "1h": 0.191
+        },
+        "sol_last_hour": {
+          "high": 100.05,
+          "low": 98.88,
+          "range_pct": 1.183,
+          "room_to_hour_high_pct": 0.543
+        },
+        "volume": {
+          "last_1m": 582084.27,
+          "typical_1h_1m": 230548.75,
+          "vs_typical": 2.52,
+          "taker_buy_share": 0.173
+        },
+        "btc_moves_pct": {
+          "5m": -0.354,
+          "15m": -0.241,
+          "1h": 0.05
+        }
+      }
+    },
+    {
+      "role": "win_example",
+      "entry_ms": 1789057140000,
+      "exit_ms": 1789058760000,
+      "outcome": "win",
+      "pnl_usd": 3.0,
+      "hold_minutes": 27,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "win",
+        "hold_minutes": 27,
+        "sol_moves_pct": {
+          "1m": 0.04,
+          "5m": -0.332,
+          "15m": -0.402,
+          "1h": -0.741
+        },
+        "sol_last_hour": {
+          "high": 100.15,
+          "low": 99.04,
+          "range_pct": 1.121,
+          "room_to_hour_high_pct": 1.06
+        },
+        "volume": {
+          "last_1m": 58426.09,
+          "typical_1h_1m": 86664.03,
+          "vs_typical": 0.67,
+          "taker_buy_share": 0.469
+        },
+        "btc_moves_pct": {
+          "5m": -0.094,
+          "15m": -0.241,
+          "1h": -0.45
+        }
+      }
+    },
+    {
+      "role": "win_example",
+      "entry_ms": 1789058820000,
+      "exit_ms": 1789061520000,
+      "outcome": "win",
+      "pnl_usd": 3.0,
+      "hold_minutes": 45,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "win",
+        "hold_minutes": 45,
+        "sol_moves_pct": {
+          "1m": -0.04,
+          "5m": 0.403,
+          "15m": 0.697,
+          "1h": 0.211
+        },
+        "sol_last_hour": {
+          "high": 99.91,
+          "low": 98.84,
+          "range_pct": 1.083,
+          "room_to_hour_high_pct": 0.16
+        },
+        "volume": {
+          "last_1m": 136219.53,
+          "typical_1h_1m": 97947.15,
+          "vs_typical": 1.39,
+          "taker_buy_share": 0.442
+        },
+        "btc_moves_pct": {
+          "5m": 0.219,
+          "15m": 0.341,
+          "1h": 0.104
+        }
+      }
+    },
+    {
+      "role": "win_example",
+      "entry_ms": 1789063860000,
+      "exit_ms": 1789066440000,
+      "outcome": "win",
+      "pnl_usd": 3.0,
+      "hold_minutes": 43,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "win",
+        "hold_minutes": 43,
+        "sol_moves_pct": {
+          "1m": -0.01,
+          "5m": -0.251,
+          "15m": -0.729,
+          "1h": -0.511
+        },
+        "sol_last_hour": {
+          "high": 100.46,
+          "low": 99.31,
+          "range_pct": 1.158,
+          "room_to_hour_high_pct": 1.117
+        },
+        "volume": {
+          "last_1m": 84163.07,
+          "typical_1h_1m": 82345.4,
+          "vs_typical": 1.02,
+          "taker_buy_share": 0.284
+        },
+        "btc_moves_pct": {
+          "5m": -0.173,
+          "15m": -0.43,
+          "1h": -0.222
+        }
+      }
+    },
+    {
+      "role": "win_example",
+      "entry_ms": 1789082160000,
+      "exit_ms": 1789085400000,
+      "outcome": "win",
+      "pnl_usd": 3.0,
+      "hold_minutes": 54,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "win",
+        "hold_minutes": 54,
+        "sol_moves_pct": {
+          "1m": -0.02,
+          "5m": -0.161,
+          "15m": -0.423,
+          "1h": -1.149
+        },
+        "sol_last_hour": {
+          "high": 100.1,
+          "low": 98.68,
+          "range_pct": 1.439,
+          "room_to_hour_high_pct": 1.193
+        },
+        "volume": {
+          "last_1m": 265491.6,
+          "typical_1h_1m": 51066.2,
+          "vs_typical": 5.2,
+          "taker_buy_share": 0.748
+        },
+        "btc_moves_pct": {
+          "5m": -0.094,
+          "15m": -0.302,
+          "1h": -0.728
+        }
+      }
+    },
+    {
+      "role": "win_example",
+      "entry_ms": 1789085940000,
+      "exit_ms": 1789088580000,
+      "outcome": "win",
+      "pnl_usd": 3.0,
+      "hold_minutes": 44,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "win",
+        "hold_minutes": 44,
+        "sol_moves_pct": {
+          "1m": 0.0,
+          "5m": -0.192,
+          "15m": -0.051,
+          "1h": -0.04
+        },
+        "sol_last_hour": {
+          "high": 99.42,
+          "low": 98.6,
+          "range_pct": 0.832,
+          "room_to_hour_high_pct": 0.495
+        },
+        "volume": {
+          "last_1m": 97322.46,
+          "typical_1h_1m": 77587.28,
+          "vs_typical": 1.25,
+          "taker_buy_share": 0.259
+        },
+        "btc_moves_pct": {
+          "5m": 0.001,
+          "15m": 0.205,
+          "1h": 0.208
+        }
+      }
+    },
+    {
+      "role": "win_example",
+      "entry_ms": 1789090440000,
+      "exit_ms": 1789091700000,
+      "outcome": "win",
+      "pnl_usd": 3.0,
+      "hold_minutes": 21,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "win",
+        "hold_minutes": 21,
+        "sol_moves_pct": {
+          "1m": 0.213,
+          "5m": -0.03,
+          "15m": -0.423,
+          "1h": 0.162
+        },
+        "sol_last_hour": {
+          "high": 99.51,
+          "low": 98.6,
+          "range_pct": 0.923,
+          "room_to_hour_high_pct": 0.546
+        },
+        "volume": {
+          "last_1m": 494780.34,
+          "typical_1h_1m": 83029.11,
+          "vs_typical": 5.96,
+          "taker_buy_share": 0.79
+        },
+        "btc_moves_pct": {
+          "5m": -0.086,
+          "15m": -0.212,
+          "1h": -0.052
+        }
+      }
+    }
+  ],
+  "losses": [
+    {
+      "role": "loss_example",
+      "entry_ms": 1789042080000,
+      "exit_ms": 1789043400000,
+      "outcome": "loss",
+      "pnl_usd": -5.5,
+      "hold_minutes": 22,
+      "both_hit": true,
+      "snapshot": {
+        "outcome": "loss",
+        "hold_minutes": 22,
+        "sol_moves_pct": {
+          "1m": -0.049,
+          "5m": -0.129,
+          "15m": -0.316,
+          "1h": -0.079
+        },
+        "sol_last_hour": {
+          "high": 101.54,
+          "low": 100.94,
+          "range_pct": 0.594,
+          "room_to_hour_high_pct": 0.555
+        },
+        "volume": {
+          "last_1m": 150976.19,
+          "typical_1h_1m": 79473.85,
+          "vs_typical": 1.9,
+          "taker_buy_share": 0.173
+        },
+        "btc_moves_pct": {
+          "5m": -0.119,
+          "15m": -0.325,
+          "1h": -0.155
+        }
+      }
+    },
+    {
+      "role": "loss_example",
+      "entry_ms": 1789043460000,
+      "exit_ms": 1789043640000,
+      "outcome": "loss",
+      "pnl_usd": -5.5,
+      "hold_minutes": 3,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "loss",
+        "hold_minutes": 3,
+        "sol_moves_pct": {
+          "1m": -0.188,
+          "5m": -0.148,
+          "15m": -0.059,
+          "1h": -0.473
+        },
+        "sol_last_hour": {
+          "high": 101.54,
+          "low": 100.62,
+          "range_pct": 0.914,
+          "room_to_hour_high_pct": 0.584
+        },
+        "volume": {
+          "last_1m": 1113651.4,
+          "typical_1h_1m": 89433.87,
+          "vs_typical": 12.45,
+          "taker_buy_share": 0.514
+        },
+        "btc_moves_pct": {
+          "5m": -0.217,
+          "15m": -0.211,
+          "1h": -0.551
+        }
+      }
+    },
+    {
+      "role": "loss_example",
+      "entry_ms": 1789043700000,
+      "exit_ms": 1789043880000,
+      "outcome": "loss",
+      "pnl_usd": -5.5,
+      "hold_minutes": 3,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "loss",
+        "hold_minutes": 3,
+        "sol_moves_pct": {
+          "1m": 0.04,
+          "5m": -0.603,
+          "15m": -0.544,
+          "1h": -0.946
+        },
+        "sol_last_hour": {
+          "high": 101.54,
+          "low": 100.32,
+          "range_pct": 1.216,
+          "room_to_hour_high_pct": 1.005
+        },
+        "volume": {
+          "last_1m": 592361.82,
+          "typical_1h_1m": 96859.4,
+          "vs_typical": 6.12,
+          "taker_buy_share": 0.564
+        },
+        "btc_moves_pct": {
+          "5m": -0.412,
+          "15m": -0.351,
+          "1h": -0.82
+        }
+      }
+    },
+    {
+      "role": "loss_example",
+      "entry_ms": 1789043940000,
+      "exit_ms": 1789044360000,
+      "outcome": "loss",
+      "pnl_usd": -5.5,
+      "hold_minutes": 7,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "loss",
+        "hold_minutes": 7,
+        "sol_moves_pct": {
+          "1m": 0.17,
+          "5m": -0.567,
+          "15m": -1.118,
+          "1h": -1.586
+        },
+        "sol_last_hour": {
+          "high": 101.54,
+          "low": 99.41,
+          "range_pct": 2.143,
+          "room_to_hour_high_pct": 1.621
+        },
+        "volume": {
+          "last_1m": 2281227.64,
+          "typical_1h_1m": 101389.0,
+          "vs_typical": 22.5,
+          "taker_buy_share": 0.503
+        },
+        "btc_moves_pct": {
+          "5m": -0.337,
+          "15m": -0.797,
+          "1h": -1.198
+        }
+      }
+    },
+    {
+      "role": "loss_example",
+      "entry_ms": 1789044420000,
+      "exit_ms": 1789044960000,
+      "outcome": "loss",
+      "pnl_usd": -5.5,
+      "hold_minutes": 9,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "loss",
+        "hold_minutes": 9,
+        "sol_moves_pct": {
+          "1m": -0.03,
+          "5m": -0.869,
+          "15m": -1.508,
+          "1h": -1.849
+        },
+        "sol_last_hour": {
+          "high": 101.49,
+          "low": 98.5,
+          "range_pct": 3.036,
+          "room_to_hour_high_pct": 2.247
+        },
+        "volume": {
+          "last_1m": 4724504.92,
+          "typical_1h_1m": 118237.54,
+          "vs_typical": 39.96,
+          "taker_buy_share": 0.346
+        },
+        "btc_moves_pct": {
+          "5m": -0.318,
+          "15m": -0.707,
+          "1h": -1.226
+        }
+      }
+    },
+    {
+      "role": "loss_example",
+      "entry_ms": 1789045020000,
+      "exit_ms": 1789045080000,
+      "outcome": "loss",
+      "pnl_usd": -5.5,
+      "hold_minutes": 1,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "loss",
+        "hold_minutes": 1,
+        "sol_moves_pct": {
+          "1m": 0.192,
+          "5m": -0.101,
+          "15m": -0.839,
+          "1h": -1.703
+        },
+        "sol_last_hour": {
+          "high": 101.49,
+          "low": 98.5,
+          "range_pct": 3.036,
+          "room_to_hour_high_pct": 2.216
+        },
+        "volume": {
+          "last_1m": 551172.7,
+          "typical_1h_1m": 186172.72,
+          "vs_typical": 2.96,
+          "taker_buy_share": 0.624
+        },
+        "btc_moves_pct": {
+          "5m": -0.097,
+          "15m": -0.389,
+          "1h": -1.231
+        }
+      }
+    },
+    {
+      "role": "loss_example",
+      "entry_ms": 1789045320000,
+      "exit_ms": 1789045980000,
+      "outcome": "loss",
+      "pnl_usd": -5.5,
+      "hold_minutes": 11,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "loss",
+        "hold_minutes": 11,
+        "sol_moves_pct": {
+          "1m": 0.151,
+          "5m": 0.06,
+          "15m": 0.091,
+          "1h": -1.809
+        },
+        "sol_last_hour": {
+          "high": 101.49,
+          "low": 98.5,
+          "range_pct": 3.036,
+          "room_to_hour_high_pct": 2.154
+        },
+        "volume": {
+          "last_1m": 269393.93,
+          "typical_1h_1m": 269393.93,
+          "vs_typical": 1.0,
+          "taker_buy_share": 0.654
+        },
+        "btc_moves_pct": {
+          "5m": 0.231,
+          "15m": 0.16,
+          "1h": -0.989
+        }
+      }
+    },
+    {
+      "role": "loss_example",
+      "entry_ms": 1789048860000,
+      "exit_ms": 1789049220000,
+      "outcome": "loss",
+      "pnl_usd": -5.5,
+      "hold_minutes": 6,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "loss",
+        "hold_minutes": 6,
+        "sol_moves_pct": {
+          "1m": 0.07,
+          "5m": 0.221,
+          "15m": 0.311,
+          "1h": 0.796
+        },
+        "sol_last_hour": {
+          "high": 99.99,
+          "low": 98.88,
+          "range_pct": 1.123,
+          "room_to_hour_high_pct": 0.0
+        },
+        "volume": {
+          "last_1m": 56750.71,
+          "typical_1h_1m": 253037.46,
+          "vs_typical": 0.22,
+          "taker_buy_share": 0.752
+        },
+        "btc_moves_pct": {
+          "5m": 0.174,
+          "15m": 0.358,
+          "1h": 0.411
+        }
+      }
+    },
+    {
+      "role": "loss_example",
+      "entry_ms": 1789050300000,
+      "exit_ms": 1789052520000,
+      "outcome": "loss",
+      "pnl_usd": -5.5,
+      "hold_minutes": 37,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "loss",
+        "hold_minutes": 37,
+        "sol_moves_pct": {
+          "1m": 0.11,
+          "5m": 0.512,
+          "15m": 0.593,
+          "1h": 0.745
+        },
+        "sol_last_hour": {
+          "high": 100.17,
+          "low": 99.24,
+          "range_pct": 0.937,
+          "room_to_hour_high_pct": 0.05
+        },
+        "volume": {
+          "last_1m": 94360.92,
+          "typical_1h_1m": 186258.09,
+          "vs_typical": 0.51,
+          "taker_buy_share": 0.521
+        },
+        "btc_moves_pct": {
+          "5m": 0.347,
+          "15m": 0.426,
+          "1h": 0.612
+        }
+      }
+    },
+    {
+      "role": "loss_example",
+      "entry_ms": 1789052580000,
+      "exit_ms": 1789055220000,
+      "outcome": "loss",
+      "pnl_usd": -5.5,
+      "hold_minutes": 44,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "loss",
+        "hold_minutes": 44,
+        "sol_moves_pct": {
+          "1m": 0.11,
+          "5m": -0.26,
+          "15m": -0.25,
+          "1h": -0.04
+        },
+        "sol_last_hour": {
+          "high": 100.37,
+          "low": 99.27,
+          "range_pct": 1.108,
+          "room_to_hour_high_pct": 0.481
+        },
+        "volume": {
+          "last_1m": 131059.99,
+          "typical_1h_1m": 122362.62,
+          "vs_typical": 1.07,
+          "taker_buy_share": 0.772
+        },
+        "btc_moves_pct": {
+          "5m": -0.077,
+          "15m": -0.038,
+          "1h": 0.063
+        }
+      }
+    }
+  ]
+}

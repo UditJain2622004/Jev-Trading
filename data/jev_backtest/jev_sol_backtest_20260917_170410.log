@@ -1,0 +1,238 @@
+2026-09-17 17:04:10  INFO     Log (this run) D:\jev-trading\data\jev_backtest\jev_sol_backtest_20260917_170410.log
+2026-09-17 17:04:10  INFO     Log (latest)   D:\jev-trading\data\jev_backtest\jev_sol_backtest.log
+2026-09-17 17:04:10  INFO     Last scan totals had no per-trade rows, so replaying cached 1-minute bars
+2026-09-17 17:04:10  INFO     SOL cache SOLUSDT_1m_1789038480000_1789643280000.json
+2026-09-17 17:04:10  INFO     BTC cache BTCUSDT_1m_1789038480000_1789643280000.json
+2026-09-17 17:04:10  INFO     Replaying SOL +0.5% / -0.35% on 10,081 minutes
+2026-09-17 17:04:10  INFO     All sequential trades  n=341  wins=101  losses=166  timeouts=74  net=$-712.10
+2026-09-17 17:04:10  INFO     Example wins=10  example losses=10
+2026-09-17 17:04:10  INFO     Examples (not scored)  n=20  wins=10  losses=10  timeouts=0  net=$-25.00
+2026-09-17 17:04:10  INFO     Test window brute force  n=308  wins=91  losses=146  timeouts=71  net=$-625.91
+2026-09-17 17:04:10  INFO     example win 01  entry=1789045140000  hold=2m  pnl=$3.00
+2026-09-17 17:04:10  INFO     example win 02  entry=1789046040000  hold=23m  pnl=$3.00
+2026-09-17 17:04:10  INFO     example win 03  entry=1789047480000  hold=22m  pnl=$3.00
+2026-09-17 17:04:10  INFO     example win 04  entry=1789049280000  hold=16m  pnl=$3.00
+2026-09-17 17:04:10  INFO     example win 05  entry=1789057140000  hold=27m  pnl=$3.00
+2026-09-17 17:04:10  INFO     example win 06  entry=1789058820000  hold=45m  pnl=$3.00
+2026-09-17 17:04:10  INFO     example win 07  entry=1789063860000  hold=43m  pnl=$3.00
+2026-09-17 17:04:10  INFO     example win 08  entry=1789082160000  hold=54m  pnl=$3.00
+2026-09-17 17:04:10  INFO     example win 09  entry=1789085940000  hold=44m  pnl=$3.00
+2026-09-17 17:04:10  INFO     example win 10  entry=1789090440000  hold=21m  pnl=$3.00
+2026-09-17 17:04:10  INFO     example loss 01  entry=1789042080000  hold=22m  pnl=$-5.50
+2026-09-17 17:04:10  INFO     example loss 02  entry=1789043460000  hold=3m  pnl=$-5.50
+2026-09-17 17:04:10  INFO     example loss 03  entry=1789043700000  hold=3m  pnl=$-5.50
+2026-09-17 17:04:10  INFO     example loss 04  entry=1789043940000  hold=7m  pnl=$-5.50
+2026-09-17 17:04:10  INFO     example loss 05  entry=1789044420000  hold=9m  pnl=$-5.50
+2026-09-17 17:04:10  INFO     example loss 06  entry=1789045020000  hold=1m  pnl=$-5.50
+2026-09-17 17:04:10  INFO     example loss 07  entry=1789045320000  hold=11m  pnl=$-5.50
+2026-09-17 17:04:10  INFO     example loss 08  entry=1789048860000  hold=6m  pnl=$-5.50
+2026-09-17 17:04:10  INFO     example loss 09  entry=1789050300000  hold=37m  pnl=$-5.50
+2026-09-17 17:04:10  INFO     example loss 10  entry=1789052580000  hold=44m  pnl=$-5.50
+2026-09-17 17:04:10  INFO     Wrote example snapshots to D:\jev-trading\data\jev_backtest\examples.json
+2026-09-17 17:04:10  INFO     Wrote D:\jev-trading\data\jev_backtest\examples.csv and D:\jev-trading\data\jev_backtest\test_trades.csv
+2026-09-17 17:04:10  INFO     Jev calls to make: 308
+2026-09-17 17:04:12  INFO     [1/308] 1789091760000  take=False  hit=0.33  btc=0.23  actual=loss  pnl=$-5.50  (hit_tp_first 0.33 below 0.60)
+2026-09-17 17:04:12  INFO     [2/308] 1789093560000  take=False  hit=0.45  btc=0.42  actual=timeout  pnl=$-1.29  (hit_tp_first 0.45 below 0.60)
+2026-09-17 17:04:13  INFO     [3/308] 1789097220000  take=False  hit=0.46  btc=0.19  actual=win  pnl=$3.00  (hit_tp_first 0.46 below 0.60)
+2026-09-17 17:04:13  INFO     [4/308] 1789100700000  take=False  hit=0.34  btc=0.25  actual=timeout  pnl=$-4.30  (hit_tp_first 0.34 below 0.60)
+2026-09-17 17:04:13  INFO     [5/308] 1789104360000  take=False  hit=0.39  btc=0.33  actual=timeout  pnl=$-0.90  (hit_tp_first 0.39 below 0.60)
+2026-09-17 17:04:14  INFO     [6/308] 1789108020000  take=False  hit=0.43  btc=0.29  actual=timeout  pnl=$0.61  (hit_tp_first 0.43 below 0.60)
+2026-09-17 17:04:14  INFO     [7/308] 1789111680000  take=False  hit=0.45  btc=0.25  actual=loss  pnl=$-5.50  (hit_tp_first 0.45 below 0.60)
+2026-09-17 17:04:15  INFO     [8/308] 1789114200000  take=False  hit=0.49  btc=0.48  actual=win  pnl=$3.00  (hit_tp_first 0.49 below 0.60)
+2026-09-17 17:04:15  INFO     [9/308] 1789115460000  take=False  hit=0.30  btc=0.26  actual=loss  pnl=$-5.50  (hit_tp_first 0.30 below 0.60)
+2026-09-17 17:04:15  INFO     [10/308] 1789117740000  take=False  hit=0.49  btc=0.32  actual=loss  pnl=$-5.50  (hit_tp_first 0.49 below 0.60)
+2026-09-17 17:04:15  INFO     Progress 10/308  elapsed 5s  ~144s left
+2026-09-17 17:04:16  INFO     [11/308] 1789119420000  take=False  hit=0.46  btc=0.56  actual=win  pnl=$3.00  (hit_tp_first 0.46 below 0.60)
+2026-09-17 17:04:16  INFO     [12/308] 1789121340000  take=False  hit=0.42  btc=0.51  actual=loss  pnl=$-5.50  (hit_tp_first 0.42 below 0.60)
+2026-09-17 17:04:16  INFO     [13/308] 1789123560000  take=False  hit=0.51  btc=0.19  actual=loss  pnl=$-5.50  (hit_tp_first 0.51 below 0.60)
+2026-09-17 17:04:17  INFO     [14/308] 1789124640000  take=False  hit=0.50  btc=0.47  actual=win  pnl=$3.00  (hit_tp_first 0.50 below 0.60)
+2026-09-17 17:04:17  INFO     [15/308] 1789127160000  take=False  hit=0.46  btc=0.28  actual=loss  pnl=$-5.50  (hit_tp_first 0.46 below 0.60)
+2026-09-17 17:04:18  INFO     [16/308] 1789129500000  take=False  hit=0.49  btc=0.25  actual=win  pnl=$3.00  (hit_tp_first 0.49 below 0.60)
+2026-09-17 17:04:18  INFO     [17/308] 1789129800000  take=False  hit=0.43  btc=0.55  actual=loss  pnl=$-5.50  (hit_tp_first 0.43 below 0.60)
+2026-09-17 17:04:18  INFO     [18/308] 1789129920000  take=False  hit=0.48  btc=0.46  actual=win  pnl=$3.00  (hit_tp_first 0.48 below 0.60)
+2026-09-17 17:04:19  INFO     [19/308] 1789130040000  take=False  hit=0.41  btc=0.21  actual=win  pnl=$3.00  (hit_tp_first 0.41 below 0.60)
+2026-09-17 17:04:19  INFO     [20/308] 1789130280000  take=False  hit=0.38  btc=0.26  actual=win  pnl=$3.00  (hit_tp_first 0.38 below 0.60)
+2026-09-17 17:04:19  INFO     Progress 20/308  elapsed 9s  ~127s left
+2026-09-17 17:04:20  INFO     [21/308] 1789130880000  take=False  hit=0.35  btc=0.22  actual=loss  pnl=$-5.50  (hit_tp_first 0.35 below 0.60)
+2026-09-17 17:04:20  INFO     [22/308] 1789133460000  take=False  hit=0.45  btc=0.35  actual=loss  pnl=$-5.50  (hit_tp_first 0.45 below 0.60)
+2026-09-17 17:04:20  INFO     [23/308] 1789133820000  take=False  hit=0.51  btc=0.30  actual=win  pnl=$3.00  (hit_tp_first 0.51 below 0.60)
+2026-09-17 17:04:21  INFO     [24/308] 1789134120000  take=False  hit=0.28  btc=0.26  actual=win  pnl=$3.00  (hit_tp_first 0.28 below 0.60)
+2026-09-17 17:04:21  INFO     [25/308] 1789134540000  take=False  hit=0.31  btc=0.28  actual=win  pnl=$3.00  (hit_tp_first 0.31 below 0.60)
+2026-09-17 17:04:22  INFO     [26/308] 1789134780000  take=False  hit=0.25  btc=0.30  actual=win  pnl=$3.00  (hit_tp_first 0.25 below 0.60)
+2026-09-17 17:04:22  INFO     [27/308] 1789135080000  take=False  hit=0.23  btc=0.31  actual=win  pnl=$3.00  (hit_tp_first 0.23 below 0.60)
+2026-09-17 17:04:22  INFO     [28/308] 1789135260000  take=False  hit=0.19  btc=0.26  actual=loss  pnl=$-5.50  (hit_tp_first 0.19 below 0.60)
+2026-09-17 17:04:23  INFO     [29/308] 1789135440000  take=False  hit=0.31  btc=0.32  actual=loss  pnl=$-5.50  (hit_tp_first 0.31 below 0.60)
+2026-09-17 17:04:23  INFO     [30/308] 1789135560000  take=False  hit=0.39  btc=0.27  actual=loss  pnl=$-5.50  (hit_tp_first 0.39 below 0.60)
+2026-09-17 17:04:23  INFO     Progress 30/308  elapsed 13s  ~117s left
+2026-09-17 17:04:24  INFO     [31/308] 1789135680000  take=False  hit=0.41  btc=0.31  actual=loss  pnl=$-5.50  (hit_tp_first 0.41 below 0.60)
+2026-09-17 17:04:24  INFO     [32/308] 1789137180000  take=False  hit=0.40  btc=0.30  actual=loss  pnl=$-5.50  (hit_tp_first 0.40 below 0.60)
+2026-09-17 17:04:24  INFO     [33/308] 1789137420000  take=False  hit=0.41  btc=0.36  actual=loss  pnl=$-5.50  (hit_tp_first 0.41 below 0.60)
+2026-09-17 17:04:25  INFO     [34/308] 1789138140000  take=False  hit=0.50  btc=0.27  actual=timeout  pnl=$-1.71  (hit_tp_first 0.50 below 0.60)
+2026-09-17 17:04:25  INFO     [35/308] 1789141800000  take=False  hit=0.40  btc=0.52  actual=loss  pnl=$-5.50  (hit_tp_first 0.40 below 0.60)
+2026-09-17 17:04:26  INFO     [36/308] 1789141920000  take=False  hit=0.37  btc=0.58  actual=loss  pnl=$-5.50  (hit_tp_first 0.37 below 0.60)
+2026-09-17 17:04:26  INFO     [37/308] 1789142040000  take=False  hit=0.36  btc=0.63  actual=loss  pnl=$-5.50  (Bitcoin looks likely to drag SOL down)
+2026-09-17 17:04:26  INFO     [38/308] 1789142160000  take=False  hit=0.34  btc=0.61  actual=win  pnl=$3.00  (Bitcoin looks likely to drag SOL down)
+2026-09-17 17:04:27  INFO     [39/308] 1789142520000  take=False  hit=0.42  btc=0.53  actual=loss  pnl=$-5.50  (hit_tp_first 0.42 below 0.60)
+2026-09-17 17:04:27  INFO     [40/308] 1789143540000  take=False  hit=0.39  btc=0.60  actual=win  pnl=$3.00  (Bitcoin looks likely to drag SOL down)
+2026-09-17 17:04:27  INFO     Progress 40/308  elapsed 17s  ~112s left
+2026-09-17 17:04:28  INFO     [41/308] 1789145220000  take=False  hit=0.46  btc=0.50  actual=loss  pnl=$-5.50  (hit_tp_first 0.46 below 0.60)
+2026-09-17 17:04:28  INFO     [42/308] 1789147380000  take=False  hit=0.30  btc=0.20  actual=loss  pnl=$-5.50  (hit_tp_first 0.30 below 0.60)
+2026-09-17 17:04:28  INFO     [43/308] 1789148580000  take=False  hit=0.37  btc=0.50  actual=loss  pnl=$-5.50  (hit_tp_first 0.37 below 0.60)
+2026-09-17 17:04:29  INFO     [44/308] 1789149720000  take=False  hit=0.38  btc=0.60  actual=loss  pnl=$-5.50  (Bitcoin looks likely to drag SOL down)
+2026-09-17 17:04:29  INFO     [45/308] 1789149900000  take=False  hit=0.31  btc=0.60  actual=win  pnl=$3.00  (Bitcoin looks likely to drag SOL down)
+2026-09-17 17:04:30  INFO     [46/308] 1789150680000  take=False  hit=0.46  btc=0.48  actual=loss  pnl=$-5.50  (hit_tp_first 0.46 below 0.60)
+2026-09-17 17:04:30  INFO     [47/308] 1789152660000  take=False  hit=0.36  btc=0.57  actual=win  pnl=$3.00  (hit_tp_first 0.36 below 0.60)
+2026-09-17 17:04:31  INFO     [48/308] 1789154880000  take=False  hit=0.32  btc=0.23  actual=win  pnl=$3.00  (hit_tp_first 0.32 below 0.60)
+2026-09-17 17:04:31  INFO     [49/308] 1789156620000  take=False  hit=0.34  btc=0.23  actual=win  pnl=$3.00  (hit_tp_first 0.34 below 0.60)
+2026-09-17 17:04:31  INFO     [50/308] 1789157220000  take=False  hit=0.32  btc=0.18  actual=loss  pnl=$-5.50  (hit_tp_first 0.32 below 0.60)
+2026-09-17 17:04:31  INFO     Progress 50/308  elapsed 21s  ~107s left
+2026-09-17 17:04:32  INFO     [51/308] 1789158780000  take=False  hit=0.37  btc=0.27  actual=loss  pnl=$-5.50  (hit_tp_first 0.37 below 0.60)
+2026-09-17 17:04:32  INFO     [52/308] 1789159800000  take=False  hit=0.52  btc=0.41  actual=win  pnl=$3.00  (hit_tp_first 0.52 below 0.60)
+2026-09-17 17:04:33  INFO     [53/308] 1789160880000  take=False  hit=0.42  btc=0.27  actual=loss  pnl=$-5.50  (hit_tp_first 0.42 below 0.60)
+2026-09-17 17:04:33  INFO     [54/308] 1789163460000  take=False  hit=0.50  btc=0.28  actual=loss  pnl=$-5.50  (hit_tp_first 0.50 below 0.60)
+2026-09-17 17:04:33  INFO     [55/308] 1789163940000  take=False  hit=0.50  btc=0.43  actual=loss  pnl=$-5.50  (hit_tp_first 0.50 below 0.60)
+2026-09-17 17:04:34  INFO     [56/308] 1789166100000  take=False  hit=0.48  btc=0.50  actual=loss  pnl=$-5.50  (hit_tp_first 0.48 below 0.60)
+2026-09-17 17:04:34  INFO     [57/308] 1789167180000  take=False  hit=0.46  btc=0.37  actual=win  pnl=$3.00  (hit_tp_first 0.46 below 0.60)
+2026-09-17 17:04:35  INFO     [58/308] 1789168680000  take=False  hit=0.33  btc=0.30  actual=timeout  pnl=$-2.00  (hit_tp_first 0.33 below 0.60)
+2026-09-17 17:04:35  INFO     [59/308] 1789172340000  take=False  hit=0.39  btc=0.19  actual=loss  pnl=$-5.50  (hit_tp_first 0.39 below 0.60)
+2026-09-17 17:04:35  INFO     [60/308] 1789174080000  take=False  hit=0.44  btc=0.21  actual=timeout  pnl=$-0.73  (hit_tp_first 0.44 below 0.60)
+2026-09-17 17:04:35  INFO     Progress 60/308  elapsed 25s  ~103s left
+2026-09-17 17:04:36  INFO     [61/308] 1789177740000  take=False  hit=0.30  btc=0.21  actual=loss  pnl=$-5.50  (hit_tp_first 0.30 below 0.60)
+2026-09-17 17:04:36  INFO     [62/308] 1789179300000  take=False  hit=0.42  btc=0.35  actual=timeout  pnl=$-2.10  (hit_tp_first 0.42 below 0.60)
+2026-09-17 17:04:36  INFO     [63/308] 1789182960000  take=False  hit=0.37  btc=0.19  actual=loss  pnl=$-5.50  (hit_tp_first 0.37 below 0.60)
+2026-09-17 17:04:37  INFO     [64/308] 1789185000000  take=False  hit=0.37  btc=0.32  actual=timeout  pnl=$0.46  (hit_tp_first 0.37 below 0.60)
+2026-09-17 17:04:37  INFO     [65/308] 1789188660000  take=False  hit=0.39  btc=0.21  actual=timeout  pnl=$-2.69  (hit_tp_first 0.39 below 0.60)
+2026-09-17 17:04:38  INFO     [66/308] 1789192320000  take=False  hit=0.34  btc=0.22  actual=timeout  pnl=$-0.72  (hit_tp_first 0.34 below 0.60)
+2026-09-17 17:04:38  INFO     [67/308] 1789195980000  take=False  hit=0.42  btc=0.25  actual=timeout  pnl=$-2.79  (hit_tp_first 0.42 below 0.60)
+2026-09-17 17:04:38  INFO     [68/308] 1789199640000  take=False  hit=0.35  btc=0.34  actual=timeout  pnl=$-0.92  (hit_tp_first 0.35 below 0.60)
+2026-09-17 17:04:39  INFO     [69/308] 1789203300000  take=False  hit=0.38  btc=0.25  actual=timeout  pnl=$0.65  (hit_tp_first 0.38 below 0.60)
+2026-09-17 17:04:39  INFO     [70/308] 1789206960000  take=False  hit=0.35  btc=0.40  actual=timeout  pnl=$-1.22  (hit_tp_first 0.35 below 0.60)
+2026-09-17 17:04:39  INFO     Progress 70/308  elapsed 29s  ~97s left
+2026-09-17 17:04:40  INFO     [71/308] 1789210620000  take=False  hit=0.35  btc=0.33  actual=timeout  pnl=$-2.00  (hit_tp_first 0.35 below 0.60)
+2026-09-17 17:04:40  INFO     [72/308] 1789214280000  take=False  hit=0.33  btc=0.22  actual=timeout  pnl=$-2.88  (hit_tp_first 0.33 below 0.60)
+2026-09-17 17:04:40  INFO     [73/308] 1789217940000  take=False  hit=0.39  btc=0.29  actual=timeout  pnl=$-2.69  (hit_tp_first 0.39 below 0.60)
+2026-09-17 17:04:41  INFO     [74/308] 1789221600000  take=False  hit=0.37  btc=0.20  actual=timeout  pnl=$-1.71  (hit_tp_first 0.37 below 0.60)
+2026-09-17 17:04:41  INFO     [75/308] 1789225260000  take=False  hit=0.32  btc=0.24  actual=timeout  pnl=$-1.61  (hit_tp_first 0.32 below 0.60)
+2026-09-17 17:04:42  INFO     [76/308] 1789228920000  take=False  hit=0.32  btc=0.44  actual=timeout  pnl=$-2.49  (hit_tp_first 0.32 below 0.60)
+2026-09-17 17:04:42  INFO     [77/308] 1789232580000  take=False  hit=0.35  btc=0.56  actual=timeout  pnl=$-3.37  (hit_tp_first 0.35 below 0.60)
+2026-09-17 17:04:42  INFO     [78/308] 1789236240000  take=False  hit=0.33  btc=0.53  actual=timeout  pnl=$-4.16  (hit_tp_first 0.33 below 0.60)
+2026-09-17 17:04:43  INFO     [79/308] 1789239900000  take=False  hit=0.32  btc=0.34  actual=loss  pnl=$-5.50  (hit_tp_first 0.32 below 0.60)
+2026-09-17 17:04:43  INFO     [80/308] 1789242480000  take=False  hit=0.36  btc=0.30  actual=timeout  pnl=$-0.22  (hit_tp_first 0.36 below 0.60)
+2026-09-17 17:04:43  INFO     Progress 80/308  elapsed 33s  ~94s left
+2026-09-17 17:04:44  INFO     [81/308] 1789246140000  take=False  hit=0.34  btc=0.23  actual=timeout  pnl=$-2.39  (hit_tp_first 0.34 below 0.60)
+2026-09-17 17:04:44  INFO     [82/308] 1789249800000  take=False  hit=0.35  btc=0.25  actual=timeout  pnl=$-0.13  (hit_tp_first 0.35 below 0.60)
+2026-09-17 17:04:45  INFO     [83/308] 1789253460000  take=False  hit=0.40  btc=0.21  actual=timeout  pnl=$-0.03  (hit_tp_first 0.40 below 0.60)
+2026-09-17 17:04:45  INFO     [84/308] 1789257120000  take=False  hit=0.30  btc=0.23  actual=timeout  pnl=$-3.18  (hit_tp_first 0.30 below 0.60)
+2026-09-17 17:04:45  INFO     [85/308] 1789260780000  take=False  hit=0.33  btc=0.32  actual=win  pnl=$3.00  (hit_tp_first 0.33 below 0.60)
+2026-09-17 17:04:46  INFO     [86/308] 1789264020000  take=False  hit=0.22  btc=0.19  actual=loss  pnl=$-5.50  (hit_tp_first 0.22 below 0.60)
+2026-09-17 17:04:46  INFO     [87/308] 1789266060000  take=False  hit=0.41  btc=0.21  actual=timeout  pnl=$-0.43  (hit_tp_first 0.41 below 0.60)
+2026-09-17 17:04:47  INFO     [88/308] 1789269720000  take=False  hit=0.37  btc=0.24  actual=loss  pnl=$-5.50  (hit_tp_first 0.37 below 0.60)
+2026-09-17 17:04:47  INFO     [89/308] 1789271280000  take=False  hit=0.42  btc=0.39  actual=timeout  pnl=$-2.00  (hit_tp_first 0.42 below 0.60)
+2026-09-17 17:04:47  INFO     [90/308] 1789274940000  take=False  hit=0.31  btc=0.22  actual=timeout  pnl=$0.56  (hit_tp_first 0.31 below 0.60)
+2026-09-17 17:04:47  INFO     Progress 90/308  elapsed 37s  ~89s left
+2026-09-17 17:04:48  INFO     [91/308] 1789278600000  take=False  hit=0.29  btc=0.22  actual=loss  pnl=$-5.50  (hit_tp_first 0.29 below 0.60)
+2026-09-17 17:04:48  INFO     [92/308] 1789280640000  take=False  hit=0.34  btc=0.22  actual=loss  pnl=$-5.50  (hit_tp_first 0.34 below 0.60)
+2026-09-17 17:04:49  INFO     [93/308] 1789282440000  take=False  hit=0.42  btc=0.53  actual=loss  pnl=$-5.50  (hit_tp_first 0.42 below 0.60)
+2026-09-17 17:04:49  INFO     [94/308] 1789285080000  take=False  hit=0.42  btc=0.41  actual=loss  pnl=$-5.50  (hit_tp_first 0.42 below 0.60)
+2026-09-17 17:04:50  INFO     [95/308] 1789287240000  take=False  hit=0.46  btc=0.42  actual=loss  pnl=$-5.50  (hit_tp_first 0.46 below 0.60)
+2026-09-17 17:04:50  INFO     [96/308] 1789288440000  take=False  hit=0.45  btc=0.45  actual=loss  pnl=$-5.50  (hit_tp_first 0.45 below 0.60)
+2026-09-17 17:04:51  INFO     [97/308] 1789291500000  take=False  hit=0.45  btc=0.53  actual=timeout  pnl=$-1.50  (hit_tp_first 0.45 below 0.60)
+2026-09-17 17:04:51  INFO     [98/308] 1789295160000  take=False  hit=0.42  btc=0.29  actual=loss  pnl=$-5.50  (hit_tp_first 0.42 below 0.60)
+2026-09-17 17:04:51  INFO     [99/308] 1789297080000  take=False  hit=0.39  btc=0.45  actual=timeout  pnl=$1.01  (hit_tp_first 0.39 below 0.60)
+2026-09-17 17:04:52  INFO     [100/308] 1789300740000  take=False  hit=0.32  btc=0.20  actual=timeout  pnl=$-3.20  (hit_tp_first 0.32 below 0.60)
+2026-09-17 17:04:52  INFO     Progress 100/308  elapsed 41s  ~86s left
+2026-09-17 17:04:52  INFO     [101/308] 1789304400000  take=False  hit=0.36  btc=0.37  actual=win  pnl=$3.00  (hit_tp_first 0.36 below 0.60)
+2026-09-17 17:04:53  INFO     [102/308] 1789307640000  take=False  hit=0.39  btc=0.23  actual=win  pnl=$3.00  (hit_tp_first 0.39 below 0.60)
+2026-09-17 17:04:53  INFO     [103/308] 1789309920000  take=False  hit=0.30  btc=0.23  actual=loss  pnl=$-5.50  (hit_tp_first 0.30 below 0.60)
+2026-09-17 17:04:54  INFO     [104/308] 1789312740000  take=False  hit=0.50  btc=0.38  actual=win  pnl=$3.00  (hit_tp_first 0.50 below 0.60)
+2026-09-17 17:04:54  INFO     [105/308] 1789315800000  take=False  hit=0.32  btc=0.19  actual=timeout  pnl=$0.18  (hit_tp_first 0.32 below 0.60)
+2026-09-17 17:04:54  INFO     [106/308] 1789319460000  take=False  hit=0.27  btc=0.25  actual=timeout  pnl=$-2.79  (hit_tp_first 0.27 below 0.60)
+2026-09-17 17:04:55  INFO     [107/308] 1789323120000  take=False  hit=0.38  btc=0.43  actual=timeout  pnl=$-1.51  (hit_tp_first 0.38 below 0.60)
+2026-09-17 17:04:55  INFO     [108/308] 1789326780000  take=False  hit=0.37  btc=0.43  actual=timeout  pnl=$-1.70  (hit_tp_first 0.37 below 0.60)
+2026-09-17 17:04:56  INFO     [109/308] 1789330440000  take=False  hit=0.26  btc=0.19  actual=win  pnl=$3.00  (hit_tp_first 0.26 below 0.60)
+2026-09-17 17:04:56  INFO     [110/308] 1789333380000  take=False  hit=0.36  btc=0.32  actual=loss  pnl=$-5.50  (hit_tp_first 0.36 below 0.60)
+2026-09-17 17:04:56  INFO     Progress 110/308  elapsed 45s  ~82s left
+2026-09-17 17:04:56  INFO     [111/308] 1789336860000  take=False  hit=0.44  btc=0.52  actual=loss  pnl=$-5.50  (hit_tp_first 0.44 below 0.60)
+2026-09-17 17:04:57  INFO     [112/308] 1789337220000  take=False  hit=0.40  btc=0.44  actual=loss  pnl=$-5.50  (hit_tp_first 0.40 below 0.60)
+2026-09-17 17:04:57  INFO     [113/308] 1789337760000  take=False  hit=0.37  btc=0.54  actual=loss  pnl=$-5.50  (hit_tp_first 0.37 below 0.60)
+2026-09-17 17:04:58  INFO     [114/308] 1789338540000  take=False  hit=0.44  btc=0.49  actual=loss  pnl=$-5.50  (hit_tp_first 0.44 below 0.60)
+2026-09-17 17:04:58  INFO     [115/308] 1789341540000  take=False  hit=0.53  btc=0.50  actual=timeout  pnl=$-0.09  (hit_tp_first 0.53 below 0.60)
+2026-09-17 17:04:58  INFO     [116/308] 1789345200000  take=False  hit=0.46  btc=0.31  actual=loss  pnl=$-5.50  (hit_tp_first 0.46 below 0.60)
+2026-09-17 17:04:59  INFO     [117/308] 1789345620000  take=False  hit=0.51  btc=0.45  actual=win  pnl=$3.00  (hit_tp_first 0.51 below 0.60)
+2026-09-17 17:04:59  INFO     [118/308] 1789346040000  take=False  hit=0.43  btc=0.44  actual=loss  pnl=$-5.50  (hit_tp_first 0.43 below 0.60)
+2026-09-17 17:05:00  INFO     [119/308] 1789349700000  take=False  hit=0.49  btc=0.37  actual=win  pnl=$3.00  (hit_tp_first 0.49 below 0.60)
+2026-09-17 17:05:00  INFO     [120/308] 1789350960000  take=False  hit=0.40  btc=0.22  actual=win  pnl=$3.00  (hit_tp_first 0.40 below 0.60)
+2026-09-17 17:05:00  INFO     Progress 120/308  elapsed 49s  ~78s left
+2026-09-17 17:05:00  INFO     [121/308] 1789351740000  take=False  hit=0.31  btc=0.25  actual=win  pnl=$3.00  (hit_tp_first 0.31 below 0.60)
+2026-09-17 17:05:01  INFO     [122/308] 1789352760000  take=False  hit=0.29  btc=0.28  actual=loss  pnl=$-5.50  (hit_tp_first 0.29 below 0.60)
+2026-09-17 17:05:01  INFO     [123/308] 1789353720000  take=False  hit=0.37  btc=0.28  actual=win  pnl=$3.00  (hit_tp_first 0.37 below 0.60)
+2026-09-17 17:05:02  INFO     [124/308] 1789355400000  take=False  hit=0.31  btc=0.24  actual=loss  pnl=$-5.50  (hit_tp_first 0.31 below 0.60)
+2026-09-17 17:05:02  INFO     [125/308] 1789356960000  take=False  hit=0.43  btc=0.35  actual=timeout  pnl=$-0.61  (hit_tp_first 0.43 below 0.60)
+2026-09-17 17:05:02  INFO     [126/308] 1789360620000  take=False  hit=0.33  btc=0.38  actual=timeout  pnl=$-1.60  (hit_tp_first 0.33 below 0.60)
+2026-09-17 17:05:03  INFO     [127/308] 1789364280000  take=False  hit=0.39  btc=0.23  actual=win  pnl=$3.00  (hit_tp_first 0.39 below 0.60)
+2026-09-17 17:05:03  INFO     [128/308] 1789366080000  take=False  hit=0.35  btc=0.22  actual=loss  pnl=$-5.50  (hit_tp_first 0.35 below 0.60)
+2026-09-17 17:05:04  INFO     [129/308] 1789367460000  take=False  hit=0.45  btc=0.54  actual=win  pnl=$3.00  (hit_tp_first 0.45 below 0.60)
+2026-09-17 17:05:04  INFO     [130/308] 1789368240000  take=False  hit=0.38  btc=0.25  actual=timeout  pnl=$-1.90  (hit_tp_first 0.38 below 0.60)
+2026-09-17 17:05:04  INFO     Progress 130/308  elapsed 53s  ~73s left
+2026-09-17 17:05:04  INFO     [131/308] 1789371900000  take=False  hit=0.32  btc=0.22  actual=timeout  pnl=$-2.59  (hit_tp_first 0.32 below 0.60)
+2026-09-17 17:05:05  INFO     [132/308] 1789375560000  take=False  hit=0.33  btc=0.49  actual=timeout  pnl=$-0.23  (hit_tp_first 0.33 below 0.60)
+2026-09-17 17:05:05  INFO     [133/308] 1789379220000  take=False  hit=0.25  btc=0.30  actual=win  pnl=$3.00  (hit_tp_first 0.25 below 0.60)
+2026-09-17 17:05:05  INFO     [134/308] 1789379580000  take=False  hit=0.32  btc=0.26  actual=loss  pnl=$-5.50  (hit_tp_first 0.32 below 0.60)
+2026-09-17 17:05:06  INFO     [135/308] 1789380120000  take=False  hit=0.47  btc=0.28  actual=timeout  pnl=$-1.90  (hit_tp_first 0.47 below 0.60)
+2026-09-17 17:05:06  INFO     [136/308] 1789383780000  take=False  hit=0.32  btc=0.60  actual=loss  pnl=$-5.50  (Bitcoin looks likely to drag SOL down)
+2026-09-17 17:05:07  INFO     [137/308] 1789387140000  take=False  hit=0.45  btc=0.36  actual=win  pnl=$3.00  (hit_tp_first 0.45 below 0.60)
+2026-09-17 17:05:07  INFO     [138/308] 1789389120000  take=False  hit=0.29  btc=0.28  actual=loss  pnl=$-5.50  (hit_tp_first 0.29 below 0.60)
+2026-09-17 17:05:07  INFO     [139/308] 1789389360000  take=False  hit=0.43  btc=0.38  actual=loss  pnl=$-5.50  (hit_tp_first 0.43 below 0.60)
+2026-09-17 17:05:08  INFO     [140/308] 1789390920000  take=False  hit=0.43  btc=0.47  actual=loss  pnl=$-5.50  (hit_tp_first 0.43 below 0.60)
+2026-09-17 17:05:08  INFO     Progress 140/308  elapsed 57s  ~69s left
+2026-09-17 17:05:08  INFO     [141/308] 1789391220000  take=False  hit=0.47  btc=0.46  actual=win  pnl=$3.00  (hit_tp_first 0.47 below 0.60)
+2026-09-17 17:05:09  INFO     [142/308] 1789391640000  take=False  hit=0.50  btc=0.33  actual=win  pnl=$3.00  (hit_tp_first 0.50 below 0.60)
+2026-09-17 17:05:09  INFO     [143/308] 1789392720000  take=False  hit=0.40  btc=0.23  actual=loss  pnl=$-5.50  (hit_tp_first 0.40 below 0.60)
+2026-09-17 17:05:09  INFO     [144/308] 1789393020000  take=False  hit=0.39  btc=0.23  actual=win  pnl=$3.00  (hit_tp_first 0.39 below 0.60)
+2026-09-17 17:05:10  INFO     [145/308] 1789395120000  take=False  hit=0.39  btc=0.22  actual=loss  pnl=$-5.50  (hit_tp_first 0.39 below 0.60)
+2026-09-17 17:05:10  INFO     [146/308] 1789395900000  take=False  hit=0.46  btc=0.33  actual=timeout  pnl=$1.74  (hit_tp_first 0.46 below 0.60)
+2026-09-17 17:05:11  INFO     [147/308] 1789399560000  take=False  hit=0.32  btc=0.29  actual=win  pnl=$3.00  (hit_tp_first 0.32 below 0.60)
+2026-09-17 17:05:11  INFO     [148/308] 1789402740000  take=False  hit=0.37  btc=0.24  actual=win  pnl=$3.00  (hit_tp_first 0.37 below 0.60)
+2026-09-17 17:05:11  INFO     [149/308] 1789406220000  take=False  hit=0.37  btc=0.20  actual=loss  pnl=$-5.50  (hit_tp_first 0.37 below 0.60)
+2026-09-17 17:05:12  INFO     [150/308] 1789407240000  take=False  hit=0.47  btc=0.33  actual=win  pnl=$3.00  (hit_tp_first 0.47 below 0.60)
+2026-09-17 17:05:12  INFO     Progress 150/308  elapsed 61s  ~65s left
+2026-09-17 17:05:12  INFO     [151/308] 1789408560000  take=False  hit=0.43  btc=0.23  actual=win  pnl=$3.00  (hit_tp_first 0.43 below 0.60)
+2026-09-17 17:05:13  INFO     [152/308] 1789410840000  take=False  hit=0.36  btc=0.22  actual=loss  pnl=$-5.50  (hit_tp_first 0.36 below 0.60)
+2026-09-17 17:05:13  INFO     [153/308] 1789411380000  take=False  hit=0.38  btc=0.20  actual=loss  pnl=$-5.50  (hit_tp_first 0.38 below 0.60)
+2026-09-17 17:05:13  INFO     [154/308] 1789412700000  take=False  hit=0.46  btc=0.34  actual=timeout  pnl=$-0.35  (hit_tp_first 0.46 below 0.60)
+2026-09-17 17:05:14  INFO     [155/308] 1789416360000  take=False  hit=0.39  btc=0.25  actual=win  pnl=$3.00  (hit_tp_first 0.39 below 0.60)
+2026-09-17 17:05:14  INFO     [156/308] 1789416780000  take=False  hit=0.38  btc=0.20  actual=win  pnl=$3.00  (hit_tp_first 0.38 below 0.60)
+2026-09-17 17:05:15  INFO     [157/308] 1789417020000  take=False  hit=0.28  btc=0.23  actual=loss  pnl=$-5.50  (hit_tp_first 0.28 below 0.60)
+2026-09-17 17:05:15  INFO     [158/308] 1789419480000  take=False  hit=0.45  btc=0.35  actual=loss  pnl=$-5.50  (hit_tp_first 0.45 below 0.60)
+2026-09-17 17:05:15  INFO     [159/308] 1789419780000  take=False  hit=0.49  btc=0.43  actual=loss  pnl=$-5.50  (hit_tp_first 0.49 below 0.60)
+2026-09-17 17:05:16  INFO     [160/308] 1789421880000  take=False  hit=0.41  btc=0.53  actual=timeout  pnl=$-3.55  (hit_tp_first 0.41 below 0.60)
+2026-09-17 17:05:16  INFO     Progress 160/308  elapsed 65s  ~60s left
+2026-09-17 17:05:16  INFO     [161/308] 1789425540000  take=False  hit=0.40  btc=0.46  actual=loss  pnl=$-5.50  (hit_tp_first 0.40 below 0.60)
+2026-09-17 17:05:17  INFO     [162/308] 1789427220000  take=False  hit=0.49  btc=0.53  actual=loss  pnl=$-5.50  (hit_tp_first 0.49 below 0.60)
+2026-09-17 17:05:17  INFO     [163/308] 1789429980000  take=False  hit=0.43  btc=0.56  actual=timeout  pnl=$-1.22  (hit_tp_first 0.43 below 0.60)
+2026-09-17 17:05:17  INFO     [164/308] 1789433640000  take=False  hit=0.36  btc=0.63  actual=loss  pnl=$-5.50  (Bitcoin looks likely to drag SOL down)
+2026-09-17 17:05:18  INFO     [165/308] 1789434960000  take=False  hit=0.38  btc=0.51  actual=timeout  pnl=$-2.88  (hit_tp_first 0.38 below 0.60)
+2026-09-17 17:05:18  INFO     [166/308] 1789438620000  take=False  hit=0.35  btc=0.26  actual=loss  pnl=$-5.50  (hit_tp_first 0.35 below 0.60)
+2026-09-17 17:05:19  INFO     [167/308] 1789441260000  take=False  hit=0.38  btc=0.43  actual=loss  pnl=$-5.50  (hit_tp_first 0.38 below 0.60)
+2026-09-17 17:05:19  INFO     [168/308] 1789441860000  take=False  hit=0.40  btc=0.47  actual=timeout  pnl=$-1.01  (hit_tp_first 0.40 below 0.60)
+2026-09-17 17:05:19  INFO     [169/308] 1789445520000  take=False  hit=0.39  btc=0.56  actual=loss  pnl=$-5.50  (hit_tp_first 0.39 below 0.60)
+2026-09-17 17:05:20  INFO     [170/308] 1789449060000  take=False  hit=0.44  btc=0.53  actual=loss  pnl=$-5.50  (hit_tp_first 0.44 below 0.60)
+2026-09-17 17:05:20  INFO     Progress 170/308  elapsed 69s  ~56s left
+2026-09-17 17:05:20  INFO     [171/308] 1789449480000  take=False  hit=0.47  btc=0.47  actual=win  pnl=$3.00  (hit_tp_first 0.47 below 0.60)
+2026-09-17 17:05:20  INFO     [172/308] 1789451460000  take=False  hit=0.30  btc=0.33  actual=loss  pnl=$-5.50  (hit_tp_first 0.30 below 0.60)
+2026-09-17 17:05:21  INFO     [173/308] 1789455060000  take=False  hit=0.47  btc=0.56  actual=loss  pnl=$-5.50  (hit_tp_first 0.47 below 0.60)
+2026-09-17 17:05:21  INFO     [174/308] 1789457760000  take=False  hit=0.37  btc=0.57  actual=loss  pnl=$-5.50  (hit_tp_first 0.37 below 0.60)
+2026-09-17 17:05:22  INFO     [175/308] 1789459020000  take=False  hit=0.44  btc=0.58  actual=timeout  pnl=$-0.01  (hit_tp_first 0.44 below 0.60)
+2026-09-17 17:05:22  INFO     [176/308] 1789462680000  take=False  hit=0.40  btc=0.23  actual=win  pnl=$3.00  (hit_tp_first 0.40 below 0.60)
+2026-09-17 17:05:23  INFO     [177/308] 1789466100000  take=False  hit=0.36  btc=0.19  actual=timeout  pnl=$-1.41  (hit_tp_first 0.36 below 0.60)
+2026-09-17 17:05:23  INFO     [178/308] 1789469760000  take=False  hit=0.38  btc=0.31  actual=loss  pnl=$-5.50  (hit_tp_first 0.38 below 0.60)
+2026-09-17 17:05:23  INFO     [179/308] 1789471980000  take=False  hit=0.43  btc=0.41  actual=win  pnl=$3.00  (hit_tp_first 0.43 below 0.60)
+2026-09-17 17:05:24  INFO     [180/308] 1789474920000  take=False  hit=0.32  btc=0.28  actual=timeout  pnl=$-2.49  (hit_tp_first 0.32 below 0.60)
+2026-09-17 17:05:24  INFO     Progress 180/308  elapsed 73s  ~52s left
+2026-09-17 17:05:24  INFO     [181/308] 1789478580000  take=False  hit=0.41  btc=0.28  actual=loss  pnl=$-5.50  (hit_tp_first 0.41 below 0.60)
+2026-09-17 17:05:25  INFO     [182/308] 1789479120000  take=False  hit=0.50  btc=0.46  actual=loss  pnl=$-5.50  (hit_tp_first 0.50 below 0.60)
+2026-09-17 17:05:25  INFO     [183/308] 1789479480000  take=False  hit=0.40  btc=0.60  actual=loss  pnl=$-5.50  (Bitcoin looks likely to drag SOL down)
+2026-09-17 17:05:25  INFO     [184/308] 1789479600000  take=False  hit=0.50  btc=0.55  actual=loss  pnl=$-5.50  (hit_tp_first 0.50 below 0.60)
+2026-09-17 17:05:26  INFO     [185/308] 1789480020000  take=False  hit=0.40  btc=0.59  actual=win  pnl=$3.00  (hit_tp_first 0.40 below 0.60)
+2026-09-17 17:05:26  INFO     [186/308] 1789480800000  take=False  hit=0.51  btc=0.47  actual=loss  pnl=$-5.50  (hit_tp_first 0.51 below 0.60)
+2026-09-17 17:05:26  INFO     [187/308] 1789481160000  take=False  hit=0.47  btc=0.52  actual=loss  pnl=$-5.50  (hit_tp_first 0.47 below 0.60)

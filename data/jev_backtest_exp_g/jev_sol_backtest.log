@@ -1,0 +1,51 @@
+2026-09-17 18:11:13  INFO     Log (this run) D:\jev-trading\data\jev_backtest_exp_g\jev_sol_backtest_exp_g_20260917_181113.log
+2026-09-17 18:11:13  INFO     Log (latest)   D:\jev-trading\data\jev_backtest_exp_g\jev_sol_backtest.log
+2026-09-17 18:11:13  INFO     Experiment G: stretch skip then buy pullbacks (no Jev)
+2026-09-17 18:11:13  INFO     Last scan totals had no per-trade rows, so replaying cached 1-minute bars
+2026-09-17 18:11:13  INFO     SOL cache SOLUSDT_1m_1789038480000_1789643280000.json
+2026-09-17 18:11:13  INFO     BTC cache BTCUSDT_1m_1789038480000_1789643280000.json
+2026-09-17 18:11:13  INFO     Replaying SOL +0.5% / -0.35% on 10,081 minutes
+2026-09-17 18:11:14  INFO     All sequential trades  n=341  wins=101  losses=166  timeouts=74  net=$-712.10
+2026-09-17 18:11:14  INFO     Seed examples (used only until enough later trades have finished)
+2026-09-17 18:11:14  INFO     Example seed wins=10  seed losses=10
+2026-09-17 18:11:14  INFO     Examples (not scored)  n=20  wins=10  losses=10  timeouts=0  net=$-25.00
+2026-09-17 18:11:14  INFO     Test window brute force  n=308  wins=91  losses=146  timeouts=71  net=$-625.91
+2026-09-17 18:11:14  INFO     example win 01  entry=1789045140000  hold=2m  pnl=$3.00
+2026-09-17 18:11:14  INFO     example win 02  entry=1789046040000  hold=23m  pnl=$3.00
+2026-09-17 18:11:14  INFO     example win 03  entry=1789047480000  hold=22m  pnl=$3.00
+2026-09-17 18:11:14  INFO     example win 04  entry=1789049280000  hold=16m  pnl=$3.00
+2026-09-17 18:11:14  INFO     example win 05  entry=1789057140000  hold=27m  pnl=$3.00
+2026-09-17 18:11:14  INFO     example win 06  entry=1789058820000  hold=45m  pnl=$3.00
+2026-09-17 18:11:14  INFO     example win 07  entry=1789063860000  hold=43m  pnl=$3.00
+2026-09-17 18:11:14  INFO     example win 08  entry=1789082160000  hold=54m  pnl=$3.00
+2026-09-17 18:11:14  INFO     example win 09  entry=1789085940000  hold=44m  pnl=$3.00
+2026-09-17 18:11:14  INFO     example win 10  entry=1789090440000  hold=21m  pnl=$3.00
+2026-09-17 18:11:14  INFO     example loss 01  entry=1789042080000  hold=22m  pnl=$-5.50
+2026-09-17 18:11:14  INFO     example loss 02  entry=1789043460000  hold=3m  pnl=$-5.50
+2026-09-17 18:11:14  INFO     example loss 03  entry=1789043700000  hold=3m  pnl=$-5.50
+2026-09-17 18:11:14  INFO     example loss 04  entry=1789043940000  hold=7m  pnl=$-5.50
+2026-09-17 18:11:14  INFO     example loss 05  entry=1789044420000  hold=9m  pnl=$-5.50
+2026-09-17 18:11:14  INFO     example loss 06  entry=1789045020000  hold=1m  pnl=$-5.50
+2026-09-17 18:11:14  INFO     example loss 07  entry=1789045320000  hold=11m  pnl=$-5.50
+2026-09-17 18:11:14  INFO     example loss 08  entry=1789048860000  hold=6m  pnl=$-5.50
+2026-09-17 18:11:14  INFO     example loss 09  entry=1789050300000  hold=37m  pnl=$-5.50
+2026-09-17 18:11:14  INFO     example loss 10  entry=1789052580000  hold=44m  pnl=$-5.50
+2026-09-17 18:11:14  INFO     Wrote example snapshots to D:\jev-trading\data\jev_backtest_exp_g\examples.json
+2026-09-17 18:11:14  INFO     Wrote D:\jev-trading\data\jev_backtest_exp_g\examples.csv and D:\jev-trading\data\jev_backtest_exp_g\test_trades.csv
+2026-09-17 18:11:14  INFO     Slots=308  (no Jev calls)
+2026-09-17 18:11:14  INFO     [50/308] take=False actual=loss pnl=$-5.50 (prefilter: stretched into hour high)
+2026-09-17 18:11:14  INFO     [100/308] take=False actual=timeout pnl=$-3.20 (prefilter: stretched into hour high)
+2026-09-17 18:11:14  INFO     [150/308] take=False actual=win pnl=$3.00 (not a pullback)
+2026-09-17 18:11:14  INFO     [200/308] take=False actual=loss pnl=$-5.50 (not a pullback)
+2026-09-17 18:11:14  INFO     [250/308] take=False actual=timeout pnl=$1.09 (not a pullback)
+2026-09-17 18:11:14  INFO     [300/308] take=False actual=win pnl=$3.00 (not a pullback)
+2026-09-17 18:11:14  INFO     [308/308] take=False actual=timeout pnl=$-2.70 (prefilter: stretched into hour high)
+2026-09-17 18:11:14  INFO     Wrote per-trade Jev calls to D:\jev-trading\data\jev_backtest_exp_g\test_calls.jsonl
+2026-09-17 18:11:14  INFO     --- Test window (same trades, two policies) ---
+2026-09-17 18:11:14  INFO     Brute force (always buy)  trades=308  net=$-625.91
+2026-09-17 18:11:14  INFO     Jev filter  takes=27  skips=281  net=$-77.91
+2026-09-17 18:11:14  INFO     Taken trades  wins=6  losses=16  timeouts=5
+2026-09-17 18:11:14  INFO     Skipped trades  wins=85  losses=130  timeouts=66
+2026-09-17 18:11:14  INFO     Jev take vs actual win  right=202  wrong=106
+2026-09-17 18:11:14  INFO     Wrote D:\jev-trading\data\jev_backtest_exp_g\summary.json
+2026-09-17 18:11:14  INFO     This run scored 308 new trades

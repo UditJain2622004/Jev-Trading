@@ -1,0 +1,15 @@
+{
+  "test_trades": 308,
+  "brute_net_usd": -625.9102,
+  "jev_net_usd": -5.5,
+  "jev_takes": 1,
+  "jev_skips": 307,
+  "jev_take_wins": 0,
+  "jev_take_losses": 1,
+  "jev_take_timeouts": 0,
+  "jev_skip_wins": 91,
+  "jev_skip_losses": 145,
+  "jev_skip_timeouts": 71,
+  "jev_right": 216,
+  "jev_wrong": 92
+}

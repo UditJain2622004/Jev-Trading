@@ -1,0 +1,129 @@
+2026-09-19 19:41:49  INFO     Log (this run) D:\jev-trading\data\buy_the_dip\buy_the_dip_20260919_194149.log
+2026-09-19 19:41:49  INFO     Log (latest)   D:\jev-trading\data\buy_the_dip\scan.log
+2026-09-19 19:41:49  INFO     Buy-the-dip scan. No Jev. $1000 clip, 0.20% round-trip fee.
+2026-09-19 19:41:49  INFO     Window 30 days  1787235060000 to 1789827060000
+2026-09-19 19:41:49  INFO     Coins 5: SOLUSDT, ETHUSDT, ARBUSDT, NEARUSDT, WIFUSDT
+2026-09-19 19:41:49  INFO     Combos 10
+2026-09-19 19:41:49  INFO       sol_4pct_6h    dip 4.0% in 6h, end within 1.0% after 45m, TP 3.0 SL 2.0, timeout 24h
+2026-09-19 19:41:49  INFO       sol_4pct_12h   dip 4.0% in 12h, end within 1.2% after 60m, TP 3.5 SL 2.0, timeout 24h
+2026-09-19 19:41:49  INFO       sol_5pct_6h    dip 5.0% in 6h, end within 1.5% after 30m, TP 4.0 SL 2.0, timeout 24h
+2026-09-19 19:41:49  INFO       sol_5pct_8h    dip 5.0% in 8h, end within 1.2% after 45m, TP 4.0 SL 2.0, timeout 24h
+2026-09-19 19:41:49  INFO       sol_5pct_12h   dip 5.0% in 12h, end within 1.5% after 60m, TP 4.0 SL 2.5, timeout 24h
+2026-09-19 19:41:49  INFO       sol_6pct_12h   dip 6.0% in 12h, end within 1.5% after 60m, TP 4.0 SL 2.5, timeout 24h
+2026-09-19 19:41:49  INFO       sol_6pct_24h   dip 6.0% in 24h, end within 2.0% after 90m, TP 5.0 SL 2.5, timeout 24h
+2026-09-19 19:41:49  INFO       sol_7pct_12h   dip 7.0% in 12h, end within 1.5% after 60m, TP 5.0 SL 2.5, timeout 24h
+2026-09-19 19:41:49  INFO       sol_7pct_24h   dip 7.0% in 24h, end within 2.0% after 120m, TP 5.0 SL 3.0, timeout 24h
+2026-09-19 19:41:49  INFO       sol_8pct_24h   dip 8.0% in 24h, end within 2.0% after 90m, TP 5.0 SL 3.0, timeout 24h
+2026-09-19 19:41:49  INFO     ----------  [1/5] SOLUSDT  ----------
+2026-09-19 19:41:49  INFO     SOLUSDT: reusing SOLUSDT_1m_1787234280000_1789826280000.json
+2026-09-19 19:41:50  INFO     SOLUSDT: 43,201 1-minute bars
+2026-09-19 19:41:55  INFO     SOLUSDT  sol_4pct_6h  dip 4.0%/6.0h  wait 1.0%/45m  TP/SL 3.0/2.0  cand=36 n=11 W/L/T=3/3/5  res=50.0  be=44.0  net=$32.09
+2026-09-19 19:42:06  INFO     SOLUSDT  sol_4pct_12h  dip 4.0%/12.0h  wait 1.2%/60m  TP/SL 3.5/2.0  cand=62 n=15 W/L/T=2/8/5  res=20.0  be=40.0  net=$-68.42
+2026-09-19 19:42:12  INFO     SOLUSDT  sol_5pct_6h  dip 5.0%/6.0h  wait 1.5%/30m  TP/SL 4.0/2.0  cand=20 n=7 W/L/T=2/1/4  res=66.7  be=36.7  net=$84.91
+2026-09-19 19:42:19  INFO     SOLUSDT  sol_5pct_8h  dip 5.0%/8.0h  wait 1.2%/45m  TP/SL 4.0/2.0  cand=23 n=8 W/L/T=1/2/5  res=33.3  be=36.7  net=$28.47
+2026-09-19 19:42:31  INFO     SOLUSDT  sol_5pct_12h  dip 5.0%/12.0h  wait 1.5%/60m  TP/SL 4.0/2.5  cand=32 n=10 W/L/T=1/4/5  res=20.0  be=41.5  net=$-21.61
+2026-09-19 19:42:42  INFO     SOLUSDT  sol_6pct_12h  dip 6.0%/12.0h  wait 1.5%/60m  TP/SL 4.0/2.5  cand=12 n=4 W/L/T=1/2/1  res=33.3  be=41.5  net=$-7.93
+2026-09-19 19:43:03  INFO     SOLUSDT  sol_6pct_24h  dip 6.0%/24.0h  wait 2.0%/90m  TP/SL 5.0/2.5  cand=36 n=10 W/L/T=0/6/4  res=0.0  be=36.0  net=$-119.63
+2026-09-19 19:43:14  INFO     SOLUSDT  sol_7pct_12h  dip 7.0%/12.0h  wait 1.5%/60m  TP/SL 5.0/2.5  cand=10 n=2 W/L/T=0/1/1  res=0.0  be=36.0  net=$-17.68
+2026-09-19 19:43:36  INFO     SOLUSDT  sol_7pct_24h  dip 7.0%/24.0h  wait 2.0%/120m  TP/SL 5.0/3.0  cand=17 n=4 W/L/T=0/0/4  res=n/a  be=40.0  net=$65.31
+2026-09-19 19:43:59  INFO     SOLUSDT  sol_8pct_24h  dip 8.0%/24.0h  wait 2.0%/90m  TP/SL 5.0/3.0  cand=14 n=2 W/L/T=0/0/2  res=n/a  be=40.0  net=$15.04
+2026-09-19 19:43:59  INFO     ----------  [2/5] ETHUSDT  ----------
+2026-09-19 19:43:59  INFO     ETHUSDT: reusing ETHUSDT_1m_1787234280000_1789826280000.json
+2026-09-19 19:43:59  INFO     ETHUSDT: 43,201 1-minute bars
+2026-09-19 19:44:05  INFO     ETHUSDT  sol_4pct_6h  dip 4.0%/6.0h  wait 1.0%/45m  TP/SL 3.0/2.0  cand=25 n=7 W/L/T=0/3/4  res=0.0  be=44.0  net=$-55.90
+2026-09-19 19:44:16  INFO     ETHUSDT  sol_4pct_12h  dip 4.0%/12.0h  wait 1.2%/60m  TP/SL 3.5/2.0  cand=48 n=10 W/L/T=0/5/5  res=0.0  be=40.0  net=$-88.51
+2026-09-19 19:44:22  INFO     ETHUSDT  sol_5pct_6h  dip 5.0%/6.0h  wait 1.5%/30m  TP/SL 4.0/2.0  cand=6 n=3 W/L/T=0/1/2  res=0.0  be=36.7  net=$-15.25
+2026-09-19 19:44:29  INFO     ETHUSDT  sol_5pct_8h  dip 5.0%/8.0h  wait 1.2%/45m  TP/SL 4.0/2.0  cand=10 n=3 W/L/T=0/1/2  res=0.0  be=36.7  net=$-11.80
+2026-09-19 19:44:40  INFO     ETHUSDT  sol_5pct_12h  dip 5.0%/12.0h  wait 1.5%/60m  TP/SL 4.0/2.5  cand=22 n=4 W/L/T=0/2/2  res=0.0  be=41.5  net=$-51.08
+2026-09-19 19:44:51  INFO     ETHUSDT  sol_6pct_12h  dip 6.0%/12.0h  wait 1.5%/60m  TP/SL 4.0/2.5  cand=6 n=3 W/L/T=0/1/2  res=0.0  be=41.5  net=$-21.56
+2026-09-19 19:45:13  INFO     ETHUSDT  sol_6pct_24h  dip 6.0%/24.0h  wait 2.0%/90m  TP/SL 5.0/2.5  cand=17 n=5 W/L/T=0/2/3  res=0.0  be=36.0  net=$-37.40
+2026-09-19 19:45:25  INFO     ETHUSDT  sol_7pct_12h  dip 7.0%/12.0h  wait 1.5%/60m  TP/SL 5.0/2.5  cand=0 n=0 W/L/T=0/0/0  res=n/a  be=36.0  net=$0.00
+2026-09-19 19:45:47  INFO     ETHUSDT  sol_7pct_24h  dip 7.0%/24.0h  wait 2.0%/120m  TP/SL 5.0/3.0  cand=5 n=1 W/L/T=0/0/1  res=n/a  be=40.0  net=$-16.33
+2026-09-19 19:46:11  INFO     ETHUSDT  sol_8pct_24h  dip 8.0%/24.0h  wait 2.0%/90m  TP/SL 5.0/3.0  cand=4 n=1 W/L/T=0/0/1  res=n/a  be=40.0  net=$-14.42
+2026-09-19 19:46:11  INFO     ----------  [3/5] ARBUSDT  ----------
+2026-09-19 19:46:11  INFO     ARBUSDT: reusing ARBUSDT_1m_1787234280000_1789826280000.json
+2026-09-19 19:46:11  INFO     ARBUSDT: 43,201 1-minute bars
+2026-09-19 19:46:16  INFO     ARBUSDT  sol_4pct_6h  dip 4.0%/6.0h  wait 1.0%/45m  TP/SL 3.0/2.0  cand=241 n=102 W/L/T=45/55/2  res=45.0  be=44.0  net=$34.35
+2026-09-19 19:46:23  INFO     ARBUSDT  sol_4pct_12h  dip 4.0%/12.0h  wait 1.2%/60m  TP/SL 3.5/2.0  cand=283 n=96 W/L/T=40/54/2  res=42.6  be=40.0  net=$129.14
+2026-09-19 19:46:27  INFO     ARBUSDT  sol_5pct_6h  dip 5.0%/6.0h  wait 1.5%/30m  TP/SL 4.0/2.0  cand=268 n=78 W/L/T=31/47/0  res=39.7  be=36.7  net=$144.00
+2026-09-19 19:46:32  INFO     ARBUSDT  sol_5pct_8h  dip 5.0%/8.0h  wait 1.2%/45m  TP/SL 4.0/2.0  cand=217 n=81 W/L/T=31/49/1  res=38.8  be=36.7  net=$101.43
+2026-09-19 19:46:40  INFO     ARBUSDT  sol_5pct_12h  dip 5.0%/12.0h  wait 1.5%/60m  TP/SL 4.0/2.5  cand=217 n=76 W/L/T=31/44/1  res=41.3  be=41.5  net=$-10.86
+2026-09-19 19:46:49  INFO     ARBUSDT  sol_6pct_12h  dip 6.0%/12.0h  wait 1.5%/60m  TP/SL 4.0/2.5  cand=170 n=58 W/L/T=28/30/0  res=48.3  be=41.5  net=$254.00
+2026-09-19 19:47:03  INFO     ARBUSDT  sol_6pct_24h  dip 6.0%/24.0h  wait 2.0%/90m  TP/SL 5.0/2.5  cand=188 n=58 W/L/T=23/34/1  res=40.4  be=36.0  net=$178.35
+2026-09-19 19:47:10  INFO     ARBUSDT  sol_7pct_12h  dip 7.0%/12.0h  wait 1.5%/60m  TP/SL 5.0/2.5  cand=136 n=45 W/L/T=19/25/1  res=43.2  be=36.0  net=$237.14
+2026-09-19 19:47:25  INFO     ARBUSDT  sol_7pct_24h  dip 7.0%/24.0h  wait 2.0%/120m  TP/SL 5.0/3.0  cand=112 n=43 W/L/T=17/23/3  res=42.5  be=40.0  net=$65.28
+2026-09-19 19:47:39  INFO     ARBUSDT  sol_8pct_24h  dip 8.0%/24.0h  wait 2.0%/90m  TP/SL 5.0/3.0  cand=115 n=35 W/L/T=16/15/4  res=51.6  be=40.0  net=$278.48
+2026-09-19 19:47:39  INFO     ----------  [4/5] NEARUSDT  ----------
+2026-09-19 19:47:39  INFO     NEARUSDT: reusing NEARUSDT_1m_1787234280000_1789826280000.json
+2026-09-19 19:47:40  INFO     NEARUSDT: 43,201 1-minute bars
+2026-09-19 19:47:44  INFO     NEARUSDT  sol_4pct_6h  dip 4.0%/6.0h  wait 1.0%/45m  TP/SL 3.0/2.0  cand=179 n=60 W/L/T=21/36/3  res=36.8  be=44.0  net=$-186.40
+2026-09-19 19:47:51  INFO     NEARUSDT  sol_4pct_12h  dip 4.0%/12.0h  wait 1.2%/60m  TP/SL 3.5/2.0  cand=229 n=63 W/L/T=22/39/2  res=36.1  be=40.0  net=$-132.46
+2026-09-19 19:47:55  INFO     NEARUSDT  sol_5pct_6h  dip 5.0%/6.0h  wait 1.5%/30m  TP/SL 4.0/2.0  cand=137 n=34 W/L/T=11/22/1  res=33.3  be=36.7  net=$-61.64
+2026-09-19 19:48:01  INFO     NEARUSDT  sol_5pct_8h  dip 5.0%/8.0h  wait 1.2%/45m  TP/SL 4.0/2.0  cand=126 n=41 W/L/T=10/29/2  res=25.6  be=36.7  net=$-242.43
+2026-09-19 19:48:09  INFO     NEARUSDT  sol_5pct_12h  dip 5.0%/12.0h  wait 1.5%/60m  TP/SL 4.0/2.5  cand=150 n=36 W/L/T=11/22/3  res=33.3  be=41.5  net=$-169.25
+2026-09-19 19:48:17  INFO     NEARUSDT  sol_6pct_12h  dip 6.0%/12.0h  wait 1.5%/60m  TP/SL 4.0/2.5  cand=91 n=24 W/L/T=6/16/2  res=27.3  be=41.5  net=$-188.76
+2026-09-19 19:48:31  INFO     NEARUSDT  sol_6pct_24h  dip 6.0%/24.0h  wait 2.0%/90m  TP/SL 5.0/2.5  cand=141 n=32 W/L/T=9/20/3  res=31.0  be=36.0  net=$-91.43
+2026-09-19 19:48:40  INFO     NEARUSDT  sol_7pct_12h  dip 7.0%/12.0h  wait 1.5%/60m  TP/SL 5.0/2.5  cand=56 n=16 W/L/T=2/11/3  res=15.4  be=36.0  net=$-202.83
+2026-09-19 19:48:55  INFO     NEARUSDT  sol_7pct_24h  dip 7.0%/24.0h  wait 2.0%/120m  TP/SL 5.0/3.0  cand=80 n=19 W/L/T=4/10/5  res=28.6  be=40.0  net=$-129.17
+2026-09-19 19:49:11  INFO     NEARUSDT  sol_8pct_24h  dip 8.0%/24.0h  wait 2.0%/90m  TP/SL 5.0/3.0  cand=83 n=14 W/L/T=3/7/4  res=30.0  be=40.0  net=$-89.72
+2026-09-19 19:49:11  INFO     ----------  [5/5] WIFUSDT  ----------
+2026-09-19 19:49:11  INFO     WIFUSDT: reusing WIFUSDT_1m_1787234280000_1789826280000.json
+2026-09-19 19:49:12  INFO     WIFUSDT: 43,201 1-minute bars
+2026-09-19 19:49:16  INFO     WIFUSDT  sol_4pct_6h  dip 4.0%/6.0h  wait 1.0%/45m  TP/SL 3.0/2.0  cand=134 n=52 W/L/T=14/35/3  res=28.6  be=44.0  net=$-382.96
+2026-09-19 19:49:23  INFO     WIFUSDT  sol_4pct_12h  dip 4.0%/12.0h  wait 1.2%/60m  TP/SL 3.5/2.0  cand=184 n=49 W/L/T=14/31/4  res=31.1  be=40.0  net=$-179.37
+2026-09-19 19:49:28  INFO     WIFUSDT  sol_5pct_6h  dip 5.0%/6.0h  wait 1.5%/30m  TP/SL 4.0/2.0  cand=119 n=30 W/L/T=9/19/2  res=32.1  be=36.7  net=$-76.65
+2026-09-19 19:49:34  INFO     WIFUSDT  sol_5pct_8h  dip 5.0%/8.0h  wait 1.2%/45m  TP/SL 4.0/2.0  cand=109 n=33 W/L/T=9/22/2  res=29.0  be=36.7  net=$-125.48
+2026-09-19 19:49:42  INFO     WIFUSDT  sol_5pct_12h  dip 5.0%/12.0h  wait 1.5%/60m  TP/SL 4.0/2.5  cand=134 n=31 W/L/T=7/20/4  res=25.9  be=41.5  net=$-236.23
+2026-09-19 19:49:50  INFO     WIFUSDT  sol_6pct_12h  dip 6.0%/12.0h  wait 1.5%/60m  TP/SL 4.0/2.5  cand=97 n=22 W/L/T=5/15/2  res=25.0  be=41.5  net=$-206.58
+2026-09-19 19:50:04  INFO     WIFUSDT  sol_6pct_24h  dip 6.0%/24.0h  wait 2.0%/90m  TP/SL 5.0/2.5  cand=124 n=30 W/L/T=5/19/6  res=20.8  be=36.0  net=$-172.76
+2026-09-19 19:50:13  INFO     WIFUSDT  sol_7pct_12h  dip 7.0%/12.0h  wait 1.5%/60m  TP/SL 5.0/2.5  cand=80 n=20 W/L/T=3/15/2  res=16.7  be=36.0  net=$-223.29
+2026-09-19 19:50:27  INFO     WIFUSDT  sol_7pct_24h  dip 7.0%/24.0h  wait 2.0%/120m  TP/SL 5.0/3.0  cand=81 n=20 W/L/T=4/12/4  res=25.0  be=40.0  net=$-171.16
+2026-09-19 19:50:42  INFO     WIFUSDT  sol_8pct_24h  dip 8.0%/24.0h  wait 2.0%/90m  TP/SL 5.0/3.0  cand=95 n=22 W/L/T=4/14/4  res=22.2  be=40.0  net=$-210.96
+2026-09-19 19:50:42  INFO     
+2026-09-19 19:50:42  INFO     Rows 50  with at least 5 trades 39  net>0 12  at/above breakeven 11
+2026-09-19 19:50:42  INFO     
+2026-09-19 19:50:42  INFO     Best 12 by net (any trade count)
+2026-09-19 19:50:42  INFO       coin       combo                 dip       stable        exit    n     W/L/T   res%    be%      net$
+2026-09-19 19:50:42  INFO       ARBUSDT    sol_8pct_24h   8.0%/24h 2.00%/90m 5.0/3.0   35   16/15/4   51.6   40.0    278.48
+2026-09-19 19:50:42  INFO       ARBUSDT    sol_6pct_12h   6.0%/12h 1.50%/60m 4.0/2.5   58   28/30/0   48.3   41.5    254.00
+2026-09-19 19:50:42  INFO       ARBUSDT    sol_7pct_12h   7.0%/12h 1.50%/60m 5.0/2.5   45   19/25/1   43.2   36.0    237.14
+2026-09-19 19:50:42  INFO       ARBUSDT    sol_6pct_24h   6.0%/24h 2.00%/90m 5.0/2.5   58   23/34/1   40.4   36.0    178.35
+2026-09-19 19:50:42  INFO       ARBUSDT    sol_5pct_6h    5.0%/6h 1.50%/30m 4.0/2.0   78   31/47/0   39.7   36.7    144.00
+2026-09-19 19:50:42  INFO       ARBUSDT    sol_4pct_12h   4.0%/12h 1.20%/60m 3.5/2.0   96   40/54/2   42.6   40.0    129.14
+2026-09-19 19:50:42  INFO       ARBUSDT    sol_5pct_8h    5.0%/8h 1.20%/45m 4.0/2.0   81   31/49/1   38.8   36.7    101.43
+2026-09-19 19:50:42  INFO       SOLUSDT    sol_5pct_6h    5.0%/6h 1.50%/30m 4.0/2.0    7     2/1/4   66.7   36.7     84.91
+2026-09-19 19:50:42  INFO       SOLUSDT    sol_7pct_24h   7.0%/24h 2.00%/120m 5.0/3.0    4     0/0/4    n/a   40.0     65.31
+2026-09-19 19:50:42  INFO       ARBUSDT    sol_7pct_24h   7.0%/24h 2.00%/120m 5.0/3.0   43   17/23/3   42.5   40.0     65.28
+2026-09-19 19:50:42  INFO       ARBUSDT    sol_4pct_6h    4.0%/6h 1.00%/45m 3.0/2.0  102   45/55/2   45.0   44.0     34.35
+2026-09-19 19:50:42  INFO       SOLUSDT    sol_4pct_6h    4.0%/6h 1.00%/45m 3.0/2.0   11     3/3/5   50.0   44.0     32.09
+2026-09-19 19:50:42  INFO     
+2026-09-19 19:50:42  INFO     Best among n>=5
+2026-09-19 19:50:42  INFO       coin       combo                 dip       stable        exit    n     W/L/T   res%    be%      net$
+2026-09-19 19:50:42  INFO       ARBUSDT    sol_8pct_24h   8.0%/24h 2.00%/90m 5.0/3.0   35   16/15/4   51.6   40.0    278.48
+2026-09-19 19:50:42  INFO       ARBUSDT    sol_6pct_12h   6.0%/12h 1.50%/60m 4.0/2.5   58   28/30/0   48.3   41.5    254.00
+2026-09-19 19:50:42  INFO       ARBUSDT    sol_7pct_12h   7.0%/12h 1.50%/60m 5.0/2.5   45   19/25/1   43.2   36.0    237.14
+2026-09-19 19:50:42  INFO       ARBUSDT    sol_6pct_24h   6.0%/24h 2.00%/90m 5.0/2.5   58   23/34/1   40.4   36.0    178.35
+2026-09-19 19:50:42  INFO       ARBUSDT    sol_5pct_6h    5.0%/6h 1.50%/30m 4.0/2.0   78   31/47/0   39.7   36.7    144.00
+2026-09-19 19:50:42  INFO       ARBUSDT    sol_4pct_12h   4.0%/12h 1.20%/60m 3.5/2.0   96   40/54/2   42.6   40.0    129.14
+2026-09-19 19:50:42  INFO       ARBUSDT    sol_5pct_8h    5.0%/8h 1.20%/45m 4.0/2.0   81   31/49/1   38.8   36.7    101.43
+2026-09-19 19:50:42  INFO       SOLUSDT    sol_5pct_6h    5.0%/6h 1.50%/30m 4.0/2.0    7     2/1/4   66.7   36.7     84.91
+2026-09-19 19:50:42  INFO       ARBUSDT    sol_7pct_24h   7.0%/24h 2.00%/120m 5.0/3.0   43   17/23/3   42.5   40.0     65.28
+2026-09-19 19:50:42  INFO       ARBUSDT    sol_4pct_6h    4.0%/6h 1.00%/45m 3.0/2.0  102   45/55/2   45.0   44.0     34.35
+2026-09-19 19:50:42  INFO     
+2026-09-19 19:50:42  INFO     Worst 8 by net
+2026-09-19 19:50:42  INFO       coin       combo                 dip       stable        exit    n     W/L/T   res%    be%      net$
+2026-09-19 19:50:42  INFO       WIFUSDT    sol_4pct_6h    4.0%/6h 1.00%/45m 3.0/2.0   52   14/35/3   28.6   44.0   -382.96
+2026-09-19 19:50:42  INFO       NEARUSDT   sol_5pct_8h    5.0%/8h 1.20%/45m 4.0/2.0   41   10/29/2   25.6   36.7   -242.43
+2026-09-19 19:50:42  INFO       WIFUSDT    sol_5pct_12h   5.0%/12h 1.50%/60m 4.0/2.5   31    7/20/4   25.9   41.5   -236.23
+2026-09-19 19:50:42  INFO       WIFUSDT    sol_7pct_12h   7.0%/12h 1.50%/60m 5.0/2.5   20    3/15/2   16.7   36.0   -223.29
+2026-09-19 19:50:42  INFO       WIFUSDT    sol_8pct_24h   8.0%/24h 2.00%/90m 5.0/3.0   22    4/14/4   22.2   40.0   -210.96
+2026-09-19 19:50:42  INFO       WIFUSDT    sol_6pct_12h   6.0%/12h 1.50%/60m 4.0/2.5   22    5/15/2   25.0   41.5   -206.58
+2026-09-19 19:50:42  INFO       NEARUSDT   sol_7pct_12h   7.0%/12h 1.50%/60m 5.0/2.5   16    2/11/3   15.4   36.0   -202.83
+2026-09-19 19:50:42  INFO       NEARUSDT   sol_6pct_12h   6.0%/12h 1.50%/60m 4.0/2.5   24    6/16/2   27.3   41.5   -188.76
+2026-09-19 19:50:42  INFO     Best ARBUSDT: sol_8pct_24h  n=35  net=$278.48  res=51.6%
+2026-09-19 19:50:42  INFO     Best ETHUSDT: sol_7pct_12h  n=0  net=$0.00  res=n/a
+2026-09-19 19:50:42  INFO     Best NEARUSDT: sol_5pct_6h  n=34  net=$-61.64  res=33.3%
+2026-09-19 19:50:42  INFO     Best SOLUSDT: sol_5pct_6h  n=7  net=$84.91  res=66.7%
+2026-09-19 19:50:42  INFO     Best WIFUSDT: sol_5pct_6h  n=30  net=$-76.65  res=32.1%
+2026-09-19 19:50:42  INFO     Wrote D:\jev-trading\data\buy_the_dip\results.csv
+2026-09-19 19:50:42  INFO     Finished in 532.9s

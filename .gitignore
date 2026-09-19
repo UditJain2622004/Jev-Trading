@@ -10,4 +10,4 @@ build/
 *.egg-info/
 .coverage
 htmlcov/
-data/
+data/klines/

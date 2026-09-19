@@ -1,0 +1,1506 @@
+{
+  "wins": [
+    {
+      "role": "win_example",
+      "entry_ms": 1789045140000,
+      "exit_ms": 1789045260000,
+      "outcome": "win",
+      "pnl_usd": 3.0,
+      "hold_minutes": 2,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "win",
+        "hold_minutes": 2,
+        "sol_moves_pct": {
+          "1m": 0.071,
+          "5m": -0.081,
+          "15m": -1.149,
+          "1h": -2.049
+        },
+        "sol_last_hour": {
+          "high": 101.49,
+          "low": 98.5,
+          "range_pct": 3.036,
+          "room_to_hour_high_pct": 2.577
+        },
+        "volume": {
+          "last_1m": 494553.81,
+          "typical_1h_1m": 248266.04,
+          "vs_typical": 1.99,
+          "taker_buy_share": 0.612
+        },
+        "btc_moves_pct": {
+          "5m": 0.049,
+          "15m": -0.304,
+          "1h": -1.214
+        },
+        "path": {
+          "5m": {
+            "up_minutes": 3,
+            "down_minutes": 2
+          },
+          "15m": {
+            "up_minutes": 6,
+            "down_minutes": 9
+          }
+        },
+        "volatility": {
+          "typical_1m_move_5m_pct": 0.131,
+          "typical_1m_move_15m_pct": 0.161,
+          "typical_1m_move_1h_pct": 0.07,
+          "hour_move_vs_take_profit": 0.14,
+          "hour_move_vs_stop": 0.2
+        },
+        "buy_pressure": {
+          "1m": 0.612,
+          "5m": 0.559,
+          "15m": 0.455
+        },
+        "last_candle": {
+          "upper_wick_pct": 0.111,
+          "lower_wick_pct": 0.081,
+          "close_in_range": 0.577
+        },
+        "volume_accel": {
+          "last_5m_vs_prior_15m": 0.31,
+          "last_5m_vs_hour_share": 0.116
+        },
+        "vwap": {
+          "vs_15m_pct": -0.232,
+          "vs_1h_pct": -0.931
+        },
+        "clock_utc": {
+          "hour": 12,
+          "weekday": 3
+        }
+      }
+    },
+    {
+      "role": "win_example",
+      "entry_ms": 1789046040000,
+      "exit_ms": 1789047420000,
+      "outcome": "win",
+      "pnl_usd": 3.0,
+      "hold_minutes": 23,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "win",
+        "hold_minutes": 23,
+        "sol_moves_pct": {
+          "1m": 0.111,
+          "5m": -0.252,
+          "15m": 0.162,
+          "1h": -1.939
+        },
+        "sol_last_hour": {
+          "high": 101.49,
+          "low": 98.5,
+          "range_pct": 3.036,
+          "room_to_hour_high_pct": 2.412
+        },
+        "volume": {
+          "last_1m": 832640.59,
+          "typical_1h_1m": 404956.05,
+          "vs_typical": 2.06,
+          "taker_buy_share": 0.534
+        },
+        "btc_moves_pct": {
+          "5m": -0.178,
+          "15m": -0.079,
+          "1h": -1.27
+        },
+        "path": {
+          "5m": {
+            "up_minutes": 1,
+            "down_minutes": 3
+          },
+          "15m": {
+            "up_minutes": 9,
+            "down_minutes": 5
+          }
+        },
+        "volatility": {
+          "typical_1m_move_5m_pct": 0.111,
+          "typical_1m_move_15m_pct": 0.091,
+          "typical_1m_move_1h_pct": 0.085,
+          "hour_move_vs_take_profit": 0.17,
+          "hour_move_vs_stop": 0.243
+        },
+        "buy_pressure": {
+          "1m": 0.534,
+          "5m": 0.405,
+          "15m": 0.49
+        },
+        "last_candle": {
+          "upper_wick_pct": 0.04,
+          "lower_wick_pct": 0.03,
+          "close_in_range": 0.778
+        },
+        "volume_accel": {
+          "last_5m_vs_prior_15m": 0.28,
+          "last_5m_vs_hour_share": 0.057
+        },
+        "vwap": {
+          "vs_15m_pct": -0.148,
+          "vs_1h_pct": -0.626
+        },
+        "clock_utc": {
+          "hour": 13,
+          "weekday": 3
+        }
+      }
+    },
+    {
+      "role": "win_example",
+      "entry_ms": 1789047480000,
+      "exit_ms": 1789048800000,
+      "outcome": "win",
+      "pnl_usd": 3.0,
+      "hold_minutes": 22,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "win",
+        "hold_minutes": 22,
+        "sol_moves_pct": {
+          "1m": -0.111,
+          "5m": 0.081,
+          "15m": -0.08,
+          "1h": -0.321
+        },
+        "sol_last_hour": {
+          "high": 100.37,
+          "low": 98.5,
+          "range_pct": 1.898,
+          "room_to_hour_high_pct": 0.945
+        },
+        "volume": {
+          "last_1m": 121760.14,
+          "typical_1h_1m": 388837.99,
+          "vs_typical": 0.31,
+          "taker_buy_share": 0.717
+        },
+        "btc_moves_pct": {
+          "5m": 0.151,
+          "15m": 0.078,
+          "1h": -0.108
+        },
+        "path": {
+          "5m": {
+            "up_minutes": 2,
+            "down_minutes": 3
+          },
+          "15m": {
+            "up_minutes": 7,
+            "down_minutes": 8
+          }
+        },
+        "volatility": {
+          "typical_1m_move_5m_pct": 0.06,
+          "typical_1m_move_15m_pct": 0.06,
+          "typical_1m_move_1h_pct": 0.08,
+          "hour_move_vs_take_profit": 0.16,
+          "hour_move_vs_stop": 0.229
+        },
+        "buy_pressure": {
+          "1m": 0.717,
+          "5m": 0.601,
+          "15m": 0.444
+        },
+        "last_candle": {
+          "upper_wick_pct": 0.04,
+          "lower_wick_pct": 0.01,
+          "close_in_range": 0.067
+        },
+        "volume_accel": {
+          "last_5m_vs_prior_15m": 0.44,
+          "last_5m_vs_hour_share": 0.052
+        },
+        "vwap": {
+          "vs_15m_pct": 0.009,
+          "vs_1h_pct": 0.101
+        },
+        "clock_utc": {
+          "hour": 13,
+          "weekday": 3
+        }
+      }
+    },
+    {
+      "role": "win_example",
+      "entry_ms": 1789049280000,
+      "exit_ms": 1789050240000,
+      "outcome": "win",
+      "pnl_usd": 3.0,
+      "hold_minutes": 16,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "win",
+        "hold_minutes": 16,
+        "sol_moves_pct": {
+          "1m": 0.0,
+          "5m": -0.42,
+          "15m": -0.241,
+          "1h": 0.191
+        },
+        "sol_last_hour": {
+          "high": 100.05,
+          "low": 98.88,
+          "range_pct": 1.183,
+          "room_to_hour_high_pct": 0.543
+        },
+        "volume": {
+          "last_1m": 582084.27,
+          "typical_1h_1m": 230548.75,
+          "vs_typical": 2.52,
+          "taker_buy_share": 0.173
+        },
+        "btc_moves_pct": {
+          "5m": -0.354,
+          "15m": -0.241,
+          "1h": 0.05
+        },
+        "path": {
+          "5m": {
+            "up_minutes": 0,
+            "down_minutes": 4
+          },
+          "15m": {
+            "up_minutes": 6,
+            "down_minutes": 8
+          }
+        },
+        "volatility": {
+          "typical_1m_move_5m_pct": 0.06,
+          "typical_1m_move_15m_pct": 0.04,
+          "typical_1m_move_1h_pct": 0.06,
+          "hour_move_vs_take_profit": 0.12,
+          "hour_move_vs_stop": 0.171
+        },
+        "buy_pressure": {
+          "1m": 0.173,
+          "5m": 0.243,
+          "15m": 0.561
+        },
+        "last_candle": {
+          "upper_wick_pct": 0.04,
+          "lower_wick_pct": 0.09,
+          "close_in_range": 0.692
+        },
+        "volume_accel": {
+          "last_5m_vs_prior_15m": 0.37,
+          "last_5m_vs_hour_share": 0.073
+        },
+        "vwap": {
+          "vs_15m_pct": -0.26,
+          "vs_1h_pct": 0.062
+        },
+        "clock_utc": {
+          "hour": 14,
+          "weekday": 3
+        }
+      }
+    },
+    {
+      "role": "win_example",
+      "entry_ms": 1789057140000,
+      "exit_ms": 1789058760000,
+      "outcome": "win",
+      "pnl_usd": 3.0,
+      "hold_minutes": 27,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "win",
+        "hold_minutes": 27,
+        "sol_moves_pct": {
+          "1m": 0.04,
+          "5m": -0.332,
+          "15m": -0.402,
+          "1h": -0.741
+        },
+        "sol_last_hour": {
+          "high": 100.15,
+          "low": 99.04,
+          "range_pct": 1.121,
+          "room_to_hour_high_pct": 1.06
+        },
+        "volume": {
+          "last_1m": 58426.09,
+          "typical_1h_1m": 86664.03,
+          "vs_typical": 0.67,
+          "taker_buy_share": 0.469
+        },
+        "btc_moves_pct": {
+          "5m": -0.094,
+          "15m": -0.241,
+          "1h": -0.45
+        },
+        "path": {
+          "5m": {
+            "up_minutes": 1,
+            "down_minutes": 3
+          },
+          "15m": {
+            "up_minutes": 5,
+            "down_minutes": 8
+          }
+        },
+        "volatility": {
+          "typical_1m_move_5m_pct": 0.121,
+          "typical_1m_move_15m_pct": 0.101,
+          "typical_1m_move_1h_pct": 0.07,
+          "hour_move_vs_take_profit": 0.14,
+          "hour_move_vs_stop": 0.2
+        },
+        "buy_pressure": {
+          "1m": 0.469,
+          "5m": 0.252,
+          "15m": 0.372
+        },
+        "last_candle": {
+          "upper_wick_pct": 0.03,
+          "lower_wick_pct": 0.02,
+          "close_in_range": 0.667
+        },
+        "volume_accel": {
+          "last_5m_vs_prior_15m": 0.29,
+          "last_5m_vs_hour_share": 0.085
+        },
+        "vwap": {
+          "vs_15m_pct": -0.214,
+          "vs_1h_pct": -0.525
+        },
+        "clock_utc": {
+          "hour": 16,
+          "weekday": 3
+        }
+      }
+    },
+    {
+      "role": "win_example",
+      "entry_ms": 1789058820000,
+      "exit_ms": 1789061520000,
+      "outcome": "win",
+      "pnl_usd": 3.0,
+      "hold_minutes": 45,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "win",
+        "hold_minutes": 45,
+        "sol_moves_pct": {
+          "1m": -0.04,
+          "5m": 0.403,
+          "15m": 0.697,
+          "1h": 0.211
+        },
+        "sol_last_hour": {
+          "high": 99.91,
+          "low": 98.84,
+          "range_pct": 1.083,
+          "room_to_hour_high_pct": 0.16
+        },
+        "volume": {
+          "last_1m": 136219.53,
+          "typical_1h_1m": 97947.15,
+          "vs_typical": 1.39,
+          "taker_buy_share": 0.442
+        },
+        "btc_moves_pct": {
+          "5m": 0.219,
+          "15m": 0.341,
+          "1h": 0.104
+        },
+        "path": {
+          "5m": {
+            "up_minutes": 3,
+            "down_minutes": 2
+          },
+          "15m": {
+            "up_minutes": 9,
+            "down_minutes": 5
+          }
+        },
+        "volatility": {
+          "typical_1m_move_5m_pct": 0.121,
+          "typical_1m_move_15m_pct": 0.061,
+          "typical_1m_move_1h_pct": 0.06,
+          "hour_move_vs_take_profit": 0.12,
+          "hour_move_vs_stop": 0.171
+        },
+        "buy_pressure": {
+          "1m": 0.442,
+          "5m": 0.646,
+          "15m": 0.454
+        },
+        "last_candle": {
+          "upper_wick_pct": 0.06,
+          "lower_wick_pct": 0.0,
+          "close_in_range": 0.0
+        },
+        "volume_accel": {
+          "last_5m_vs_prior_15m": 0.3,
+          "last_5m_vs_hour_share": 0.077
+        },
+        "vwap": {
+          "vs_15m_pct": 0.55,
+          "vs_1h_pct": 0.364
+        },
+        "clock_utc": {
+          "hour": 16,
+          "weekday": 3
+        }
+      }
+    },
+    {
+      "role": "win_example",
+      "entry_ms": 1789063860000,
+      "exit_ms": 1789066440000,
+      "outcome": "win",
+      "pnl_usd": 3.0,
+      "hold_minutes": 43,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "win",
+        "hold_minutes": 43,
+        "sol_moves_pct": {
+          "1m": -0.01,
+          "5m": -0.251,
+          "15m": -0.729,
+          "1h": -0.511
+        },
+        "sol_last_hour": {
+          "high": 100.46,
+          "low": 99.31,
+          "range_pct": 1.158,
+          "room_to_hour_high_pct": 1.117
+        },
+        "volume": {
+          "last_1m": 84163.07,
+          "typical_1h_1m": 82345.4,
+          "vs_typical": 1.02,
+          "taker_buy_share": 0.284
+        },
+        "btc_moves_pct": {
+          "5m": -0.173,
+          "15m": -0.43,
+          "1h": -0.222
+        },
+        "path": {
+          "5m": {
+            "up_minutes": 0,
+            "down_minutes": 5
+          },
+          "15m": {
+            "up_minutes": 2,
+            "down_minutes": 13
+          }
+        },
+        "volatility": {
+          "typical_1m_move_5m_pct": 0.03,
+          "typical_1m_move_15m_pct": 0.04,
+          "typical_1m_move_1h_pct": 0.05,
+          "hour_move_vs_take_profit": 0.1,
+          "hour_move_vs_stop": 0.143
+        },
+        "buy_pressure": {
+          "1m": 0.284,
+          "5m": 0.206,
+          "15m": 0.211
+        },
+        "last_candle": {
+          "upper_wick_pct": 0.03,
+          "lower_wick_pct": 0.01,
+          "close_in_range": 0.167
+        },
+        "volume_accel": {
+          "last_5m_vs_prior_15m": 0.5,
+          "last_5m_vs_hour_share": 0.071
+        },
+        "vwap": {
+          "vs_15m_pct": -0.284,
+          "vs_1h_pct": -0.653
+        },
+        "clock_utc": {
+          "hour": 18,
+          "weekday": 3
+        }
+      }
+    },
+    {
+      "role": "win_example",
+      "entry_ms": 1789082160000,
+      "exit_ms": 1789085400000,
+      "outcome": "win",
+      "pnl_usd": 3.0,
+      "hold_minutes": 54,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "win",
+        "hold_minutes": 54,
+        "sol_moves_pct": {
+          "1m": -0.02,
+          "5m": -0.161,
+          "15m": -0.423,
+          "1h": -1.149
+        },
+        "sol_last_hour": {
+          "high": 100.1,
+          "low": 98.68,
+          "range_pct": 1.439,
+          "room_to_hour_high_pct": 1.193
+        },
+        "volume": {
+          "last_1m": 265491.6,
+          "typical_1h_1m": 51066.2,
+          "vs_typical": 5.2,
+          "taker_buy_share": 0.748
+        },
+        "btc_moves_pct": {
+          "5m": -0.094,
+          "15m": -0.302,
+          "1h": -0.728
+        },
+        "path": {
+          "5m": {
+            "up_minutes": 2,
+            "down_minutes": 3
+          },
+          "15m": {
+            "up_minutes": 6,
+            "down_minutes": 9
+          }
+        },
+        "volatility": {
+          "typical_1m_move_5m_pct": 0.141,
+          "typical_1m_move_15m_pct": 0.101,
+          "typical_1m_move_1h_pct": 0.04,
+          "hour_move_vs_take_profit": 0.08,
+          "hour_move_vs_stop": 0.114
+        },
+        "buy_pressure": {
+          "1m": 0.748,
+          "5m": 0.275,
+          "15m": 0.329
+        },
+        "last_candle": {
+          "upper_wick_pct": 0.0,
+          "lower_wick_pct": 0.182,
+          "close_in_range": 0.857
+        },
+        "volume_accel": {
+          "last_5m_vs_prior_15m": 0.7,
+          "last_5m_vs_hour_share": 0.259
+        },
+        "vwap": {
+          "vs_15m_pct": -0.056,
+          "vs_1h_pct": -0.293
+        },
+        "clock_utc": {
+          "hour": 23,
+          "weekday": 3
+        }
+      }
+    },
+    {
+      "role": "win_example",
+      "entry_ms": 1789085940000,
+      "exit_ms": 1789088580000,
+      "outcome": "win",
+      "pnl_usd": 3.0,
+      "hold_minutes": 44,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "win",
+        "hold_minutes": 44,
+        "sol_moves_pct": {
+          "1m": 0.0,
+          "5m": -0.192,
+          "15m": -0.051,
+          "1h": -0.04
+        },
+        "sol_last_hour": {
+          "high": 99.42,
+          "low": 98.6,
+          "range_pct": 0.832,
+          "room_to_hour_high_pct": 0.495
+        },
+        "volume": {
+          "last_1m": 97322.46,
+          "typical_1h_1m": 77587.28,
+          "vs_typical": 1.25,
+          "taker_buy_share": 0.259
+        },
+        "btc_moves_pct": {
+          "5m": 0.001,
+          "15m": 0.205,
+          "1h": 0.208
+        },
+        "path": {
+          "5m": {
+            "up_minutes": 1,
+            "down_minutes": 3
+          },
+          "15m": {
+            "up_minutes": 6,
+            "down_minutes": 7
+          }
+        },
+        "volatility": {
+          "typical_1m_move_5m_pct": 0.061,
+          "typical_1m_move_15m_pct": 0.071,
+          "typical_1m_move_1h_pct": 0.035,
+          "hour_move_vs_take_profit": 0.07,
+          "hour_move_vs_stop": 0.1
+        },
+        "buy_pressure": {
+          "1m": 0.259,
+          "5m": 0.369,
+          "15m": 0.389
+        },
+        "last_candle": {
+          "upper_wick_pct": 0.01,
+          "lower_wick_pct": 0.02,
+          "close_in_range": 0.75
+        },
+        "volume_accel": {
+          "last_5m_vs_prior_15m": 0.24,
+          "last_5m_vs_hour_share": 0.098
+        },
+        "vwap": {
+          "vs_15m_pct": -0.259,
+          "vs_1h_pct": -0.116
+        },
+        "clock_utc": {
+          "hour": 0,
+          "weekday": 4
+        }
+      }
+    },
+    {
+      "role": "win_example",
+      "entry_ms": 1789090440000,
+      "exit_ms": 1789091700000,
+      "outcome": "win",
+      "pnl_usd": 3.0,
+      "hold_minutes": 21,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "win",
+        "hold_minutes": 21,
+        "sol_moves_pct": {
+          "1m": 0.213,
+          "5m": -0.03,
+          "15m": -0.423,
+          "1h": 0.162
+        },
+        "sol_last_hour": {
+          "high": 99.51,
+          "low": 98.6,
+          "range_pct": 0.923,
+          "room_to_hour_high_pct": 0.546
+        },
+        "volume": {
+          "last_1m": 494780.34,
+          "typical_1h_1m": 83029.11,
+          "vs_typical": 5.96,
+          "taker_buy_share": 0.79
+        },
+        "btc_moves_pct": {
+          "5m": -0.086,
+          "15m": -0.212,
+          "1h": -0.052
+        },
+        "path": {
+          "5m": {
+            "up_minutes": 1,
+            "down_minutes": 4
+          },
+          "15m": {
+            "up_minutes": 4,
+            "down_minutes": 11
+          }
+        },
+        "volatility": {
+          "typical_1m_move_5m_pct": 0.071,
+          "typical_1m_move_15m_pct": 0.071,
+          "typical_1m_move_1h_pct": 0.051,
+          "hour_move_vs_take_profit": 0.102,
+          "hour_move_vs_stop": 0.146
+        },
+        "buy_pressure": {
+          "1m": 0.79,
+          "5m": 0.697,
+          "15m": 0.516
+        },
+        "last_candle": {
+          "upper_wick_pct": 0.0,
+          "lower_wick_pct": 0.01,
+          "close_in_range": 1.0
+        },
+        "volume_accel": {
+          "last_5m_vs_prior_15m": 0.45,
+          "last_5m_vs_hour_share": 0.116
+        },
+        "vwap": {
+          "vs_15m_pct": -0.132,
+          "vs_1h_pct": -0.165
+        },
+        "clock_utc": {
+          "hour": 1,
+          "weekday": 4
+        }
+      }
+    }
+  ],
+  "losses": [
+    {
+      "role": "loss_example",
+      "entry_ms": 1789042080000,
+      "exit_ms": 1789043400000,
+      "outcome": "loss",
+      "pnl_usd": -5.5,
+      "hold_minutes": 22,
+      "both_hit": true,
+      "snapshot": {
+        "outcome": "loss",
+        "hold_minutes": 22,
+        "sol_moves_pct": {
+          "1m": -0.049,
+          "5m": -0.129,
+          "15m": -0.316,
+          "1h": -0.079
+        },
+        "sol_last_hour": {
+          "high": 101.54,
+          "low": 100.94,
+          "range_pct": 0.594,
+          "room_to_hour_high_pct": 0.555
+        },
+        "volume": {
+          "last_1m": 150976.19,
+          "typical_1h_1m": 79473.85,
+          "vs_typical": 1.9,
+          "taker_buy_share": 0.173
+        },
+        "btc_moves_pct": {
+          "5m": -0.119,
+          "15m": -0.325,
+          "1h": -0.155
+        },
+        "path": {
+          "5m": {
+            "up_minutes": 1,
+            "down_minutes": 3
+          },
+          "15m": {
+            "up_minutes": 6,
+            "down_minutes": 8
+          }
+        },
+        "volatility": {
+          "typical_1m_move_5m_pct": 0.02,
+          "typical_1m_move_15m_pct": 0.049,
+          "typical_1m_move_1h_pct": 0.049,
+          "hour_move_vs_take_profit": 0.098,
+          "hour_move_vs_stop": 0.14
+        },
+        "buy_pressure": {
+          "1m": 0.173,
+          "5m": 0.25,
+          "15m": 0.288
+        },
+        "last_candle": {
+          "upper_wick_pct": 0.04,
+          "lower_wick_pct": 0.02,
+          "close_in_range": 0.182
+        },
+        "volume_accel": {
+          "last_5m_vs_prior_15m": 0.22,
+          "last_5m_vs_hour_share": 0.059
+        },
+        "vwap": {
+          "vs_15m_pct": -0.13,
+          "vs_1h_pct": -0.293
+        },
+        "clock_utc": {
+          "hour": 12,
+          "weekday": 3
+        }
+      }
+    },
+    {
+      "role": "loss_example",
+      "entry_ms": 1789043460000,
+      "exit_ms": 1789043640000,
+      "outcome": "loss",
+      "pnl_usd": -5.5,
+      "hold_minutes": 3,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "loss",
+        "hold_minutes": 3,
+        "sol_moves_pct": {
+          "1m": -0.188,
+          "5m": -0.148,
+          "15m": -0.059,
+          "1h": -0.473
+        },
+        "sol_last_hour": {
+          "high": 101.54,
+          "low": 100.62,
+          "range_pct": 0.914,
+          "room_to_hour_high_pct": 0.584
+        },
+        "volume": {
+          "last_1m": 1113651.4,
+          "typical_1h_1m": 89433.87,
+          "vs_typical": 12.45,
+          "taker_buy_share": 0.514
+        },
+        "btc_moves_pct": {
+          "5m": -0.217,
+          "15m": -0.211,
+          "1h": -0.551
+        },
+        "path": {
+          "5m": {
+            "up_minutes": 2,
+            "down_minutes": 3
+          },
+          "15m": {
+            "up_minutes": 8,
+            "down_minutes": 7
+          }
+        },
+        "volatility": {
+          "typical_1m_move_5m_pct": 0.069,
+          "typical_1m_move_15m_pct": 0.03,
+          "typical_1m_move_1h_pct": 0.044,
+          "hour_move_vs_take_profit": 0.088,
+          "hour_move_vs_stop": 0.126
+        },
+        "buy_pressure": {
+          "1m": 0.514,
+          "5m": 0.513,
+          "15m": 0.51
+        },
+        "last_candle": {
+          "upper_wick_pct": 0.0,
+          "lower_wick_pct": 0.297,
+          "close_in_range": 0.612
+        },
+        "volume_accel": {
+          "last_5m_vs_prior_15m": 2.54,
+          "last_5m_vs_hour_share": 0.304
+        },
+        "vwap": {
+          "vs_15m_pct": -0.097,
+          "vs_1h_pct": -0.21
+        },
+        "clock_utc": {
+          "hour": 12,
+          "weekday": 3
+        }
+      }
+    },
+    {
+      "role": "loss_example",
+      "entry_ms": 1789043700000,
+      "exit_ms": 1789043880000,
+      "outcome": "loss",
+      "pnl_usd": -5.5,
+      "hold_minutes": 3,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "loss",
+        "hold_minutes": 3,
+        "sol_moves_pct": {
+          "1m": 0.04,
+          "5m": -0.603,
+          "15m": -0.544,
+          "1h": -0.946
+        },
+        "sol_last_hour": {
+          "high": 101.54,
+          "low": 100.32,
+          "range_pct": 1.216,
+          "room_to_hour_high_pct": 1.005
+        },
+        "volume": {
+          "last_1m": 592361.82,
+          "typical_1h_1m": 96859.4,
+          "vs_typical": 6.12,
+          "taker_buy_share": 0.564
+        },
+        "btc_moves_pct": {
+          "5m": -0.412,
+          "15m": -0.351,
+          "1h": -0.82
+        },
+        "path": {
+          "5m": {
+            "up_minutes": 1,
+            "down_minutes": 4
+          },
+          "15m": {
+            "up_minutes": 7,
+            "down_minutes": 8
+          }
+        },
+        "volatility": {
+          "typical_1m_move_5m_pct": 0.168,
+          "typical_1m_move_15m_pct": 0.04,
+          "typical_1m_move_1h_pct": 0.049,
+          "hour_move_vs_take_profit": 0.098,
+          "hour_move_vs_stop": 0.14
+        },
+        "buy_pressure": {
+          "1m": 0.564,
+          "5m": 0.403,
+          "15m": 0.444
+        },
+        "last_candle": {
+          "upper_wick_pct": 0.239,
+          "lower_wick_pct": 0.0,
+          "close_in_range": 0.143
+        },
+        "volume_accel": {
+          "last_5m_vs_prior_15m": 1.67,
+          "last_5m_vs_hour_share": 0.366
+        },
+        "vwap": {
+          "vs_15m_pct": -0.291,
+          "vs_1h_pct": -0.459
+        },
+        "clock_utc": {
+          "hour": 12,
+          "weekday": 3
+        }
+      }
+    },
+    {
+      "role": "loss_example",
+      "entry_ms": 1789043940000,
+      "exit_ms": 1789044360000,
+      "outcome": "loss",
+      "pnl_usd": -5.5,
+      "hold_minutes": 7,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "loss",
+        "hold_minutes": 7,
+        "sol_moves_pct": {
+          "1m": 0.17,
+          "5m": -0.567,
+          "15m": -1.118,
+          "1h": -1.586
+        },
+        "sol_last_hour": {
+          "high": 101.54,
+          "low": 99.41,
+          "range_pct": 2.143,
+          "room_to_hour_high_pct": 1.621
+        },
+        "volume": {
+          "last_1m": 2281227.64,
+          "typical_1h_1m": 101389.0,
+          "vs_typical": 22.5,
+          "taker_buy_share": 0.503
+        },
+        "btc_moves_pct": {
+          "5m": -0.337,
+          "15m": -0.797,
+          "1h": -1.198
+        },
+        "path": {
+          "5m": {
+            "up_minutes": 2,
+            "down_minutes": 3
+          },
+          "15m": {
+            "up_minutes": 6,
+            "down_minutes": 9
+          }
+        },
+        "volatility": {
+          "typical_1m_move_5m_pct": 0.17,
+          "typical_1m_move_15m_pct": 0.109,
+          "typical_1m_move_1h_pct": 0.049,
+          "hour_move_vs_take_profit": 0.098,
+          "hour_move_vs_stop": 0.14
+        },
+        "buy_pressure": {
+          "1m": 0.503,
+          "5m": 0.495,
+          "15m": 0.468
+        },
+        "last_candle": {
+          "upper_wick_pct": 0.08,
+          "lower_wick_pct": 0.33,
+          "close_in_range": 0.864
+        },
+        "volume_accel": {
+          "last_5m_vs_prior_15m": 1.42,
+          "last_5m_vs_hour_share": 0.444
+        },
+        "vwap": {
+          "vs_15m_pct": -0.384,
+          "vs_1h_pct": -0.606
+        },
+        "clock_utc": {
+          "hour": 12,
+          "weekday": 3
+        }
+      }
+    },
+    {
+      "role": "loss_example",
+      "entry_ms": 1789044420000,
+      "exit_ms": 1789044960000,
+      "outcome": "loss",
+      "pnl_usd": -5.5,
+      "hold_minutes": 9,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "loss",
+        "hold_minutes": 9,
+        "sol_moves_pct": {
+          "1m": -0.03,
+          "5m": -0.869,
+          "15m": -1.508,
+          "1h": -1.849
+        },
+        "sol_last_hour": {
+          "high": 101.49,
+          "low": 98.5,
+          "range_pct": 3.036,
+          "room_to_hour_high_pct": 2.247
+        },
+        "volume": {
+          "last_1m": 4724504.92,
+          "typical_1h_1m": 118237.54,
+          "vs_typical": 39.96,
+          "taker_buy_share": 0.346
+        },
+        "btc_moves_pct": {
+          "5m": -0.318,
+          "15m": -0.707,
+          "1h": -1.226
+        },
+        "path": {
+          "5m": {
+            "up_minutes": 0,
+            "down_minutes": 4
+          },
+          "15m": {
+            "up_minutes": 5,
+            "down_minutes": 9
+          }
+        },
+        "volatility": {
+          "typical_1m_move_5m_pct": 0.04,
+          "typical_1m_move_15m_pct": 0.109,
+          "typical_1m_move_1h_pct": 0.049,
+          "hour_move_vs_take_profit": 0.098,
+          "hour_move_vs_stop": 0.14
+        },
+        "buy_pressure": {
+          "1m": 0.346,
+          "5m": 0.355,
+          "15m": 0.453
+        },
+        "last_candle": {
+          "upper_wick_pct": 0.03,
+          "lower_wick_pct": 0.766,
+          "close_in_range": 0.938
+        },
+        "volume_accel": {
+          "last_5m_vs_prior_15m": 0.41,
+          "last_5m_vs_hour_share": 0.246
+        },
+        "vwap": {
+          "vs_15m_pct": -0.526,
+          "vs_1h_pct": -0.886
+        },
+        "clock_utc": {
+          "hour": 12,
+          "weekday": 3
+        }
+      }
+    },
+    {
+      "role": "loss_example",
+      "entry_ms": 1789045020000,
+      "exit_ms": 1789045080000,
+      "outcome": "loss",
+      "pnl_usd": -5.5,
+      "hold_minutes": 1,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "loss",
+        "hold_minutes": 1,
+        "sol_moves_pct": {
+          "1m": 0.192,
+          "5m": -0.101,
+          "15m": -0.839,
+          "1h": -1.703
+        },
+        "sol_last_hour": {
+          "high": 101.49,
+          "low": 98.5,
+          "range_pct": 3.036,
+          "room_to_hour_high_pct": 2.216
+        },
+        "volume": {
+          "last_1m": 551172.7,
+          "typical_1h_1m": 186172.72,
+          "vs_typical": 2.96,
+          "taker_buy_share": 0.624
+        },
+        "btc_moves_pct": {
+          "5m": -0.097,
+          "15m": -0.389,
+          "1h": -1.231
+        },
+        "path": {
+          "5m": {
+            "up_minutes": 2,
+            "down_minutes": 3
+          },
+          "15m": {
+            "up_minutes": 5,
+            "down_minutes": 9
+          }
+        },
+        "volatility": {
+          "typical_1m_move_5m_pct": 0.151,
+          "typical_1m_move_15m_pct": 0.151,
+          "typical_1m_move_1h_pct": 0.064,
+          "hour_move_vs_take_profit": 0.128,
+          "hour_move_vs_stop": 0.183
+        },
+        "buy_pressure": {
+          "1m": 0.624,
+          "5m": 0.616,
+          "15m": 0.459
+        },
+        "last_candle": {
+          "upper_wick_pct": 0.02,
+          "lower_wick_pct": 0.101,
+          "close_in_range": 0.935
+        },
+        "volume_accel": {
+          "last_5m_vs_prior_15m": 0.21,
+          "last_5m_vs_hour_share": 0.12
+        },
+        "vwap": {
+          "vs_15m_pct": 0.07,
+          "vs_1h_pct": -0.621
+        },
+        "clock_utc": {
+          "hour": 12,
+          "weekday": 3
+        }
+      }
+    },
+    {
+      "role": "loss_example",
+      "entry_ms": 1789045320000,
+      "exit_ms": 1789045980000,
+      "outcome": "loss",
+      "pnl_usd": -5.5,
+      "hold_minutes": 11,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "loss",
+        "hold_minutes": 11,
+        "sol_moves_pct": {
+          "1m": 0.151,
+          "5m": 0.06,
+          "15m": 0.091,
+          "1h": -1.809
+        },
+        "sol_last_hour": {
+          "high": 101.49,
+          "low": 98.5,
+          "range_pct": 3.036,
+          "room_to_hour_high_pct": 2.154
+        },
+        "volume": {
+          "last_1m": 269393.93,
+          "typical_1h_1m": 269393.93,
+          "vs_typical": 1.0,
+          "taker_buy_share": 0.654
+        },
+        "btc_moves_pct": {
+          "5m": 0.231,
+          "15m": 0.16,
+          "1h": -0.989
+        },
+        "path": {
+          "5m": {
+            "up_minutes": 4,
+            "down_minutes": 1
+          },
+          "15m": {
+            "up_minutes": 9,
+            "down_minutes": 6
+          }
+        },
+        "volatility": {
+          "typical_1m_move_5m_pct": 0.151,
+          "typical_1m_move_15m_pct": 0.151,
+          "typical_1m_move_1h_pct": 0.075,
+          "hour_move_vs_take_profit": 0.15,
+          "hour_move_vs_stop": 0.214
+        },
+        "buy_pressure": {
+          "1m": 0.654,
+          "5m": 0.467,
+          "15m": 0.542
+        },
+        "last_candle": {
+          "upper_wick_pct": 0.03,
+          "lower_wick_pct": 0.0,
+          "close_in_range": 0.824
+        },
+        "volume_accel": {
+          "last_5m_vs_prior_15m": 0.25,
+          "last_5m_vs_hour_share": 0.09
+        },
+        "vwap": {
+          "vs_15m_pct": 0.161,
+          "vs_1h_pct": -0.482
+        },
+        "clock_utc": {
+          "hour": 13,
+          "weekday": 3
+        }
+      }
+    },
+    {
+      "role": "loss_example",
+      "entry_ms": 1789048860000,
+      "exit_ms": 1789049220000,
+      "outcome": "loss",
+      "pnl_usd": -5.5,
+      "hold_minutes": 6,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "loss",
+        "hold_minutes": 6,
+        "sol_moves_pct": {
+          "1m": 0.07,
+          "5m": 0.221,
+          "15m": 0.311,
+          "1h": 0.796
+        },
+        "sol_last_hour": {
+          "high": 99.99,
+          "low": 98.88,
+          "range_pct": 1.123,
+          "room_to_hour_high_pct": 0.0
+        },
+        "volume": {
+          "last_1m": 56750.71,
+          "typical_1h_1m": 253037.46,
+          "vs_typical": 0.22,
+          "taker_buy_share": 0.752
+        },
+        "btc_moves_pct": {
+          "5m": 0.174,
+          "15m": 0.358,
+          "1h": 0.411
+        },
+        "path": {
+          "5m": {
+            "up_minutes": 3,
+            "down_minutes": 2
+          },
+          "15m": {
+            "up_minutes": 9,
+            "down_minutes": 6
+          }
+        },
+        "volatility": {
+          "typical_1m_move_5m_pct": 0.04,
+          "typical_1m_move_15m_pct": 0.07,
+          "typical_1m_move_1h_pct": 0.06,
+          "hour_move_vs_take_profit": 0.12,
+          "hour_move_vs_stop": 0.171
+        },
+        "buy_pressure": {
+          "1m": 0.752,
+          "5m": 0.824,
+          "15m": 0.607
+        },
+        "last_candle": {
+          "upper_wick_pct": 0.0,
+          "lower_wick_pct": 0.03,
+          "close_in_range": 1.0
+        },
+        "volume_accel": {
+          "last_5m_vs_prior_15m": 0.25,
+          "last_5m_vs_hour_share": 0.05
+        },
+        "vwap": {
+          "vs_15m_pct": 0.293,
+          "vs_1h_pct": 0.587
+        },
+        "clock_utc": {
+          "hour": 14,
+          "weekday": 3
+        }
+      }
+    },
+    {
+      "role": "loss_example",
+      "entry_ms": 1789050300000,
+      "exit_ms": 1789052520000,
+      "outcome": "loss",
+      "pnl_usd": -5.5,
+      "hold_minutes": 37,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "loss",
+        "hold_minutes": 37,
+        "sol_moves_pct": {
+          "1m": 0.11,
+          "5m": 0.512,
+          "15m": 0.593,
+          "1h": 0.745
+        },
+        "sol_last_hour": {
+          "high": 100.17,
+          "low": 99.24,
+          "range_pct": 0.937,
+          "room_to_hour_high_pct": 0.05
+        },
+        "volume": {
+          "last_1m": 94360.92,
+          "typical_1h_1m": 186258.09,
+          "vs_typical": 0.51,
+          "taker_buy_share": 0.521
+        },
+        "btc_moves_pct": {
+          "5m": 0.347,
+          "15m": 0.426,
+          "1h": 0.612
+        },
+        "path": {
+          "5m": {
+            "up_minutes": 5,
+            "down_minutes": 0
+          },
+          "15m": {
+            "up_minutes": 9,
+            "down_minutes": 5
+          }
+        },
+        "volatility": {
+          "typical_1m_move_5m_pct": 0.11,
+          "typical_1m_move_15m_pct": 0.07,
+          "typical_1m_move_1h_pct": 0.06,
+          "hour_move_vs_take_profit": 0.12,
+          "hour_move_vs_stop": 0.171
+        },
+        "buy_pressure": {
+          "1m": 0.521,
+          "5m": 0.616,
+          "15m": 0.558
+        },
+        "last_candle": {
+          "upper_wick_pct": 0.05,
+          "lower_wick_pct": 0.0,
+          "close_in_range": 0.667
+        },
+        "volume_accel": {
+          "last_5m_vs_prior_15m": 0.38,
+          "last_5m_vs_hour_share": 0.085
+        },
+        "vwap": {
+          "vs_15m_pct": 0.539,
+          "vs_1h_pct": 0.535
+        },
+        "clock_utc": {
+          "hour": 14,
+          "weekday": 3
+        }
+      }
+    },
+    {
+      "role": "loss_example",
+      "entry_ms": 1789052580000,
+      "exit_ms": 1789055220000,
+      "outcome": "loss",
+      "pnl_usd": -5.5,
+      "hold_minutes": 44,
+      "both_hit": false,
+      "snapshot": {
+        "outcome": "loss",
+        "hold_minutes": 44,
+        "sol_moves_pct": {
+          "1m": 0.11,
+          "5m": -0.26,
+          "15m": -0.25,
+          "1h": -0.04
+        },
+        "sol_last_hour": {
+          "high": 100.37,
+          "low": 99.27,
+          "range_pct": 1.108,
+          "room_to_hour_high_pct": 0.481
+        },
+        "volume": {
+          "last_1m": 131059.99,
+          "typical_1h_1m": 122362.62,
+          "vs_typical": 1.07,
+          "taker_buy_share": 0.772
+        },
+        "btc_moves_pct": {
+          "5m": -0.077,
+          "15m": -0.038,
+          "1h": 0.063
+        },
+        "path": {
+          "5m": {
+            "up_minutes": 2,
+            "down_minutes": 3
+          },
+          "15m": {
+            "up_minutes": 7,
+            "down_minutes": 7
+          }
+        },
+        "volatility": {
+          "typical_1m_move_5m_pct": 0.12,
+          "typical_1m_move_15m_pct": 0.06,
+          "typical_1m_move_1h_pct": 0.06,
+          "hour_move_vs_take_profit": 0.12,
+          "hour_move_vs_stop": 0.171
+        },
+        "buy_pressure": {
+          "1m": 0.772,
+          "5m": 0.429,
+          "15m": 0.479
+        },
+        "last_candle": {
+          "upper_wick_pct": 0.01,
+          "lower_wick_pct": 0.02,
+          "close_in_range": 0.933
+        },
+        "volume_accel": {
+          "last_5m_vs_prior_15m": 0.67,
+          "last_5m_vs_hour_share": 0.095
+        },
+        "vwap": {
+          "vs_15m_pct": -0.128,
+          "vs_1h_pct": 0.038
+        },
+        "clock_utc": {
+          "hour": 15,
+          "weekday": 3
+        }
+      }
+    }
+  ]
+}

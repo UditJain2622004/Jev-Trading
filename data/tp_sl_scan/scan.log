@@ -1,0 +1,816 @@
+2026-09-17 16:38:44  INFO     Starting  7-day scan
+2026-09-17 16:38:44  INFO     Interval  1m
+2026-09-17 16:38:44  INFO     TP/SL pairs  16
+2026-09-17 16:38:44  INFO     Timeout  60 minutes
+2026-09-17 16:38:44  INFO     Fee  0.20% round trip on $1000 each trade
+2026-09-17 16:38:44  INFO     Log file (this run)  D:\jev-trading\data\tp_sl_scan\scan_20260917_163844.log
+2026-09-17 16:38:44  INFO     Log file (latest)    D:\jev-trading\data\tp_sl_scan\scan.log
+2026-09-17 16:38:44  INFO     Results CSV          D:\jev-trading\data\tp_sl_scan\results.csv
+2026-09-17 16:38:44  INFO     First run downloads prices (about 2-4 min). Next run reuses the cache.
+2026-09-17 16:38:44  INFO     Fetching Binance Spot symbol list...
+2026-09-17 16:38:45  INFO     Will scan 24 coins: BTCUSDT, ETHUSDT, BNBUSDT, XRPUSDT, SOLUSDT, ADAUSDT, AVAXUSDT, LINKUSDT, LTCUSDT, DOTUSDT, BCHUSDT, ATOMUSDT, DOGEUSDT, SHIBUSDT, PEPEUSDT, WIFUSDT, NEARUSDT, SUIUSDT, APTUSDT, ARBUSDT, TIAUSDT, SEIUSDT, FILUSDT, OPUSDT
+2026-09-17 16:38:45  INFO     ----------  [1/24] BTCUSDT  ----------
+2026-09-17 16:38:45  INFO     BTCUSDT: downloading 1m prices from Binance (this is the slow part)
+2026-09-17 16:38:45  INFO     BTCUSDT: downloaded 1,000 candles so far...
+2026-09-17 16:38:45  INFO     BTCUSDT: downloaded 2,000 candles so far...
+2026-09-17 16:38:46  INFO     BTCUSDT: downloaded 3,000 candles so far...
+2026-09-17 16:38:46  INFO     BTCUSDT: downloaded 4,000 candles so far...
+2026-09-17 16:38:46  INFO     BTCUSDT: downloaded 5,000 candles so far...
+2026-09-17 16:38:46  INFO     BTCUSDT: downloaded 6,000 candles so far...
+2026-09-17 16:38:47  INFO     BTCUSDT: downloaded 7,000 candles so far...
+2026-09-17 16:38:47  INFO     BTCUSDT: downloaded 8,000 candles so far...
+2026-09-17 16:38:47  INFO     BTCUSDT: downloaded 9,000 candles so far...
+2026-09-17 16:38:47  INFO     BTCUSDT: downloaded 10,000 candles so far...
+2026-09-17 16:38:47  INFO     BTCUSDT: saved 10,081 candles to cache
+2026-09-17 16:38:47  INFO     BTCUSDT: scanning 16 take-profit/stop-loss pairs
+2026-09-17 16:38:47  INFO     BTCUSDT  TP 0.50%  SL 0.08%  trades=533  wins=46  losses=409  timeout=78  win=8.6%  net=$-1044.45
+2026-09-17 16:38:48  INFO     BTCUSDT  TP 0.50%  SL 0.15%  trades=357  wins=50  losses=218  timeout=89  win=14.0%  net=$-706.26
+2026-09-17 16:38:48  INFO     BTCUSDT  TP 0.50%  SL 0.25%  trades=277  wins=43  losses=126  timeout=108  win=15.5%  net=$-578.22
+2026-09-17 16:38:48  INFO     BTCUSDT  TP 0.50%  SL 0.35%  trades=240  wins=41  losses=72  timeout=127  win=17.1%  net=$-491.04
+2026-09-17 16:38:48  INFO     BTCUSDT  TP 0.50%  SL 0.50%  trades=218  wins=39  losses=44  timeout=135  win=17.9%  net=$-471.09
+2026-09-17 16:38:48  INFO     BTCUSDT  TP 0.30%  SL 0.15%  trades=458  wins=121  losses=276  timeout=61  win=26.4%  net=$-946.23
+2026-09-17 16:38:48  INFO     BTCUSDT  TP 0.30%  SL 0.30%  trades=300  wins=88  losses=104  timeout=108  win=29.3%  net=$-657.86
+2026-09-17 16:38:48  INFO     BTCUSDT  TP 0.40%  SL 0.20%  trades=344  wins=75  losses=174  timeout=95  win=21.8%  net=$-693.72
+2026-09-17 16:38:48  INFO     BTCUSDT  TP 0.40%  SL 0.35%  trades=260  wins=63  losses=83  timeout=114  win=24.2%  net=$-550.16
+2026-09-17 16:38:48  INFO     BTCUSDT  TP 0.25%  SL 0.12%  trades=573  wins=152  losses=372  timeout=49  win=26.5%  net=$-1196.52
+2026-09-17 16:38:48  INFO     BTCUSDT  TP 0.20%  SL 0.10%  trades=750  wins=220  losses=490  timeout=40  win=29.3%  net=$-1533.11
+2026-09-17 16:38:48  INFO     BTCUSDT  TP 0.60%  SL 0.25%  trades=275  wins=37  losses=126  timeout=112  win=13.5%  net=$-555.48
+2026-09-17 16:38:48  INFO     BTCUSDT  TP 0.80%  SL 0.30%  trades=233  wins=18  losses=86  timeout=129  win=7.7%  net=$-492.00
+2026-09-17 16:38:48  INFO     BTCUSDT  TP 0.80%  SL 0.40%  trades=205  wins=15  losses=54  timeout=136  win=7.3%  net=$-452.83
+2026-09-17 16:38:48  INFO     BTCUSDT  TP 1.00%  SL 0.40%  trades=207  wins=11  losses=55  timeout=141  win=5.3%  net=$-446.34
+2026-09-17 16:38:48  INFO     BTCUSDT  TP 1.00%  SL 0.50%  trades=192  wins=10  losses=35  timeout=147  win=5.2%  net=$-404.13
+2026-09-17 16:38:48  INFO     BTCUSDT done in 2.7s. Best here: TP 1.00% / SL 0.50%  net $-404.13. Elapsed 4s, about 94s left.
+2026-09-17 16:38:48  INFO     ----------  [2/24] ETHUSDT  ----------
+2026-09-17 16:38:48  INFO     ETHUSDT: downloading 1m prices from Binance (this is the slow part)
+2026-09-17 16:38:48  INFO     ETHUSDT: downloaded 1,000 candles so far...
+2026-09-17 16:38:48  INFO     ETHUSDT: downloaded 2,000 candles so far...
+2026-09-17 16:38:48  INFO     ETHUSDT: downloaded 3,000 candles so far...
+2026-09-17 16:38:49  INFO     ETHUSDT: downloaded 4,000 candles so far...
+2026-09-17 16:38:49  INFO     ETHUSDT: downloaded 5,000 candles so far...
+2026-09-17 16:38:49  INFO     ETHUSDT: downloaded 6,000 candles so far...
+2026-09-17 16:38:49  INFO     ETHUSDT: downloaded 7,000 candles so far...
+2026-09-17 16:38:49  INFO     ETHUSDT: downloaded 8,000 candles so far...
+2026-09-17 16:38:49  INFO     ETHUSDT: downloaded 9,000 candles so far...
+2026-09-17 16:38:50  INFO     ETHUSDT: downloaded 10,000 candles so far...
+2026-09-17 16:38:50  INFO     ETHUSDT: saved 10,081 candles to cache
+2026-09-17 16:38:50  INFO     ETHUSDT: scanning 16 take-profit/stop-loss pairs
+2026-09-17 16:38:50  INFO     ETHUSDT  TP 0.50%  SL 0.08%  trades=820  wins=83  losses=684  timeout=53  win=10.1%  net=$-1689.45
+2026-09-17 16:38:50  INFO     ETHUSDT  TP 0.50%  SL 0.15%  trades=525  wins=86  losses=367  timeout=72  win=16.4%  net=$-1073.36
+2026-09-17 16:38:50  INFO     ETHUSDT  TP 0.50%  SL 0.25%  trades=390  wins=90  losses=214  timeout=86  win=23.1%  net=$-789.51
+2026-09-17 16:38:50  INFO     ETHUSDT  TP 0.50%  SL 0.35%  trades=322  wins=84  losses=142  timeout=96  win=26.1%  net=$-700.07
+2026-09-17 16:38:50  INFO     ETHUSDT  TP 0.50%  SL 0.50%  trades=271  wins=73  losses=83  timeout=115  win=26.9%  net=$-598.84
+2026-09-17 16:38:50  INFO     ETHUSDT  TP 0.30%  SL 0.15%  trades=684  wins=207  losses=435  timeout=42  win=30.3%  net=$-1387.70
+2026-09-17 16:38:50  INFO     ETHUSDT  TP 0.30%  SL 0.30%  trades=447  wins=183  losses=200  timeout=64  win=40.9%  net=$-953.37
+2026-09-17 16:38:50  INFO     ETHUSDT  TP 0.40%  SL 0.20%  trades=500  wins=135  losses=301  timeout=64  win=27.0%  net=$-1029.82
+2026-09-17 16:38:50  INFO     ETHUSDT  TP 0.40%  SL 0.35%  trades=355  wins=120  losses=148  timeout=87  win=33.8%  net=$-740.77
+2026-09-17 16:38:50  INFO     ETHUSDT  TP 0.25%  SL 0.12%  trades=919  wins=269  losses=625  timeout=25  win=29.3%  net=$-1901.03
+2026-09-17 16:38:50  INFO     ETHUSDT  TP 0.20%  SL 0.10%  trades=1152  wins=363  losses=772  timeout=17  win=31.5%  net=$-2343.26
+2026-09-17 16:38:50  INFO     ETHUSDT  TP 0.60%  SL 0.25%  trades=350  wins=62  losses=195  timeout=93  win=17.7%  net=$-725.73
+2026-09-17 16:38:50  INFO     ETHUSDT  TP 0.80%  SL 0.30%  trades=281  wins=38  losses=136  timeout=107  win=13.5%  net=$-527.57
+2026-09-17 16:38:50  INFO     ETHUSDT  TP 0.80%  SL 0.40%  trades=256  wins=34  losses=100  timeout=122  win=13.3%  net=$-529.18
+2026-09-17 16:38:50  INFO     ETHUSDT  TP 1.00%  SL 0.40%  trades=245  wins=27  losses=95  timeout=123  win=11.0%  net=$-458.54
+2026-09-17 16:38:50  INFO     ETHUSDT  TP 1.00%  SL 0.50%  trades=222  wins=24  losses=68  timeout=130  win=10.8%  net=$-449.14
+2026-09-17 16:38:50  INFO     ETHUSDT done in 2.3s. Best here: TP 1.00% / SL 0.50%  net $-449.14. Elapsed 6s, about 71s left.
+2026-09-17 16:38:50  INFO     ----------  [3/24] BNBUSDT  ----------
+2026-09-17 16:38:50  INFO     BNBUSDT: downloading 1m prices from Binance (this is the slow part)
+2026-09-17 16:38:50  INFO     BNBUSDT: downloaded 1,000 candles so far...
+2026-09-17 16:38:50  INFO     BNBUSDT: downloaded 2,000 candles so far...
+2026-09-17 16:38:51  INFO     BNBUSDT: downloaded 3,000 candles so far...
+2026-09-17 16:38:51  INFO     BNBUSDT: downloaded 4,000 candles so far...
+2026-09-17 16:38:51  INFO     BNBUSDT: downloaded 5,000 candles so far...
+2026-09-17 16:38:52  INFO     BNBUSDT: downloaded 6,000 candles so far...
+2026-09-17 16:38:52  INFO     BNBUSDT: downloaded 7,000 candles so far...
+2026-09-17 16:38:52  INFO     BNBUSDT: downloaded 8,000 candles so far...
+2026-09-17 16:38:52  INFO     BNBUSDT: downloaded 9,000 candles so far...
+2026-09-17 16:38:53  INFO     BNBUSDT: downloaded 10,000 candles so far...
+2026-09-17 16:38:53  INFO     BNBUSDT: saved 10,081 candles to cache
+2026-09-17 16:38:53  INFO     BNBUSDT: scanning 16 take-profit/stop-loss pairs
+2026-09-17 16:38:53  INFO     BNBUSDT  TP 0.50%  SL 0.08%  trades=573  wins=60  losses=453  timeout=60  win=10.5%  net=$-1101.10
+2026-09-17 16:38:53  INFO     BNBUSDT  TP 0.50%  SL 0.15%  trades=381  wins=58  losses=244  timeout=79  win=15.2%  net=$-730.08
+2026-09-17 16:38:53  INFO     BNBUSDT  TP 0.50%  SL 0.25%  trades=285  wins=56  losses=135  timeout=94  win=19.6%  net=$-554.90
+2026-09-17 16:38:53  INFO     BNBUSDT  TP 0.50%  SL 0.35%  trades=248  wins=51  losses=84  timeout=113  win=20.6%  net=$-492.56
+2026-09-17 16:38:53  INFO     BNBUSDT  TP 0.50%  SL 0.50%  trades=218  wins=47  losses=43  timeout=128  win=21.6%  net=$-418.61
+2026-09-17 16:38:53  INFO     BNBUSDT  TP 0.30%  SL 0.15%  trades=500  wins=147  losses=302  timeout=51  win=29.4%  net=$-972.05
+2026-09-17 16:38:53  INFO     BNBUSDT  TP 0.30%  SL 0.30%  trades=327  wins=120  losses=126  timeout=81  win=36.7%  net=$-664.14
+2026-09-17 16:38:53  INFO     BNBUSDT  TP 0.40%  SL 0.20%  trades=356  wins=82  losses=194  timeout=80  win=23.0%  net=$-724.51
+2026-09-17 16:38:53  INFO     BNBUSDT  TP 0.40%  SL 0.35%  trades=270  wins=74  losses=99  timeout=97  win=27.4%  net=$-545.93
+2026-09-17 16:38:53  INFO     BNBUSDT  TP 0.25%  SL 0.12%  trades=653  wins=203  losses=414  timeout=36  win=31.1%  net=$-1273.81
+2026-09-17 16:38:53  INFO     BNBUSDT  TP 0.20%  SL 0.10%  trades=845  wins=280  losses=543  timeout=22  win=33.1%  net=$-1662.92
+2026-09-17 16:38:53  INFO     BNBUSDT  TP 0.60%  SL 0.25%  trades=265  wins=35  losses=122  timeout=108  win=13.2%  net=$-506.33
+2026-09-17 16:38:53  INFO     BNBUSDT  TP 0.80%  SL 0.30%  trades=231  wins=20  losses=92  timeout=119  win=8.7%  net=$-446.49
+2026-09-17 16:38:53  INFO     BNBUSDT  TP 0.80%  SL 0.40%  trades=212  wins=15  losses=63  timeout=134  win=7.1%  net=$-433.94
+2026-09-17 16:38:53  INFO     BNBUSDT  TP 1.00%  SL 0.40%  trades=209  wins=10  losses=61  timeout=138  win=4.8%  net=$-434.97
+2026-09-17 16:38:53  INFO     BNBUSDT  TP 1.00%  SL 0.50%  trades=191  wins=9  losses=40  timeout=142  win=4.7%  net=$-397.88
+2026-09-17 16:38:53  INFO     BNBUSDT done in 3.0s. Best here: TP 1.00% / SL 0.50%  net $-397.88. Elapsed 9s, about 66s left.
+2026-09-17 16:38:53  INFO     ----------  [4/24] XRPUSDT  ----------
+2026-09-17 16:38:53  INFO     XRPUSDT: downloading 1m prices from Binance (this is the slow part)
+2026-09-17 16:38:53  INFO     XRPUSDT: downloaded 1,000 candles so far...
+2026-09-17 16:38:54  INFO     XRPUSDT: downloaded 2,000 candles so far...
+2026-09-17 16:38:54  INFO     XRPUSDT: downloaded 3,000 candles so far...
+2026-09-17 16:38:54  INFO     XRPUSDT: downloaded 4,000 candles so far...
+2026-09-17 16:38:55  INFO     XRPUSDT: downloaded 5,000 candles so far...
+2026-09-17 16:38:55  INFO     XRPUSDT: downloaded 6,000 candles so far...
+2026-09-17 16:38:56  INFO     XRPUSDT: downloaded 7,000 candles so far...
+2026-09-17 16:38:56  INFO     XRPUSDT: downloaded 8,000 candles so far...
+2026-09-17 16:38:56  INFO     XRPUSDT: downloaded 9,000 candles so far...
+2026-09-17 16:38:56  INFO     XRPUSDT: downloaded 10,000 candles so far...
+2026-09-17 16:38:56  INFO     XRPUSDT: saved 10,081 candles to cache
+2026-09-17 16:38:57  INFO     XRPUSDT: scanning 16 take-profit/stop-loss pairs
+2026-09-17 16:38:57  INFO     XRPUSDT  TP 0.50%  SL 0.08%  trades=1228  wins=159  losses=1036  timeout=33  win=12.9%  net=$-2429.60
+2026-09-17 16:38:57  INFO     XRPUSDT  TP 0.50%  SL 0.15%  trades=858  wins=179  losses=638  timeout=41  win=20.9%  net=$-1734.46
+2026-09-17 16:38:57  INFO     XRPUSDT  TP 0.50%  SL 0.25%  trades=612  wins=168  losses=389  timeout=55  win=27.5%  net=$-1306.87
+2026-09-17 16:38:57  INFO     XRPUSDT  TP 0.50%  SL 0.35%  trades=484  wins=159  losses=258  timeout=67  win=32.9%  net=$-1037.44
+2026-09-17 16:38:57  INFO     XRPUSDT  TP 0.50%  SL 0.50%  trades=379  wins=145  losses=155  timeout=79  win=38.3%  net=$-797.02
+2026-09-17 16:38:57  INFO     XRPUSDT  TP 0.30%  SL 0.15%  trades=1152  wins=369  losses=757  timeout=26  win=32.0%  net=$-2315.22
+2026-09-17 16:38:57  INFO     XRPUSDT  TP 0.30%  SL 0.30%  trades=751  wins=345  losses=368  timeout=38  win=45.9%  net=$-1569.16
+2026-09-17 16:38:57  INFO     XRPUSDT  TP 0.40%  SL 0.20%  trades=803  wins=244  losses=523  timeout=36  win=30.4%  net=$-1640.20
+2026-09-17 16:38:57  INFO     XRPUSDT  TP 0.40%  SL 0.35%  trades=551  wins=221  losses=279  timeout=51  win=40.1%  net=$-1160.75
+2026-09-17 16:38:57  INFO     XRPUSDT  TP 0.25%  SL 0.12%  trades=1471  wins=455  losses=999  timeout=17  win=30.9%  net=$-2994.24
+2026-09-17 16:38:57  INFO     XRPUSDT  TP 0.20%  SL 0.10%  trades=1830  wins=579  losses=1241  timeout=10  win=31.6%  net=$-3736.97
+2026-09-17 16:38:57  INFO     XRPUSDT  TP 0.60%  SL 0.25%  trades=554  wins=130  losses=364  timeout=60  win=23.5%  net=$-1179.69
+2026-09-17 16:38:57  INFO     XRPUSDT  TP 0.80%  SL 0.30%  trades=396  wins=71  losses=240  timeout=85  win=17.9%  net=$-804.60
+2026-09-17 16:38:57  INFO     XRPUSDT  TP 0.80%  SL 0.40%  trades=344  wins=69  losses=174  timeout=101  win=20.1%  net=$-711.56
+2026-09-17 16:38:57  INFO     XRPUSDT  TP 1.00%  SL 0.40%  trades=321  wins=47  losses=167  timeout=107  win=14.6%  net=$-694.91
+2026-09-17 16:38:57  INFO     XRPUSDT  TP 1.00%  SL 0.50%  trades=285  wins=48  losses=128  timeout=109  win=16.8%  net=$-605.39
+2026-09-17 16:38:57  INFO     XRPUSDT done in 3.6s. Best here: TP 1.00% / SL 0.50%  net $-605.39. Elapsed 13s, about 66s left.
+2026-09-17 16:38:57  INFO     ----------  [5/24] SOLUSDT  ----------
+2026-09-17 16:38:57  INFO     SOLUSDT: downloading 1m prices from Binance (this is the slow part)
+2026-09-17 16:38:57  INFO     SOLUSDT: downloaded 1,000 candles so far...
+2026-09-17 16:38:57  INFO     SOLUSDT: downloaded 2,000 candles so far...
+2026-09-17 16:38:58  INFO     SOLUSDT: downloaded 3,000 candles so far...
+2026-09-17 16:38:58  INFO     SOLUSDT: downloaded 4,000 candles so far...
+2026-09-17 16:38:59  INFO     SOLUSDT: downloaded 5,000 candles so far...
+2026-09-17 16:38:59  INFO     SOLUSDT: downloaded 6,000 candles so far...
+2026-09-17 16:38:59  INFO     SOLUSDT: downloaded 7,000 candles so far...
+2026-09-17 16:39:00  INFO     SOLUSDT: downloaded 8,000 candles so far...
+2026-09-17 16:39:00  INFO     SOLUSDT: downloaded 9,000 candles so far...
+2026-09-17 16:39:01  INFO     SOLUSDT: downloaded 10,000 candles so far...
+2026-09-17 16:39:01  INFO     SOLUSDT: saved 10,081 candles to cache
+2026-09-17 16:39:01  INFO     SOLUSDT: scanning 16 take-profit/stop-loss pairs
+2026-09-17 16:39:01  INFO     SOLUSDT  TP 0.50%  SL 0.08%  trades=945  wins=119  losses=790  timeout=36  win=12.6%  net=$-1870.22
+2026-09-17 16:39:01  INFO     SOLUSDT  TP 0.50%  SL 0.15%  trades=591  wins=119  losses=428  timeout=44  win=20.1%  net=$-1165.90
+2026-09-17 16:39:01  INFO     SOLUSDT  TP 0.50%  SL 0.25%  trades=431  wins=111  losses=257  timeout=63  win=25.8%  net=$-903.72
+2026-09-17 16:39:01  INFO     SOLUSDT  TP 0.50%  SL 0.35%  trades=342  wins=102  losses=165  timeout=75  win=29.8%  net=$-706.39
+2026-09-17 16:39:01  INFO     SOLUSDT  TP 0.50%  SL 0.50%  trades=277  wins=90  losses=87  timeout=100  win=32.5%  net=$-571.24
+2026-09-17 16:39:01  INFO     SOLUSDT  TP 0.30%  SL 0.15%  trades=853  wins=272  losses=560  timeout=21  win=31.9%  net=$-1713.50
+2026-09-17 16:39:01  INFO     SOLUSDT  TP 0.30%  SL 0.30%  trades=509  wins=225  losses=242  timeout=42  win=44.2%  net=$-1073.88
+2026-09-17 16:39:01  INFO     SOLUSDT  TP 0.40%  SL 0.20%  trades=559  wins=166  losses=346  timeout=47  win=29.7%  net=$-1101.99
+2026-09-17 16:39:01  INFO     SOLUSDT  TP 0.40%  SL 0.35%  trades=375  wins=135  losses=177  timeout=63  win=36.0%  net=$-814.20
+2026-09-17 16:39:01  INFO     SOLUSDT  TP 0.25%  SL 0.12%  trades=1102  wins=349  losses=736  timeout=17  win=31.7%  net=$-2203.57
+2026-09-17 16:39:01  INFO     SOLUSDT  TP 0.20%  SL 0.10%  trades=1425  wins=485  losses=930  timeout=10  win=34.0%  net=$-2804.20
+2026-09-17 16:39:01  INFO     SOLUSDT  TP 0.60%  SL 0.25%  trades=383  wins=79  losses=232  timeout=72  win=20.6%  net=$-778.55
+2026-09-17 16:39:01  INFO     SOLUSDT  TP 0.80%  SL 0.30%  trades=315  wins=48  losses=174  timeout=93  win=15.2%  net=$-617.94
+2026-09-17 16:39:01  INFO     SOLUSDT  TP 0.80%  SL 0.40%  trades=261  wins=39  losses=110  timeout=112  win=14.9%  net=$-508.30
+2026-09-17 16:39:01  INFO     SOLUSDT  TP 1.00%  SL 0.40%  trades=242  wins=22  losses=102  timeout=118  win=9.1%  net=$-489.20
+2026-09-17 16:39:01  INFO     SOLUSDT  TP 1.00%  SL 0.50%  trades=226  wins=21  losses=76  timeout=129  win=9.3%  net=$-475.76
+2026-09-17 16:39:01  INFO     SOLUSDT done in 4.6s. Best here: TP 1.00% / SL 0.50%  net $-475.76. Elapsed 18s, about 67s left.
+2026-09-17 16:39:01  INFO     ----------  [6/24] ADAUSDT  ----------
+2026-09-17 16:39:01  INFO     ADAUSDT: downloading 1m prices from Binance (this is the slow part)
+2026-09-17 16:39:02  INFO     ADAUSDT: downloaded 1,000 candles so far...
+2026-09-17 16:39:02  INFO     ADAUSDT: downloaded 2,000 candles so far...
+2026-09-17 16:39:02  INFO     ADAUSDT: downloaded 3,000 candles so far...
+2026-09-17 16:39:02  INFO     ADAUSDT: downloaded 4,000 candles so far...
+2026-09-17 16:39:03  INFO     ADAUSDT: downloaded 5,000 candles so far...
+2026-09-17 16:39:03  INFO     ADAUSDT: downloaded 6,000 candles so far...
+2026-09-17 16:39:03  INFO     ADAUSDT: downloaded 7,000 candles so far...
+2026-09-17 16:39:04  INFO     ADAUSDT: downloaded 8,000 candles so far...
+2026-09-17 16:39:04  INFO     ADAUSDT: downloaded 9,000 candles so far...
+2026-09-17 16:39:04  INFO     ADAUSDT: downloaded 10,000 candles so far...
+2026-09-17 16:39:05  INFO     ADAUSDT: saved 10,081 candles to cache
+2026-09-17 16:39:05  INFO     ADAUSDT: scanning 16 take-profit/stop-loss pairs
+2026-09-17 16:39:05  INFO     ADAUSDT  TP 0.50%  SL 0.08%  trades=1445  wins=192  losses=1237  timeout=16  win=13.3%  net=$-2881.77
+2026-09-17 16:39:05  INFO     ADAUSDT  TP 0.50%  SL 0.15%  trades=917  wins=198  losses=693  timeout=26  win=21.6%  net=$-1846.54
+2026-09-17 16:39:05  INFO     ADAUSDT  TP 0.50%  SL 0.25%  trades=671  wins=198  losses=436  timeout=37  win=29.5%  net=$-1397.84
+2026-09-17 16:39:05  INFO     ADAUSDT  TP 0.50%  SL 0.35%  trades=506  wins=173  losses=287  timeout=46  win=34.2%  net=$-1114.34
+2026-09-17 16:39:05  INFO     ADAUSDT  TP 0.50%  SL 0.50%  trades=403  wins=160  losses=179  timeout=64  win=39.7%  net=$-875.97
+2026-09-17 16:39:05  INFO     ADAUSDT  TP 0.30%  SL 0.15%  trades=1334  wins=437  losses=885  timeout=12  win=32.8%  net=$-2674.33
+2026-09-17 16:39:05  INFO     ADAUSDT  TP 0.30%  SL 0.30%  trades=833  wins=398  losses=413  timeout=22  win=47.8%  net=$-1713.86
+2026-09-17 16:39:05  INFO     ADAUSDT  TP 0.40%  SL 0.20%  trades=893  wins=275  losses=596  timeout=22  win=30.8%  net=$-1859.10
+2026-09-17 16:39:05  INFO     ADAUSDT  TP 0.40%  SL 0.35%  trades=597  wins=249  losses=314  timeout=34  win=41.7%  net=$-1293.95
+2026-09-17 16:39:05  INFO     ADAUSDT  TP 0.25%  SL 0.12%  trades=1706  wins=549  losses=1153  timeout=4  win=32.2%  net=$-3421.63
+2026-09-17 16:39:05  INFO     ADAUSDT  TP 0.20%  SL 0.10%  trades=2073  wins=705  losses=1366  timeout=2  win=34.0%  net=$-4101.02
+2026-09-17 16:39:05  INFO     ADAUSDT  TP 0.60%  SL 0.25%  trades=591  wins=147  losses=398  timeout=46  win=24.9%  net=$-1234.16
+2026-09-17 16:39:05  INFO     ADAUSDT  TP 0.80%  SL 0.30%  trades=446  wins=92  losses=293  timeout=61  win=20.6%  net=$-933.37
+2026-09-17 16:39:05  INFO     ADAUSDT  TP 0.80%  SL 0.40%  trades=364  wins=80  losses=207  timeout=77  win=22.0%  net=$-783.46
+2026-09-17 16:39:05  INFO     ADAUSDT  TP 1.00%  SL 0.40%  trades=337  wins=54  losses=196  timeout=87  win=16.0%  net=$-711.30
+2026-09-17 16:39:05  INFO     ADAUSDT  TP 1.00%  SL 0.50%  trades=290  wins=53  losses=143  timeout=94  win=18.3%  net=$-603.06
+2026-09-17 16:39:05  INFO     ADAUSDT done in 3.7s. Best here: TP 1.00% / SL 0.50%  net $-603.06. Elapsed 21s, about 64s left.
+2026-09-17 16:39:05  INFO     ----------  [7/24] AVAXUSDT  ----------
+2026-09-17 16:39:05  INFO     AVAXUSDT: downloading 1m prices from Binance (this is the slow part)
+2026-09-17 16:39:05  INFO     AVAXUSDT: downloaded 1,000 candles so far...
+2026-09-17 16:39:06  INFO     AVAXUSDT: downloaded 2,000 candles so far...
+2026-09-17 16:39:06  INFO     AVAXUSDT: downloaded 3,000 candles so far...
+2026-09-17 16:39:06  INFO     AVAXUSDT: downloaded 4,000 candles so far...
+2026-09-17 16:39:07  INFO     AVAXUSDT: downloaded 5,000 candles so far...
+2026-09-17 16:39:07  INFO     AVAXUSDT: downloaded 6,000 candles so far...
+2026-09-17 16:39:08  INFO     AVAXUSDT: downloaded 7,000 candles so far...
+2026-09-17 16:39:08  INFO     AVAXUSDT: downloaded 8,000 candles so far...
+2026-09-17 16:39:08  INFO     AVAXUSDT: downloaded 9,000 candles so far...
+2026-09-17 16:39:08  INFO     AVAXUSDT: downloaded 10,000 candles so far...
+2026-09-17 16:39:08  INFO     AVAXUSDT: saved 10,081 candles to cache
+2026-09-17 16:39:08  INFO     AVAXUSDT: scanning 16 take-profit/stop-loss pairs
+2026-09-17 16:39:08  INFO     AVAXUSDT  TP 0.50%  SL 0.08%  trades=1071  wins=146  losses=894  timeout=31  win=13.6%  net=$-2071.32
+2026-09-17 16:39:08  INFO     AVAXUSDT  TP 0.50%  SL 0.15%  trades=725  wins=152  losses=529  timeout=44  win=21.0%  net=$-1412.72
+2026-09-17 16:39:08  INFO     AVAXUSDT  TP 0.50%  SL 0.25%  trades=510  wins=139  losses=316  timeout=55  win=27.3%  net=$-1054.20
+2026-09-17 16:39:08  INFO     AVAXUSDT  TP 0.50%  SL 0.35%  trades=396  wins=121  losses=204  timeout=71  win=30.6%  net=$-841.29
+2026-09-17 16:39:08  INFO     AVAXUSDT  TP 0.50%  SL 0.50%  trades=333  wins=113  losses=134  timeout=86  win=33.9%  net=$-735.58
+2026-09-17 16:39:08  INFO     AVAXUSDT  TP 0.30%  SL 0.15%  trades=963  wins=304  losses=637  timeout=22  win=31.6%  net=$-1956.89
+2026-09-17 16:39:08  INFO     AVAXUSDT  TP 0.30%  SL 0.30%  trades=596  wins=265  losses=293  timeout=38  win=44.5%  net=$-1281.23
+2026-09-17 16:39:08  INFO     AVAXUSDT  TP 0.40%  SL 0.20%  trades=679  wins=205  losses=441  timeout=33  win=30.2%  net=$-1393.03
+2026-09-17 16:39:09  INFO     AVAXUSDT  TP 0.40%  SL 0.35%  trades=459  wins=180  losses=222  timeout=57  win=39.2%  net=$-980.33
+2026-09-17 16:39:09  INFO     AVAXUSDT  TP 0.25%  SL 0.12%  trades=1231  wins=399  losses=824  timeout=8  win=32.4%  net=$-2446.68
+2026-09-17 16:39:09  INFO     AVAXUSDT  TP 0.20%  SL 0.10%  trades=1571  wins=513  losses=1055  timeout=3  win=32.7%  net=$-3168.85
+2026-09-17 16:39:09  INFO     AVAXUSDT  TP 0.60%  SL 0.25%  trades=457  wins=103  losses=293  timeout=61  win=22.5%  net=$-939.82
+2026-09-17 16:39:09  INFO     AVAXUSDT  TP 0.80%  SL 0.30%  trades=360  wins=62  losses=212  timeout=86  win=17.2%  net=$-743.93
+2026-09-17 16:39:09  INFO     AVAXUSDT  TP 0.80%  SL 0.40%  trades=298  wins=59  losses=139  timeout=100  win=19.8%  net=$-598.27
+2026-09-17 16:39:09  INFO     AVAXUSDT  TP 1.00%  SL 0.40%  trades=276  wins=34  losses=124  timeout=118  win=12.3%  net=$-556.30
+2026-09-17 16:39:09  INFO     AVAXUSDT  TP 1.00%  SL 0.50%  trades=253  wins=34  losses=100  timeout=119  win=13.4%  net=$-538.44
+2026-09-17 16:39:09  INFO     AVAXUSDT done in 3.6s. Best here: TP 1.00% / SL 0.50%  net $-538.44. Elapsed 25s, about 61s left.
+2026-09-17 16:39:09  INFO     ----------  [8/24] LINKUSDT  ----------
+2026-09-17 16:39:09  INFO     LINKUSDT: downloading 1m prices from Binance (this is the slow part)
+2026-09-17 16:39:09  INFO     LINKUSDT: downloaded 1,000 candles so far...
+2026-09-17 16:39:09  INFO     LINKUSDT: downloaded 2,000 candles so far...
+2026-09-17 16:39:10  INFO     LINKUSDT: downloaded 3,000 candles so far...
+2026-09-17 16:39:10  INFO     LINKUSDT: downloaded 4,000 candles so far...
+2026-09-17 16:39:11  INFO     LINKUSDT: downloaded 5,000 candles so far...
+2026-09-17 16:39:11  INFO     LINKUSDT: downloaded 6,000 candles so far...
+2026-09-17 16:39:11  INFO     LINKUSDT: downloaded 7,000 candles so far...
+2026-09-17 16:39:11  INFO     LINKUSDT: downloaded 8,000 candles so far...
+2026-09-17 16:39:12  INFO     LINKUSDT: downloaded 9,000 candles so far...
+2026-09-17 16:39:12  INFO     LINKUSDT: downloaded 10,000 candles so far...
+2026-09-17 16:39:13  INFO     LINKUSDT: saved 10,081 candles to cache
+2026-09-17 16:39:13  INFO     LINKUSDT: scanning 16 take-profit/stop-loss pairs
+2026-09-17 16:39:13  INFO     LINKUSDT  TP 0.50%  SL 0.08%  trades=1180  wins=163  losses=993  timeout=24  win=13.8%  net=$-2295.43
+2026-09-17 16:39:13  INFO     LINKUSDT  TP 0.50%  SL 0.15%  trades=818  wins=167  losses=615  timeout=36  win=20.4%  net=$-1666.94
+2026-09-17 16:39:13  INFO     LINKUSDT  TP 0.50%  SL 0.25%  trades=568  wins=150  losses=368  timeout=50  win=26.4%  net=$-1251.15
+2026-09-17 16:39:13  INFO     LINKUSDT  TP 0.50%  SL 0.35%  trades=427  wins=144  losses=220  timeout=63  win=33.7%  net=$-873.66
+2026-09-17 16:39:13  INFO     LINKUSDT  TP 0.50%  SL 0.50%  trades=334  wins=122  losses=138  timeout=74  win=36.5%  net=$-762.12
+2026-09-17 16:39:13  INFO     LINKUSDT  TP 0.30%  SL 0.15%  trades=1067  wins=333  losses=721  timeout=13  win=31.2%  net=$-2208.99
+2026-09-17 16:39:13  INFO     LINKUSDT  TP 0.30%  SL 0.30%  trades=660  wins=298  losses=329  timeout=33  win=45.2%  net=$-1415.01
+2026-09-17 16:39:13  INFO     LINKUSDT  TP 0.40%  SL 0.20%  trades=750  wins=225  losses=501  timeout=24  win=30.0%  net=$-1575.43
+2026-09-17 16:39:13  INFO     LINKUSDT  TP 0.40%  SL 0.35%  trades=496  wins=201  losses=243  timeout=52  win=40.5%  net=$-1031.18
+2026-09-17 16:39:13  INFO     LINKUSDT  TP 0.25%  SL 0.12%  trades=1378  wins=433  losses=939  timeout=6  win=31.4%  net=$-2795.43
+2026-09-17 16:39:13  INFO     LINKUSDT  TP 0.20%  SL 0.10%  trades=1725  wins=567  losses=1154  timeout=4  win=32.9%  net=$-3466.50
+2026-09-17 16:39:13  INFO     LINKUSDT  TP 0.60%  SL 0.25%  trades=503  wins=109  losses=331  timeout=63  win=21.7%  net=$-1080.83
+2026-09-17 16:39:13  INFO     LINKUSDT  TP 0.80%  SL 0.30%  trades=373  wins=66  losses=232  timeout=75  win=17.7%  net=$-783.51
+2026-09-17 16:39:13  INFO     LINKUSDT  TP 0.80%  SL 0.40%  trades=320  wins=63  losses=167  timeout=90  win=19.7%  net=$-685.86
+2026-09-17 16:39:13  INFO     LINKUSDT  TP 1.00%  SL 0.40%  trades=304  wins=40  losses=162  timeout=102  win=13.2%  net=$-672.68
+2026-09-17 16:39:13  INFO     LINKUSDT  TP 1.00%  SL 0.50%  trades=259  wins=43  losses=113  timeout=103  win=16.6%  net=$-528.43
+2026-09-17 16:39:13  INFO     LINKUSDT done in 4.2s. Best here: TP 1.00% / SL 0.50%  net $-528.43. Elapsed 29s, about 58s left.
+2026-09-17 16:39:13  INFO     ----------  [9/24] LTCUSDT  ----------
+2026-09-17 16:39:13  INFO     LTCUSDT: downloading 1m prices from Binance (this is the slow part)
+2026-09-17 16:39:13  INFO     LTCUSDT: downloaded 1,000 candles so far...
+2026-09-17 16:39:13  INFO     LTCUSDT: downloaded 2,000 candles so far...
+2026-09-17 16:39:14  INFO     LTCUSDT: downloaded 3,000 candles so far...
+2026-09-17 16:39:14  INFO     LTCUSDT: downloaded 4,000 candles so far...
+2026-09-17 16:39:14  INFO     LTCUSDT: downloaded 5,000 candles so far...
+2026-09-17 16:39:15  INFO     LTCUSDT: downloaded 6,000 candles so far...
+2026-09-17 16:39:15  INFO     LTCUSDT: downloaded 7,000 candles so far...
+2026-09-17 16:39:16  INFO     LTCUSDT: downloaded 8,000 candles so far...
+2026-09-17 16:39:17  INFO     LTCUSDT: downloaded 9,000 candles so far...
+2026-09-17 16:39:17  INFO     LTCUSDT: downloaded 10,000 candles so far...
+2026-09-17 16:39:17  INFO     LTCUSDT: saved 10,081 candles to cache
+2026-09-17 16:39:17  INFO     LTCUSDT: scanning 16 take-profit/stop-loss pairs
+2026-09-17 16:39:17  INFO     LTCUSDT  TP 0.50%  SL 0.08%  trades=913  wins=122  losses=773  timeout=18  win=13.4%  net=$-1788.85
+2026-09-17 16:39:17  INFO     LTCUSDT  TP 0.50%  SL 0.15%  trades=609  wins=123  losses=454  timeout=32  win=20.2%  net=$-1231.05
+2026-09-17 16:39:17  INFO     LTCUSDT  TP 0.50%  SL 0.25%  trades=410  wins=113  losses=238  timeout=59  win=27.6%  net=$-792.20
+2026-09-17 16:39:17  INFO     LTCUSDT  TP 0.50%  SL 0.35%  trades=345  wins=110  losses=170  timeout=65  win=31.9%  net=$-709.18
+2026-09-17 16:39:17  INFO     LTCUSDT  TP 0.50%  SL 0.50%  trades=280  wins=94  losses=94  timeout=92  win=33.6%  net=$-580.63
+2026-09-17 16:39:17  INFO     LTCUSDT  TP 0.30%  SL 0.15%  trades=850  wins=271  losses=563  timeout=16  win=31.9%  net=$-1716.93
+2026-09-17 16:39:17  INFO     LTCUSDT  TP 0.30%  SL 0.30%  trades=501  wins=228  losses=241  timeout=32  win=45.5%  net=$-1044.07
+2026-09-17 16:39:17  INFO     LTCUSDT  TP 0.40%  SL 0.20%  trades=567  wins=169  losses=368  timeout=30  win=29.8%  net=$-1159.64
+2026-09-17 16:39:17  INFO     LTCUSDT  TP 0.40%  SL 0.35%  trades=387  wins=145  losses=185  timeout=57  win=37.5%  net=$-825.28
+2026-09-17 16:39:17  INFO     LTCUSDT  TP 0.25%  SL 0.12%  trades=1102  wins=347  losses=751  timeout=4  win=31.5%  net=$-2234.29
+2026-09-17 16:39:17  INFO     LTCUSDT  TP 0.20%  SL 0.10%  trades=1439  wins=486  losses=951  timeout=2  win=33.8%  net=$-2856.05
+2026-09-17 16:39:17  INFO     LTCUSDT  TP 0.60%  SL 0.25%  trades=376  wins=84  losses=226  timeout=66  win=22.3%  net=$-735.40
+2026-09-17 16:39:17  INFO     LTCUSDT  TP 0.80%  SL 0.30%  trades=298  wins=41  losses=159  timeout=98  win=13.8%  net=$-588.35
+2026-09-17 16:39:17  INFO     LTCUSDT  TP 0.80%  SL 0.40%  trades=246  wins=42  losses=104  timeout=100  win=17.1%  net=$-471.85
+2026-09-17 16:39:17  INFO     LTCUSDT  TP 1.00%  SL 0.40%  trades=244  wins=26  losses=107  timeout=111  win=10.7%  net=$-496.52
+2026-09-17 16:39:17  INFO     LTCUSDT  TP 1.00%  SL 0.50%  trades=218  wins=25  losses=75  timeout=118  win=11.5%  net=$-428.03
+2026-09-17 16:39:17  INFO     LTCUSDT done in 4.6s. Best here: TP 1.00% / SL 0.50%  net $-428.03. Elapsed 34s, about 56s left.
+2026-09-17 16:39:17  INFO     ----------  [10/24] DOTUSDT  ----------
+2026-09-17 16:39:17  INFO     DOTUSDT: downloading 1m prices from Binance (this is the slow part)
+2026-09-17 16:39:18  INFO     DOTUSDT: downloaded 1,000 candles so far...
+2026-09-17 16:39:18  INFO     DOTUSDT: downloaded 2,000 candles so far...
+2026-09-17 16:39:18  INFO     DOTUSDT: downloaded 3,000 candles so far...
+2026-09-17 16:39:18  INFO     DOTUSDT: downloaded 4,000 candles so far...
+2026-09-17 16:39:19  INFO     DOTUSDT: downloaded 5,000 candles so far...
+2026-09-17 16:39:19  INFO     DOTUSDT: downloaded 6,000 candles so far...
+2026-09-17 16:39:19  INFO     DOTUSDT: downloaded 7,000 candles so far...
+2026-09-17 16:39:20  INFO     DOTUSDT: downloaded 8,000 candles so far...
+2026-09-17 16:39:20  INFO     DOTUSDT: downloaded 9,000 candles so far...
+2026-09-17 16:39:21  INFO     DOTUSDT: downloaded 10,000 candles so far...
+2026-09-17 16:39:21  INFO     DOTUSDT: saved 10,081 candles to cache
+2026-09-17 16:39:21  INFO     DOTUSDT: scanning 16 take-profit/stop-loss pairs
+2026-09-17 16:39:21  INFO     DOTUSDT  TP 0.50%  SL 0.08%  trades=2077  wins=205  losses=1869  timeout=3  win=9.9%  net=$-4614.30
+2026-09-17 16:39:21  INFO     DOTUSDT  TP 0.50%  SL 0.15%  trades=1163  wins=247  losses=903  timeout=13  win=21.2%  net=$-2425.82
+2026-09-17 16:39:21  INFO     DOTUSDT  TP 0.50%  SL 0.25%  trades=800  wins=240  losses=536  timeout=24  win=30.0%  net=$-1702.46
+2026-09-17 16:39:21  INFO     DOTUSDT  TP 0.50%  SL 0.35%  trades=632  wins=227  losses=374  timeout=31  win=35.9%  net=$-1406.37
+2026-09-17 16:39:21  INFO     DOTUSDT  TP 0.50%  SL 0.50%  trades=470  wins=208  losses=220  timeout=42  win=44.3%  net=$-1007.48
+2026-09-17 16:39:21  INFO     DOTUSDT  TP 0.30%  SL 0.15%  trades=1635  wins=509  losses=1123  timeout=3  win=31.1%  net=$-3419.65
+2026-09-17 16:39:21  INFO     DOTUSDT  TP 0.30%  SL 0.30%  trades=962  wins=456  losses=492  timeout=14  win=47.4%  net=$-2030.06
+2026-09-17 16:39:21  INFO     DOTUSDT  TP 0.40%  SL 0.20%  trades=1060  wins=330  losses=718  timeout=12  win=31.1%  net=$-2220.36
+2026-09-17 16:39:21  INFO     DOTUSDT  TP 0.40%  SL 0.35%  trades=722  wins=301  losses=395  timeout=26  win=41.7%  net=$-1616.47
+2026-09-17 16:39:21  INFO     DOTUSDT  TP 0.25%  SL 0.12%  trades=1879  wins=689  losses=1190  timeout=0  win=36.7%  net=$-3463.50
+2026-09-17 16:39:21  INFO     DOTUSDT  TP 0.20%  SL 0.10%  trades=2362  wins=786  losses=1576  timeout=0  win=33.3%  net=$-4728.00
+2026-09-17 16:39:21  INFO     DOTUSDT  TP 0.60%  SL 0.25%  trades=694  wins=178  losses=484  timeout=32  win=25.6%  net=$-1484.96
+2026-09-17 16:39:21  INFO     DOTUSDT  TP 0.80%  SL 0.30%  trades=524  wins=117  losses=359  timeout=48  win=22.3%  net=$-1107.29
+2026-09-17 16:39:21  INFO     DOTUSDT  TP 0.80%  SL 0.40%  trades=416  wins=111  losses=248  timeout=57  win=26.7%  net=$-842.84
+2026-09-17 16:39:21  INFO     DOTUSDT  TP 1.00%  SL 0.40%  trades=362  wins=70  losses=219  timeout=73  win=19.3%  net=$-742.55
+2026-09-17 16:39:21  INFO     DOTUSDT  TP 1.00%  SL 0.50%  trades=333  wins=72  losses=183  timeout=78  win=21.6%  net=$-723.50
+2026-09-17 16:39:21  INFO     DOTUSDT done in 3.7s. Best here: TP 1.00% / SL 0.50%  net $-723.50. Elapsed 37s, about 52s left.
+2026-09-17 16:39:21  INFO     ----------  [11/24] BCHUSDT  ----------
+2026-09-17 16:39:21  INFO     BCHUSDT: downloading 1m prices from Binance (this is the slow part)
+2026-09-17 16:39:21  INFO     BCHUSDT: downloaded 1,000 candles so far...
+2026-09-17 16:39:21  INFO     BCHUSDT: downloaded 2,000 candles so far...
+2026-09-17 16:39:22  INFO     BCHUSDT: downloaded 3,000 candles so far...
+2026-09-17 16:39:22  INFO     BCHUSDT: downloaded 4,000 candles so far...
+2026-09-17 16:39:22  INFO     BCHUSDT: downloaded 5,000 candles so far...
+2026-09-17 16:39:22  INFO     BCHUSDT: downloaded 6,000 candles so far...
+2026-09-17 16:39:22  INFO     BCHUSDT: downloaded 7,000 candles so far...
+2026-09-17 16:39:23  INFO     BCHUSDT: downloaded 8,000 candles so far...
+2026-09-17 16:39:23  INFO     BCHUSDT: downloaded 9,000 candles so far...
+2026-09-17 16:39:23  INFO     BCHUSDT: downloaded 10,000 candles so far...
+2026-09-17 16:39:23  INFO     BCHUSDT: saved 10,081 candles to cache
+2026-09-17 16:39:23  INFO     BCHUSDT: scanning 16 take-profit/stop-loss pairs
+2026-09-17 16:39:23  INFO     BCHUSDT  TP 0.50%  SL 0.08%  trades=1189  wins=144  losses=1020  timeout=25  win=12.1%  net=$-2423.59
+2026-09-17 16:39:23  INFO     BCHUSDT  TP 0.50%  SL 0.15%  trades=721  wins=154  losses=526  timeout=41  win=21.4%  net=$-1402.05
+2026-09-17 16:39:23  INFO     BCHUSDT  TP 0.50%  SL 0.25%  trades=518  wins=141  losses=325  timeout=52  win=27.2%  net=$-1086.62
+2026-09-17 16:39:23  INFO     BCHUSDT  TP 0.50%  SL 0.35%  trades=417  wins=127  losses=218  timeout=72  win=30.5%  net=$-892.72
+2026-09-17 16:39:23  INFO     BCHUSDT  TP 0.50%  SL 0.50%  trades=341  wins=123  losses=133  timeout=85  win=36.1%  net=$-732.87
+2026-09-17 16:39:23  INFO     BCHUSDT  TP 0.30%  SL 0.15%  trades=1014  wins=334  losses=663  timeout=17  win=32.9%  net=$-2011.27
+2026-09-17 16:39:24  INFO     BCHUSDT  TP 0.30%  SL 0.30%  trades=653  wins=301  losses=319  timeout=33  win=46.1%  net=$-1353.45
+2026-09-17 16:39:24  INFO     BCHUSDT  TP 0.40%  SL 0.20%  trades=684  wins=204  losses=447  timeout=33  win=29.8%  net=$-1415.10
+2026-09-17 16:39:24  INFO     BCHUSDT  TP 0.40%  SL 0.35%  trades=482  wins=190  losses=238  timeout=54  win=39.4%  net=$-1019.56
+2026-09-17 16:39:24  INFO     BCHUSDT  TP 0.25%  SL 0.12%  trades=1355  wins=428  losses=922  timeout=5  win=31.6%  net=$-2743.32
+2026-09-17 16:39:24  INFO     BCHUSDT  TP 0.20%  SL 0.10%  trades=1510  wins=537  losses=969  timeout=4  win=35.6%  net=$-2912.81
+2026-09-17 16:39:24  INFO     BCHUSDT  TP 0.60%  SL 0.25%  trades=467  wins=104  losses=303  timeout=60  win=22.3%  net=$-969.67
+2026-09-17 16:39:24  INFO     BCHUSDT  TP 0.80%  SL 0.30%  trades=372  wins=61  losses=226  timeout=85  win=16.4%  net=$-752.56
+2026-09-17 16:39:24  INFO     BCHUSDT  TP 0.80%  SL 0.40%  trades=318  wins=58  losses=160  timeout=100  win=18.2%  net=$-681.86
+2026-09-17 16:39:24  INFO     BCHUSDT  TP 1.00%  SL 0.40%  trades=292  wins=37  losses=152  timeout=103  win=12.7%  net=$-645.80
+2026-09-17 16:39:24  INFO     BCHUSDT  TP 1.00%  SL 0.50%  trades=247  wins=34  losses=99  timeout=114  win=13.8%  net=$-539.09
+2026-09-17 16:39:24  INFO     BCHUSDT done in 2.6s. Best here: TP 1.00% / SL 0.50%  net $-539.09. Elapsed 40s, about 47s left.
+2026-09-17 16:39:24  INFO     ----------  [12/24] ATOMUSDT  ----------
+2026-09-17 16:39:24  INFO     ATOMUSDT: downloading 1m prices from Binance (this is the slow part)
+2026-09-17 16:39:24  INFO     ATOMUSDT: downloaded 1,000 candles so far...
+2026-09-17 16:39:24  INFO     ATOMUSDT: downloaded 2,000 candles so far...
+2026-09-17 16:39:24  INFO     ATOMUSDT: downloaded 3,000 candles so far...
+2026-09-17 16:39:25  INFO     ATOMUSDT: downloaded 4,000 candles so far...
+2026-09-17 16:39:25  INFO     ATOMUSDT: downloaded 5,000 candles so far...
+2026-09-17 16:39:26  INFO     ATOMUSDT: downloaded 6,000 candles so far...
+2026-09-17 16:39:26  INFO     ATOMUSDT: downloaded 7,000 candles so far...
+2026-09-17 16:39:27  INFO     ATOMUSDT: downloaded 8,000 candles so far...
+2026-09-17 16:39:27  INFO     ATOMUSDT: downloaded 9,000 candles so far...
+2026-09-17 16:39:27  INFO     ATOMUSDT: downloaded 10,000 candles so far...
+2026-09-17 16:39:27  INFO     ATOMUSDT: saved 10,081 candles to cache
+2026-09-17 16:39:27  INFO     ATOMUSDT: scanning 16 take-profit/stop-loss pairs
+2026-09-17 16:39:27  INFO     ATOMUSDT  TP 0.50%  SL 0.08%  trades=1189  wins=210  losses=969  timeout=10  win=17.7%  net=$-2085.07
+2026-09-17 16:39:27  INFO     ATOMUSDT  TP 0.50%  SL 0.15%  trades=915  wins=220  losses=683  timeout=12  win=24.0%  net=$-1733.47
+2026-09-17 16:39:27  INFO     ATOMUSDT  TP 0.50%  SL 0.25%  trades=658  wins=202  losses=436  timeout=20  win=30.7%  net=$-1371.68
+2026-09-17 16:39:27  INFO     ATOMUSDT  TP 0.50%  SL 0.35%  trades=491  wins=178  losses=279  timeout=34  win=36.3%  net=$-1028.38
+2026-09-17 16:39:27  INFO     ATOMUSDT  TP 0.50%  SL 0.50%  trades=401  wins=164  losses=183  timeout=54  win=40.9%  net=$-909.29
+2026-09-17 16:39:27  INFO     ATOMUSDT  TP 0.30%  SL 0.15%  trades=1221  wins=411  losses=806  timeout=4  win=33.7%  net=$-2416.13
+2026-09-17 16:39:27  INFO     ATOMUSDT  TP 0.30%  SL 0.30%  trades=783  wins=364  losses=409  timeout=10  win=46.5%  net=$-1705.46
+2026-09-17 16:39:27  INFO     ATOMUSDT  TP 0.40%  SL 0.20%  trades=811  wins=263  losses=538  timeout=10  win=32.4%  net=$-1636.75
+2026-09-17 16:39:28  INFO     ATOMUSDT  TP 0.40%  SL 0.35%  trades=560  wins=235  losses=299  timeout=26  win=42.0%  net=$-1224.85
+2026-09-17 16:39:28  INFO     ATOMUSDT  TP 0.25%  SL 0.12%  trades=1701  wins=527  losses=1171  timeout=3  win=31.0%  net=$-3489.08
+2026-09-17 16:39:28  INFO     ATOMUSDT  TP 0.20%  SL 0.10%  trades=1935  wins=611  losses=1322  timeout=2  win=31.6%  net=$-3969.99
+2026-09-17 16:39:28  INFO     ATOMUSDT  TP 0.60%  SL 0.25%  trades=583  wins=148  losses=404  timeout=31  win=25.4%  net=$-1237.92
+2026-09-17 16:39:28  INFO     ATOMUSDT  TP 0.80%  SL 0.30%  trades=409  wins=73  losses=271  timeout=65  win=17.8%  net=$-907.83
+2026-09-17 16:39:28  INFO     ATOMUSDT  TP 0.80%  SL 0.40%  trades=338  wins=71  losses=196  timeout=71  win=21.0%  net=$-783.22
+2026-09-17 16:39:28  INFO     ATOMUSDT  TP 1.00%  SL 0.40%  trades=309  wins=46  losses=180  timeout=83  win=14.9%  net=$-716.32
+2026-09-17 16:39:28  INFO     ATOMUSDT  TP 1.00%  SL 0.50%  trades=276  wins=44  losses=141  timeout=91  win=15.9%  net=$-689.27
+2026-09-17 16:39:28  INFO     ATOMUSDT done in 4.0s. Best here: TP 1.00% / SL 0.50%  net $-689.27. Elapsed 44s, about 44s left.
+2026-09-17 16:39:28  INFO     ----------  [13/24] DOGEUSDT  ----------
+2026-09-17 16:39:28  INFO     DOGEUSDT: downloading 1m prices from Binance (this is the slow part)
+2026-09-17 16:39:28  INFO     DOGEUSDT: downloaded 1,000 candles so far...
+2026-09-17 16:39:28  INFO     DOGEUSDT: downloaded 2,000 candles so far...
+2026-09-17 16:39:28  INFO     DOGEUSDT: downloaded 3,000 candles so far...
+2026-09-17 16:39:29  INFO     DOGEUSDT: downloaded 4,000 candles so far...
+2026-09-17 16:39:29  INFO     DOGEUSDT: downloaded 5,000 candles so far...
+2026-09-17 16:39:30  INFO     DOGEUSDT: downloaded 6,000 candles so far...
+2026-09-17 16:39:30  INFO     DOGEUSDT: downloaded 7,000 candles so far...
+2026-09-17 16:39:30  INFO     DOGEUSDT: downloaded 8,000 candles so far...
+2026-09-17 16:39:30  INFO     DOGEUSDT: downloaded 9,000 candles so far...
+2026-09-17 16:39:31  INFO     DOGEUSDT: downloaded 10,000 candles so far...
+2026-09-17 16:39:31  INFO     DOGEUSDT: saved 10,081 candles to cache
+2026-09-17 16:39:31  INFO     DOGEUSDT: scanning 16 take-profit/stop-loss pairs
+2026-09-17 16:39:31  INFO     DOGEUSDT  TP 0.50%  SL 0.08%  trades=985  wins=110  losses=831  timeout=44  win=11.2%  net=$-2012.43
+2026-09-17 16:39:31  INFO     DOGEUSDT  TP 0.50%  SL 0.15%  trades=650  wins=119  losses=479  timeout=52  win=18.3%  net=$-1351.19
+2026-09-17 16:39:31  INFO     DOGEUSDT  TP 0.50%  SL 0.25%  trades=460  wins=114  losses=276  timeout=70  win=24.8%  net=$-971.40
+2026-09-17 16:39:31  INFO     DOGEUSDT  TP 0.50%  SL 0.35%  trades=370  wins=100  losses=187  timeout=83  win=27.0%  net=$-857.75
+2026-09-17 16:39:31  INFO     DOGEUSDT  TP 0.50%  SL 0.50%  trades=294  wins=92  losses=104  timeout=98  win=31.3%  net=$-652.78
+2026-09-17 16:39:31  INFO     DOGEUSDT  TP 0.30%  SL 0.15%  trades=891  wins=269  losses=594  timeout=28  win=30.2%  net=$-1842.93
+2026-09-17 16:39:31  INFO     DOGEUSDT  TP 0.30%  SL 0.30%  trades=559  wins=244  losses=264  timeout=51  win=43.6%  net=$-1180.97
+2026-09-17 16:39:31  INFO     DOGEUSDT  TP 0.40%  SL 0.20%  trades=615  wins=168  losses=398  timeout=49  win=27.3%  net=$-1314.36
+2026-09-17 16:39:31  INFO     DOGEUSDT  TP 0.40%  SL 0.35%  trades=412  wins=139  losses=195  timeout=78  win=33.7%  net=$-933.72
+2026-09-17 16:39:31  INFO     DOGEUSDT  TP 0.25%  SL 0.12%  trades=1123  wins=348  losses=757  timeout=18  win=31.0%  net=$-2275.64
+2026-09-17 16:39:31  INFO     DOGEUSDT  TP 0.20%  SL 0.10%  trades=1451  wins=458  losses=985  timeout=8  win=31.6%  net=$-2970.15
+2026-09-17 16:39:31  INFO     DOGEUSDT  TP 0.60%  SL 0.25%  trades=396  wins=80  losses=240  timeout=76  win=20.2%  net=$-815.01
+2026-09-17 16:39:31  INFO     DOGEUSDT  TP 0.80%  SL 0.30%  trades=320  wins=44  losses=178  timeout=98  win=13.8%  net=$-677.11
+2026-09-17 16:39:31  INFO     DOGEUSDT  TP 0.80%  SL 0.40%  trades=276  wins=40  losses=119  timeout=117  win=14.5%  net=$-596.34
+2026-09-17 16:39:31  INFO     DOGEUSDT  TP 1.00%  SL 0.40%  trades=262  wins=26  losses=115  timeout=121  win=9.9%  net=$-558.94
+2026-09-17 16:39:31  INFO     DOGEUSDT  TP 1.00%  SL 0.50%  trades=240  wins=24  losses=89  timeout=127  win=10.0%  net=$-522.90
+2026-09-17 16:39:31  INFO     DOGEUSDT done in 3.4s. Best here: TP 1.00% / SL 0.50%  net $-522.90. Elapsed 47s, about 40s left.
+2026-09-17 16:39:31  INFO     ----------  [14/24] SHIBUSDT  ----------
+2026-09-17 16:39:31  INFO     SHIBUSDT: downloading 1m prices from Binance (this is the slow part)
+2026-09-17 16:39:31  INFO     SHIBUSDT: downloaded 1,000 candles so far...
+2026-09-17 16:39:32  INFO     SHIBUSDT: downloaded 2,000 candles so far...
+2026-09-17 16:39:32  INFO     SHIBUSDT: downloaded 3,000 candles so far...
+2026-09-17 16:39:33  INFO     SHIBUSDT: downloaded 4,000 candles so far...
+2026-09-17 16:39:33  INFO     SHIBUSDT: downloaded 5,000 candles so far...
+2026-09-17 16:39:34  INFO     SHIBUSDT: downloaded 6,000 candles so far...
+2026-09-17 16:39:34  INFO     SHIBUSDT: downloaded 7,000 candles so far...
+2026-09-17 16:39:34  INFO     SHIBUSDT: downloaded 8,000 candles so far...
+2026-09-17 16:39:35  INFO     SHIBUSDT: downloaded 9,000 candles so far...
+2026-09-17 16:39:35  INFO     SHIBUSDT: downloaded 10,000 candles so far...
+2026-09-17 16:39:35  INFO     SHIBUSDT: saved 10,081 candles to cache
+2026-09-17 16:39:35  INFO     SHIBUSDT: scanning 16 take-profit/stop-loss pairs
+2026-09-17 16:39:35  INFO     SHIBUSDT  TP 0.50%  SL 0.08%  trades=1556  wins=213  losses=1332  timeout=11  win=13.7%  net=$-3087.86
+2026-09-17 16:39:35  INFO     SHIBUSDT  TP 0.50%  SL 0.15%  trades=1556  wins=213  losses=1332  timeout=11  win=13.7%  net=$-4020.26
+2026-09-17 16:39:35  INFO     SHIBUSDT  TP 0.50%  SL 0.25%  trades=607  wins=190  losses=376  timeout=41  win=31.3%  net=$-1182.48
+2026-09-17 16:39:35  INFO     SHIBUSDT  TP 0.50%  SL 0.35%  trades=607  wins=190  losses=376  timeout=41  win=31.3%  net=$-1558.48
+2026-09-17 16:39:35  INFO     SHIBUSDT  TP 0.50%  SL 0.50%  trades=386  wins=153  losses=167  timeout=66  win=39.6%  net=$-853.18
+2026-09-17 16:39:35  INFO     SHIBUSDT  TP 0.30%  SL 0.15%  trades=2434  wins=574  losses=1859  timeout=1  win=23.6%  net=$-5934.50
+2026-09-17 16:39:35  INFO     SHIBUSDT  TP 0.30%  SL 0.30%  trades=938  wins=440  losses=483  timeout=15  win=46.9%  net=$-1999.32
+2026-09-17 16:39:35  INFO     SHIBUSDT  TP 0.40%  SL 0.20%  trades=1071  wins=266  losses=769  timeout=36  win=24.8%  net=$-2600.69
+2026-09-17 16:39:36  INFO     SHIBUSDT  TP 0.40%  SL 0.35%  trades=689  wins=249  losses=404  timeout=36  win=36.1%  net=$-1780.69
+2026-09-17 16:39:36  INFO     SHIBUSDT  TP 0.25%  SL 0.12%  trades=2434  wins=574  losses=1859  timeout=1  win=23.6%  net=$-5663.80
+2026-09-17 16:39:36  INFO     SHIBUSDT  TP 0.20%  SL 0.10%  trades=2795  wins=873  losses=1921  timeout=1  win=31.2%  net=$-5765.00
+2026-09-17 16:39:36  INFO     SHIBUSDT  TP 0.60%  SL 0.25%  trades=521  wins=129  losses=329  timeout=63  win=24.8%  net=$-997.33
+2026-09-17 16:39:36  INFO     SHIBUSDT  TP 0.80%  SL 0.30%  trades=427  wins=68  losses=277  timeout=82  win=15.9%  net=$-998.58
+2026-09-17 16:39:36  INFO     SHIBUSDT  TP 0.80%  SL 0.40%  trades=333  wins=60  losses=180  timeout=93  win=18.0%  net=$-784.71
+2026-09-17 16:39:36  INFO     SHIBUSDT  TP 1.00%  SL 0.40%  trades=300  wins=34  losses=160  timeout=106  win=11.3%  net=$-703.86
+2026-09-17 16:39:36  INFO     SHIBUSDT  TP 1.00%  SL 0.50%  trades=269  wins=35  losses=123  timeout=111  win=13.0%  net=$-626.97
+2026-09-17 16:39:36  INFO     SHIBUSDT done in 4.6s. Best here: TP 1.00% / SL 0.50%  net $-626.97. Elapsed 52s, about 37s left.
+2026-09-17 16:39:36  INFO     ----------  [15/24] PEPEUSDT  ----------
+2026-09-17 16:39:36  INFO     PEPEUSDT: downloading 1m prices from Binance (this is the slow part)
+2026-09-17 16:39:36  INFO     PEPEUSDT: downloaded 1,000 candles so far...
+2026-09-17 16:39:36  INFO     PEPEUSDT: downloaded 2,000 candles so far...
+2026-09-17 16:39:36  INFO     PEPEUSDT: downloaded 3,000 candles so far...
+2026-09-17 16:39:36  INFO     PEPEUSDT: downloaded 4,000 candles so far...
+2026-09-17 16:39:37  INFO     PEPEUSDT: downloaded 5,000 candles so far...
+2026-09-17 16:39:37  INFO     PEPEUSDT: downloaded 6,000 candles so far...
+2026-09-17 16:39:38  INFO     PEPEUSDT: downloaded 7,000 candles so far...
+2026-09-17 16:39:38  INFO     PEPEUSDT: downloaded 8,000 candles so far...
+2026-09-17 16:39:39  INFO     PEPEUSDT: downloaded 9,000 candles so far...
+2026-09-17 16:39:39  INFO     PEPEUSDT: downloaded 10,000 candles so far...
+2026-09-17 16:39:39  INFO     PEPEUSDT: saved 10,081 candles to cache
+2026-09-17 16:39:39  INFO     PEPEUSDT: scanning 16 take-profit/stop-loss pairs
+2026-09-17 16:39:39  INFO     PEPEUSDT  TP 0.50%  SL 0.08%  trades=3334  wins=352  losses=2981  timeout=1  win=10.6%  net=$-7292.80
+2026-09-17 16:39:39  INFO     PEPEUSDT  TP 0.50%  SL 0.15%  trades=3334  wins=352  losses=2981  timeout=1  win=10.6%  net=$-9379.50
+2026-09-17 16:39:39  INFO     PEPEUSDT  TP 0.50%  SL 0.25%  trades=3334  wins=352  losses=2981  timeout=1  win=10.6%  net=$-12360.50
+2026-09-17 16:39:39  INFO     PEPEUSDT  TP 0.50%  SL 0.35%  trades=873  wins=324  losses=526  timeout=23  win=37.1%  net=$-1943.62
+2026-09-17 16:39:39  INFO     PEPEUSDT  TP 0.50%  SL 0.50%  trades=873  wins=324  losses=526  timeout=23  win=37.1%  net=$-2732.62
+2026-09-17 16:39:39  INFO     PEPEUSDT  TP 0.30%  SL 0.15%  trades=3744  wins=546  losses=3197  timeout=1  win=14.6%  net=$-10645.50
+2026-09-17 16:39:39  INFO     PEPEUSDT  TP 0.30%  SL 0.30%  trades=1795  wins=519  losses=1258  timeout=18  win=28.9%  net=$-5789.67
+2026-09-17 16:39:39  INFO     PEPEUSDT  TP 0.40%  SL 0.20%  trades=3334  wins=352  losses=2981  timeout=1  win=10.6%  net=$-11222.00
+2026-09-17 16:39:39  INFO     PEPEUSDT  TP 0.40%  SL 0.35%  trades=873  wins=324  losses=526  timeout=23  win=37.1%  net=$-2267.62
+2026-09-17 16:39:39  INFO     PEPEUSDT  TP 0.25%  SL 0.12%  trades=4823  wins=1085  losses=3737  timeout=1  win=22.5%  net=$-11417.90
+2026-09-17 16:39:39  INFO     PEPEUSDT  TP 0.20%  SL 0.10%  trades=4823  wins=1085  losses=3737  timeout=1  win=22.5%  net=$-11213.00
+2026-09-17 16:39:39  INFO     PEPEUSDT  TP 0.60%  SL 0.25%  trades=2687  wins=195  losses=2479  timeout=13  win=7.3%  net=$-10360.45
+2026-09-17 16:39:39  INFO     PEPEUSDT  TP 0.80%  SL 0.30%  trades=953  wins=136  losses=773  timeout=44  win=14.3%  net=$-3010.09
+2026-09-17 16:39:39  INFO     PEPEUSDT  TP 0.80%  SL 0.40%  trades=601  wins=133  losses=417  timeout=51  win=22.1%  net=$-1654.80
+2026-09-17 16:39:39  INFO     PEPEUSDT  TP 1.00%  SL 0.40%  trades=488  wins=62  losses=343  timeout=83  win=12.7%  net=$-1464.33
+2026-09-17 16:39:39  INFO     PEPEUSDT  TP 1.00%  SL 0.50%  trades=488  wins=62  losses=343  timeout=83  win=12.7%  net=$-1807.33
+2026-09-17 16:39:39  INFO     PEPEUSDT done in 3.7s. Best here: TP 1.00% / SL 0.40%  net $-1464.33. Elapsed 56s, about 33s left.
+2026-09-17 16:39:39  INFO     ----------  [16/24] WIFUSDT  ----------
+2026-09-17 16:39:39  INFO     WIFUSDT: downloading 1m prices from Binance (this is the slow part)
+2026-09-17 16:39:40  INFO     WIFUSDT: downloaded 1,000 candles so far...
+2026-09-17 16:39:40  INFO     WIFUSDT: downloaded 2,000 candles so far...
+2026-09-17 16:39:40  INFO     WIFUSDT: downloaded 3,000 candles so far...
+2026-09-17 16:39:40  INFO     WIFUSDT: downloaded 4,000 candles so far...
+2026-09-17 16:39:41  INFO     WIFUSDT: downloaded 5,000 candles so far...
+2026-09-17 16:39:41  INFO     WIFUSDT: downloaded 6,000 candles so far...
+2026-09-17 16:39:41  INFO     WIFUSDT: downloaded 7,000 candles so far...
+2026-09-17 16:39:41  INFO     WIFUSDT: downloaded 8,000 candles so far...
+2026-09-17 16:39:41  INFO     WIFUSDT: downloaded 9,000 candles so far...
+2026-09-17 16:39:42  INFO     WIFUSDT: downloaded 10,000 candles so far...
+2026-09-17 16:39:42  INFO     WIFUSDT: saved 10,081 candles to cache
+2026-09-17 16:39:42  INFO     WIFUSDT: scanning 16 take-profit/stop-loss pairs
+2026-09-17 16:39:42  INFO     WIFUSDT  TP 0.50%  SL 0.08%  trades=1383  wins=216  losses=1155  timeout=12  win=15.6%  net=$-2592.66
+2026-09-17 16:39:42  INFO     WIFUSDT  TP 0.50%  SL 0.15%  trades=1082  wins=238  losses=826  timeout=18  win=22.0%  net=$-2181.77
+2026-09-17 16:39:42  INFO     WIFUSDT  TP 0.50%  SL 0.25%  trades=743  wins=230  losses=486  timeout=27  win=31.0%  net=$-1534.73
+2026-09-17 16:39:42  INFO     WIFUSDT  TP 0.50%  SL 0.35%  trades=576  wins=217  losses=320  timeout=39  win=37.7%  net=$-1178.05
+2026-09-17 16:39:42  INFO     WIFUSDT  TP 0.50%  SL 0.50%  trades=474  wins=205  losses=223  timeout=46  win=43.2%  net=$-1052.56
+2026-09-17 16:39:42  INFO     WIFUSDT  TP 0.30%  SL 0.15%  trades=1491  wins=472  losses=1018  timeout=1  win=31.7%  net=$-3091.37
+2026-09-17 16:39:42  INFO     WIFUSDT  TP 0.30%  SL 0.30%  trades=914  wins=426  losses=472  timeout=16  win=46.6%  net=$-1967.59
+2026-09-17 16:39:42  INFO     WIFUSDT  TP 0.40%  SL 0.20%  trades=989  wins=302  losses=673  timeout=14  win=30.5%  net=$-2112.63
+2026-09-17 16:39:42  INFO     WIFUSDT  TP 0.40%  SL 0.35%  trades=655  wins=280  losses=347  timeout=28  win=42.7%  net=$-1419.30
+2026-09-17 16:39:42  INFO     WIFUSDT  TP 0.25%  SL 0.12%  trades=1682  wins=607  losses=1074  timeout=1  win=36.1%  net=$-3135.84
+2026-09-17 16:39:42  INFO     WIFUSDT  TP 0.20%  SL 0.10%  trades=2311  wins=753  losses=1557  timeout=1  win=32.6%  net=$-4673.54
+2026-09-17 16:39:42  INFO     WIFUSDT  TP 0.60%  SL 0.25%  trades=671  wins=178  losses=463  timeout=30  win=26.5%  net=$-1380.40
+2026-09-17 16:39:42  INFO     WIFUSDT  TP 0.80%  SL 0.30%  trades=474  wins=100  losses=312  timeout=62  win=21.1%  net=$-982.43
+2026-09-17 16:39:42  INFO     WIFUSDT  TP 0.80%  SL 0.40%  trades=373  wins=90  losses=216  timeout=67  win=24.1%  net=$-790.48
+2026-09-17 16:39:42  INFO     WIFUSDT  TP 1.00%  SL 0.40%  trades=348  wins=59  losses=207  timeout=82  win=17.0%  net=$-738.80
+2026-09-17 16:39:42  INFO     WIFUSDT  TP 1.00%  SL 0.50%  trades=311  wins=58  losses=156  timeout=97  win=18.6%  net=$-669.46
+2026-09-17 16:39:42  INFO     WIFUSDT done in 2.8s. Best here: TP 1.00% / SL 0.50%  net $-669.46. Elapsed 59s, about 29s left.
+2026-09-17 16:39:42  INFO     ----------  [17/24] NEARUSDT  ----------
+2026-09-17 16:39:42  INFO     NEARUSDT: downloading 1m prices from Binance (this is the slow part)
+2026-09-17 16:39:42  INFO     NEARUSDT: downloaded 1,000 candles so far...
+2026-09-17 16:39:43  INFO     NEARUSDT: downloaded 2,000 candles so far...
+2026-09-17 16:39:43  INFO     NEARUSDT: downloaded 3,000 candles so far...
+2026-09-17 16:39:43  INFO     NEARUSDT: downloaded 4,000 candles so far...
+2026-09-17 16:39:43  INFO     NEARUSDT: downloaded 5,000 candles so far...
+2026-09-17 16:39:43  INFO     NEARUSDT: downloaded 6,000 candles so far...
+2026-09-17 16:39:44  INFO     NEARUSDT: downloaded 7,000 candles so far...
+2026-09-17 16:39:44  INFO     NEARUSDT: downloaded 8,000 candles so far...
+2026-09-17 16:39:44  INFO     NEARUSDT: downloaded 9,000 candles so far...
+2026-09-17 16:39:45  INFO     NEARUSDT: downloaded 10,000 candles so far...
+2026-09-17 16:39:45  INFO     NEARUSDT: saved 10,081 candles to cache
+2026-09-17 16:39:45  INFO     NEARUSDT: scanning 16 take-profit/stop-loss pairs
+2026-09-17 16:39:45  INFO     NEARUSDT  TP 0.50%  SL 0.08%  trades=2679  wins=387  losses=2290  timeout=2  win=14.4%  net=$-5252.90
+2026-09-17 16:39:45  INFO     NEARUSDT  TP 0.50%  SL 0.15%  trades=1919  wins=474  losses=1442  timeout=3  win=24.7%  net=$-3628.73
+2026-09-17 16:39:45  INFO     NEARUSDT  TP 0.50%  SL 0.25%  trades=1405  wins=494  losses=907  timeout=4  win=35.2%  net=$-2598.41
+2026-09-17 16:39:45  INFO     NEARUSDT  TP 0.50%  SL 0.35%  trades=1129  wins=468  losses=653  timeout=8  win=41.5%  net=$-2195.09
+2026-09-17 16:39:45  INFO     NEARUSDT  TP 0.50%  SL 0.50%  trades=880  wins=443  losses=422  timeout=15  win=50.3%  net=$-1648.44
+2026-09-17 16:39:45  INFO     NEARUSDT  TP 0.30%  SL 0.15%  trades=2457  wins=814  losses=1643  timeout=0  win=33.1%  net=$-4936.50
+2026-09-17 16:39:45  INFO     NEARUSDT  TP 0.30%  SL 0.30%  trades=1692  wins=835  losses=856  timeout=1  win=49.3%  net=$-3447.71
+2026-09-17 16:39:45  INFO     NEARUSDT  TP 0.40%  SL 0.20%  trades=1855  wins=614  losses=1239  timeout=2  win=33.1%  net=$-3730.60
+2026-09-17 16:39:45  INFO     NEARUSDT  TP 0.40%  SL 0.35%  trades=1316  wins=607  losses=707  timeout=2  win=46.1%  net=$-2675.52
+2026-09-17 16:39:45  INFO     NEARUSDT  TP 0.25%  SL 0.12%  trades=3037  wins=955  losses=2082  timeout=0  win=31.4%  net=$-6184.90
+2026-09-17 16:39:45  INFO     NEARUSDT  TP 0.20%  SL 0.10%  trades=3395  wins=1153  losses=2242  timeout=0  win=34.0%  net=$-6726.00
+2026-09-17 16:39:45  INFO     NEARUSDT  TP 0.60%  SL 0.25%  trades=1229  wins=385  losses=837  timeout=7  win=31.3%  net=$-2223.76
+2026-09-17 16:39:45  INFO     NEARUSDT  TP 0.80%  SL 0.30%  trades=908  wins=256  losses=635  timeout=17  win=28.2%  net=$-1628.45
+2026-09-17 16:39:45  INFO     NEARUSDT  TP 0.80%  SL 0.40%  trades=750  wins=253  losses=477  timeout=20  win=33.7%  net=$-1325.76
+2026-09-17 16:39:45  INFO     NEARUSDT  TP 1.00%  SL 0.40%  trades=631  wins=169  losses=432  timeout=30  win=26.8%  net=$-1203.51
+2026-09-17 16:39:45  INFO     NEARUSDT  TP 1.00%  SL 0.50%  trades=546  wins=167  losses=346  timeout=33  win=30.6%  net=$-1041.33
+2026-09-17 16:39:45  INFO     NEARUSDT done in 2.9s. Best here: TP 1.00% / SL 0.50%  net $-1041.33. Elapsed 61s, about 25s left.
+2026-09-17 16:39:45  INFO     ----------  [18/24] SUIUSDT  ----------
+2026-09-17 16:39:45  INFO     SUIUSDT: downloading 1m prices from Binance (this is the slow part)
+2026-09-17 16:39:45  INFO     SUIUSDT: downloaded 1,000 candles so far...
+2026-09-17 16:39:46  INFO     SUIUSDT: downloaded 2,000 candles so far...
+2026-09-17 16:39:46  INFO     SUIUSDT: downloaded 3,000 candles so far...
+2026-09-17 16:39:46  INFO     SUIUSDT: downloaded 4,000 candles so far...
+2026-09-17 16:39:46  INFO     SUIUSDT: downloaded 5,000 candles so far...
+2026-09-17 16:39:47  INFO     SUIUSDT: downloaded 6,000 candles so far...
+2026-09-17 16:39:47  INFO     SUIUSDT: downloaded 7,000 candles so far...
+2026-09-17 16:39:47  INFO     SUIUSDT: downloaded 8,000 candles so far...
+2026-09-17 16:39:47  INFO     SUIUSDT: downloaded 9,000 candles so far...
+2026-09-17 16:39:48  INFO     SUIUSDT: downloaded 10,000 candles so far...
+2026-09-17 16:39:48  INFO     SUIUSDT: saved 10,081 candles to cache
+2026-09-17 16:39:48  INFO     SUIUSDT: scanning 16 take-profit/stop-loss pairs
+2026-09-17 16:39:48  INFO     SUIUSDT  TP 0.50%  SL 0.08%  trades=1465  wins=195  losses=1256  timeout=14  win=13.3%  net=$-2931.52
+2026-09-17 16:39:48  INFO     SUIUSDT  TP 0.50%  SL 0.15%  trades=985  wins=208  losses=758  timeout=19  win=21.1%  net=$-2035.54
+2026-09-17 16:39:48  INFO     SUIUSDT  TP 0.50%  SL 0.25%  trades=689  wins=206  losses=456  timeout=27  win=29.9%  net=$-1452.15
+2026-09-17 16:39:48  INFO     SUIUSDT  TP 0.50%  SL 0.35%  trades=547  wins=191  losses=322  timeout=34  win=34.9%  net=$-1220.45
+2026-09-17 16:39:48  INFO     SUIUSDT  TP 0.50%  SL 0.50%  trades=408  wins=165  losses=179  timeout=64  win=40.4%  net=$-893.41
+2026-09-17 16:39:48  INFO     SUIUSDT  TP 0.30%  SL 0.15%  trades=1358  wins=431  losses=921  timeout=6  win=31.7%  net=$-2800.19
+2026-09-17 16:39:48  INFO     SUIUSDT  TP 0.30%  SL 0.30%  trades=865  wins=396  losses=451  timeout=18  win=45.8%  net=$-1880.00
+2026-09-17 16:39:48  INFO     SUIUSDT  TP 0.40%  SL 0.20%  trades=936  wins=287  losses=630  timeout=19  win=30.7%  net=$-1964.99
+2026-09-17 16:39:48  INFO     SUIUSDT  TP 0.40%  SL 0.35%  trades=616  wins=253  losses=328  timeout=35  win=41.1%  net=$-1354.87
+2026-09-17 16:39:48  INFO     SUIUSDT  TP 0.25%  SL 0.12%  trades=1718  wins=532  losses=1184  timeout=2  win=31.0%  net=$-3524.58
+2026-09-17 16:39:48  INFO     SUIUSDT  TP 0.20%  SL 0.10%  trades=2108  wins=690  losses=1418  timeout=0  win=32.7%  net=$-4254.00
+2026-09-17 16:39:48  INFO     SUIUSDT  TP 0.60%  SL 0.25%  trades=617  wins=155  losses=425  timeout=37  win=25.1%  net=$-1295.88
+2026-09-17 16:39:48  INFO     SUIUSDT  TP 0.80%  SL 0.30%  trades=437  wins=81  losses=292  timeout=64  win=18.5%  net=$-936.29
+2026-09-17 16:39:48  INFO     SUIUSDT  TP 0.80%  SL 0.40%  trades=368  wins=75  losses=219  timeout=74  win=20.4%  net=$-852.03
+2026-09-17 16:39:48  INFO     SUIUSDT  TP 1.00%  SL 0.40%  trades=343  wins=51  losses=205  timeout=87  win=14.9%  net=$-788.47
+2026-09-17 16:39:48  INFO     SUIUSDT  TP 1.00%  SL 0.50%  trades=288  wins=45  losses=141  timeout=102  win=15.6%  net=$-667.69
+2026-09-17 16:39:48  INFO     SUIUSDT done in 3.0s. Best here: TP 1.00% / SL 0.50%  net $-667.69. Elapsed 64s, about 21s left.
+2026-09-17 16:39:48  INFO     ----------  [19/24] APTUSDT  ----------
+2026-09-17 16:39:48  INFO     APTUSDT: downloading 1m prices from Binance (this is the slow part)
+2026-09-17 16:39:48  INFO     APTUSDT: downloaded 1,000 candles so far...
+2026-09-17 16:39:49  INFO     APTUSDT: downloaded 2,000 candles so far...
+2026-09-17 16:39:49  INFO     APTUSDT: downloaded 3,000 candles so far...
+2026-09-17 16:39:49  INFO     APTUSDT: downloaded 4,000 candles so far...
+2026-09-17 16:39:49  INFO     APTUSDT: downloaded 5,000 candles so far...
+2026-09-17 16:39:49  INFO     APTUSDT: downloaded 6,000 candles so far...
+2026-09-17 16:39:50  INFO     APTUSDT: downloaded 7,000 candles so far...
+2026-09-17 16:39:50  INFO     APTUSDT: downloaded 8,000 candles so far...
+2026-09-17 16:39:50  INFO     APTUSDT: downloaded 9,000 candles so far...
+2026-09-17 16:39:51  INFO     APTUSDT: downloaded 10,000 candles so far...
+2026-09-17 16:39:51  INFO     APTUSDT: saved 10,081 candles to cache
+2026-09-17 16:39:51  INFO     APTUSDT: scanning 16 take-profit/stop-loss pairs
+2026-09-17 16:39:51  INFO     APTUSDT  TP 0.50%  SL 0.08%  trades=2034  wins=328  losses=1706  timeout=0  win=16.1%  net=$-3792.80
+2026-09-17 16:39:51  INFO     APTUSDT  TP 0.50%  SL 0.15%  trades=2034  wins=328  losses=1706  timeout=0  win=16.1%  net=$-4987.00
+2026-09-17 16:39:51  INFO     APTUSDT  TP 0.50%  SL 0.25%  trades=1040  wins=335  losses=692  timeout=13  win=32.2%  net=$-2126.58
+2026-09-17 16:39:51  INFO     APTUSDT  TP 0.50%  SL 0.35%  trades=797  wins=310  losses=465  timeout=22  win=38.9%  net=$-1666.70
+2026-09-17 16:39:51  INFO     APTUSDT  TP 0.50%  SL 0.50%  trades=624  wins=288  losses=312  timeout=24  win=46.2%  net=$-1372.92
+2026-09-17 16:39:51  INFO     APTUSDT  TP 0.30%  SL 0.15%  trades=2909  wins=762  losses=2147  timeout=0  win=26.2%  net=$-6752.50
+2026-09-17 16:39:51  INFO     APTUSDT  TP 0.30%  SL 0.30%  trades=1631  wins=759  losses=871  timeout=1  win=46.5%  net=$-3598.00
+2026-09-17 16:39:51  INFO     APTUSDT  TP 0.40%  SL 0.20%  trades=1130  wins=393  losses=728  timeout=9  win=34.8%  net=$-2137.17
+2026-09-17 16:39:51  INFO     APTUSDT  TP 0.40%  SL 0.35%  trades=853  wins=361  losses=477  timeout=15  win=42.3%  net=$-1934.86
+2026-09-17 16:39:51  INFO     APTUSDT  TP 0.25%  SL 0.12%  trades=2909  wins=762  losses=2147  timeout=0  win=26.2%  net=$-6489.40
+2026-09-17 16:39:51  INFO     APTUSDT  TP 0.20%  SL 0.10%  trades=2909  wins=762  losses=2147  timeout=0  win=26.2%  net=$-6441.00
+2026-09-17 16:39:51  INFO     APTUSDT  TP 0.60%  SL 0.25%  trades=897  wins=246  losses=632  timeout=19  win=27.4%  net=$-1877.56
+2026-09-17 16:39:51  INFO     APTUSDT  TP 0.80%  SL 0.30%  trades=717  wins=149  losses=538  timeout=30  win=20.8%  net=$-1793.79
+2026-09-17 16:39:51  INFO     APTUSDT  TP 0.80%  SL 0.40%  trades=484  wins=137  losses=304  timeout=43  win=28.3%  net=$-1022.13
+2026-09-17 16:39:51  INFO     APTUSDT  TP 1.00%  SL 0.40%  trades=434  wins=96  losses=290  timeout=48  win=22.1%  net=$-958.26
+2026-09-17 16:39:51  INFO     APTUSDT  TP 1.00%  SL 0.50%  trades=390  wins=96  losses=241  timeout=53  win=24.6%  net=$-923.34
+2026-09-17 16:39:51  INFO     APTUSDT done in 2.9s. Best here: TP 1.00% / SL 0.50%  net $-923.34. Elapsed 67s, about 18s left.
+2026-09-17 16:39:51  INFO     ----------  [20/24] ARBUSDT  ----------
+2026-09-17 16:39:51  INFO     ARBUSDT: downloading 1m prices from Binance (this is the slow part)
+2026-09-17 16:39:51  INFO     ARBUSDT: downloaded 1,000 candles so far...
+2026-09-17 16:39:51  INFO     ARBUSDT: downloaded 2,000 candles so far...
+2026-09-17 16:39:52  INFO     ARBUSDT: downloaded 3,000 candles so far...
+2026-09-17 16:39:52  INFO     ARBUSDT: downloaded 4,000 candles so far...
+2026-09-17 16:39:52  INFO     ARBUSDT: downloaded 5,000 candles so far...
+2026-09-17 16:39:52  INFO     ARBUSDT: downloaded 6,000 candles so far...
+2026-09-17 16:39:53  INFO     ARBUSDT: downloaded 7,000 candles so far...
+2026-09-17 16:39:53  INFO     ARBUSDT: downloaded 8,000 candles so far...
+2026-09-17 16:39:53  INFO     ARBUSDT: downloaded 9,000 candles so far...
+2026-09-17 16:39:53  INFO     ARBUSDT: downloaded 10,000 candles so far...
+2026-09-17 16:39:53  INFO     ARBUSDT: saved 10,081 candles to cache
+2026-09-17 16:39:53  INFO     ARBUSDT: scanning 16 take-profit/stop-loss pairs
+2026-09-17 16:39:53  INFO     ARBUSDT  TP 0.50%  SL 0.08%  trades=2471  wins=485  losses=1986  timeout=0  win=19.6%  net=$-4105.80
+2026-09-17 16:39:53  INFO     ARBUSDT  TP 0.50%  SL 0.15%  trades=2012  wins=544  losses=1468  timeout=0  win=27.0%  net=$-3506.00
+2026-09-17 16:39:53  INFO     ARBUSDT  TP 0.50%  SL 0.25%  trades=1663  wins=577  losses=1084  timeout=2  win=34.7%  net=$-3150.40
+2026-09-17 16:39:53  INFO     ARBUSDT  TP 0.50%  SL 0.35%  trades=1344  wins=561  losses=778  timeout=5  win=41.7%  net=$-2603.97
+2026-09-17 16:39:53  INFO     ARBUSDT  TP 0.50%  SL 0.50%  trades=1053  wins=530  losses=508  timeout=15  win=50.3%  net=$-2002.14
+2026-09-17 16:39:53  INFO     ARBUSDT  TP 0.30%  SL 0.15%  trades=2499  wins=889  losses=1609  timeout=1  win=35.6%  net=$-4743.30
+2026-09-17 16:39:53  INFO     ARBUSDT  TP 0.30%  SL 0.30%  trades=1885  wins=924  losses=961  timeout=0  win=49.0%  net=$-3881.00
+2026-09-17 16:39:54  INFO     ARBUSDT  TP 0.40%  SL 0.20%  trades=2115  wins=709  losses=1405  timeout=1  win=33.5%  net=$-4202.80
+2026-09-17 16:39:54  INFO     ARBUSDT  TP 0.40%  SL 0.35%  trades=1539  wins=720  losses=818  timeout=1  win=46.8%  net=$-3061.00
+2026-09-17 16:39:54  INFO     ARBUSDT  TP 0.25%  SL 0.12%  trades=3205  wins=971  losses=2233  timeout=1  win=30.3%  net=$-6660.90
+2026-09-17 16:39:54  INFO     ARBUSDT  TP 0.20%  SL 0.10%  trades=3527  wins=1206  losses=2321  timeout=0  win=34.2%  net=$-6963.00
+2026-09-17 16:39:54  INFO     ARBUSDT  TP 0.60%  SL 0.25%  trades=1487  wins=471  losses=1012  timeout=4  win=31.7%  net=$-2674.57
+2026-09-17 16:39:54  INFO     ARBUSDT  TP 0.80%  SL 0.30%  trades=1098  wins=314  losses=768  timeout=16  win=28.6%  net=$-1962.05
+2026-09-17 16:39:54  INFO     ARBUSDT  TP 0.80%  SL 0.40%  trades=923  wins=313  losses=591  timeout=19  win=33.9%  net=$-1675.07
+2026-09-17 16:39:54  INFO     ARBUSDT  TP 1.00%  SL 0.40%  trades=796  wins=224  losses=546  timeout=26  win=28.1%  net=$-1459.05
+2026-09-17 16:39:54  INFO     ARBUSDT  TP 1.00%  SL 0.50%  trades=662  wins=215  losses=414  timeout=33  win=32.5%  net=$-1213.01
+2026-09-17 16:39:54  INFO     ARBUSDT done in 2.7s. Best here: TP 1.00% / SL 0.50%  net $-1213.01. Elapsed 70s, about 14s left.
+2026-09-17 16:39:54  INFO     ----------  [21/24] TIAUSDT  ----------
+2026-09-17 16:39:54  INFO     TIAUSDT: downloading 1m prices from Binance (this is the slow part)
+2026-09-17 16:39:54  INFO     TIAUSDT: downloaded 1,000 candles so far...
+2026-09-17 16:39:54  INFO     TIAUSDT: downloaded 2,000 candles so far...
+2026-09-17 16:39:55  INFO     TIAUSDT: downloaded 3,000 candles so far...
+2026-09-17 16:39:55  INFO     TIAUSDT: downloaded 4,000 candles so far...
+2026-09-17 16:39:55  INFO     TIAUSDT: downloaded 5,000 candles so far...
+2026-09-17 16:39:56  INFO     TIAUSDT: downloaded 6,000 candles so far...
+2026-09-17 16:39:56  INFO     TIAUSDT: downloaded 7,000 candles so far...
+2026-09-17 16:39:56  INFO     TIAUSDT: downloaded 8,000 candles so far...
+2026-09-17 16:39:56  INFO     TIAUSDT: downloaded 9,000 candles so far...
+2026-09-17 16:39:57  INFO     TIAUSDT: downloaded 10,000 candles so far...
+2026-09-17 16:39:57  INFO     TIAUSDT: saved 10,081 candles to cache
+2026-09-17 16:39:57  INFO     TIAUSDT: scanning 16 take-profit/stop-loss pairs
+2026-09-17 16:39:57  INFO     TIAUSDT  TP 0.50%  SL 0.08%  trades=1620  wins=230  losses=1383  timeout=7  win=14.2%  net=$-3175.98
+2026-09-17 16:39:57  INFO     TIAUSDT  TP 0.50%  SL 0.15%  trades=1102  wins=257  losses=835  timeout=10  win=23.3%  net=$-2147.58
+2026-09-17 16:39:57  INFO     TIAUSDT  TP 0.50%  SL 0.25%  trades=770  wins=243  losses=508  timeout=19  win=31.6%  net=$-1562.11
+2026-09-17 16:39:57  INFO     TIAUSDT  TP 0.50%  SL 0.35%  trades=602  wins=225  losses=347  timeout=30  win=37.4%  net=$-1269.19
+2026-09-17 16:39:57  INFO     TIAUSDT  TP 0.50%  SL 0.50%  trades=475  wins=204  losses=227  timeout=44  win=42.9%  net=$-1044.16
+2026-09-17 16:39:57  INFO     TIAUSDT  TP 0.30%  SL 0.15%  trades=1526  wins=486  losses=1039  timeout=1  win=31.8%  net=$-3153.08
+2026-09-17 16:39:57  INFO     TIAUSDT  TP 0.30%  SL 0.30%  trades=939  wins=443  losses=490  timeout=6  win=47.2%  net=$-2019.60
+2026-09-17 16:39:57  INFO     TIAUSDT  TP 0.40%  SL 0.20%  trades=1060  wins=335  losses=716  timeout=9  win=31.6%  net=$-2197.99
+2026-09-17 16:39:57  INFO     TIAUSDT  TP 0.40%  SL 0.35%  trades=691  wins=294  losses=377  timeout=20  win=42.5%  net=$-1516.93
+2026-09-17 16:39:57  INFO     TIAUSDT  TP 0.25%  SL 0.12%  trades=1940  wins=624  losses=1315  timeout=1  win=32.2%  net=$-3897.13
+2026-09-17 16:39:57  INFO     TIAUSDT  TP 0.20%  SL 0.10%  trades=2359  wins=771  losses=1587  timeout=1  win=32.7%  net=$-4762.71
+2026-09-17 16:39:57  INFO     TIAUSDT  TP 0.60%  SL 0.25%  trades=680  wins=179  losses=475  timeout=26  win=26.3%  net=$-1423.69
+2026-09-17 16:39:57  INFO     TIAUSDT  TP 0.80%  SL 0.30%  trades=478  wins=107  losses=325  timeout=46  win=22.4%  net=$-948.61
+2026-09-17 16:39:57  INFO     TIAUSDT  TP 0.80%  SL 0.40%  trades=397  wins=102  losses=234  timeout=61  win=25.7%  net=$-803.71
+2026-09-17 16:39:57  INFO     TIAUSDT  TP 1.00%  SL 0.40%  trades=359  wins=65  losses=219  timeout=75  win=18.1%  net=$-739.96
+2026-09-17 16:39:57  INFO     TIAUSDT  TP 1.00%  SL 0.50%  trades=319  wins=62  losses=168  timeout=89  win=19.4%  net=$-682.98
+2026-09-17 16:39:57  INFO     TIAUSDT done in 3.5s. Best here: TP 1.00% / SL 0.50%  net $-682.98. Elapsed 74s, about 11s left.
+2026-09-17 16:39:57  INFO     ----------  [22/24] SEIUSDT  ----------
+2026-09-17 16:39:57  INFO     SEIUSDT: downloading 1m prices from Binance (this is the slow part)
+2026-09-17 16:39:57  INFO     SEIUSDT: downloaded 1,000 candles so far...
+2026-09-17 16:39:58  INFO     SEIUSDT: downloaded 2,000 candles so far...
+2026-09-17 16:39:58  INFO     SEIUSDT: downloaded 3,000 candles so far...
+2026-09-17 16:39:58  INFO     SEIUSDT: downloaded 4,000 candles so far...
+2026-09-17 16:39:58  INFO     SEIUSDT: downloaded 5,000 candles so far...
+2026-09-17 16:39:59  INFO     SEIUSDT: downloaded 6,000 candles so far...
+2026-09-17 16:39:59  INFO     SEIUSDT: downloaded 7,000 candles so far...
+2026-09-17 16:39:59  INFO     SEIUSDT: downloaded 8,000 candles so far...
+2026-09-17 16:39:59  INFO     SEIUSDT: downloaded 9,000 candles so far...
+2026-09-17 16:40:00  INFO     SEIUSDT: downloaded 10,000 candles so far...
+2026-09-17 16:40:00  INFO     SEIUSDT: saved 10,081 candles to cache
+2026-09-17 16:40:00  INFO     SEIUSDT: scanning 16 take-profit/stop-loss pairs
+2026-09-17 16:40:00  INFO     SEIUSDT  TP 0.50%  SL 0.08%  trades=1098  wins=165  losses=912  timeout=21  win=15.0%  net=$-2066.76
+2026-09-17 16:40:00  INFO     SEIUSDT  TP 0.50%  SL 0.15%  trades=738  wins=164  losses=547  timeout=27  win=22.2%  net=$-1437.05
+2026-09-17 16:40:00  INFO     SEIUSDT  TP 0.50%  SL 0.25%  trades=506  wins=145  losses=311  timeout=50  win=28.7%  net=$-1010.95
+2026-09-17 16:40:00  INFO     SEIUSDT  TP 0.50%  SL 0.35%  trades=424  wins=147  losses=217  timeout=60  win=34.7%  net=$-873.38
+2026-09-17 16:40:00  INFO     SEIUSDT  TP 0.50%  SL 0.50%  trades=328  wins=119  losses=131  timeout=78  win=36.3%  net=$-736.07
+2026-09-17 16:40:00  INFO     SEIUSDT  TP 0.30%  SL 0.15%  trades=1058  wins=369  losses=684  timeout=5  win=34.9%  net=$-2030.66
+2026-09-17 16:40:00  INFO     SEIUSDT  TP 0.30%  SL 0.30%  trades=650  wins=319  losses=305  timeout=26  win=49.1%  net=$-1266.83
+2026-09-17 16:40:00  INFO     SEIUSDT  TP 0.40%  SL 0.20%  trades=721  wins=236  losses=462  timeout=23  win=32.7%  net=$-1398.20
+2026-09-17 16:40:00  INFO     SEIUSDT  TP 0.40%  SL 0.35%  trades=490  wins=205  losses=241  timeout=44  win=41.8%  net=$-1000.35
+2026-09-17 16:40:00  INFO     SEIUSDT  TP 0.25%  SL 0.12%  trades=1295  wins=449  losses=843  timeout=3  win=34.7%  net=$-2475.19
+2026-09-17 16:40:00  INFO     SEIUSDT  TP 0.20%  SL 0.10%  trades=1721  wins=620  losses=1100  timeout=1  win=36.0%  net=$-3301.31
+2026-09-17 16:40:00  INFO     SEIUSDT  TP 0.60%  SL 0.25%  trades=468  wins=118  losses=297  timeout=53  win=25.2%  net=$-910.19
+2026-09-17 16:40:00  INFO     SEIUSDT  TP 0.80%  SL 0.30%  trades=350  wins=57  losses=205  timeout=88  win=16.3%  net=$-713.39
+2026-09-17 16:40:00  INFO     SEIUSDT  TP 0.80%  SL 0.40%  trades=288  wins=51  losses=136  timeout=101  win=17.7%  net=$-593.23
+2026-09-17 16:40:00  INFO     SEIUSDT  TP 1.00%  SL 0.40%  trades=268  wins=30  losses=130  timeout=108  win=11.2%  net=$-569.81
+2026-09-17 16:40:00  INFO     SEIUSDT  TP 1.00%  SL 0.50%  trades=239  wins=26  losses=93  timeout=120  win=10.9%  net=$-519.03
+2026-09-17 16:40:00  INFO     SEIUSDT done in 2.9s. Best here: TP 1.00% / SL 0.50%  net $-519.03. Elapsed 76s, about 7s left.
+2026-09-17 16:40:00  INFO     ----------  [23/24] FILUSDT  ----------
+2026-09-17 16:40:00  INFO     FILUSDT: downloading 1m prices from Binance (this is the slow part)
+2026-09-17 16:40:01  INFO     FILUSDT: downloaded 1,000 candles so far...
+2026-09-17 16:40:01  INFO     FILUSDT: downloaded 2,000 candles so far...
+2026-09-17 16:40:02  INFO     FILUSDT: downloaded 3,000 candles so far...
+2026-09-17 16:40:03  INFO     FILUSDT: downloaded 4,000 candles so far...
+2026-09-17 16:40:03  INFO     FILUSDT: downloaded 5,000 candles so far...
+2026-09-17 16:40:04  INFO     FILUSDT: downloaded 6,000 candles so far...
+2026-09-17 16:40:04  INFO     FILUSDT: downloaded 7,000 candles so far...
+2026-09-17 16:40:05  INFO     FILUSDT: downloaded 8,000 candles so far...
+2026-09-17 16:40:05  INFO     FILUSDT: downloaded 9,000 candles so far...
+2026-09-17 16:40:05  INFO     FILUSDT: downloaded 10,000 candles so far...
+2026-09-17 16:40:05  INFO     FILUSDT: saved 10,081 candles to cache
+2026-09-17 16:40:05  INFO     FILUSDT: scanning 16 take-profit/stop-loss pairs
+2026-09-17 16:40:05  INFO     FILUSDT  TP 0.50%  SL 0.08%  trades=2146  wins=316  losses=1826  timeout=4  win=14.7%  net=$-4162.46
+2026-09-17 16:40:05  INFO     FILUSDT  TP 0.50%  SL 0.15%  trades=1617  wins=374  losses=1232  timeout=11  win=23.1%  net=$-3200.06
+2026-09-17 16:40:05  INFO     FILUSDT  TP 0.50%  SL 0.25%  trades=1193  wins=384  losses=794  timeout=15  win=32.2%  net=$-2436.54
+2026-09-17 16:40:05  INFO     FILUSDT  TP 0.50%  SL 0.35%  trades=962  wins=370  losses=567  timeout=25  win=38.5%  net=$-2047.50
+2026-09-17 16:40:05  INFO     FILUSDT  TP 0.50%  SL 0.50%  trades=757  wins=349  losses=375  timeout=33  win=46.1%  net=$-1645.59
+2026-09-17 16:40:05  INFO     FILUSDT  TP 0.30%  SL 0.15%  trades=2052  wins=651  losses=1397  timeout=4  win=31.7%  net=$-4244.89
+2026-09-17 16:40:05  INFO     FILUSDT  TP 0.30%  SL 0.30%  trades=1413  wins=676  losses=729  timeout=8  win=47.8%  net=$-2987.49
+2026-09-17 16:40:05  INFO     FILUSDT  TP 0.40%  SL 0.20%  trades=1560  wins=506  losses=1046  timeout=8  win=32.4%  net=$-3180.81
+2026-09-17 16:40:05  INFO     FILUSDT  TP 0.40%  SL 0.35%  trades=1107  wins=496  losses=596  timeout=15  win=44.8%  net=$-2314.09
+2026-09-17 16:40:05  INFO     FILUSDT  TP 0.25%  SL 0.12%  trades=2445  wins=762  losses=1681  timeout=2  win=31.2%  net=$-5000.83
+2026-09-17 16:40:05  INFO     FILUSDT  TP 0.20%  SL 0.10%  trades=2863  wins=911  losses=1951  timeout=1  win=31.8%  net=$-5854.38
+2026-09-17 16:40:05  INFO     FILUSDT  TP 0.60%  SL 0.25%  trades=1072  wins=296  losses=756  timeout=20  win=27.6%  net=$-2220.10
+2026-09-17 16:40:05  INFO     FILUSDT  TP 0.80%  SL 0.30%  trades=808  wins=196  losses=575  timeout=37  win=24.3%  net=$-1705.47
+2026-09-17 16:40:05  INFO     FILUSDT  TP 0.80%  SL 0.40%  trades=661  wins=195  losses=427  timeout=39  win=29.5%  net=$-1410.20
+2026-09-17 16:40:05  INFO     FILUSDT  TP 1.00%  SL 0.40%  trades=583  wins=134  losses=391  timeout=58  win=23.0%  net=$-1215.81
+2026-09-17 16:40:05  INFO     FILUSDT  TP 1.00%  SL 0.50%  trades=503  wins=137  losses=303  timeout=63  win=27.2%  net=$-1013.08
+2026-09-17 16:40:05  INFO     FILUSDT done in 5.4s. Best here: TP 1.00% / SL 0.50%  net $-1013.08. Elapsed 82s, about 4s left.
+2026-09-17 16:40:05  INFO     ----------  [24/24] OPUSDT  ----------
+2026-09-17 16:40:05  INFO     OPUSDT: downloading 1m prices from Binance (this is the slow part)
+2026-09-17 16:40:06  INFO     OPUSDT: downloaded 1,000 candles so far...
+2026-09-17 16:40:06  INFO     OPUSDT: downloaded 2,000 candles so far...
+2026-09-17 16:40:06  INFO     OPUSDT: downloaded 3,000 candles so far...
+2026-09-17 16:40:06  INFO     OPUSDT: downloaded 4,000 candles so far...
+2026-09-17 16:40:07  INFO     OPUSDT: downloaded 5,000 candles so far...
+2026-09-17 16:40:07  INFO     OPUSDT: downloaded 6,000 candles so far...
+2026-09-17 16:40:07  INFO     OPUSDT: downloaded 7,000 candles so far...
+2026-09-17 16:40:07  INFO     OPUSDT: downloaded 8,000 candles so far...
+2026-09-17 16:40:08  INFO     OPUSDT: downloaded 9,000 candles so far...
+2026-09-17 16:40:08  INFO     OPUSDT: downloaded 10,000 candles so far...
+2026-09-17 16:40:08  INFO     OPUSDT: saved 10,081 candles to cache
+2026-09-17 16:40:08  INFO     OPUSDT: scanning 16 take-profit/stop-loss pairs
+2026-09-17 16:40:08  INFO     OPUSDT  TP 0.50%  SL 0.08%  trades=2096  wins=292  losses=1802  timeout=2  win=13.9%  net=$-4170.51
+2026-09-17 16:40:08  INFO     OPUSDT  TP 0.50%  SL 0.15%  trades=1272  wins=326  losses=940  timeout=6  win=25.6%  net=$-2319.88
+2026-09-17 16:40:08  INFO     OPUSDT  TP 0.50%  SL 0.25%  trades=911  wins=311  losses=588  timeout=12  win=34.1%  net=$-1726.65
+2026-09-17 16:40:08  INFO     OPUSDT  TP 0.50%  SL 0.35%  trades=734  wins=295  losses=414  timeout=25  win=40.2%  net=$-1448.28
+2026-09-17 16:40:08  INFO     OPUSDT  TP 0.50%  SL 0.50%  trades=609  wins=285  losses=296  timeout=28  win=46.8%  net=$-1283.41
+2026-09-17 16:40:08  INFO     OPUSDT  TP 0.30%  SL 0.15%  trades=1780  wins=673  losses=1105  timeout=2  win=37.8%  net=$-3198.52
+2026-09-17 16:40:08  INFO     OPUSDT  TP 0.30%  SL 0.30%  trades=1311  wins=632  losses=673  timeout=6  win=48.2%  net=$-2743.99
+2026-09-17 16:40:08  INFO     OPUSDT  TP 0.40%  SL 0.20%  trades=1432  wins=461  losses=969  timeout=2  win=32.2%  net=$-2958.02
+2026-09-17 16:40:08  INFO     OPUSDT  TP 0.40%  SL 0.35%  trades=880  wins=408  losses=454  timeout=18  win=46.4%  net=$-1726.35
+2026-09-17 16:40:08  INFO     OPUSDT  TP 0.25%  SL 0.12%  trades=1826  wins=708  losses=1116  timeout=2  win=38.8%  net=$-3221.22
+2026-09-17 16:40:08  INFO     OPUSDT  TP 0.20%  SL 0.10%  trades=3158  wins=1014  losses=2143  timeout=1  win=32.1%  net=$-6429.97
+2026-09-17 16:40:08  INFO     OPUSDT  TP 0.60%  SL 0.25%  trades=811  wins=242  losses=547  timeout=22  win=29.8%  net=$-1510.20
+2026-09-17 16:40:08  INFO     OPUSDT  TP 0.80%  SL 0.30%  trades=659  wins=155  losses=465  timeout=39  win=23.5%  net=$-1401.80
+2026-09-17 16:40:08  INFO     OPUSDT  TP 0.80%  SL 0.40%  trades=515  wins=149  losses=321  timeout=45  win=28.9%  net=$-1069.84
+2026-09-17 16:40:08  INFO     OPUSDT  TP 1.00%  SL 0.40%  trades=439  wins=89  losses=286  timeout=64  win=20.3%  net=$-965.33
+2026-09-17 16:40:08  INFO     OPUSDT  TP 1.00%  SL 0.50%  trades=376  wins=86  losses=219  timeout=71  win=22.9%  net=$-844.29
+2026-09-17 16:40:08  INFO     OPUSDT done in 3.0s. Best here: TP 1.00% / SL 0.50%  net $-844.29. Elapsed 85s, about 0s left.
+2026-09-17 16:40:09  INFO     Wrote full table to D:\jev-trading\data\tp_sl_scan\results.csv
+2026-09-17 16:40:09  INFO     Finished in 84.9 seconds
+2026-09-17 16:40:09  INFO     
+2026-09-17 16:40:09  INFO     Best 10 (most dollars left on a $1000 clip, sequential trades)
+2026-09-17 16:40:09  INFO       coin         group         TP%    SL% trades   win%       net$    fees$  hold_m
+2026-09-17 16:40:09  INFO       BNBUSDT      major        1.00   0.50    191    4.7    -397.88   382.00    51.8
+2026-09-17 16:40:09  INFO       BTCUSDT      major        1.00   0.50    192    5.2    -404.13   384.00    51.5
+2026-09-17 16:40:09  INFO       BNBUSDT      major        0.50   0.50    218   21.6    -418.61   436.00    45.2
+2026-09-17 16:40:09  INFO       LTCUSDT      large_alt    1.00   0.50    218   11.5    -428.03   436.00    45.2
+2026-09-17 16:40:09  INFO       BNBUSDT      major        0.80   0.40    212    7.1    -433.94   424.00    46.6
+2026-09-17 16:40:09  INFO       BNBUSDT      major        1.00   0.40    209    4.8    -434.97   418.00    47.2
+2026-09-17 16:40:09  INFO       BTCUSDT      major        1.00   0.40    207    5.3    -446.34   414.00    47.7
+2026-09-17 16:40:09  INFO       BNBUSDT      major        0.80   0.30    231    8.7    -446.49   462.00    42.6
+2026-09-17 16:40:09  INFO       ETHUSDT      major        1.00   0.50    222   10.8    -449.14   444.00    44.4
+2026-09-17 16:40:09  INFO       BTCUSDT      major        0.80   0.40    205    7.3    -452.83   410.00    48.2
+2026-09-17 16:40:09  INFO     
+2026-09-17 16:40:09  INFO     Worst 10
+2026-09-17 16:40:09  INFO       coin         group         TP%    SL% trades   win%       net$    fees$  hold_m
+2026-09-17 16:40:09  INFO       PEPEUSDT     memecoin     0.50   0.25   3334   10.6  -12360.50  6668.00     2.0
+2026-09-17 16:40:09  INFO       PEPEUSDT     memecoin     0.25   0.12   4823   22.5  -11417.90  9646.00     1.1
+2026-09-17 16:40:09  INFO       PEPEUSDT     memecoin     0.40   0.20   3334   10.6  -11222.00  6668.00     2.0
+2026-09-17 16:40:09  INFO       PEPEUSDT     memecoin     0.20   0.10   4823   22.5  -11213.00  9646.00     1.1
+2026-09-17 16:40:09  INFO       PEPEUSDT     memecoin     0.30   0.15   3744   14.6  -10645.50  7488.00     1.7
+2026-09-17 16:40:09  INFO       PEPEUSDT     memecoin     0.60   0.25   2687    7.3  -10360.45  5374.00     2.8
+2026-09-17 16:40:09  INFO       PEPEUSDT     memecoin     0.50   0.15   3334   10.6   -9379.50  6668.00     2.0
+2026-09-17 16:40:09  INFO       PEPEUSDT     memecoin     0.50   0.08   3334   10.6   -7292.80  6668.00     2.0
+2026-09-17 16:40:09  INFO       ARBUSDT      fast_alt     0.20   0.10   3527   34.2   -6963.00  7054.00     1.9
+2026-09-17 16:40:09  INFO       APTUSDT      fast_alt     0.30   0.15   2909   26.2   -6752.50  5818.00     2.5
+2026-09-17 16:40:09  INFO     
+2026-09-17 16:40:09  INFO     Your original idea: take profit 0.5% / stop 0.08%
+2026-09-17 16:40:09  INFO       coin         group         TP%    SL% trades   win%       net$    fees$  hold_m
+2026-09-17 16:40:09  INFO       BTCUSDT      major        0.50   0.08    533    8.6   -1044.45  1066.00    17.9
+2026-09-17 16:40:09  INFO       BNBUSDT      major        0.50   0.08    573   10.5   -1101.10  1146.00    16.6
+2026-09-17 16:40:09  INFO       ETHUSDT      major        0.50   0.08    820   10.1   -1689.45  1640.00    11.3
+2026-09-17 16:40:09  INFO       LTCUSDT      large_alt    0.50   0.08    913   13.4   -1788.85  1826.00    10.0
+2026-09-17 16:40:09  INFO       SOLUSDT      large_alt    0.50   0.08    945   12.6   -1870.22  1890.00     9.7
+2026-09-17 16:40:09  INFO       DOGEUSDT     memecoin     0.50   0.08    985   11.2   -2012.43  1970.00     9.2
+2026-09-17 16:40:09  INFO       SEIUSDT      fast_alt     0.50   0.08   1098   15.0   -2066.76  2196.00     8.2
+2026-09-17 16:40:09  INFO       AVAXUSDT     large_alt    0.50   0.08   1071   13.6   -2071.32  2142.00     8.4
+2026-09-17 16:40:09  INFO       ATOMUSDT     large_alt    0.50   0.08   1189   17.7   -2085.07  2378.00     7.5
+2026-09-17 16:40:09  INFO       LINKUSDT     large_alt    0.50   0.08   1180   13.8   -2295.43  2360.00     7.5
+2026-09-17 16:40:09  INFO       BCHUSDT      large_alt    0.50   0.08   1189   12.1   -2423.59  2378.00     7.5
+2026-09-17 16:40:09  INFO       XRPUSDT      large_alt    0.50   0.08   1228   12.9   -2429.60  2456.00     7.2
+2026-09-17 16:40:09  INFO       WIFUSDT      memecoin     0.50   0.08   1383   15.6   -2592.66  2766.00     6.3
+2026-09-17 16:40:09  INFO       ADAUSDT      large_alt    0.50   0.08   1445   13.3   -2881.77  2890.00     6.0
+2026-09-17 16:40:09  INFO       SUIUSDT      fast_alt     0.50   0.08   1465   13.3   -2931.52  2930.00     5.9
+2026-09-17 16:40:09  INFO       SHIBUSDT     memecoin     0.50   0.08   1556   13.7   -3087.86  3112.00     5.5
+2026-09-17 16:40:09  INFO       TIAUSDT      fast_alt     0.50   0.08   1620   14.2   -3175.98  3240.00     5.2
+2026-09-17 16:40:09  INFO       APTUSDT      fast_alt     0.50   0.08   2034   16.1   -3792.80  4068.00     4.0
+2026-09-17 16:40:09  INFO       ARBUSDT      fast_alt     0.50   0.08   2471   19.6   -4105.80  4942.00     3.1
+2026-09-17 16:40:09  INFO       FILUSDT      fast_alt     0.50   0.08   2146   14.7   -4162.46  4292.00     3.7
+2026-09-17 16:40:09  INFO       OPUSDT       fast_alt     0.50   0.08   2096   13.9   -4170.51  4192.00     3.8
+2026-09-17 16:40:09  INFO       DOTUSDT      large_alt    0.50   0.08   2077    9.9   -4614.30  4154.00     3.9
+2026-09-17 16:40:09  INFO       NEARUSDT     fast_alt     0.50   0.08   2679   14.4   -5252.90  5358.00     2.8
+2026-09-17 16:40:09  INFO       PEPEUSDT     memecoin     0.50   0.08   3334   10.6   -7292.80  6668.00     2.0
+2026-09-17 16:40:09  INFO     
+2026-09-17 16:40:09  INFO     Best pair per coin group
+2026-09-17 16:40:09  INFO       major      BNBUSDT      TP 1.00%  SL 0.50%  net $-397.88  win 4.7%  trades 191
+2026-09-17 16:40:09  INFO       large_alt  LTCUSDT      TP 1.00%  SL 0.50%  net $-428.03  win 11.5%  trades 218
+2026-09-17 16:40:09  INFO       fast_alt   SEIUSDT      TP 1.00%  SL 0.50%  net $-519.03  win 10.9%  trades 239
+2026-09-17 16:40:09  INFO       memecoin   DOGEUSDT     TP 1.00%  SL 0.50%  net $-522.90  win 10.0%  trades 240

@@ -1,0 +1,90 @@
+{
+  "test_trades": 308,
+  "brute_net_usd": -625.9102,
+  "jev_net_usd": -195.2832,
+  "jev_takes": 85,
+  "jev_skips": 223,
+  "jev_take_wins": 25,
+  "jev_take_losses": 45,
+  "jev_take_timeouts": 15,
+  "jev_skip_wins": 66,
+  "jev_skip_losses": 101,
+  "jev_skip_timeouts": 56,
+  "jev_right": 182,
+  "jev_wrong": 126,
+  "score_min": 0.35,
+  "score_sweep": [
+    {
+      "threshold": 0.1,
+      "takes": 199,
+      "net_usd": -385.8701,
+      "wins": 65,
+      "losses": 98,
+      "timeouts": 36,
+      "resolved_win_rate_pct": 39.88
+    },
+    {
+      "threshold": 0.2,
+      "takes": 148,
+      "net_usd": -285.9979,
+      "wins": 50,
+      "losses": 73,
+      "timeouts": 25,
+      "resolved_win_rate_pct": 40.65
+    },
+    {
+      "threshold": 0.25,
+      "takes": 126,
+      "net_usd": -247.2707,
+      "wins": 41,
+      "losses": 62,
+      "timeouts": 23,
+      "resolved_win_rate_pct": 39.81
+    },
+    {
+      "threshold": 0.3,
+      "takes": 103,
+      "net_usd": -217.7113,
+      "wins": 33,
+      "losses": 53,
+      "timeouts": 17,
+      "resolved_win_rate_pct": 38.37
+    },
+    {
+      "threshold": 0.35,
+      "takes": 85,
+      "net_usd": -195.2832,
+      "wins": 25,
+      "losses": 45,
+      "timeouts": 15,
+      "resolved_win_rate_pct": 35.71
+    },
+    {
+      "threshold": 0.4,
+      "takes": 72,
+      "net_usd": -160.595,
+      "wins": 21,
+      "losses": 37,
+      "timeouts": 14,
+      "resolved_win_rate_pct": 36.21
+    },
+    {
+      "threshold": 0.5,
+      "takes": 58,
+      "net_usd": -118.3281,
+      "wins": 19,
+      "losses": 30,
+      "timeouts": 9,
+      "resolved_win_rate_pct": 38.78
+    },
+    {
+      "threshold": 0.6,
+      "takes": 37,
+      "net_usd": -87.5276,
+      "wins": 11,
+      "losses": 21,
+      "timeouts": 5,
+      "resolved_win_rate_pct": 34.38
+    }
+  ]
+}
